@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.0.1
+- fix Compact Moon Options pref window access
+- remove more Classic Compact references
+- fix firstRun.xhtml
+- remove history icon from appmenu
+
 ### 1.0.0
 - initial release
 - add full Pale Moon compatibility
