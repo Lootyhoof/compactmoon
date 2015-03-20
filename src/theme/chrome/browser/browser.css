@@ -579,6 +579,10 @@ toolbar #appmenu-button > .button-box > .button-menu-dropmarker {
   -moz-image-region: rect(0 16px 16px 0);
 }
 
+#appmenu_history {
+  list-style-image: none !important;
+  }
+
 /* ::::: titlebar ::::: */
 
 #main-window[sizemode="normal"] > #titlebar {
