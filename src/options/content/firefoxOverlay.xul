@@ -45,11 +45,11 @@
 	</stringbundleset>
 
 	<menupopup id="menu_ToolsPopup">
-		<menuitem id="classiccompactoptions" label="&classiccompactoptions.label;" hidden="true" oncommand="classiccompactoptions_overlay.openPreferences(event);"/>
+		<menuitem id="classiccompactoptions" label="&classiccompactoptions.label;" hidden="false" oncommand="compactmoonoptions_overlay.openPreferences(event);"/>
 	</menupopup>
 
 	<menupopup id="appmenu_customizeMenu">
-		<menuitem id="classiccompactoptions_appmenu_options" insertafter="appmenu_preferences" label="&classiccompactoptions.label;" hidden="true" oncommand="classiccompactoptions_overlay.openPreferences(event);"/>
+		<menuitem id="classiccompactoptions_appmenu_options" insertafter="appmenu_preferences" label="&classiccompactoptions.label;" hidden="true" oncommand="compactmoonoptions_overlay.openPreferences(event);"/>
 	</menupopup>
 
 	<!-- Firefox -->
