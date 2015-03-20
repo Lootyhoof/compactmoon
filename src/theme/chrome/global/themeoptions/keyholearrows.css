@@ -1,0 +1,31 @@
+#back-button, #forward-button{
+  list-style-image: url("chrome://global/skin/themeoptions/dark/Toolbar.png") !important;
+  }
+
+#back-button:not([disabled="true"]):not(:hover):not(:active), #forward-button:not([disabled="true"]):not(:hover):not(:active){
+  background-image:
+	-moz-linear-gradient(rgba(146,202,151,1), rgba(104,182,111,1), rgba(17,159,26,1), rgba(12,197,20,1), rgba(13,199,19,1) 100%) !important;
+  background-color:
+	rgba(0,255,12,.1) !important;
+  box-shadow:
+	0 0 0 1px rgba(255,255,255,.3) inset,
+	0 0 0 1px rgba(14,124,23,.15), transparent !important;
+  }
+
+#back-button:hover:not([disabled="true"]), #forward-button:hover:not([disabled="true"]){
+  background-image:
+	-moz-linear-gradient(rgba(146,202,151,.7), rgba(104,182,111,.7), rgba(17,159,26,.7), rgba(12,197,20,.7), rgba(13,199,19,.7) 100%) !important;
+  background-color:
+	rgba(0,255,12,1) !important;
+  box-shadow:
+	0 0 0 1px rgba(255,255,255,.3) inset,
+	0 0 0 1px rgba(14,124,23,.15),transparent !important;
+	}
+
+#back-button:hover:active:not([disabled="true"]), #forward-button:hover:active:not([disabled="true"]){
+  background-image:
+	-moz-linear-gradient(rgba(146,202,151,.7), rgba(104,182,111,.7), rgba(17,159,26,.7), rgba(12,197,20,.7), rgba(13,199,19,.7) 100%) !important;
+  background-color:
+	rgba(0,114,4,1) !important;
+	}
+

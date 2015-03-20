@@ -1,0 +1,16 @@
+#main-window:not([privatebrowsingmode=temporary]) toolbar:not([cctabsintitlebar="true"]) > #appmenu-container > #appmenu-button:not(:active):not(:hover),
+.toolbarbutton-1  .toolbarbutton-menubutton-button:not(:active):not(:hover),
+.toolbarbutton-1  .toolbarbutton-menubutton-dropmarker:not(:active):not(:hover),
+.toolbarbutton-1:not(:active):not(:hover):not([checked="true"]),
+.toolbarbutton-1  .toolbarbutton-menubutton-button[disabled="true"],
+.toolbarbutton-1[disabled="true"],
+#addon-bar toolbaritem {
+	  -moz-border-top-colors: transparent !important;
+	  -moz-border-right-colors: transparent !important;
+	  -moz-border-bottom-colors: transparent !important;
+	  -moz-border-left-colors: transparent !important;
+	border-color:transparent !important;
+	box-shadow:none !important;
+	background-image:none !important;
+	}
+

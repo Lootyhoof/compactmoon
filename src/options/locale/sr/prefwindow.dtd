@@ -1,0 +1,84 @@
+<!ENTITY prefwindow.title "Compact Moon Options">
+<!ENTITY tab1.title "Тема">
+<!ENTITY toolbarbuttons.label "Дугмад траке са алаткама">
+<!ENTITY classicbuttons4.label "Фајерфокс 4 (подразумевано, FF4)">
+<!ENTITY classicbuttons4aero.label "Firefox 4 Windows Aero">
+<!ENTITY classicbuttons8osxlion.label "Фајерфокс 8 Mac OS/X Lion">
+<!ENTITY classicbuttons4osx.label "Фајерфокс 4 Mac OS/X">
+<!ENTITY classicbuttons4lgnomehuman.label "Фајерфокс 4 Linux Gnome Human">
+<!ENTITY classicbuttons4lgnomeoxygen.label "Фајерфокс 4 Linux Oxygen">
+<!ENTITY classicbuttons3vista.label "Фајерфокс 3 Vista (FF3)">
+<!ENTITY classicbuttons3xp.label "Фајерфокс 3 WinXP (FF3)">
+<!ENTITY classicbuttons1win.label "Фајерфокс 0.9-2.0 Win (FF2)">
+<!ENTITY classicbuttons1osx.label "Фајерфокс 0.9-2.0 Mac OS/X">
+<!ENTITY classicbuttons3.label "Classic Compact 3">
+<!ENTITY classicbuttons2.label "Classic Compact 2 (FF2)">
+<!ENTITY arrowoption.label "Боја позадине дугмади за назад и напред">
+<!ENTITY classicarrow.label "ниједна (подразумевано)">
+<!ENTITY keyholearrow.label "зелена (FF3 WinXP)">
+<!ENTITY keyholearrowblue.label "плава (FF3 Vista)">
+<!ENTITY keyholearroworange.label "наранџаста">
+<!ENTITY ButtonBorders.label "Прикажи оквир око дугмади у траци са алаткама">
+<!ENTITY ButtonBordersYes.label "да (подразумевано FF2, FF4)">
+<!ENTITY ButtonBordersNo.label "не (FF3)">
+<!ENTITY ButtonBordersOnlyUnified.label "само за назад и напред">
+<!ENTITY backgroundstyle.label "Стил позадине">
+<!ENTITY gradientbackground.label "преливи (подразумевано, MC)">
+<!ENTITY gradientbuttontabs.label "једнобојно, осим дугмади и језичака (FF)">
+<!ENTITY flatbackground.label "једнобојно, осим језичака (FF)">
+<!ENTITY flatbackgroundall.label "једнобојно">
+<!ENTITY toolbardividerborders.label "Изглед раздвајача у траци са алаткама">
+<!ENTITY noborders.label "без оквира(подразумевано, MC)">
+<!ENTITY chiseled.label "уклесани (FF2, FF3)">
+<!ENTITY borderscornerstyle.label "Стил углова оквира">
+<!ENTITY roundedcorners.label "заобљени углови (подразумевано)">
+<!ENTITY squarecorners.label "оштри углови">
+<!ENTITY roundedtabsonly.label "само заобљени језичци (FF)">
+<!ENTITY squaredscrollbarsonly.label "само оштре траке за померање">
+<!ENTITY scrollbars.label "Траке за померање">
+<!ENTITY styledscrollbars.label "стилизоване (подразумеване)">
+<!ENTITY osscrollbars.label "из оперативног система (FF)">
+<!ENTITY ossystemcolors.label "систем боја из оперативног система">
+<!ENTITY ossystemcolorslight.label "светле/сиве позадине (подразумеване)">
+<!ENTITY ossystemcolorsdark.label "веома тамне/црне позадине">
+<!ENTITY webpagewindowborder.label "Оквир прозора са страницама">
+<!ENTITY webpagewindowborderenabled.label "омогућен (подразумевано)">
+<!ENTITY webpagewindowborderdisabled.label "онемогућен (MC)">
+<!ENTITY ffconfiguration.label "FF, FF2, FF3 &amp; FF4: најсличније подразумеваном изгледу Фајерфокса на Windows-у.  MC: најсажетије поставке.">
+<!ENTITY tab2.title "Менији и језичци">
+<!ENTITY toMergeMenus.label "Обједини све меније у једно дугме (потребно је поновно покретање)">
+<!ENTITY toMergeMenusNo.label "не (подразумевано)">
+<!ENTITY toMergeMenusYes.label "да">
+<!ENTITY totabMaxWidth.label "Највећа ширина језичка">
+<!ENTITY toTabMinWidth.label "Најмања ширина језичка">
+<!ENTITY toTabCloseButtons.label "Дугме за затварање језичка">
+<!ENTITY toTabCloseButtonsAllTabs.label "на сваком језичку (подразумевано)">
+<!ENTITY toTabCloseButtonsActiveTab.label "само на активном језичку">
+<!ENTITY toTabCloseButtonsHideEntirely.label "нигде">
+<!ENTITY toTabCloseButtonsEndOfTabbar.label "на крају траке за језичцима">
+<!ENTITY toOpenSearchInTab.label "Претраге отварај у новом језичку">
+<!ENTITY toOpenSearchInTabNo.label "не">
+<!ENTITY toOpenSearchInTabYes.label "да">
+<!ENTITY toTabsInTitlebar.label "Језичке прикажи у насловној траци">
+<!ENTITY toTabsInTitlebarMaxOnly.label "када је прегледач увећан (подразумевано)">
+<!ENTITY toTabsInTitlebarAlways.label "увек">
+<!ENTITY toTabsInTitlebarDescription.label "Примењује се само када су језичци на врху, а менији сакривени">
+<!ENTITY toRSSFeedInURLBar.label "Прикажи икону за RSS довод у траци адресе">
+<!ENTITY toRSSFeedInURLBarYes.label "да (подразумевано, ФФ3)">
+<!ENTITY toRSSFeedInURLBarNo.label "не (ФФ4)">
+<!ENTITY tab3.title "Колико мали?">
+<!ENTITY howcompactdescription.label "Ове поставке утичу на висину одређених трака са алаткама у главном прозору.">
+<!ENTITY hcMenuBar.label "Висина траке са менијем">
+<!ENTITY hcNavBar.label "Висина менија">
+<!ENTITY hcPersonalBar.label "Висина личне траке">
+<!ENTITY hcCustomBar.label "Прилагођена висина траке">
+<!ENTITY hcTabBar.label "Висина траке са језичцима">
+<!ENTITY hcAddonBar.label "ВИсина траке са додацима">
+<!ENTITY hcOptionsM4.label "-4 (јеси ли луд?)">
+<!ENTITY hcOptionsM2.label "-2 (напрезање очију)">
+<!ENTITY hcOptionsDefault.label "0 (подразумевано)">
+<!ENTITY hcOptionsP2.label "+2">
+<!ENTITY hcOptionsP4.label "+4">
+<!ENTITY hcOptionsP6.label "+6">
+<!ENTITY MacOSX.label "НАПОМЕНА: неке опције нису доступне на Mac OS X и Linux.">
+<!ENTITY PleaseDonate.label "Молимо вас да прилогом подржите будући развој овог додатка.">

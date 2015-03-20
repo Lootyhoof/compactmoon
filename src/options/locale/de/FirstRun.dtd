@@ -1,0 +1,13 @@
+<!ENTITY FirstRun.title "Classic Compact wurde installiert/aktualisiert!">
+<!ENTITY FirstRun.H1.title "Ihr Firefox Theme Classic Compact wurde installiert/aktualisiert!">
+<!ENTITY ThankYouForUsing.label "Danke, dass Sie Classic Compact als Ihr Firefox Theme verwenden. Dieses Theme ist eines der kompaktesten, auf addons.mozilla.org verfügbaren Themes und ist stark anpassbar.">
+<!ENTITY Customize.title "Passen Sie das Aussehen von Classic Compact in seinem Einstellungsfenster an">
+<!ENTITY Customize.label "Um das Aussehen von Classic Compact anzupassen, wählen Sie im Menü 'Extras' 'Classic Compact Options' bzw., wenn die Menüleiste ausgeblendet ist, im 'Firefox'-Menü unter 'Einstellungen' 'Classic Compact Options'. Der verfügbaren Einstellungen enthalten: zahlreiche Symbolleisten-Schaltflächen, Scrolllsiten- und Schaltflächen-Stile, Anpassen der Höhe von Menüleiste, Symbolleiste und Tabs.">
+<!ENTITY BugsSupport.title "Fehlerberichte, Rückmeldung und Unterstützung">
+<!ENTITY BugsSupport.label "Wenn Sie Fehler berichten, Feedback geben und/oder Hilfe möchten, besuchen Sie bitte <a href='https://forums.mozilla.org/addons/viewtopic.php?f=23&amp;t=4593'>den Support-Thread von Classic Compact</a> im Mozilla Add-Ons Forum oder kontaktieren Sie mich über die <a href='http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html'>Classic Compact Webseite</a> auf meiner Website.">
+<!ENTITY PleaseDonate.title "Bitte spende Sie, um die Entwicklung von Classic Campact zu unterstützen.">
+<!ENTITY PleaseDonate.label "Da alle sechs Wochen eine neue Version von Firefox erscheint, muss ich ständig die Änderungen an Firefox überwachen und muss ständig Classic Compact entsprechend aktualisieren. Dies ist sehr viel Arbeit und um diese durchzuhalten, brauche ich Ihre Unterstützung. Bitte ziehen Sie es in Erwägung, <a href='https://addons.mozilla.org/en-US/firefox/addon/classic-compact/developers'>meine Mühe zu unterstützen</a>.">
+<!ENTITY Enjoy.title "Viel Spaß!">
+<!ENTITY Enjoy.label "Ich hoffe, dass Sie es genießen, Classic Compact als Ihr Firefox Theme zu nutzen.">
+<!ENTITY Sincerely.title "Mit freundliche Grüße,">
+<!ENTITY Name.title "Ken Barbalace">

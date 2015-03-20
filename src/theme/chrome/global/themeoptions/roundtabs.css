@@ -1,0 +1,54 @@
+/* ::::: square border corners ::::: */
+
+toolbarbutton:not(.tabs-newtab-button),
+hbox,
+textbox,
+box,
+menu,
+menuitem,
+.splitmenu-menuitem,
+menulist,
+dropmarker,
+checkbox,
+image,
+label,
+groupbox,
+tabpanel,
+button,
+spinbuttons,
+tabpanels,
+toolbaritem,
+statusbarpanel,
+thumb,
+scrollbarbutton,
+.progress-bar,
+progressmeter,
+.progressmeter-statusbar,
+#unified-back-forward-button {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  -moz-outline-radius-topleft: 0px !important;
+  -moz-outline-radius-topright: 0px !important;
+  -moz-outline-radius-bottomleft: 0px !important;
+  -moz-outline-radius-bottomright: 0px !important;
+}
+
+radio .radio-check-box1,
+radio .radio-check-box2 {
+  border-top-left-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+#navigator-toolbox[iconsize="large"][mode="icons"] > #nav-bar #forward-button {
+  -moz-margin-start: 0px !important;
+  padding-left: 3px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #forward-button {
+  mask: none !important;
+  -moz-margin-start: 0px !important;
+  padding-left: 3px !important;
+  }

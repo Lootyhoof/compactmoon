@@ -1,0 +1,84 @@
+<!ENTITY prefwindow.title "Compact Moon Options">
+<!ENTITY tab1.title "Tema">
+<!ENTITY toolbarbuttons.label "Verktygsfältets knappar">
+<!ENTITY classicbuttons4.label "Firefox 4 Windows (default, FF4)">
+<!ENTITY classicbuttons4aero.label "Firefox 4 Windows Aero">
+<!ENTITY classicbuttons8osxlion.label "Firefox 8 Mac OS/X Lion">
+<!ENTITY classicbuttons4osx.label "Firefox 4 Mac OS/X">
+<!ENTITY classicbuttons4lgnomehuman.label "Firefox 4 Linux Gnome Human">
+<!ENTITY classicbuttons4lgnomeoxygen.label "Firefox 4 Linux Oxygen">
+<!ENTITY classicbuttons3vista.label "Firefox 3 Vista (FF3)">
+<!ENTITY classicbuttons3xp.label "Firefox 3 WinXP (FF3)">
+<!ENTITY classicbuttons1win.label "Firefox 0.9-2.0 Win (FF2)">
+<!ENTITY classicbuttons1osx.label "Firefox 0.9-2.0 Mac OS/X">
+<!ENTITY classicbuttons3.label "Classic Compact 3.0">
+<!ENTITY classicbuttons2.label "Classic Compact 2.0">
+<!ENTITY arrowoption.label "Bakgrundsfärg för Bakåt/framåt-knappen">
+<!ENTITY classicarrow.label "Ingen (standard)">
+<!ENTITY keyholearrow.label "Grön (FF3 WinXP)">
+<!ENTITY keyholearrowblue.label "Blå (FF3 Vista)">
+<!ENTITY keyholearroworange.label "Orange">
+<!ENTITY ButtonBorders.label "Visa kantlinjer runt verktygslistens knappar">
+<!ENTITY ButtonBordersYes.label "Ja (standard, FF2, FF4)">
+<!ENTITY ButtonBordersNo.label "Nej (FF3)">
+<!ENTITY ButtonBordersOnlyUnified.label "Bara bakåt/framåt">
+<!ENTITY backgroundstyle.label "Stil på bakgrunden">
+<!ENTITY gradientbackground.label "Toning (standard, MC)">
+<!ENTITY gradientbuttontabs.label "Platt förutom knappar &amp; flikar (FF)">
+<!ENTITY flatbackground.label "Platt förutom flikar (FF)">
+<!ENTITY flatbackgroundall.label "Platt">
+<!ENTITY toolbardividerborders.label "Gräns mellan verktygsfält">
+<!ENTITY noborders.label "Ingen (standard, MC)">
+<!ENTITY chiseled.label "Utmejslad (FF)">
+<!ENTITY borderscornerstyle.label "Stil på ramhörn">
+<!ENTITY roundedcorners.label "Rundade hörn (standard)">
+<!ENTITY squarecorners.label "Fyrkantiga hörn">
+<!ENTITY roundedtabsonly.label "Bara rundade flikar (FF)">
+<!ENTITY squaredscrollbarsonly.label "Bara fyrkantiga rullningslister">
+<!ENTITY scrollbars.label "Rullningslister">
+<!ENTITY styledscrollbars.label "Tillsnyggade (standard)">
+<!ENTITY osscrollbars.label "OS-standard (FF)">
+<!ENTITY ossystemcolors.label "Operativsystemfärger">
+<!ENTITY ossystemcolorslight.label "Ljusa/gråa bakgrunder (standard)">
+<!ENTITY ossystemcolorsdark.label "Mycket mörka/svarta bakgrunder">
+<!ENTITY webpagewindowborder.label "Ram runt webbsidan">
+<!ENTITY webpagewindowborderenabled.label "Aktiverad (standard)">
+<!ENTITY webpagewindowborderdisabled.label "Inaktiverad (MC)">
+<!ENTITY ffconfiguration.label "FF, FF2 &amp; FF3: utseende nära standard Firefox-tema i Windows.  MC: mest kompakta inställningen.">
+<!ENTITY tab2.title "Menyer &amp; Flikar">
+<!ENTITY toMergeMenus.label "Slå ihop menylisten till en knapp">
+<!ENTITY toMergeMenusNo.label "Nej (standard)">
+<!ENTITY toMergeMenusYes.label "Ja">
+<!ENTITY totabMaxWidth.label "Största flikbredd">
+<!ENTITY toTabMinWidth.label "Minsta flikbredd">
+<!ENTITY toTabCloseButtons.label "Knapp för stäng flik">
+<!ENTITY toTabCloseButtonsAllTabs.label "På alla flikar (standard)">
+<!ENTITY toTabCloseButtonsActiveTab.label "Bara på aktuell flik">
+<!ENTITY toTabCloseButtonsHideEntirely.label "Dölj helt">
+<!ENTITY toTabCloseButtonsEndOfTabbar.label "På slutet av flikfältet">
+<!ENTITY toOpenSearchInTab.label "Öppna sökningar i ny flik">
+<!ENTITY toOpenSearchInTabNo.label "Nej (standard)">
+<!ENTITY toOpenSearchInTabYes.label "Ja">
+<!ENTITY toTabsInTitlebar.label "Visa flikar i titelfältet">
+<!ENTITY toTabsInTitlebarMaxOnly.label "När webbläsaren är maximerad (standard)">
+<!ENTITY toTabsInTitlebarAlways.label "Alltid">
+<!ENTITY toTabsInTitlebarDescription.label "Gäller bara när flikarna är högst upp och menyfältet är dolt">
+<!ENTITY toRSSFeedInURLBar.label "Visa RSS-ikon i URL-fältet">
+<!ENTITY toRSSFeedInURLBarYes.label "Ja (standard, FF3)">
+<!ENTITY toRSSFeedInURLBarNo.label "Nej (FF4)">
+<!ENTITY tab3.title "Hur kompakt?">
+<!ENTITY howcompactdescription.label "Dessa inställningar justerar höjden av deras respektive verktygsfält i webbläsarens huvudfönster.">
+<!ENTITY hcMenuBar.label "Menyfältets höjd">
+<!ENTITY hcNavBar.label "Navigeringsfältets höjd">
+<!ENTITY hcPersonalBar.label "Personliga fältets höjd">
+<!ENTITY hcCustomBar.label "Anpassade fältets höjd">
+<!ENTITY hcTabBar.label "Flikfältets höjd">
+<!ENTITY hcAddonBar.label "Tilläggsfältets höjd">
+<!ENTITY hcOptionsM4.label "-4 (Är du tokig?)">
+<!ENTITY hcOptionsM2.label "-2 (Ögonpåfrestande)">
+<!ENTITY hcOptionsDefault.label "0 (Standard)">
+<!ENTITY hcOptionsP2.label "+2">
+<!ENTITY hcOptionsP4.label "+4">
+<!ENTITY hcOptionsP6.label "+6">
+<!ENTITY MacOSX.label "PLEASE NOTE: Some options are not available in Mac OS X and Linux.">
+<!ENTITY PleaseDonate.label "Please make a donation to support Classic Compact development.">

@@ -1,0 +1,116 @@
+/* -4 */
+  #toolbar-menubar[ccHowCompact="-4"] > toolbaritem > #main-menubar,
+  #toolbar-menubar[ccHowCompact="-4"] {
+    min-height:10px !important;
+  }
+  #toolbar-menubar[ccHowCompact="-4"] > toolbaritem > #main-menubar > menu > label{
+   font-size-adjust:0.45;
+   margin-top:-3px !important;
+  }
+  #toolbar-menubar[ccHowCompact="-4"] > toolbaritem > #main-menubar > menu  > menupopup menuitem{
+   font-size-adjust:0.45;
+   min-height:14px;
+   margin-top:-2px !important;
+  }
+
+  /* Toolbar Buttons */
+  #toolbar-menubar[ccHowCompact="-4"],
+  #toolbar-menubar[ccHowCompact="-4"] #personal-bookmarks,
+  #toolbar-menubar[ccHowCompact="-4"] toolbarbutton{
+    min-height:12px !important;
+    min-width:14px !important;
+  }
+
+  #toolbar-menubar[ccHowCompact="-4"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 12px !important;
+    max-width: 12px !important;
+  }
+
+  #toolbar-menubar[ccHowCompact="-4"] .toolbarbutton > label{
+   font-size-adjust:0.45;
+  }
+
+/* -2 */
+  #toolbar-menubar[ccHowCompact="-2"] > toolbaritem > #main-menubar,
+  #toolbar-menubar[ccHowCompact="-2"] {
+    min-height:12px !important;
+  }
+  #toolbar-menubar[ccHowCompact="-2"] > toolbaritem > #main-menubar > menu > label{
+   font-size-adjust:0.5;
+   margin-top:-3px !important;
+  }
+  #toolbar-menubar[ccHowCompact="-2"] > toolbaritem > #main-menubar > menu  > menupopup menuitem{
+   font-size-adjust:0.5;
+   min-height:16px;
+   margin-top:-2px !important;
+  }
+
+  /* Toolbar Buttons */
+  #toolbar-menubar[ccHowCompact="-2"],
+  #toolbar-menubar[ccHowCompact="-2"] #personal-bookmarks,
+  #toolbar-menubar[ccHowCompact="-2"] toolbarbutton{
+    min-height:14px !important;
+    min-width:16px !important;
+  }
+
+  #toolbar-menubar[ccHowCompact="-2"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 14px !important;
+    max-width: 14px !important;
+  }
+
+  #toolbar-menubar[ccHowCompact="-2"] .toolbarbutton > label{
+   font-size-adjust:0.5;
+  }
+
+/* 2 */
+  #toolbar-menubar[ccHowCompact="2"] > toolbaritem > #main-menubar,
+  #toolbar-menubar[ccHowCompact="2"] {
+    min-height:16px !important;
+  }
+
+    /* Toolbar Buttons */
+  #toolbar-menubar[ccHowCompact="2"] #personal-bookmarks,
+  #toolbar-menubar[ccHowCompact="2"] toolbarbutton,
+  #toolbar-menubar[ccHowCompact="4"] #personal-bookmarks,
+  #toolbar-menubar[ccHowCompact="4"] toolbarbutton{
+    min-height:18px !important;
+    min-width:20px !important;
+  }
+
+  #toolbar-menubar[ccHowCompact="2"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]),
+  #toolbar-menubar[ccHowCompact="4"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 18px !important;
+    max-width: 18px !important;
+  }
+
+/* 4 */
+  #toolbar-menubar[ccHowCompact="4"] > toolbaritem > #main-menubar,
+  #toolbar-menubar[ccHowCompact="4"] {
+    min-height:18px !important;
+  }
+
+  /* Toolbar Buttons */
+  #toolbar-menubar[ccHowCompact="4"],
+  #toolbar-menubar[ccHowCompact="6"]{
+    padding-top:1px !important;
+    padding-bottom:1px !important;
+  }
+
+/* 6 */
+  #toolbar-menubar[ccHowCompact="4"] > toolbaritem > #main-menubar,
+  #toolbar-menubar[ccHowCompact="4"] {
+    min-height:20px !important;
+  }
+
+  /* Toolbar Buttons */
+  #toolbar-menubar[ccHowCompact="6"] #personal-bookmarks,
+  #toolbar-menubar[ccHowCompact="6"] toolbarbutton{
+    min-height:20px !important;
+    min-width:22px !important;
+  }
+
+  #toolbar-menubar[ccHowCompact="6"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 20px !important;
+    max-width: 20px !important;
+  }
+

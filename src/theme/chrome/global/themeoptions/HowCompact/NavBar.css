@@ -1,0 +1,553 @@
+/* -4 */
+  #nav-bar[ccHowCompact="-4"] #personal-bookmarks,
+  #nav-bar[ccHowCompact="-4"] .bookmark-item,
+  #nav-bar[ccHowCompact="-4"] > toolbaritem > #main-menubar,
+  #nav-bar[ccHowCompact="-4"] {
+    min-height:12px !important;
+    font-size-adjust:0.5;
+  }
+    #nav-bar[ccHowCompact="-4"] > toolbaritem > #main-menubar > menu > label{
+    font-size-adjust:0.5;
+  }
+
+  #nav-bar[ccHowCompact="-4"] > toolbaritem > #main-menubar > menu  > menupopup menuitem{
+   font-size-adjust:0.5;
+   min-height:12px;
+   margin-top:-2px !important;
+  }
+
+  #nav-bar[ccHowCompact="-4"]  .bookmark-item > .toolbarbutton-icon {
+    max-height:12px !important;
+    max-width:12px !important;
+  }
+  #nav-bar[ccHowCompact="-4"][mode="icons"] .toolbarbutton-1{
+    min-height:16px !important;
+    min-width:18px !important;
+    font-size-adjust:0.5;
+  }
+
+  #nav-bar[ccHowCompact="-4"] textbox{
+    min-height:16px !important;
+    font-size-adjust:0.5;
+  }
+
+  #nav-bar[ccHowCompact="-4"] #urlbar .chromeclass-toolbar-additional{
+    min-height:12px !important;
+    min-width:12px !important;
+  }
+
+  #nav-bar[ccHowCompact="-4"] #page-proxy-stack {
+    padding: 0px 3px !important;
+ }
+
+  #nav-bar[ccHowCompact="-4"] .search-go-button,
+  #nav-bar[ccHowCompact="-4"] #urlbar-icons > toolbarbutton > image{
+    height:12px !important;
+    width:12px !important;
+  }
+
+  #nav-bar[ccHowCompact="-4"] #appmenu-button .button-icon,
+  #nav-bar[ccHowCompact="-4"] toolbarbutton:not(#bookmarks-menu-button) .toolbarbutton-icon:not([ccOverride="no"]),
+  #nav-bar[ccHowCompact="-4"] .toolbarbutton-1:not(#bookmarks-menu-button) > .toolbarbutton-icon {
+    max-height: 14px !important;
+    max-width: 14px !important;
+  }
+
+  #navigator-toolbox:not([iconsize="large"]) #nav-bar[ccHowCompact="-4"] .searchbar-engine-image,
+  #navigator-toolbox[iconsize="large"] #nav-bar[ccHowCompact="-4"] #urlbar-icons > toolbarbutton > image{
+    height:14px !important;
+    width:14px !important;
+  }
+
+  #navigator-toolbox:not([iconsize="large"]) #nav-bar[ccHowCompact="-4"] .urlbar-history-dropmarker,
+  #navigator-toolbox:not([iconsize="large"]) #nav-bar[ccHowCompact="-4"] #page-proxy-stack {
+  height: 14px !important;
+  }
+
+  #nav-bar[ccHowCompact="-4"] #urlbar .urlbar-stack {
+    max-height:14px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+
+  #navigator-toolbox:not([iconsize="large"]) #nav-bar[ccHowCompact="-4"] .notification-anchor-icon,
+  #navigator-toolbox:not([iconsize="large"]) #nav-bar[ccHowCompact="-4"] .urlbar-icon,
+  #navigator-toolbox:not([iconsize="large"]) #nav-bar[ccHowCompact="-4"] #page-proxy-favicon,
+  #navigator-toolbox:not([iconsize="large"]) #nav-bar[ccHowCompact="-4"] #urlbar-throbber {
+    height: 14px !important;
+    width: 14px !important;
+    -moz-transform:  scale(1) !important;
+    transform:  scale(1) !important;
+  }
+
+  #navigator-toolbox:not([iconsize="large"]) #nav-bar[ccHowCompact="-4"] #identity-box,
+  #navigator-toolbox:not([iconsize="large"]) #nav-bar[ccHowCompact="-4"] #urlbar .urlbar-stack {
+    height:14px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"] .toolbarbutton-1{
+    min-height:18px !important;
+    min-width:20px !important; 
+  }
+
+  
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"] textbox{
+  min-height:18px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"] #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"] #urlbar .urlbar-stack {
+    height:16px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"] .urlbar-textbox-container,
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"] #urlbar-icons{
+  min-height:16px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"]  #urlbar  .chromeclass-toolbar-additional{
+  min-height:16px !important;
+  min-width:16px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"]  #urlbar-icons .chromeclass-toolbar-additional{
+  min-height:14px !important;
+  min-width:14px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"] #urlbar-icons > #urlbar-single-feed-button > image,
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"] #urlbar-icons > #urlbar-multiple-feed-button > image{
+  height:13px !important;
+  width:13px !important;
+  }
+
+#navigator-toolbox[iconsize="large"] #nav-bar[ccHowCompact="-4"] #urlbar-container progressmeter {
+  max-height: 16px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"]  #nav-bar[ccHowCompact="-4"] .toolbarbutton-1:not(#bookmarks-menu-button) > .toolbarbutton-icon {
+    max-height: 16px !important;
+    max-width: 16px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"] #back-button {
+  height: 22px !important;
+  width: 22px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"] #forward-button {
+  padding-left: 1px !important;
+  padding-right: 0px !important;
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-4"] #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:16px !important;
+width:16px !important;
+max-height: 16px !important;
+max-width: 16px !important;
+}
+
+/* -2 */
+  #nav-bar[ccHowCompact="-2"] #personal-bookmarks,
+  #nav-bar[ccHowCompact="-2"] .bookmark-item,
+  #nav-bar[ccHowCompact="-2"] > toolbaritem > #main-menubar,
+  #nav-bar[ccHowCompact="-2"] {
+    min-height:14px !important;
+  }
+
+  #nav-bar[ccHowCompact="-2"]  .bookmark-item > .toolbarbutton-icon {
+    max-height:14px !important;
+    max-width:14px !important;
+  }
+
+  #nav-bar[ccHowCompact="-2"][mode="icons"] .toolbarbutton-1{
+    min-height:18px !important;
+    min-width:20px !important;
+  }
+
+
+  #nav-bar[ccHowCompact="-2"] textbox{
+    min-height:18px !important;
+  }
+
+
+  #nav-bar[ccHowCompact="-2"] #urlbar .chromeclass-toolbar-additional{
+    min-height:14px !important;
+    min-width:14px !important;
+  }
+
+  #nav-bar[ccHowCompact="-2"] #page-proxy-stack {
+    padding: 0 2px 0 2px !important;
+ }
+
+  #nav-bar[ccHowCompact="-2"] .search-go-button,
+  #nav-bar[ccHowCompact="-2"] #urlbar-icons > toolbarbutton > image{
+  height:14px !important;
+  width:14px !important;
+  }
+
+#nav-bar[ccHowCompact="-4"] #urlbar-icons > #urlbar-single-feed-button > image,
+#nav-bar[ccHowCompact="-4"] #urlbar-icons > #urlbar-multiple-feed-button > image{
+  height:13px !important;
+  width:13px !important;
+  }
+
+  #nav-bar[ccHowCompact="-2"] #appmenu-button .button-icon,
+  #nav-bar[ccHowCompact="-2"] toolbarbutton:not(#bookmarks-menu-button) .toolbarbutton-icon:not([ccOverride="no"]),
+  #nav-bar[ccHowCompact="-2"] .toolbarbutton-1:not(#bookmarks-menu-button) > .toolbarbutton-icon {
+    max-height: 16px !important;
+    max-width: 16px !important;
+  }
+
+  #nav-bar[ccHowCompact="-2"] #urlbar .urlbar-stack {
+    max-height:16px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+
+  #navigator-toolbox:not([iconsize="large"]) #nav-bar[ccHowCompact="-2"] #identity-box,
+  #navigator-toolbox:not([iconsize="large"]) #nav-bar[ccHowCompact="-2"] #urlbar .urlbar-stack {
+    height:16px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] .toolbarbutton-1{
+    min-height:20px !important;
+    min-width:22px !important; 
+  }
+
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] textbox{
+  min-height:20px !important;
+  }
+
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] #urlbar .chromeclass-toolbar-additional{
+  min-height:18px !important;
+  min-width:18px !important; 
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] #urlbar .urlbar-stack {
+    height:18px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] .urlbar-textbox-container,
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] #urlbar-icons{
+  min-height:18px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"]  #nav-bar[ccHowCompact="-2"] #urlbar-icons > toolbarbutton > image{
+  height:16px !important;
+  width:16px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] .toolbarbutton-1:not(#bookmarks-menu-button) > .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 18px !important;
+    max-width: 18px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] #urlbar .urlbar-stack {
+    height:18px !important;
+}
+
+#navigator-toolbox[iconsize="large"] #nav-bar[ccHowCompact="-2"] #urlbar-container progressmeter {
+  max-height: 20px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] #back-button {
+  height: 24px !important;
+  width: 24px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] #forward-button {
+  padding-left: 2px !important;
+  padding-right: 1px !important;
+  border-top-right-radius: 7px !important;
+  border-bottom-right-radius: 7px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="-2"] #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:18px !important;
+width:18px !important;
+max-height: 18px !important;
+max-width: 18px !important;
+}
+
+/* 2 */
+  #nav-bar[ccHowCompact="2"] #personal-bookmarks,
+  #nav-bar[ccHowCompact="2"][mode="icons"] toolbarbutton,
+  #nav-bar[ccHowCompact="2"][mode="icons"] .toolbarbutton-1,
+  #nav-bar[ccHowCompact="4"] #personal-bookmarks,
+  #nav-bar[ccHowCompact="4"][mode="icons"] toolbarbutton,
+  #nav-bar[ccHowCompact="4"][mode="icons"] .toolbarbutton-1{
+    min-height:22px !important;
+    min-width:24px !important;
+  }
+
+  #nav-bar[ccHowCompact="2"] textbox,
+  #nav-bar[ccHowCompact="4"] textbox{
+    min-height:22px !important;
+  }
+
+#nav-bar[ccHowCompact="2"] #urlbar  .chromeclass-toolbar-additional,
+#nav-bar[ccHowCompact="4"] #urlbar  .chromeclass-toolbar-additional{
+  min-height:20px !important;
+  min-width:20px !important; 
+  }
+
+  #nav-bar[ccHowCompact="2"] toolbarbutton:not(#bookmarks-menu-button) .toolbarbutton-icon:not([ccOverride="no"]),
+  #nav-bar[ccHowCompact="2"] .toolbarbutton-1:not(.chromeclass-toolbar-additional):not(#bookmarks-menu-button) .toolbarbutton-icon:not([ccOverride="no"]),
+  #nav-bar[ccHowCompact="4"] toolbarbutton:not(#bookmarks-menu-button) .toolbarbutton-icon:not([ccOverride="no"]),
+  #nav-bar[ccHowCompact="4"] .toolbarbutton-1:not(.chromeclass-toolbar-additional):not(#bookmarks-menu-button) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 20px !important;
+    max-width: 20px !important;
+  }
+
+  #nav-bar[ccHowCompact="2"] #identity-box,
+  #nav-bar[ccHowCompact="2"] #urlbar .urlbar-stack,
+  #nav-bar[ccHowCompact="4"] #identity-box,
+  #nav-bar[ccHowCompact="4"] #urlbar .urlbar-stack {
+    height:20px !important;
+  }
+
+  #nav-bar[ccHowCompact="2"] #identity-box > hbox > stack,
+  #nav-bar[ccHowCompact="4"] #identity-box > hbox > stack{
+    margin-left:1px !important;
+    margin-right:1px !important;
+  }
+
+  #nav-bar[ccHowCompact="2"] .searchbar-engine-button > .button-box,
+  #nav-bar[ccHowCompact="4"] .searchbar-engine-button > .button-box{
+    -moz-margin-start:2px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="2"] .toolbarbutton-1,
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="4"] .toolbarbutton-1{
+    min-height:24px !important;
+    min-width:26px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="2"] textbox,
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="4"] textbox{
+  min-height:24px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="2"] #urlbar  .chromeclass-toolbar-additional,
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="4"] #urlbar  .chromeclass-toolbar-additional{
+  min-height:22px !important;
+  min-width:22px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="2"] .toolbarbutton-1:not(.chromeclass-toolbar-additional):not(#bookmarks-menu-button) .toolbarbutton-icon:not([ccOverride="no"]),
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="4"] .toolbarbutton-1:not(.chromeclass-toolbar-additional):not(#bookmarks-menu-button) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 22px !important;
+    max-width: 22px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="2"] #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="2"] #urlbar .urlbar-stack,
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="4"] #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="4"] #urlbar .urlbar-stack {
+    height:22px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="2"] #back-button,
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="4"] #back-button {
+  height: 28px !important;
+  width: 28px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="2"] #forward-button,
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="4"] #forward-button {
+  padding-left: 4px;
+  padding-right: 2px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="2"] #back-button .toolbarbutton-icon:not([ccOverride="no"]),
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="4"] #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:22px !important;
+width:22px !important;
+max-height: 22px !important;
+max-width: 22px !important;
+}
+
+
+/* 4 */
+  #nav-bar[ccHowCompact="4"],
+  #nav-bar[ccHowCompact="6"]{
+    padding-top:2px !important;
+    padding-bottom:2px !important;
+  }
+
+#nav-bar[ccHowCompact="4"] textbox,
+#nav-bar[ccHowCompact="4"] toolbarbutton.toolbarbutton-1,
+#nav-bar[ccHowCompact="6"] textbox,
+#nav-bar[ccHowCompact="6"] toolbarbutton.toolbarbutton-1{
+  margin-left:2px !important;
+  margin-right:2px !important
+  }
+
+#nav-bar[ccHowCompact="4"] .bookmark-item,
+#nav-bar[ccHowCompact="6"] .bookmark-item{
+  padding-right:2px !important;
+  padding-left:2px !important;
+}
+
+  #nav-bar[ccHowCompact="4"] #urlbar .chromeclass-toolbar-additional,
+  #nav-bar[ccHowCompact="6"] #urlbar .chromeclass-toolbar-additional{
+  margin-left:0px !important;
+  margin-right:0px !important
+  }
+
+#nav-bar[ccHowCompact="4"]  #back-button,
+#nav-bar[ccHowCompact="6"]  #back-button {
+  -moz-margin-end: 0 !important;
+}
+
+#nav-bar[ccHowCompact="4"]  #Forward-button,
+#nav-bar[ccHowCompact="6"]  #Forward-button {
+  -moz-margin-start: 1px !important;
+}
+
+#nav-bar[ccHowCompact="4"] #zoom-out-button,
+#nav-bar[ccHowCompact="6"] #zoom-out-button {
+  -moz-margin-end: 0 !important;
+}
+
+#nav-bar[ccHowCompact="4"] #zoom-in-button,
+#nav-bar[ccHowCompact="6"] #zoom-in-button {
+  -moz-margin-start: 1px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="4"] #forward-button,
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] #forward-button {
+  -moz-margin-start: -2px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] > #nav-bar[ccHowCompact="4"][currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"] > #nav-bar[ccHowCompact="4"]:not([currentset]) {
+  padding-top: 5px !important;
+  padding-bottom: 7px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > #nav-bar[ccHowCompact="4"][currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > #nav-bar[ccHowCompact="4"]:not([currentset]) {
+  padding-top: 7px !important;
+}
+
+/* 6 */
+
+  #nav-bar[ccHowCompact="6"] #personal-bookmarks,
+  #nav-bar[ccHowCompact="6"] .bookmark-item,
+  #nav-bar[ccHowCompact="6"] > toolbaritem > #main-menubar,
+  #nav-bar[ccHowCompact="6"] {
+    min-height:22px !important;
+  }
+
+  #nav-bar[ccHowCompact="6"][mode="icons"] .toolbarbutton-1{
+    min-height:24px !important;
+    min-width:26px !important;
+  }
+
+  #nav-bar[ccHowCompact="6"] textbox{
+    min-height:24px !important;
+  }
+
+#nav-bar[ccHowCompact="6"] #urlbar .chromeclass-toolbar-additional{
+  min-height:22px !important;
+  min-width:22px !important; 
+  }
+
+  #nav-bar[ccHowCompact="6"] toolbarbutton:not(#bookmarks-menu-button) .toolbarbutton-icon:not([ccOverride="no"]),
+  #nav-bar[ccHowCompact="6"] .toolbarbutton-1:not(.chromeclass-toolbar-additional):not(#bookmarks-menu-button) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 22px !important;
+    max-width: 22px !important;
+  }
+
+  #nav-bar[ccHowCompact="6"] #identity-box,
+  #nav-bar[ccHowCompact="6"] #urlbar .urlbar-stack {
+    height:22px !important;
+  }
+
+  #nav-bar[ccHowCompact="6"] #identity-box > hbox > stack{
+    margin-left:2px !important;
+    margin-right:2px !important;
+  }
+
+  #nav-bar[ccHowCompact="6"] .searchbar-engine-button > .button-box{
+    -moz-margin-start:3px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] .toolbarbutton-1{
+    min-height:26px !important;
+    min-width:28px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] textbox{
+ min-height:26px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] #urlbar  .chromeclass-toolbar-additional{
+  min-height:24px !important;
+  min-width:24px !important; 
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] .toolbarbutton-1:not(.chromeclass-toolbar-additional):not(#bookmarks-menu-button) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 24px !important;
+    max-width: 24px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] #urlbar .urlbar-stack {
+    height:24px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] #back-button {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] > #nav-bar[ccHowCompact="6"][currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"] > #nav-bar[ccHowCompact="6"]:not([currentset]) {
+  padding-top: 5px !important;
+  padding-bottom: 7px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > #nav-bar[ccHowCompact="6"][currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > #nav-bar[ccHowCompact="6"]:not([currentset]) {
+  padding-top: 7px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] #forward-button {
+  padding-left: 5px !important;
+  padding-right: 3px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:22px !important;
+width:22px !important;
+max-height: 22px !important;
+max-width: 22px !important;
+}
+
+/* Default Full Zoom Level Add-on */
+#nav-bar[mode="icons"][ccHowCompact="-4"] #statusbarZoomLevel:not([ccOverride=true]) > .toolbarbutton-icon:not([ccOverride=true]){
+  max-width: 35px !important;
+}
+
+#nav-bar[mode="icons"][ccHowCompact="-2"] #statusbarZoomLevel:not([ccOverride=true]) > .toolbarbutton-icon:not([ccOverride=true]){
+  max-width: 40px !important;
+}
+
+#nav-bar[mode="icons"][ccHowCompact="2"] #statusbarZoomLevel:not([ccOverride=true]) > .toolbarbutton-icon:not([ccOverride=true]),
+#nav-bar[mode="icons"][ccHowCompact="4"] #statusbarZoomLevel:not([ccOverride=true]) > .toolbarbutton-icon:not([ccOverride=true]){
+  max-width: 50px !important;
+}
+
+#nav-bar[mode="icons"][ccHowCompact="6"] #statusbarZoomLevel:not([ccOverride=true]) > .toolbarbutton-icon:not([ccOverride=true]){
+  max-width: 55px !important;
+}

@@ -1,0 +1,100 @@
+/* -4 */
+  #addon-bar[ccHowCompact="-4"],
+  #addon-bar[ccHowCompact="-4"] #personal-bookmarks,
+  #addon-bar[ccHowCompact="-4"] toolbarbutton{
+    min-height:12px !important;
+    min-width:14px !important;
+  }
+
+  #addon-bar[ccHowCompact="-4"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 12px !important;
+    max-width: 12px !important;
+  }
+
+  #addon-bar[ccHowCompact="-4"]  progressmeter,
+  #addon-bar[ccHowCompact="-4"]  .progress-bar,
+  #addon-bar[ccHowCompact="-4"]  label{
+   font-size-adjust:0.45;
+   min-height:10px !important;
+   }
+
+/* -2 */
+  #addon-bar[ccHowCompact="-2"],
+  #addon-bar[ccHowCompact="-2"] #personal-bookmarks,
+  #addon-bar[ccHowCompact="-2"] toolbarbutton{
+    min-height:14px !important;
+    min-width:16px !important;
+  }
+
+  #addon-bar[ccHowCompact="-2"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 14px !important;
+    max-width: 14px !important;
+  }
+
+  #addon-bar[ccHowCompact="-2"]  .progress-bar,
+  #addon-bar[ccHowCompact="-2"] label{
+   font-size-adjust:0.5;
+   min-height:12px !important;
+  }
+
+/* 2 */
+  #addon-bar[ccHowCompact="2"] #personal-bookmarks,
+  #addon-bar[ccHowCompact="2"] toolbarbutton,
+  #addon-bar[ccHowCompact="4"] #personal-bookmarks,
+  #addon-bar[ccHowCompact="4"] toolbarbutton{
+    min-height:18px !important;
+    min-width:20px !important;
+  }
+
+  #addon-bar[ccHowCompact="2"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]),
+  #addon-bar[ccHowCompact="4"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 18px !important;
+    max-width: 18px !important;
+  }
+
+  #addon-bar[ccHowCompact="2"] label{
+   margin-top: auto !important;
+   margin-bottom: auto !important;
+  }
+
+  #addon-bar[ccHowCompact="2"]  .progress-bar{
+   min-height:16px !important;
+  }
+
+/* 4 */
+  #addon-bar[ccHowCompact="4"],
+  #addon-bar[ccHowCompact="6"]{
+    padding-top:1px !important;
+    padding-bottom:1px !important;
+  }
+
+  #addon-bar[ccHowCompact="4"] label{
+   margin-top: auto !important;
+   margin-bottom: auto !important;
+  }
+
+  #addon-bar[ccHowCompact="4"]  .progress-bar{
+   min-height:18px !important;
+  }
+
+/* 6 */
+  #addon-bar[ccHowCompact="6"] #personal-bookmarks,
+  #addon-bar[ccHowCompact="6"] toolbarbutton{
+    min-height:20px !important;
+    min-width:22px !important;
+  }
+
+  #addon-bar[ccHowCompact="6"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 20px !important;
+    max-width: 20px !important;
+  }
+
+  #addon-bar[ccHowCompact="6"] label{
+   margin-top: auto !important;
+   margin-bottom: auto !important;
+  }
+
+  #addon-bar[ccHowCompact="6"]  .progress-bar{
+   min-height:20px !important;
+  }
+

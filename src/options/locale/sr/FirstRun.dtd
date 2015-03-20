@@ -1,0 +1,13 @@
+<!ENTITY FirstRun.title "Classic Compact је инсталиран/ажуриран!">
+<!ENTITY FirstRun.H1.title "Ваша тема та Фајерфокс, Classic Compact, је инсталирана/ажурирана!">
+<!ENTITY ThankYouForUsing.label "Хвала вам што сте изабрали тему Classic Compact. Ово је једна од најкомпатнијих тема на addons.mozilla.org и веома је прилагодљива.">
+<!ENTITY Customize.title "Прилагодите изглед теме Classic Compact користећи таблу са опцијама.">
+<!ENTITY Customize.label "Да бисте прилагодили изгледа теме Classic Compact, отворите мени Алатке и изаберите Classic Compact Options. Ако сте искључили траку са менијем кликните дугме Фајерфокс и у опцијама изаберите Classic Compact Options. Опције укључују: бројне комплете алатки, стилизовање трака за померање, подешавање висине трака са менијем, алаткама и језичцима.">
+<!ENTITY BugsSupport.title "Пријављивање грешака, повратне информације и подршка.">
+<!ENTITY BugsSupport.label "Ако желите да пријавите грешку, пошаљете повратну информацију или вам је потребна помоћ за Classic Compact, посетите <a href='https://forums.mozilla.org/addons/viewtopic.php?f=23&amp;t=4593'>тему за тему додатка Classic Compact</a> на Фајерфоксовом форуму или ме контактирате преко <a href='http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html'>матичне странице додатка.</a>">
+<!ENTITY PleaseDonate.title "Молимо вас да приложите, како бисте обезбедили будући развој додатка.">
+<!ENTITY PleaseDonate.label "Пошто нова верзија Фајерфокса излази сваке четири седмице, морам непрестано да пратим промене у Фајерфоксу и према њима ажурирам Classic Compact. То одузима много времена, а да бих у томе успео, потребна ми је ваша помоћ. Молим вас да размислите о <a href='https://addons.mozilla.org/en-US/firefox/addon/classic-compact/developers'>прилогу којим бисте подржали мој труд.</a>.">
+<!ENTITY Enjoy.title "Уживајте!">
+<!ENTITY Enjoy.label "Надам се да вам се свидела тема Classic Compact.">
+<!ENTITY Sincerely.title "Искрено ваш,">
+<!ENTITY Name.title "Кен Барбалејс">

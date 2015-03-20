@@ -1,0 +1,288 @@
+#zoom-in-button,
+#zoom-out-button {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/Toolbar.png") !important;
+}
+
+.tabs-newtab-button,
+#TabsToolbar > #new-tab-button,
+#TabsToolbar > toolbarpaletteitem > #new-tab-button {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/newtab.png") !important;
+}
+
+#tabview-button,
+#menu_tabview {
+  list-style-image: url(chrome://global/skin/themeoptions/dark/tabview.png) !important;
+}
+
+/* Tab close button */
+.tab-close-button {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/close.png") !important;
+}
+
+.left,
+.datepicker-previous,
+.datepicker-next[chromedir="rtl"] {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrow-lft.png") !important;
+}
+
+.left:hover,
+.datepicker-previous:hover,
+.datepicker-next[chromedir="rtl"]:hover {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-lft-hov.png") !important;
+}
+
+.left:active,
+.datepicker-previous:active,
+.datepicker-next[chromedir="rtl"]:active {
+  list-style-image: url("chrome://global/skin/themeoptions/arrows/dark/arrow-lft-act.png") !important;
+}
+
+.left[disabled="true"],
+.datepicker-previous[disabled="true"],
+.datepicker-next[disabled="true"][chromedir="rtl"] {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-lft-dis.png") !important;
+}
+
+
+
+
+.right,
+.datepicker-next,
+.datepicker-previous[chromedir="lft"] {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-rit.png") !important;
+}
+
+.right:hover,
+.datepicker-next:hover,
+.datepicker-previous[chromedir="lft"]:hover {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-rit-hov.png") !important;
+}
+
+.right:active,
+.datepicker-next:active,
+.datepicker-previous[chromedir="lft"]:active {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-rit-act.png") !important;
+}
+
+.right[disabled="true"],
+.datepicker-next[disabled="true"],
+.datepicker-previous[disabled="true"][chromedir="lft"] {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-rit-dis.png") !important;
+}
+
+
+
+
+.down,
+.expander-down,
+.dropmarker-icon,
+.searchbar-dropmarker-image {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn.png") !important;
+}
+
+.down:hover,
+.expander-down:hover,
+.dropmarker-icon:hover,
+.searchbar-dropmarker-image:hover {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn-hov.png") !important;
+}
+
+.down:active,
+.expander-down:active,
+.dropmarker-icon:active,
+.searchbar-dropmarker-image:active {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn-act.png") !important;
+}
+
+.down[disabled="true"],
+.expander-down[disabled="true"],
+.dropmarker-icon[disabled="true"],
+.searchbar-dropmarker-image[disabled="true"] {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn-dis.png") !important;
+}
+
+
+
+
+
+.up,
+.expander-up {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up.png") !important;
+}
+
+.up:hover,
+.expander-up:hover {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up-hov.png") !important;
+}
+
+.up:active,
+.expander-up:active {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up-act.png") !important;
+}
+
+.up[disabled="true"],
+.expander-up[disabled="true"] {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up-dis.png") !important;
+}
+
+
+
+
+.spinbuttons-down,
+#placesMenu > menu > label{
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn.png") !important;
+}
+
+.spinbuttons-down:hover,
+#placesMenu > menu > label:hover{
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn-hov.png") !important;
+}
+
+.spinbuttons-down:active,
+#placesMenu > menu > label:active{
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn-act.png") !important;
+}
+
+.spinbuttons-down[disabled="true"],
+#placesMenu > menu > label[disabled="true"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn-dis.png") !important;
+}
+
+
+
+
+.spinbuttons-up{
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up.png") !important;
+}
+
+.spinbuttons-up:hover{
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up-hov.png") !important;
+}
+
+.spinbuttons-up:active{
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up-act.png") !important;
+}
+
+.spinbuttons-up[disabled="true"]{
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up.png") !important;
+}
+
+
+
+
+/* ..... page navigation ..... */
+
+.home-arrow, .end-arrow[chromedir="rtl"] {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-lft-sharp-end.png") !important;
+}
+
+.end-arrow, .home-arrow[chromedir="rtl"] {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-rit-sharp-end.png") !important;
+}
+
+.left-arrow, .right-arrow[chromedir="rtl"] {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-lft-sharp.png") !important;
+}
+
+.right-arrow, .left-arrow[chromedir="rtl"] {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-rit-sharp.png") !important;
+}
+
+/* ...... scale in/decrement ..... */
+
+.up-arrow {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up-sharp.png") !important;
+}
+
+.down-arrow {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn-sharp.png") !important;
+}
+
+
+/* ..... checked state ..... */
+
+.listcell-check[checked="true"],
+checkbox[checked="true"] > .checkbox-check {
+  background-image: url("chrome://global/skin/themeoptions/dark/checkboxes/cbox-check.gif") !important;
+}
+
+.listcell-check[disabled="true"][checked="true"],
+checkbox[checked="true"][disabled="true"] > .checkbox-check {
+  background-image: url("chrome://global/skin/themeoptions/dark/checkboxes/cbox-check-dis.gif") !important;
+}
+
+/* ..... selected state ..... */
+
+radio[selected="true"] > .radio-check-box1 > .radio-check-box2 {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/radio/radio-check.png") !important;
+}
+
+radio[selected="true"][disabled="true"] > .radio-check-box1 > .radio-check-box2 {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/radio/radio-check-dis.png") !important;
+}
+
+
+/* ..... normal state ..... */
+
+/* vertical grippies */
+splitter[collapse="before"] > grippy {
+  background-image: url("chrome://global/skin/themeoptions/dark/splitter/grip-vrt-before.gif") !important;
+}
+
+splitter[collapse="after"] > grippy {
+  background-image: url("chrome://global/skin/themeoptions/dark/splitter/grip-vrt-after.gif") !important;
+}
+
+/* horizontal grippies */
+splitter[collapse="before"][orient="vertical"] > grippy {
+  background-image: url("chrome://global/skin/themeoptions/dark/splitter/grip-hrz-before.gif") !important;
+}
+
+splitter[collapse="after"][orient="vertical"] > grippy {
+  background-image: url("chrome://global/skin/themeoptions/dark/splitter/grip-hrz-after.gif") !important;
+}
+
+/* ..... collapsed state ..... */
+
+/* vertical grippies */
+splitter[collapse="before"][state="collapsed"] > grippy {
+  background-image: url("chrome://global/skin/themeoptions/dark/splitter/grip-vrt-after.gif") !important;
+}
+
+splitter[collapse="after"][state="collapsed"] > grippy {
+  background-image: url("chrome://global/skin/themeoptions/dark/splitter/grip-vrt-before.gif") !important;
+}
+
+/* horizontal grippies */
+splitter[collapse="before"][state="collapsed"][orient="vertical"] > grippy {
+  background-image: url("chrome://global/skin/themeoptions/dark/splitter/grip-hrz-after.gif") !important;
+}
+
+splitter[collapse="after"][state="collapsed"][orient="vertical"] > grippy {
+  background-image: url("chrome://global/skin/themeoptions/dark/splitter/grip-hrz-before.gif") !important;
+}
+
+
+/* ::::: column picker :::::  */
+
+.tree-columnpicker-icon {
+  list-style-image: url("chrome://global/skin/themeoptions/dark/tree/columnpicker.gif") !important;
+}
+
+/* ::::: menulist check boxes :::::  */
+
+menuitem[checked="true"] > .menu-iconic-left  {
+  list-style-image: url("chrome://global/skin/menu/check-white.gif") !important;
+}
+
+menuitem[checked="true"][disabled="true"] > .menu-iconic-left {
+  list-style-image: url("chrome://global/skin/menu/check-dis.gif") !important;
+}
+
+menuitem[checked="true"][type="radio"] > .menu-iconic-left {
+  list-style-image: url("chrome://global/skin/menu/radio-white.png") !important;
+}
+
+menuitem[checked="true"][type="radio"][disabled="true"] > .menu-iconic-left {
+  list-style-image: url("chrome://global/skin/menu/radio-dis.png") !important;
+}

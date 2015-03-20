@@ -1,0 +1,67 @@
+scrollbarbutton[type="increment"] {
+  background-image: url("chrome://global/skin/arrow/arrow-rit.png") !important;
+  background-position:center !important;
+}
+
+scrollbarbutton[type="increment"]:hover {
+  background-image: url("chrome://global/skin/arrow/arrow-rit-hov.png") !important;
+}
+
+scrollbarbutton[type="increment"]:active {
+  background-image: url("chrome://global/skin/arrow/arrow-rit-act.png") !important;
+}
+
+scrollbarbutton[type="increment"][disabled="true"] {
+  background-image: url("chrome://global/skin/arrow/arrow-rit-dis.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"] {
+  background-image: url("chrome://global/skin/arrow/arrow-dn.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"]:hover {
+  background-image: url("chrome://global/skin/arrow/arrow-dn-hov.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"]:active {
+  background-image: url("chrome://global/skin/arrow/arrow-dn-act.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"][disabled="true"] {
+  background-image: url("chrome://global/skin/arrow/arrow-dn-dis.png") !important;
+}
+
+/* ..... decrement .... */
+
+scrollbarbutton[type="decrement"] {
+  background-image: url("chrome://global/skin/arrow/arrow-lft.png") !important;
+  background-position:center !important;
+}
+
+scrollbarbutton[type="decrement"]:hover {
+  background-image: url("chrome://global/skin/arrow/arrow-lft-hov.png") !important;
+}
+
+scrollbarbutton[type="decrement"]:active {
+  background-image: url("chrome://global/skin/arrow/arrow-lft-act.png") !important;
+}
+
+scrollbarbutton[type="decrement"][disabled="true"] {
+  background-image: url("chrome://global/skin/arrow/arrow-lft-dis.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"] {
+  background-image: url("chrome://global/skin/arrow/arrow-up.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"]:hover {
+  background-image: url("chrome://global/skin/arrow/arrow-up-hov.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"]:active {
+  background-image: url("chrome://global/skin/arrow/arrow-up-act.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"][disabled="true"] {
+  background-image: url("chrome://global/skin/arrow/arrow-up-dis.png") !important;
+}

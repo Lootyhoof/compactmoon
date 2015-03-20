@@ -1,0 +1,65 @@
+scrollbarbutton[type="increment"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-rit.png") !important;
+}
+
+scrollbarbutton[type="increment"]:hover {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-rit-hov.png") !important;
+}
+
+scrollbarbutton[type="increment"]:active {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-rit-act.png") !important;
+}
+
+scrollbarbutton[type="increment"][disabled="true"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-rit-dis.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-dn.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"]:hover {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-dn-hov.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"]:active {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-dn-act.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"][disabled="true"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-dn-dis.png") !important;
+}
+
+/* ..... decrement .... */
+
+scrollbarbutton[type="decrement"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-lft.png") !important;
+}
+
+scrollbarbutton[type="decrement"]:hover {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-lft-hov.png") !important;
+}
+
+scrollbarbutton[type="decrement"]:active {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-lft-act.png") !important;
+}
+
+scrollbarbutton[type="decrement"][disabled="true"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-lft-dis.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-up.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"]:hover {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-up-hov.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"]:active {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-up-act.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"][disabled="true"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/scrollbars/arrow-up-dis.png") !important;
+}

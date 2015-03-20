@@ -1,0 +1,63 @@
+    <em:localized>
+      <Description>
+        <em:locale>sq-AL</em:locale>
+        <em:name>Funksionet e Classic Compact</em:name>
+        <em:description>Ky modul modifikon temen "Kompakt Klasik". Mundesite perfshijne: 10 komplete me butona shiriti; fikjen e sfondeve me ngjyre te shkallezuar; ashensore SO; lartesi te ndryshueshme te shiritit; bashkimin e shiritit te menuse ne nje buton; dhe shume me teper. Nevojitet qe tema Kompakt Klasike v4.0.10 ose me lart te jete e instaluar.</em:description>
+        <em:translator>gereqi http://www.babelzilla.org/forum/index.php?showuser=17140</em:translator>
+      </Description>
+    </em:localized>
+
+    <em:localized>
+      <Description>
+        <em:locale>sv-SE</em:locale>
+        <em:name>Classic Compact Options</em:name>
+        <em:description>Detta tillägg tillåter en anpassning av temat "Classic Compact". Inställningar för: FF2-knappar, nyckelhålspilar, tonad bakgrund, modifiering av ramar, OS-rullningslister, mörka systemfärger, hopslagning av menyrad till en menyknapp mm.</em:description>
+        <em:translator>CeciliaB http://www.babelzilla.org/forum/index.php?showuser=13587</em:translator>
+      </Description>
+    </em:localized>
+
+    <em:localized>
+      <Description>
+        <em:locale>pt-BR</em:locale>
+        <em:name>Opções do Tema Classic Compact</em:name>
+        <em:description>Adiciona ao menu "Ferramentas" o item "Opções do Classic Compact", que permite alterar a aparência do tema Classic Compact. As opções incluem: usar a seta "voltar" maior; desativar gradientes; desativar bordas arredondadas; ativar divisores de barras de ferramentas. Requer o tema Classic Compact v4.0.10 ou maior instalado.</em:description>
+        <em:translator>Marcelo Ghelman http://ghelman.net</em:translator>
+      </Description>
+    </em:localized>
+
+    <em:localized>
+      <Description>
+        <em:locale>fr-FR</em:locale>
+        <em:name>Classic Compact Options</em:name>
+        <em:description>Ajoute l'élément « Options de Classic Compact » dans le menu « Outils », ce qui permet de modifier les apparences du thème Classic Compact. Cette extension gère : l'utilisation des flèches de navigation ; la désactivation des dégradés d'arrière-plan, de bords arrondis ; l'activation des séparateurs de la barre d'outils. Le thème Classic Compact (version 4.0.10 ou plus) doit déjà avoir été installé.</em:description>
+        <em:translator>Goofy http://www.babelzilla.org/forum/index.php?showuser=13, myahoo http://www.babelzilla.org/forum/index.php?showuser=352</em:translator>
+      </Description>
+    </em:localized>
+
+    <em:localized>
+      <Description>
+        <em:locale>ja-JP</em:locale>
+        <em:name>Classic Compact Options</em:name>
+        <em:description>「Classic Compact Options」はClassic Compactテーマの見た目を変更するための「ツール」メニューを加えます。　（進む、戻るの）鍵穴矢印を使うかどうか、グラデーション背景を使うかどうか、縁取りを丸くするのを止めるかどうか、ツールバーの境界に掘り下げ線を入れるか、という変更機能があります。　Classic Compactテーマのv4.0.10かそれ以上が必要です。</em:description>
+        <em:translator>m6u http://www.babelzilla.org/forum/index.php?showuser=10112</em:translator>
+      </Description>
+    </em:localized>
+
+    <em:localized>
+      <Description>
+        <em:locale>pl-PL</em:locale>
+        <em:name>Opcje Classic Compact</em:name>
+        <em:description>Dodaje pozycję "Opcje Classic Compact" do menu "Narzędzia", co pozwala zmienić wygląd motywu Classic Compact.  Opcje zawierają: użycie przycisk=w nawigacyjnych w kształcie dziurki od klucza (większy przycisk wstecz); wyłączenie gradientowego tła; wyłączenie zaokrąglonych obramowań; włączenie wgłębionych granic pomiędzy paskami narzędzi. Wymaga motywu Classic Compact v4.0.10 lub nowszeg.</em:description>
+        <em:translator>Aleksander Adamowski http://www.babelzilla.org/forum/index.php?showuser=8753</em:translator>
+      </Description>
+    </em:localized>
+
+    <em:localized>
+      <Description>
+        <em:locale>de-DE</em:locale>
+        <em:name>Classic Compact Options</em:name>
+        <em:description>Diese Erweiterung fügt den Menüeintrag "Classic Compact Options" zum "Extras" Menü hinzu, der ermöglicht, das Aussehen des Classic Compact Themes zu ändern. Enthaltene Optionen: benutze Schlüsselloch-Navigation; Gradient Hintergrund ausschalten; abgerundete Ecken ausschalten; Toolbar Separatoren einschalten. Das Theme Classic Compact v4.0.10 oder neuerer muss installiert sein.</em:description>
+        <em:translator>Gulp21 http://www.babelzilla.org/forum/index.php?showuser=9671</em:translator>
+      </Description>
+    </em:localized>
+

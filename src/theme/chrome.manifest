@@ -1,0 +1,10 @@
+skin 	global		compactmoon	chrome/global/
+skin 	mozapps		compactmoon	chrome/mozapps/
+skin 	browser		compactmoon	chrome/browser/
+skin 	communicator	compactmoon	chrome/communicator/
+
+skin   os_target         compactmoon chrome/os_target/common/
+skin   os_target         compactmoon chrome/os_target/mac/ os=Darwin
+skin   os_target         compactmoon chrome/os_target/linux/ os=Linux
+
+ 

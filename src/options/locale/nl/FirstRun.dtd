@@ -1,0 +1,13 @@
+<!ENTITY FirstRun.title "Classic Compact has been installed/updated!">
+<!ENTITY FirstRun.H1.title "Your Firefox theme Classic Compact has been installed/updated!">
+<!ENTITY ThankYouForUsing.label "Thank you for choosing Classic Compact as your Firefox theme. This theme is one of the most compact themes available on addons.mozilla.org and is highly customizable.">
+<!ENTITY Customize.title "Customize the look of Classic Compact using its options panel">
+<!ENTITY Customize.label "To customize the look of Classic Compact, go to the tools menu and select 'Classic Compact Options' or, if you have the menu bar disabled, from the 'Firefox' button go under 'Options' ('Preferences' on Linux) and select 'Classic Compact Options'. The options to choose from include: numerous tool bar button sets; scrollbar and button styling; customizing the height of the menu bar, tool bars and tabs.">
+<!ENTITY BugsSupport.title "Bug reports, feedback and support">
+<!ENTITY BugsSupport.label "If you have any bug reports,  feedback on Classic Compact and/or need other assistance with it, please visit <a href='https://forums.mozilla.org/addons/viewtopic.php?f=23&amp;t=4593'>Classic Compact's support thread</a> on the Mozilla add-ons forums or contact me through <a href='http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html'>Classic Compact's webpage</a> on my website.">
+<!ENTITY PleaseDonate.title "Please make a donation to Support Classic Compact development">
+<!ENTITY PleaseDonate.label "Because a new version of Firefox comes out every six weeks, I must keep a constant vigil for upcoming changes in Firefox and must be constantly updating Classic Compact accordingly. This takes a lot of work and in order to keep this effort viable, I need your support. Please consider making a <a href='https://addons.mozilla.org/en-US/firefox/addon/classic-compact/developers'>donation in support of my efforts</a>.">
+<!ENTITY Enjoy.title "Enjoy!">
+<!ENTITY Enjoy.label "I hope you enjoy using Classic Compact as your Firefox theme.">
+<!ENTITY Sincerely.title "Sincerely,">
+<!ENTITY Name.title "Ken Barbalace">

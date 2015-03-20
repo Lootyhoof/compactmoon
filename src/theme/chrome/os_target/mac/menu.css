@@ -1,0 +1,57 @@
+/* ..... menu arrow box ..... */
+
+.menu-right,
+.menu-accel-container {
+  -moz-appearance: none !important;
+  -moz-margin-start: 21px;
+  -moz-box-pack: end;
+}
+
+.menu-right {
+  -moz-appearance: none !important;
+  width: 8px;
+  list-style-image: url("chrome://global/skin/menu/menu-arrow.png");
+  -moz-image-region: rect(0, 8px, 10px, 0);
+}
+
+.menu-right[_moz-menuactive="true"]:not([disabled="true"]) {
+  -moz-image-region: rect(0, 16px, 10px, 8px);
+}
+
+.menu-right[disabled="true"] {
+  -moz-image-region: rect(0, 24px, 10px, 16px);
+}
+
+.menu-right:-moz-locale-dir(rtl) {
+  -moz-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+/* ::::: checked menuitems ::::: */
+
+:not(menulist) > menupopup > menuitem[checked="true"] > .menu-iconic-left,
+:not(menulist) > menupopup > menuitem[selected="true"] > .menu-iconic-left {
+ -moz-appearance: none !important;
+  background: -moz-image-rect("chrome://global/skin/menu/menu-check.png", 0, 10, 11, 0) bottom left no-repeat transparent;
+}
+
+:not(menulist) > menupopup > menuitem[checked="true"] > .menu-iconic-left:-moz-locale-dir(rtl),
+:not(menulist) > menupopup > menuitem[selected="true"] > .menu-iconic-left:-moz-locale-dir(rtl) {
+  background-position: bottom right;
+}
+
+:not(menulist) > menupopup > menuitem[checked="true"][_moz-menuactive="true"]:not([disabled="true"]) > .menu-iconic-left,
+:not(menulist) > menupopup > menuitem[selected="true"][_moz-menuactive="true"]:not([disabled="true"]) > .menu-iconic-left {
+ -moz-appearance: none !important;
+  background-image: -moz-image-rect("chrome://global/skin/menu/menu-check.png", 0, 20, 11, 10);
+}
+
+menulist:not([editable="true"]) > menupopup > menuitem[checked="true"]::before,
+menulist:not([editable="true"]) > menupopup > menuitem[selected="true"]::before {
+ -moz-appearance: none !important;
+  content: '\2713'; /* a checkmark */
+  display: block;
+  width: 15px;
+  -moz-margin-start: -15px;
+}

@@ -1,0 +1,13 @@
+<!ENTITY FirstRun.title "Classic Compact был установле/обновлен!">
+<!ENTITY FirstRun.H1.title "Ваша тема для Firefox, Classic Compact была установлена/обновлена!">
+<!ENTITY ThankYouForUsing.label "Спасибо, что используете Classic Compact как тему для Firefox. Эта тема одна из самых компактных среди доступных на addons.mozilla.org и гибкая в настройке.">
+<!ENTITY Customize.title "Настройте внешний вид Classic Compact, используя эту панель опций">
+<!ENTITY Customize.label "Для настройки внешнего вида Classic Compact, выберите меню Инструменты и выберите 'Настройки Classic Compact' или, если у Вас выключена строка меню, по кнопке &quot;Фаерфокс&quot; перейдите в &quot;Опции&quot; (&quot;Настроки&quot; в Linux) и выберите 'Настройки Classic Compact'. Опции включают в себя: множество наборов кнопок для панели инструментов; стили для полос прокрутки и кнопок; настройку высоты панели меню, инструментов и таб.">
+<!ENTITY BugsSupport.title "Отчеты об ошибках, отзывы и поддержка">
+<!ENTITY BugsSupport.label "Если у Вас есть какие-либо отчеты об ошибках, отзывы о Classic Compact и/или Вам нужно помощь с ним, пожалуйста посетите <a href='https://forums.mozilla.org/addons/viewtopic.php?f=23&amp;t=4593'>Тема поддержки Classic Compact's</a> на форуме аддонов Mozilla или свяжитесь со мной с помощью <a href='http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html'>Страничка Classic Compact</a> на моем сайте.">
+<!ENTITY PleaseDonate.title "Пожалуйста сделайте взнос для поддержки разработки Classic Compact">
+<!ENTITY PleaseDonate.label "Т.к. новые версии Firefox выходят каждые 6 недель, я должен постоянно следить за поступающими изменениями в Firefox и постоянно обновлять Classic Compact соответственно. На поддержание жизнеспособности его требуется много работы, мне нужна ваша поддержка. Пожалуйства, подумайте над внесением <a href='https://addons.mozilla.org/en-US/firefox/addon/classic-compact/developers'>взноса на поддержку моих стараний</a>.">
+<!ENTITY Enjoy.title "Наслаждайтесь!">
+<!ENTITY Enjoy.label "Я надеюсь, Вам нравится Classic Compact в качестве Вашей темы для Firefox.">
+<!ENTITY Sincerely.title "С уважением,">
+<!ENTITY Name.title "Ken Barbalace">

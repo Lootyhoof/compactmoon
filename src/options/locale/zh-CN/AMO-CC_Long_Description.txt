@@ -1,0 +1,140 @@
+************************************************************************
+TRANSLATOR NOTES: 
+1) This description will be used on: https://addons.mozilla.org/firefox/addon/classic-compact/
+2) Please make sure HTML tags (e.g. <b>, </b>, <br>, <li></li>, etc.) stay in correct relative places.
+3) Most of the text under the "available options" section below can be copied and pasted from the prefwindow.dtd
+************************************************************************
+
+Classic Compact 是为需要紧凑主题的用户设计的，它可以最小化菜单、工具、标签、查找和状态栏占用的垂直空间从而最大化浏览器窗口可用的空间。本主题是 addons.mozilla.org 上最紧凑的主题之一，而且具有高度可定制性。
+<br><br>
+<b>支持 WINDOWS, MAC OSX & LINUX
+</b><br>
+Classic Compact 完全支持 Windows、Mac OSX 和 Linux。这使 Classic Compact 成为使用多个操作系统并希望 Firefox 在各平台下有相同外观的用户的理想主题。
+<br><br>
+<b>可用选项</b>
+<ul>
+<li><b>一般选项：
+</b><ul>
+<li><em>工具栏按钮集 (见屏幕截图)：
+</em><ul><li>Firefox 4.0 Windows (默认)
+<li>Firefox 4.0 Mac OS X
+<li>Firefox 8.0 Mac OS X - Lion
+<li>Linux Gnome Human
+<li>Linux Oxygen
+<li>Firefox 3.0 Windows XP - Green
+<li>Firefox 3.0 Windows Vista - Blue
+<li>Firefox 0.9-2.0 Windows
+<li>Firefox 0.9-2.0 Mac OS X
+<li>Classic Compact 3.0
+<li>Classic Compact 2.0
+</ul>
+
+<li><em>工具栏后退/前进按钮背景色 (见屏幕截图)：
+</em><ul>
+<li>无 (默认)
+<li>绿色 (仿 FF3 WinXP)
+<li>蓝色 (仿 FF3 Win Vista)
+<li>橙色 (兼容 Linux Gnome Human)
+</ul>
+
+<li><em>按钮边框：
+</em><ul>
+<li>是 (默认)
+<li>仅后退/前进按钮
+<li>否
+</ul>
+
+<li><em>背景样式：
+</em><ul>
+<li>渐进色背景 (默认)
+<li>仅按钮&标签渐进色
+<li>除标签全部单色
+<li>单色
+</ul>
+
+<li><em>工具栏分隔线：
+</em><ul>
+<li>无分隔线 (默认)
+<li>明显分隔线
+</ul>
+
+<li><em>边框边角样式：
+</em><ul>
+<li>圆角 (默认)
+<li>方角
+<li>仅标签圆角
+<li>仅滚动条方角
+</ul>
+
+<li><em>滚动条：
+</em><ul>
+<li>Classic Compact 样式 (默认)
+<li>操作系统原生
+</ul>
+
+<li><em>操作系统颜色：
+</em><ul>
+<li>亮/灰背景 (默认)
+<li>暗/黑背景。此选项为使用暗色操作系统颜色用户提供。它将黑/暗的字形变为白亮的色调。此选项不会更改主题的背景色。
+</ul>
+
+</ul><li><b>菜单&标签：
+</b><ul>
+<li><em>将菜单栏合并到按钮：
+</em><ul>
+<li>否 (默认)
+<li>是
+</ul>
+
+<li><em>标签最大宽度：整数值
+</em>  此选项设置允许的标签最大宽度。
+
+<li><em>标签最小宽度：整数值
+</em>  此选项设置允许的标签最小宽度。数值越小，Firefox 在屏幕内能够容纳的标签数越大。
+
+<li><em>关闭标签按钮
+</em><ul>
+<li>所有标签 (默认)
+<li>仅在活动标签
+<li>完全隐藏
+<li>在标签栏末尾
+</ul>
+
+<li><em>在新标签打开搜索页面：
+</em><ul>
+<li>否 (默认)
+<li>是</ul>
+
+<li><em>在标题栏显示标签 (仅在菜单栏隐藏且标签栏置顶时应用)：
+</em><ul>
+<li>当浏览器最大化时 (默认)
+<li>总是
+</ul>
+
+<li><em>在地址栏显示 RSS 订阅图标：
+</em><ul>
+<li>否
+<li>是 (默认)
+</ul>
+
+</ul><li><b>紧凑程度 (此选项允许你控制每个工具栏的高度。可选值有：-4, -2, 0, +2, +4 & +6)：
+</b><ul>
+<li>菜单栏高度
+<li>导航栏高度
+<li>书签工具栏高度
+<li>自定义工具栏高度
+<li>标签栏高度
+<li>附加组件栏高度
+</ul></ul>
+
+<b>使用小图标来节省更多空间
+</b><br>
+在菜单栏上右击鼠标选项“定制”或者到“查看”：“工具栏"：”定制“里勾选”使用小图标“选项使用小图标。
+<br><br>
+<b>故障检测
+</b><br>
+我们努力使 Classic Compact 在不同操作系统下与不同附加组件都能无缝地工作。如果你发现 Classic Compact 不正常 (例如标签不能正常显示等)，请尝试禁用其它扩展检查是否有冲突。如果其它扩展与 Classic Compact 冲突，请通过 <a href="https://forums.mozilla.org/addons/viewtopic.php?f=23&amp;t=4593">Mozilla 附加组件论坛的 Classic Compact 支持主题</a> 或者我的  <a href="http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html">Classic Compact 主页</a>联系我。
+<br><br>
+<b>CLASSIC COMPACT 支持、建议&反馈讨论
+</b><br>
+如果对 Classic Compact 有任何问题、建议、想法或者反馈，请在Mozilla 附加组件论坛的 <a href="https://forums.mozilla.org/addons/viewtopic.php?f=23&t=4593">Classic Compact 主题</a> 进行讨论。

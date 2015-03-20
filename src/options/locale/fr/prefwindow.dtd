@@ -1,0 +1,84 @@
+<!ENTITY prefwindow.title "Compact Moon Options">
+<!ENTITY tab1.title "Thème">
+<!ENTITY toolbarbuttons.label "Boutons de la barre d'outils">
+<!ENTITY classicbuttons4.label "Firefox 4 (par défaut, FF4)">
+<!ENTITY classicbuttons4aero.label "Firefox 4 Windows Aero">
+<!ENTITY classicbuttons8osxlion.label "Firefox 8 Mac OS/X Lion">
+<!ENTITY classicbuttons4osx.label "Firefox 4 Mac OS/X">
+<!ENTITY classicbuttons4lgnomehuman.label "Firefox 4 Linux Gnome Human">
+<!ENTITY classicbuttons4lgnomeoxygen.label "Firefox 4 Linux Oxygen">
+<!ENTITY classicbuttons3vista.label "Firefox 3 Vista (FF3)">
+<!ENTITY classicbuttons3xp.label "Firefox 3 WinXP (FF3)">
+<!ENTITY classicbuttons1win.label "Firefox 0.9-2.0 Win (FF2)">
+<!ENTITY classicbuttons1osx.label "Firefox 0.9-2.0 Mac OS/X">
+<!ENTITY classicbuttons3.label "Classic Compact 3.0">
+<!ENTITY classicbuttons2.label "Classic Compact 2">
+<!ENTITY arrowoption.label "Couleur de fond du bouton « Avancer / Reculer »">
+<!ENTITY classicarrow.label "Aucune (par défaut)">
+<!ENTITY keyholearrow.label "Vert (FF3 Win XP)">
+<!ENTITY keyholearrowblue.label "Bleu (FF3, Vista)">
+<!ENTITY keyholearroworange.label "Orange">
+<!ENTITY ButtonBorders.label "Affiche les bordures des boutons de la barre d'outils">
+<!ENTITY ButtonBordersYes.label "Oui (par défaut, FF2, FF4)">
+<!ENTITY ButtonBordersNo.label "Non (FF3)">
+<!ENTITY ButtonBordersOnlyUnified.label "Seulement en avant/en arrière">
+<!ENTITY backgroundstyle.label "Style du fond d'écran">
+<!ENTITY gradientbackground.label "Dégradé (par défaut, MC)">
+<!ENTITY gradientbuttontabs.label "Simple sauf pour les boutons et onglets (FF)">
+<!ENTITY flatbackground.label "Simple sauf pour les onglets">
+<!ENTITY flatbackgroundall.label "Simple">
+<!ENTITY toolbardividerborders.label "Bordures pour les séparateurs de barre d'outils">
+<!ENTITY noborders.label "Aucune (par défaut, MC)">
+<!ENTITY chiseled.label "Liseré (FF2, FF3)">
+<!ENTITY borderscornerstyle.label "Style des coins de bordure">
+<!ENTITY roundedcorners.label "Coins arrondis (par défaut)">
+<!ENTITY squarecorners.label "Coins à angle droit">
+<!ENTITY roundedtabsonly.label "Angles arrondis pour onglets seulement (FF)">
+<!ENTITY squaredscrollbarsonly.label "Angles droits pour barres de défilement seulement">
+<!ENTITY scrollbars.label "Barres de défilement">
+<!ENTITY styledscrollbars.label "Stylés (par défaut)">
+<!ENTITY osscrollbars.label "Suivant le système d'exploitation (FF)">
+<!ENTITY ossystemcolors.label "Couleurs du système d'exploitation">
+<!ENTITY ossystemcolorslight.label "Arrière-plans clairs/gris (par défaut)">
+<!ENTITY ossystemcolorsdark.label "Arrière-plans très sombres/noirs">
+<!ENTITY webpagewindowborder.label "Bordure pour la fenêtre de la page Web">
+<!ENTITY webpagewindowborderenabled.label "Activée (par défaut)">
+<!ENTITY webpagewindowborderdisabled.label "Désactivée (MC)">
+<!ENTITY ffconfiguration.label "FF : aspect le plus proche du thème par défaut de Firefox/Windows. MC : un affichage le plus compact possible.">
+<!ENTITY tab2.title "Menus et onglets">
+<!ENTITY toMergeMenus.label "Fusionner la barre de menu en un bouton">
+<!ENTITY toMergeMenusNo.label "Non (par défaut)">
+<!ENTITY toMergeMenusYes.label "Oui">
+<!ENTITY totabMaxWidth.label "Largeur maximum des onglets">
+<!ENTITY toTabMinWidth.label "Largeur minimum des onglets">
+<!ENTITY toTabCloseButtons.label "Boutons de fermeture d'onglets">
+<!ENTITY toTabCloseButtonsAllTabs.label "Sur tous les onglets (par défaut)">
+<!ENTITY toTabCloseButtonsActiveTab.label "Sur l'onglet actif seulement">
+<!ENTITY toTabCloseButtonsHideEntirely.label "Cacher complètement">
+<!ENTITY toTabCloseButtonsEndOfTabbar.label "À la fin de la barre d'onglets">
+<!ENTITY toOpenSearchInTab.label "Ouvrir les recherches dans de nouveaux onglets">
+<!ENTITY toOpenSearchInTabNo.label "Non (par défaut)">
+<!ENTITY toOpenSearchInTabYes.label "Oui">
+<!ENTITY toTabsInTitlebar.label "Affiche les onglets dans la barre de titre">
+<!ENTITY toTabsInTitlebarMaxOnly.label "Quand le navigateur est en taille maximale (par défaut)">
+<!ENTITY toTabsInTitlebarAlways.label "Toujours">
+<!ENTITY toTabsInTitlebarDescription.label "Ne s'applique que lorsque les onglets sont au-dessus et que la barre de menu est cachée">
+<!ENTITY toRSSFeedInURLBar.label "Afficher l'icône des flux RSS dans la barre d'adresse">
+<!ENTITY toRSSFeedInURLBarYes.label "Oui (par défaut, FF3)">
+<!ENTITY toRSSFeedInURLBarNo.label "Non (FF4)">
+<!ENTITY tab3.title "Compact à quel degré ?">
+<!ENTITY howcompactdescription.label "Ces paramètres ajustent la hauteur de la barre d'outils correspondante à celle de la fenêtre principale du navigateur.">
+<!ENTITY hcMenuBar.label "Hauteur de la barre de menu">
+<!ENTITY hcNavBar.label "Hauteur de la barre de navigation">
+<!ENTITY hcPersonalBar.label "Hauteur de la barre personnelle">
+<!ENTITY hcCustomBar.label "Hauteur de la barre personnelle">
+<!ENTITY hcTabBar.label "Hauteur de la barre d'onglets">
+<!ENTITY hcAddonBar.label "Hauteur de la barre des modules">
+<!ENTITY hcOptionsM4.label "-4 (eh ça va pas, non ?)">
+<!ENTITY hcOptionsM2.label "-2 (attention les yeux)">
+<!ENTITY hcOptionsDefault.label "O (par défaut)">
+<!ENTITY hcOptionsP2.label "+2">
+<!ENTITY hcOptionsP4.label "+4">
+<!ENTITY hcOptionsP6.label "+6">
+<!ENTITY MacOSX.label "ATTENTION : certaines options ne sont pas disponibles sous Mac OS X et Linux.">
+<!ENTITY PleaseDonate.label "Merci de faire un don pour soutenir le développement de Classic compact.">

@@ -1,0 +1,59 @@
+/* ::::: menu/menuitems in menulist popups ::::: */
+
+.menulist-menupopup > menuitem,
+menulist > menupopup > menuitem,
+.menulist-menupopup > menu,
+menulist > menupopup > menu {
+  -moz-appearance: none;
+  border: 1px solid transparent;
+  padding: 1px 5px;
+  max-width: none;
+  font: message-box;
+  color: -moz-FieldText;
+}
+
+.menulist-menupopup > menuitem > .menu-iconic-left,
+menulist > menupopup > menuitem > .menu-iconic-left,
+.menulist-menupopup > menu > .menu-iconic-left,
+menulist > menupopup > menu > .menu-iconic-left {
+  display: none;
+  padding-top: 0px;
+}
+
+/* ..... menu arrow box ..... */
+
+.menu-right {
+  -moz-appearance: menuarrow;
+  -moz-margin-end: -2px;
+  list-style-image: none;
+  min-width: 1.28em;
+  padding-top: 1px;
+}
+
+/* ::::: checkbox and radio menuitems ::::: */
+
+menuitem[type="checkbox"],
+menuitem[checked="true"] {
+}
+menuitem[type="checkbox"] > .menu-iconic-left,
+menuitem[checked="true"] > .menu-iconic-left {
+  -moz-appearance: menucheckbox;
+  padding-top: 0px;
+}
+
+menuitem[type="radio"] {
+}
+menuitem[type="radio"] > .menu-iconic-left {
+  -moz-appearance: menuradio;
+  padding-top: 0px;
+}
+
+menuitem[type="checkbox"] > .menu-iconic-left > .menu-iconic-icon,
+menuitem[checked="true"] > .menu-iconic-left > .menu-iconic-icon,
+menuitem[type="radio"] > .menu-iconic-left > .menu-iconic-icon {
+  /* prevent .menu-iconic-icon from enforcing a minimal height of 16px (see bug 411064)
+     XXXzeniko apply that .menu-iconic-icon rule only for children of .menu-iconic */
+  display: none;
+}
+
+

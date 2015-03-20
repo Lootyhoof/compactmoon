@@ -1,0 +1,67 @@
+scrollbarbutton[type="increment"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-rit.png") !important;
+  background-position:center !important;
+}
+
+scrollbarbutton[type="increment"]:hover {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-rit-hov.png") !important;
+}
+
+scrollbarbutton[type="increment"]:active {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-rit-act.png") !important;
+}
+
+scrollbarbutton[type="increment"][disabled="true"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-rit-dis.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"]:hover {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn-hov.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"]:active {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn-act.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"][disabled="true"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-dn-dis.png") !important;
+}
+
+/* ..... decrement .... */
+
+scrollbarbutton[type="decrement"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-lft.png") !important;
+  background-position:center !important;
+}
+
+scrollbarbutton[type="decrement"]:hover {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-lft-hov.png") !important;
+}
+
+scrollbarbutton[type="decrement"]:active {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-lft-act.png") !important;
+}
+
+scrollbarbutton[type="decrement"][disabled="true"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-lft-dis.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"]:hover {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up-hov.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"]:active {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up-act.png") !important;
+}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"][disabled="true"] {
+  background-image: url("chrome://global/skin/themeoptions/dark/arrows/arrow-up-dis.png") !important;
+}

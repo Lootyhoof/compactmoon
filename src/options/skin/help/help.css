@@ -1,0 +1,82 @@
+html {
+  background: -moz-Dialog;
+  padding: 0 1em;
+  font: message-box;
+}
+
+body {
+  color: -moz-FieldText;
+  position: relative;
+  min-width: 700px;
+  max-width: 900px;
+  margin: 2em auto;
+  border: 1px solid ThreeDShadow;
+  border-radius: 10px;
+  padding: 2em;
+  background: -moz-Field;
+}
+
+#helpHeader{-moz-margin-start:210px;}
+
+#helpShortDesc > p {
+  overflow: auto;
+  border-bottom: 1px solid ThreeDLightShadow;
+  border-top: 1px solid ThreeDLightShadow;
+  padding-top:.8em;
+  padding-bottom: 1em;
+  font-size: 1.35em;
+  white-space: pre-wrap;
+}
+
+#helpContent{
+  min-height:540px;
+  padding-top:1em;
+  clear:both;
+  }
+img {
+  border: 0;
+}
+
+h1 {
+  margin: 0 0 .5em;
+  font-size:2.25em;
+}
+
+h2 {
+  margin-top:.25em;
+  margin-bottom:0.2em;
+  font-size:1.75em;
+  }
+
+p{
+  margin-top:0;
+  margin-bottom:1em;
+  font-size:1.25em;
+  }
+
+ul {
+  margin: 0;
+  -moz-margin-start: 1.5em;
+  padding: 0;
+  list-style: square;
+}
+
+ul > li {
+  margin-top: .5em;
+}
+
+th, td {
+  padding: 0 5px;
+}
+
+.columns {
+  -moz-column-width: 20em;
+  -moz-column-gap: 3em;
+}
+
+#ccologo{float:left;margin:0px 10px 10px 0px;}
+body[dir="rtl"] #ccologo {
+  float:right;margin:0px 0px 10px 10px;;
+}
+#ccosample{float:right;margin:0px 0px 10px 10px;}
+body[dir="rtl"] #ccosample{float:left;margin:0px 10px 10px 0px;}

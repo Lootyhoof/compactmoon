@@ -1,0 +1,84 @@
+<!ENTITY prefwindow.title "Compact Moon Options">
+<!ENTITY tab1.title "Theme">
+<!ENTITY toolbarbuttons.label "Symbolleisten-Schaltflächen">
+<!ENTITY classicbuttons4.label "Firefox 4 (Standard, Fx4)">
+<!ENTITY classicbuttons4aero.label "Firefox 4 Windows Aero">
+<!ENTITY classicbuttons8osxlion.label "Firefox 8 Mac OS/X Lion">
+<!ENTITY classicbuttons4osx.label "Firefox 4 Mac OS/X">
+<!ENTITY classicbuttons4lgnomehuman.label "Firefox 4 Linux Gnome Human">
+<!ENTITY classicbuttons4lgnomeoxygen.label "Firefox 4 Linux Oxygen">
+<!ENTITY classicbuttons3vista.label "Firefox 3 Vista (Fx3)">
+<!ENTITY classicbuttons3xp.label "Firefox 3 WinXP (Fx3)">
+<!ENTITY classicbuttons1win.label "Firefox 0.9-2.0 Win (Fx2)">
+<!ENTITY classicbuttons1osx.label "Firefox 0.9-2.0 Mac OS/X">
+<!ENTITY classicbuttons3.label "Classic Compact 3">
+<!ENTITY classicbuttons2.label "Classic Compact 2 (Fx2)">
+<!ENTITY arrowoption.label "Toolbar Pfeil Stil">
+<!ENTITY classicarrow.label "Klassische Pfeile (Standard)">
+<!ENTITY keyholearrow.label "Schlüsselloch Pfeile (Fx3, CC3)">
+<!ENTITY keyholearrowblue.label "Schlüsselloch-Pfeile - blau (Fx3, Vista)">
+<!ENTITY keyholearroworange.label "Orange">
+<!ENTITY ButtonBorders.label "Schaltflächen-Ränder anzeigen">
+<!ENTITY ButtonBordersYes.label "Ja (Standard, Fx2, Fx4)">
+<!ENTITY ButtonBordersNo.label "Nein (Fx3)">
+<!ENTITY ButtonBordersOnlyUnified.label "Nur vor/zurück">
+<!ENTITY backgroundstyle.label "Hintergrund Stil">
+<!ENTITY gradientbackground.label "Farbverlauf (Standard, MC)">
+<!ENTITY gradientbuttontabs.label "Einfach außer Schaltflächen &amp; Tabs (Fx)">
+<!ENTITY flatbackground.label "Einfach außer Tabs (Fx)">
+<!ENTITY flatbackgroundall.label "Einfach">
+<!ENTITY toolbardividerborders.label "Toolbar Trennlinien Ränder">
+<!ENTITY noborders.label "Keine (Standard, MC)">
+<!ENTITY chiseled.label "Dünn (Fx2, Fx3)">
+<!ENTITY borderscornerstyle.label "Rand-Stil">
+<!ENTITY roundedcorners.label "Abgerundete Ränder (Standard)">
+<!ENTITY squarecorners.label "Eckige Ränder">
+<!ENTITY roundedtabsonly.label "Nur Abgerundete Tabs (Fx)">
+<!ENTITY squaredscrollbarsonly.label "Nur eckige Scrollleisten">
+<!ENTITY scrollbars.label "Scrollleisten">
+<!ENTITY styledscrollbars.label "Gestaltet (Standard)">
+<!ENTITY osscrollbars.label "Nativ (Fx)">
+<!ENTITY ossystemcolors.label "Betriebssystemfarben">
+<!ENTITY ossystemcolorslight.label "Halle/Graue Hintergründe (Standard)">
+<!ENTITY ossystemcolorsdark.label "Sehr dunkle/schwarze Hintergründe">
+<!ENTITY webpagewindowborder.label "Fensterrand">
+<!ENTITY webpagewindowborderenabled.label "Eingeschaltet (Standard)">
+<!ENTITY webpagewindowborderdisabled.label "Ausgeschaltet (MC)">
+<!ENTITY ffconfiguration.label "Fx, Fx2, Fx3 &amp; Fx3: Standard Windows Firefox Theme am ähnlichsten.  MC: kompakteste Einstellung.">
+<!ENTITY tab2.title "Menüs &amp; Tabs">
+<!ENTITY toMergeMenus.label "Menüleiste in einem Button vereinigen">
+<!ENTITY toMergeMenusNo.label "Nein (Standard)">
+<!ENTITY toMergeMenusYes.label "Ja">
+<!ENTITY totabMaxWidth.label "Tab maximum width">
+<!ENTITY toTabMinWidth.label "Minimale Tabbreite">
+<!ENTITY toTabCloseButtons.label "Tab Schließenschaltflächen">
+<!ENTITY toTabCloseButtonsAllTabs.label "Auf allen Tabs (Standard)">
+<!ENTITY toTabCloseButtonsActiveTab.label "Nur auf aktivem Tab">
+<!ENTITY toTabCloseButtonsHideEntirely.label "Ganz ausblenden">
+<!ENTITY toTabCloseButtonsEndOfTabbar.label "am Ende der Tableiste">
+<!ENTITY toOpenSearchInTab.label "Öffne Suchen in neuem Tab">
+<!ENTITY toOpenSearchInTabNo.label "Nein (Standard)">
+<!ENTITY toOpenSearchInTabYes.label "Ja">
+<!ENTITY toTabsInTitlebar.label "Tabs in Titelleiste anzeigen">
+<!ENTITY toTabsInTitlebarMaxOnly.label "Wenn maximiert (Standard)">
+<!ENTITY toTabsInTitlebarAlways.label "Immer">
+<!ENTITY toTabsInTitlebarDescription.label "Nur wenn Tabs oben agezeigt werden und die Menüleiste ausgeblendet ist">
+<!ENTITY toRSSFeedInURLBar.label "RSS-Feed-Symbil in Adressleiste anzeigen">
+<!ENTITY toRSSFeedInURLBarYes.label "Ja (default, FF3)">
+<!ENTITY toRSSFeedInURLBarNo.label "Nein (FF4)">
+<!ENTITY tab3.title "Wie kompakt?">
+<!ENTITY howcompactdescription.label "Diese Einstellellungen passen die Höhe der entsprechenden Symbolleiste im Hauptfenster an.">
+<!ENTITY hcMenuBar.label "Höhe der Menüleiste">
+<!ENTITY hcNavBar.label "Höhe der Navigations-Symbolleiste">
+<!ENTITY hcPersonalBar.label "Höhe der Lesezeichen-Symbolleiste">
+<!ENTITY hcCustomBar.label "Höhe anderer Symbolleisten">
+<!ENTITY hcTabBar.label "Höhe der Tableiste">
+<!ENTITY hcAddonBar.label "Höhe der Add-On-Leiste">
+<!ENTITY hcOptionsM4.label "-4 (Sind Sie verrückt?)">
+<!ENTITY hcOptionsM2.label "-2 (Augenbelastung)">
+<!ENTITY hcOptionsDefault.label "0 (Standard)">
+<!ENTITY hcOptionsP2.label "+2">
+<!ENTITY hcOptionsP4.label "+4">
+<!ENTITY hcOptionsP6.label "+6">
+<!ENTITY MacOSX.label "BITTE BEACHTEN: Manche Optionen sind nicht unter Max OS X und Linux verfügbar.">
+<!ENTITY PleaseDonate.label "Bitte erwägen Sie eine Spende, um die Entwicklung von Classic Compact zu unterstützen.">

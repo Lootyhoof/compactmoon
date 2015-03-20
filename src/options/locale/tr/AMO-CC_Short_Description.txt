@@ -1,0 +1,1 @@
+﻿Menü ve araç çubuklarının kapladığı alanı, genel kullanılabilirliğe dokunmadan azaltan, toplu ve her yönüyle özelleştirilebilir tema. Windows, Mac ve Linux'u destekler.

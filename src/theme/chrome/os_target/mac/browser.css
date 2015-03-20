@@ -1,0 +1,11 @@
+#navigator-toolbox[iconsize="large"][mode="icons"] > #toolbar-menubar[currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"] > #toolbar-menubar:not([currentset]),
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > #nav-bar[currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > #nav-bar:not([currentset]) {
+  padding-top: 0 !important;
+}
+
+#titlebar:not(:-moz-lwtheme) {
+  display: none;
+}
+

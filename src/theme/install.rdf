@@ -1,0 +1,110 @@
+﻿<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>{6e1d3ac8-6069-4b8a-b98e-98e62085837f}</em:id>
+		<em:version>1.0.0</em:version>
+		<em:skinnable>true</em:skinnable>
+		<em:type>4</em:type>
+		<em:targetApplication>
+			<Description>
+				<em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+				<em:minVersion>24.0</em:minVersion>
+				<em:maxVersion>25.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		<em:creator>Lootyhoof</em:creator>
+		<em:contributor>Ken Barbalace EnvironmentalChemistry.com</em:contributor>
+		<em:internalName>compactmoon</em:internalName>
+		<em:name>Compact Moon</em:name>
+		<em:description>A very clean and compact theme with classic buttons that minimizes vertical space consumed by menus &amp; tool bars. Fork of "Classic Compact" by Ken Barbalace</em:description>
+		<em:localized>
+			<Description>
+				<em:locale>de-DE</em:locale>
+				<em:translator>Gulp21 http://www.babelzilla.org/forum/index.php?showuser=9671</em:translator>
+				<em:name>Compact Moon</em:name>
+				<em:description>Ein aufgeräumtes und kompaktes Theme mit klassischen Schaltflächen, das den Platz von Menü- und Symbolleisten minimiert.</em:description>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:translator>Proyecto Nave - http://www.proyectonave.es/</em:translator>
+				<em:locale>es</em:locale>
+				<em:name>Compact Moon</em:name>
+				<em:description>Un tema muy limpio y compacto con botones clásicos que minimizan el espacio vertical de los menús &amp; las barras de herramientas.</em:description>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>fr-FR</em:locale>
+				<em:translator>Goofy http://www.babelzilla.org/forum/index.php?showuser=13, myahoo http://www.babelzilla.org/forum/index.php?showuser=352</em:translator>
+				<em:name>Compact Moon</em:name>
+				<em:description>Un thème simple et compact avec des boutons classiques qui minimisent l&apos;espace vertical que les menus et barres d&apos;outils utilisent.</em:description>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>ja-JP</em:locale>
+				<em:translator>m6u http://www.babelzilla.org/forum/index.php?showuser=10112</em:translator>
+				<em:name>Compact Moon</em:name>
+				<em:description>メニューバーやツールバーによって消耗される上下方向のスペースを最小化する従来のボタンらを伴ったとてもきれいでコンパクトなテーマ。</em:description>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>nl-NL</em:locale>
+				<em:name>Compact Moon</em:name>
+				<em:description>Een erg strak en compact thema met klassieke pijl knoppen dat de verticale ruimte die ingenomen wordt door menu- en werkbalken, minimaliseert. </em:description>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>pl-PL</em:locale>
+				<em:name>Compact Moon</em:name>
+				<em:description>Bardzo czysty i kompaktowy motyw z klasycznymi przyciskami strzałek, minimalizujący przestrzeń wykorzystywaną przez menu, paski narzędzi, paneli, wyszukiwania i stanu bez poświęcania ogólnej łatwości użytkowania. Wspiera Windows, Mac i Linuks.</em:description>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>pt-BR</em:locale>
+				<em:name>Compact Moon</em:name>
+				<em:description>Um tema bem limpo e compacto com botões clássicos que minimizam o espaço vertical ocupado por menus &amp; barras de ferramentas. </em:description>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>ru-RU</em:locale>
+				<em:name>Компактный Луна</em:name>
+				<em:description>Крайне аккуратная и компактная тема с классическими значками, которая минимизирует вертикальное место, используемое для меню и панелей инструментов.</em:description>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>sr</em:locale>
+				<em:name>Compact Moon</em:name>
+				<em:description>Веома једноставна и сажета тема са класичним стрелицама, која смањује заузеће простора менијима и тракама. </em:description>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>sv-SE</em:locale>
+				<em:name>Compact Moon</em:name>
+				<em:description>Ett mycket rent och kompakt tema med klassiska knappar som minimerar det vertikala utrymmet som meny &amp; verktygslister använder.</em:description>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>tr</em:locale>
+				<em:name>Compact Moon</em:name>
+				<em:description>Menü, araç, sekme, arama ve durum çubuklarının kapladığı boşluğu genel kullanılabilirliğe zarar vermeden en aza indirgeyen butonlar içeren çok temiz ve özlü bir tema.</em:description>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>zh-CN</em:locale>
+				<em:name>Compact Moon</em:name>
+				<em:description>高度可定制性的紧凑主题，可以最小化菜单&amp;工具栏对空间的占用而不影响整体功能。支持 Windows、Mac、Linux。</em:description>
+			</Description>
+		</em:localized>
+	</Description>
+</RDF>

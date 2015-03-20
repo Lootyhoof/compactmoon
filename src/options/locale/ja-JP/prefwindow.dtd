@@ -1,0 +1,84 @@
+<!ENTITY prefwindow.title "Compact Moon オプション">
+<!ENTITY tab1.title "テーマ">
+<!ENTITY toolbarbuttons.label "ツールバー ボタン">
+<!ENTITY classicbuttons4.label "Firefox 4 Windows (既定値、FF4)">
+<!ENTITY classicbuttons4aero.label "Firefox 4 Windows Aero">
+<!ENTITY classicbuttons8osxlion.label "Firefox 8 Mac OS/X Lion">
+<!ENTITY classicbuttons4osx.label "Firefox 4 Mac OS/X">
+<!ENTITY classicbuttons4lgnomehuman.label "Firefox 4 Linux Gnome Human">
+<!ENTITY classicbuttons4lgnomeoxygen.label "Firefox 4 Linux Oxygen">
+<!ENTITY classicbuttons3vista.label "Firefox 3 Vista (FF3)">
+<!ENTITY classicbuttons3xp.label "Firefox 3 WinXP (FF3)">
+<!ENTITY classicbuttons1win.label "Firefox 0.9-2.0 Win (FF2)">
+<!ENTITY classicbuttons1osx.label "Firefox 0.9-2.0 Mac OS/X">
+<!ENTITY classicbuttons3.label "Classic Compact 3">
+<!ENTITY classicbuttons2.label "Classic Compact 2">
+<!ENTITY arrowoption.label "戻る/進むボタンの背景色">
+<!ENTITY classicarrow.label "なし (既定値)">
+<!ENTITY keyholearrow.label "緑 (FF3 WinXP)">
+<!ENTITY keyholearrowblue.label "青 (FF3 Vista)">
+<!ENTITY keyholearroworange.label "オレンジ">
+<!ENTITY ButtonBorders.label "ツールバー ボタンに枠を表示">
+<!ENTITY ButtonBordersYes.label "はい (既定値、FF2、FF4)">
+<!ENTITY ButtonBordersNo.label "いいえ (FF3)">
+<!ENTITY ButtonBordersOnlyUnified.label "戻る/進むのみ">
+<!ENTITY backgroundstyle.label "背景表示">
+<!ENTITY gradientbackground.label "グラデーション (既定値、MC)">
+<!ENTITY gradientbuttontabs.label "ボタンとタブ以外フラット (FF)">
+<!ENTITY flatbackground.label "タブ以外フラット (FF)">
+<!ENTITY flatbackgroundall.label "フラット">
+<!ENTITY toolbardividerborders.label "ツールバー区切りのボーダー">
+<!ENTITY noborders.label "なし (既定値、MC)">
+<!ENTITY chiseled.label "彫りが深いボーダー (FF2, FF3)">
+<!ENTITY borderscornerstyle.label "ボーダーの角">
+<!ENTITY roundedcorners.label "角を丸める (既定値)">
+<!ENTITY squarecorners.label "角を四角く">
+<!ENTITY roundedtabsonly.label "タブのみ丸める (FF)">
+<!ENTITY squaredscrollbarsonly.label "スクロールバーのみ四角く">
+<!ENTITY scrollbars.label "スクロールバー">
+<!ENTITY styledscrollbars.label "スタイルあり (既定値)">
+<!ENTITY osscrollbars.label "OS ネイティブ (FF)">
+<!ENTITY ossystemcolors.label "OS システム色">
+<!ENTITY ossystemcolorslight.label "明るい/灰色の背景 (既定値)">
+<!ENTITY ossystemcolorsdark.label "暗い/黒い背景">
+<!ENTITY webpagewindowborder.label "Web ページ ウィンドウのボーダー">
+<!ENTITY webpagewindowborderenabled.label "有効 (既定値)">
+<!ENTITY webpagewindowborderdisabled.label "無効 (MC)">
+<!ENTITY ffconfiguration.label "FF: Windows 向け既定の Firefox テーマに似せた見た目。MC: 最もコンパクトになる設定。">
+<!ENTITY tab2.title "メニューとタブ">
+<!ENTITY toMergeMenus.label "メニュー バーを一つのボタンにまとめる">
+<!ENTITY toMergeMenusNo.label "まとめない (既定値)">
+<!ENTITY toMergeMenusYes.label "まとめる">
+<!ENTITY totabMaxWidth.label "タブの最大幅">
+<!ENTITY toTabMinWidth.label "タブの最小幅">
+<!ENTITY toTabCloseButtons.label "タブを閉じるボタン">
+<!ENTITY toTabCloseButtonsAllTabs.label "すべてのタブに表示 (既定値)">
+<!ENTITY toTabCloseButtonsActiveTab.label "アクティブなタブのみに表示">
+<!ENTITY toTabCloseButtonsHideEntirely.label "完全に隠す">
+<!ENTITY toTabCloseButtonsEndOfTabbar.label "タブ バーの末尾に表示">
+<!ENTITY toOpenSearchInTab.label "検索結果のタブ表示">
+<!ENTITY toOpenSearchInTabNo.label "現在のタブ (既定値)">
+<!ENTITY toOpenSearchInTabYes.label "新しいタブ">
+<!ENTITY toTabsInTitlebar.label "タイトル バーにタブを表示">
+<!ENTITY toTabsInTitlebarMaxOnly.label "ブラウザ最大化時 (既定の状態)">
+<!ENTITY toTabsInTitlebarAlways.label "常に">
+<!ENTITY toTabsInTitlebarDescription.label "タブがタイトル バーにありメニュー バーが非表示の時のみ適用">
+<!ENTITY toRSSFeedInURLBar.label "URL バーに RSS フィード アイコンを表示">
+<!ENTITY toRSSFeedInURLBarYes.label "はい (既定の状態、FF3)">
+<!ENTITY toRSSFeedInURLBarNo.label "いいえ (FF4)">
+<!ENTITY tab3.title "どこまでコンパクトに?">
+<!ENTITY howcompactdescription.label "メイン ブラウザ ウィンドウ上の各ツールバーの高さを調整します。">
+<!ENTITY hcMenuBar.label "メニュー バーの高さ">
+<!ENTITY hcNavBar.label "ナビゲーション バーの高さ">
+<!ENTITY hcPersonalBar.label "パーソナル バーの高さ">
+<!ENTITY hcCustomBar.label "カスタム バーの高さ">
+<!ENTITY hcTabBar.label "タブ バーの高さ">
+<!ENTITY hcAddonBar.label "アドオン バーの高さ">
+<!ENTITY hcOptionsM4.label "-4 (本気?)">
+<!ENTITY hcOptionsM2.label "-2 (眼精疲労)">
+<!ENTITY hcOptionsDefault.label "0 (既定値)">
+<!ENTITY hcOptionsP2.label "+2">
+<!ENTITY hcOptionsP4.label "+4">
+<!ENTITY hcOptionsP6.label "+6">
+<!ENTITY MacOSX.label "注意: いくつかのオプションは Mac OS X と Linux のみで利用できます。">
+<!ENTITY PleaseDonate.label "Classic Compact の開発を支援するために寄付してください。">

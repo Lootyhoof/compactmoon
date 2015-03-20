@@ -1,0 +1,14 @@
+/* ::::: Toolbar dividers ::::: */
+#toolbar-menubar,
+#nav-bar,
+#customToolbars,
+#PersonalToolbar,
+TabsToolbar {
+  border-top-width:1px !important;
+  border-bottom-width:1px !important;
+  padding:1px 0 !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar {
+  padding:4px 0 5px !important;
+}

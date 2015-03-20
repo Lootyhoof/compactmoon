@@ -1,0 +1,13 @@
+#nav-bar > .toolbarbutton-1 > .toolbarbutton-menubutton-button:not(:active):not(:hover),
+#nav-bar > .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker:not(:active):not(:hover),
+#nav-bar > .toolbarbutton-1:not(:active):not(:hover) {
+	border-color:transparent !important;
+	box-shadow:none !important;
+}
+
+#nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker:not(:active):not(:hover),
+  border-color: rgba(0,0,0,.12) rgba(0,0,0,.19) rgba(0,0,0,.38);
+  border: 1px solid;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.3) inset,
+              0 0 0 2px rgba(255,255,255,.1) inset,
+              0 1px 0 rgba(0,0,0,.15);

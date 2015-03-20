@@ -1,0 +1,84 @@
+.searchbar-textbox {
+  width: 6em;
+  min-width: 6em;
+}
+
+.autocomplete-textbox-container {
+  -moz-box-align: stretch;
+}
+
+.textbox-input-box {
+  margin: 0;
+}
+
+/* ::::: searchbar-engine-button ::::: */
+
+.searchbar-engine-image {
+  height: 16px;
+  width: 16px;
+  list-style-image: url("chrome://global/skin/icons/folder-item.png");
+  -moz-image-region: rect(0px, 16px, 16px, 0px);
+  -moz-margin-start: 0px;
+}
+
+.searchbar-engine-button {
+  -moz-appearance: none;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  -moz-box-align: center;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 1px solid;
+  border-color: ThreeDShadow;
+  border-width:0 1px 0 0;
+}
+
+.searchbar-engine-button > .button-box {
+  -moz-appearance: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin:0;
+  padding: 0;
+  border:none;
+}
+
+.searchbar-dropmarker-image {
+  list-style-image: url(mainwindow-dropdown-arrow.png);
+  -moz-image-region: rect(0, 13px, 11px, 0);
+  margin:0 -2px;
+}
+
+.searchbar-engine-button[open="true"] > .searchbar-dropmarker-image {
+  -moz-image-region: rect(0, 26px, 11px, 13px);
+}
+
+
+/* ::::: search-go-button ::::: */
+
+.search-go-container {
+  -moz-box-align: center;
+}
+
+.search-go-button {
+  padding: 0px;
+  list-style-image: url("chrome://global/skin/icons/Search-glass.png");
+  -moz-image-region: rect(0px 16px 16px 0px);
+}
+
+.search-go-button:-moz-locale-dir(rtl) {
+  -moz-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.search-go-button:hover {
+  -moz-image-region: rect(0px 32px 16px 16px);
+}
+
+.search-go-button:hover:active {
+  -moz-image-region: rect(0px, 48px, 16px, 32px);
+}
+
+.searchbar-engine-menuitem[selected="true"] > .menu-iconic-text {
+  font-weight: bold;
+}

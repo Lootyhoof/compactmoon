@@ -1,0 +1,21 @@
+content	compactmoonoptions	content/
+locale	compactmoonoptions	de		locale/de/
+locale	compactmoonoptions	en-US	locale/en-US/
+locale	compactmoonoptions	es		locale/es/
+locale	compactmoonoptions	fr		locale/fr/
+locale	compactmoonoptions	ja-JP	locale/ja-JP/
+locale	compactmoonoptions	nl		locale/nl/
+locale	compactmoonoptions	pl		locale/pl/
+locale	compactmoonoptions	pt-BR	locale/pt-BR/
+locale	compactmoonoptions	ro-RO	locale/ro-RO/
+locale	compactmoonoptions	ru		locale/ru/
+locale	compactmoonoptions	sq-AL	locale/sq-AL/
+locale	compactmoonoptions	sr		locale/sr/
+locale	compactmoonoptions	sv-SE	locale/sv-SE/
+locale	compactmoonoptions	tr		locale/tr/
+locale	compactmoonoptions	uk-UA	locale/uk-UA/
+locale	compactmoonoptions	zh-CN	locale/zh-CN/
+skin	compactmoonoptions	classic/1.0		skin-classic/
+skin	compactmoonoptions	compactmoon	skin/
+style	chrome://browser/content/browser.xul	chrome://compactmoonoptions/skin/tabwidths.css
+overlay	chrome://browser/content/browser.xul	chrome://compactmoonoptions/content/firefoxOverlay.xul

@@ -1,0 +1,33 @@
+dropmarker {
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  border: 2px solid;
+  -moz-border-top-colors: ThreeDLightShadow ThreeDHighlight;
+  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-left-colors: ThreeDLightShadow ThreeDHighlight;
+  background-color: -moz-Dialog;
+  padding: 1px 0;
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn.png");
+  -moz-image-region: auto;
+}
+
+dropmarker:hover:active:not([disabled="true"]) {
+   -moz-border-top-colors: ThreeDShadow ThreeDFace;
+  -moz-border-right-colors: ThreeDShadow ThreeDFace;
+  -moz-border-bottom-colors: ThreeDShadow ThreeDFace;
+  -moz-border-left-colors: ThreeDShadow ThreeDFace;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+dropmarker[disabled="true"] {
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn-dis.png");
+  -moz-border-top-colors: ThreeDLightShadow ThreeDHighlight !important;
+  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow !important;
+  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow !important;
+  -moz-border-left-colors: ThreeDLightShadow ThreeDHighlight !important;
+}

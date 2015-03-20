@@ -1,0 +1,13 @@
+<!ENTITY FirstRun.title "Motyw Classic Compact został zainstalowany/zaktualizowany!">
+<!ENTITY FirstRun.H1.title "Motyw Classic Compact został zainstalowany/zaktualizowany!">
+<!ENTITY ThankYouForUsing.label "Dziękuję za wybranie motywu Classic Compact. Motyw ten jest jednym z najbardziej kompaktowych motywów dostępnych na witrynie dodatków dla Firefoksa i ma wiele opcji konfiguracyjnych.">
+<!ENTITY Customize.title "Dostosuj wygląd motywu za pomocą ustawień dostępnych w panelu">
+<!ENTITY Customize.label "Aby dostosować wygląd motywu przejdź do menu Narzędzia i wybierz Ustawienia Classic Compact, lub jeśli masz wyłączony pasek menu, po naciśnięciu przycisku Firefox wybierz Opcje (Preferencje w systemie Linux) i następnie Ustawienia Classic Compact. Można wybierać spośród wielu zestawów przycisków, zmieniać wygląd pasków przewijania i przycisków, dostosowywać wysokość paska menu, narzędzi nawigacyjnych i kart.">
+<!ENTITY BugsSupport.title "Zgłaszanie błędów, opinie i pomoc">
+<!ENTITY BugsSupport.label "Jeśli chcesz zgłosić jakiś błąd, przekazać swoją opinię dotyczącą motywu lub potrzebujesz pomocy w rozwiązaniu problemów związanych z motywem, przejdź do <a href='https://forums.mozilla.org/addons/viewtopic.php?f=23&amp;t=4593'>wątku Classic Compact</a> na forum dodatków do programów Mozilli lub skontaktuj się ze mną za pośrednictwem <a href='http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html'>blogu motywu Classic Compact</a>.">
+<!ENTITY PleaseDonate.title "Dokonaj dotacji, by wspomóc rozwój motywu">
+<!ENTITY PleaseDonate.label "Ponieważ nowe wersje Firefoksa są teraz wydawane co sześć tygodni, muszę stale czuwać, sprawdzać zachodzące zmiany i dostosowywać motyw odpowiednio do zmian dokonywanych w Firefoksie. To wymaga dużo czasu i pracy, więc rozważ dokonanie na moją rzecz <a href='https://addons.mozilla.org/en-US/firefox/addon/classic-compact/developers'>niewielkiej dotacji</a>, by wspomóc moje działania.">
+<!ENTITY Enjoy.title "Baw się dobrze!">
+<!ENTITY Enjoy.label "Mam nadzieję, że używanie motywu Classic Compact jako twojego motywu dla Firefoksa sprawia ci przyjemność.">
+<!ENTITY Sincerely.title "Z poważaniem,">
+<!ENTITY Name.title "Ken Barbalace">

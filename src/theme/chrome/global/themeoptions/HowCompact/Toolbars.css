@@ -1,0 +1,617 @@
+/* -4 */
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) > toolbaritem > #main-menubar,
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) {
+    min-height:10px !important;
+   font-size-adjust:0.45;
+  }
+
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #personal-bookmarks,
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) .bookmark-item{
+    min-height:12px !important;
+   font-size-adjust:0.5;
+  }
+
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) > toolbaritem > #main-menubar > menu > label{
+   font-size-adjust:0.45;
+   margin-top:-3px !important;
+  }
+
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) > toolbaritem > #main-menubar > menu  > menupopup menuitem{
+   font-size-adjust:0.45;
+   min-height:12px;
+   margin-top:-2px !important;
+  }
+
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar)  .bookmark-item > .toolbarbutton-icon {
+    max-height:10px !important;
+    max-width:10px !important;
+  }
+
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) toolbaritem:not(#menubar-items):not(#personal-bookmarks),
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar):not(#addon-bar) .toolbarbutton-1{
+    min-height:14px !important;
+    min-width:16px !important;
+    font-size-adjust:0.45;
+  }
+
+  #addon-bar[ccHowCompact="-4"] .toolbarbutton-1 {
+    min-width:12px !important;
+    min-height:14px !important;
+  }
+
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) textbox{
+    min-height:14px !important;
+    font-size-adjust:0.45;
+  }
+
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #urlbar .chromeclass-toolbar-additional{
+    min-height:12px !important;
+    min-width:12px !important;
+  }
+
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #page-proxy-stack {
+    padding: 0px 3px !important;
+ }
+
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) .search-go-button,
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #urlbar-icons > toolbarbutton > image{
+  height:10px !important;
+  width:10px !important;
+  }
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #appmenu-button .button-icon,
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]),
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1 > .toolbarbutton-icon {
+    max-height: 12px !important;
+    max-width: 12px !important;
+  }
+
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) .searchbar-engine-image,
+  #navigator-toolbox[iconsize="large"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #urlbar-icons > toolbarbutton > image{
+    height:12px !important;
+    width:12px !important;
+  }
+
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) .urlbar-history-dropmarker,
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #page-proxy-stack {
+  height: 12px !important;
+  }
+
+  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #urlbar .urlbar-stack {
+    max-height:12px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) .notification-anchor-icon,
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) .urlbar-icon,
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #page-proxy-favicon,
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #urlbar-throbber {
+    height: 14px !important;
+    width: 14px !important;
+    -moz-transform:  scale(1) !important;
+    transform:  scale(1) !important;
+  }
+
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #identity-box,
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #urlbar .urlbar-stack {
+    height:14px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1{
+    min-height:16px !important;
+    min-width:18px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) textbox{
+  min-height:16px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #urlbar .urlbar-stack {
+    height:14px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) .urlbar-textbox-container,
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #urlbar-icons{
+  min-height:14px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar)  #urlbar  .chromeclass-toolbar-additional{
+  min-height:14px !important;
+  min-width:14px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar)  #urlbar-icons .chromeclass-toolbar-additional{
+  min-height:12px !important;
+  min-width:12px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #urlbar-container progressmeter {
+  max-height: 14px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"]  toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1 > .toolbarbutton-icon {
+    max-height: 14px !important;
+    max-width: 14px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #back-button {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #forward-button {
+  padding-left: 1px !important;
+  padding-right: 0px !important;
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:14px !important;
+width:14px !important;
+max-height: 14px !important;
+max-width: 14px !important;
+}
+
+/* -2 */
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) > toolbaritem > #main-menubar,
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) {
+    min-height:12px !important;
+  }
+
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #personal-bookmarks,
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) .bookmark-item{
+    min-height:14px !important;
+  }
+
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) > toolbaritem > #main-menubar > menu > label{
+   font-size-adjust:0.5;
+   margin-top:-3px !important;
+  }
+
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) > toolbaritem > #main-menubar > menu  > menupopup menuitem{
+   font-size-adjust:0.5;
+   min-height:14px;
+   margin-top:-2px !important;
+  }
+
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar)  .bookmark-item > .toolbarbutton-icon {
+    max-height:12px !important;
+    max-width:12px !important;
+  }
+
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) toolbaritem:not(#menubar-items):not(#personal-bookmarks),
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar):not(#addon-bar) .toolbarbutton-1{
+    min-height:16px !important;
+    min-width:18px !important;
+    font-size-adjust:0.5;
+  }
+
+#addon-bar[ccHowCompact="-2"] .toolbarbutton-1 {
+  min-height:14px !important;
+  min-width:16px !important;
+}
+
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) textbox{
+    font-size-adjust:0.5;
+    min-height:16px !important;
+  }
+
+
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #urlbar .chromeclass-toolbar-additional{
+    min-height:12px !important;
+    min-width:12px !important;
+  }
+
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #page-proxy-stack {
+    padding: 0 2px 0 2px !important;
+ }
+
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) .search-go-button,
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #urlbar-icons > toolbarbutton > image{
+  height:12px !important;
+  width:12px !important;
+  }
+
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #appmenu-button .button-icon,
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]),
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1 > .toolbarbutton-icon {
+    max-height: 14px !important;
+    max-width: 14px !important;
+  }
+
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) .searchbar-engine-image,
+  #navigator-toolbox[iconsize="large"] toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #urlbar-icons > toolbarbutton > image{
+    height:14px !important;
+    width:14px !important;
+  }
+
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) .urlbar-history-dropmarker,
+  #navigator-toolbox:not([iconsize="large"]) toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #page-proxy-stack {
+  height: 14px !important;
+  }
+
+  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #urlbar .urlbar-stack {
+    max-height:14px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1{
+    min-height:18px !important;
+    min-width:20px !important; 
+  }
+
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) textbox{
+  min-height:18px !important;
+  }
+
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #urlbar .chromeclass-toolbar-additional{
+  min-height:16px !important;
+  min-width:16px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) .urlbar-textbox-container,
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #urlbar-icons{
+  min-height:16px !important;
+  }
+
+
+
+#navigator-toolbox[iconsize="large"][mode="icons"]  toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #urlbar-icons > toolbarbutton > image{
+  height:14px !important;
+  width:14px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1 > .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 16px !important;
+    max-width: 16px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #urlbar .urlbar-stack {
+    height:16px !important;
+}
+
+#navigator-toolbox[iconsize="large"] #nav-bar[ccHowCompact="-4"] #urlbar-container progressmeter {
+  max-height: 18px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #back-button {
+  height: 22px !important;
+  width: 22px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #forward-button {
+  padding-left: 2px !important;
+  padding-right: 1px !important;
+  border-top-right-radius: 7px !important;
+  border-bottom-right-radius: 7px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:16px !important;
+width:16px !important;
+max-height: 16px !important;
+max-width: 16px !important;
+}
+
+/* 2 */
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) > toolbaritem > #main-menubar,
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar):not(#addon-bar),
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) > toolbaritem > #main-menubar,
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar):not(#addon-bar) {
+    min-height:16px !important;
+  }
+
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #personal-bookmarks,
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) .bookmark-item,
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #personal-bookmarks,
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) .bookmark-item{
+    min-height:18px !important;
+  }
+
+  #addon-bar[ccHowCompact="2"] {
+    min-height:21px !important;
+  }
+
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) toolbaritem:not(#menubar-items):not(#personal-bookmarks),
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar):not(#addon-bar) .toolbarbutton-1,
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) toolbaritem:not(#menubar-items):not(#personal-bookmarks),
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar):not(#addon-bar) .toolbarbutton-1{
+    min-height:20px !important;
+    min-width:22px !important;
+  }
+
+#addon-bar[ccHowCompact="2"] .toolbarbutton-1,
+#addon-bar[ccHowCompact="4"] .toolbarbutton-1 {
+    min-height:18px !important;
+    min-width:20px !important;
+}
+
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) textbox,
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) textbox{
+    min-height:20px !important;
+  }
+
+toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #urlbar  .chromeclass-toolbar-additional,
+toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #urlbar  .chromeclass-toolbar-additional{
+  min-height:18px !important;
+  min-width:18px !important; 
+  }
+
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]),
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 18px !important;
+    max-width: 18px !important;
+  }
+
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #identity-box,
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #urlbar .urlbar-stack,
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #identity-box,
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #urlbar .urlbar-stack {
+    height:18px !important;
+  }
+
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #identity-box > hbox > stack,
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #identity-box > hbox > stack{
+    margin-left:1px !important;
+    margin-right:1px !important;
+  }
+
+  toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) .searchbar-engine-button > .button-box,
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) .searchbar-engine-button > .button-box{
+    -moz-margin-start:2px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1,
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1{
+    min-height:22px !important;
+    min-width:24px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) textbox,
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) textbox{
+  min-height:22px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #urlbar  .chromeclass-toolbar-additional,
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #urlbar  .chromeclass-toolbar-additional{
+  min-height:20px !important;
+  min-width:20px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]),
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 20px !important;
+    max-width: 20px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #urlbar .urlbar-stack,
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #urlbar .urlbar-stack {
+    height:20px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #back-button,
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #back-button {
+  height: 26px !important;
+  width: 26px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #forward-button,
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #forward-button {
+  padding-left: 4px;
+  padding-right: 2px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #back-button .toolbarbutton-icon:not([ccOverride="no"]),
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:20px !important;
+width:20px !important;
+max-height: 20px !important;
+max-width: 20px !important;
+}
+
+/* 4 */
+  #addon-bar[ccHowCompact="4"] {
+    min-height:23px !important;
+  }
+
+  toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar):not(#addon-bar),
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar):not(#addon-bar){
+    padding-top:1px !important;
+    padding-bottom:1px !important;
+  }
+
+  #addon-bar[ccHowCompact="4"],
+  #addon-bar[ccHowCompact="6"]{
+    padding-top:2px !important;
+    padding-bottom:1px !important;
+  }
+
+toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) textbox,
+toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) toolbarbutton.toolbarbutton-1,
+toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) textbox,
+toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) toolbarbutton.toolbarbutton-1{
+  margin-left:2px !important;
+  margin-right:2px !important
+  }
+
+toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) .bookmark-item,
+toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) .bookmark-item{
+  padding-right:2px !important;
+  padding-left:2px !important;
+}
+
+toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #urlbar .chromeclass-toolbar-additional,
+toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #urlbar .chromeclass-toolbar-additional{
+  margin-left:0px !important;
+  margin-right:0px !important
+  }
+
+toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar)  #back-button,
+toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar)  #back-button {
+  -moz-margin-end: 0 !important;
+}
+
+toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar)  #Forward-button,
+toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar)  #Forward-button {
+  -moz-margin-start: 1px !important;
+}
+
+toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #zoom-out-button,
+toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #zoom-out-button {
+  -moz-margin-end: 0 !important;
+}
+
+toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #zoom-in-button,
+toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #zoom-in-button {
+  -moz-margin-start: 1px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #forward-button,
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #forward-button {
+  -moz-margin-start: -2px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] > toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar)[currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"] > toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar):not([currentset]) {
+  padding-top: 5px !important;
+  padding-bottom: 7px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar)[currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > toolbar[ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar):not([currentset]) {
+  padding-top: 7px !important;
+}
+
+/* 6 */
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) > toolbaritem > #main-menubar,
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar):not(#addon-bar) {
+    min-height:18px !important;
+  }
+
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #personal-bookmarks,
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) .bookmark-item{
+    min-height:20px !important;
+  }
+
+  #addon-bar[ccHowCompact="6"] {
+    min-height:25px !important;
+  }
+
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) toolbaritem:not(#menubar-items):not(#personal-bookmarks),
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar):not(#addon-bar) .toolbarbutton-1{
+    min-height:22px !important;
+    min-width:24px !important;
+  }
+
+#addon-bar[ccHowCompact="6"] .toolbarbutton-1 {
+  min-height:20px !important;
+  min-width:22px !important;
+}
+
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) textbox{
+    min-height:22px !important;
+  }
+
+toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #urlbar .chromeclass-toolbar-additional{
+  min-height:20px !important;
+  min-width:20px !important; 
+  }
+
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 20px !important;
+    max-width: 20px !important;
+  }
+
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #identity-box,
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #urlbar .urlbar-stack {
+    height:20px !important;
+  }
+
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #identity-box > hbox > stack{
+    margin-left:2px !important;
+    margin-right:2px !important;
+  }
+
+  toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) .searchbar-engine-button > .button-box{
+    -moz-margin-start:3px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1{
+    min-height:24px !important;
+    min-width:26px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) textbox{
+ min-height:24px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #urlbar  .chromeclass-toolbar-additional{
+  min-height:22px !important;
+  min-width:22px !important; 
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 22px !important;
+    max-width: 22px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #urlbar .urlbar-stack {
+    height:22px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #back-button {
+  height: 28px !important;
+  width: 28px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] > toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar)[currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"] > toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar):not([currentset]) {
+  padding-top: 5px !important;
+  padding-bottom: 7px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar)[currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar):not([currentset]) {
+  padding-top: 7px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #forward-button {
+  padding-left: 5px !important;
+  padding-right: 3px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] toolbar[ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:20px !important;
+width:20px !important;
+max-height: 20px !important;
+max-width: 20px !important;
+}
+
+/* Default Full Zoom Level Add-on */
+toolbar[mode="icons"][ccHowCompact="-4"]:not(#TabsToolbar):not(#nav-bar) #statusbarZoomLevel > .toolbarbutton-icon{
+  max-width: 30px !important;
+}
+
+toolbar[mode="icons"][ccHowCompact="-2"]:not(#TabsToolbar):not(#nav-bar) #statusbarZoomLevel > .toolbarbutton-icon{
+  max-width: 35px !important;
+}
+
+toolbar[mode="icons"][ccHowCompact="2"]:not(#TabsToolbar):not(#nav-bar) #statusbarZoomLevel > .toolbarbutton-icon,
+toolbar[mode="icons"][ccHowCompact="4"]:not(#TabsToolbar):not(#nav-bar) #statusbarZoomLevel > .toolbarbutton-icon{
+  max-width: 45px !important;
+}
+
+toolbar[mode="icons"][ccHowCompact="6"]:not(#TabsToolbar):not(#nav-bar) #statusbarZoomLevel > .toolbarbutton-icon{
+  max-width: 50px !important;
+}
+

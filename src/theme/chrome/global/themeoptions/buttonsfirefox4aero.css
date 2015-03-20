@@ -1,0 +1,53 @@
+#back-btn,
+#forward-btn,
+#back-button,
+#forward-button,
+#stop-button,
+#reload-button,
+#home-button,
+#downloads-button,
+#history-button,
+#feed-button,
+#fullscreen-button,
+#sync-button,
+#bookmarks-button,
+#bookmarks-menu-button,
+#print-button,
+#new-window-button,
+toolbar:not(#TabsToolbar) #new-tab-button,
+#cut-button,
+#copy-button,
+#paste-button,
+#zoom-in-button,
+#zoom-out-button,
+#downloads-indicator-icon {
+  list-style-image: url("chrome://global/skin/themeoptions/firefox4aero/Toolbar-inverted.png") !important;
+}
+
+#downloads-indicator:not([counter]) > #downloads-indicator-anchor > #downloads-indicator-progress-area > #downloads-indicator-counter:not([CCOverride=true]) {
+  background: -moz-image-rect(url("chrome://global/skin/themeoptions/firefox4aero/Toolbar.png"),
+                              0, 108, 18, 90) center no-repeat;
+  background-size: 12px;
+}
+
+.tabbrowser-arrowscrollbox > .scrollbutton-up,
+.tabbrowser-arrowscrollbox > .scrollbutton-down {
+  list-style-image: url(chrome://browser/skin/tabbrowser/tab-arrow-left-inverted.png) !important;
+  -moz-image-region:rect(0px, 16px, 18px, 0px) !important;
+}
+
+#TabsToolbar > #new-tab-button,
+#TabsToolbar > toolbarpaletteitem > #new-tab-button {
+  list-style-image: url(chrome://browser/skin/tabbrowser/newtab-inverted.png) !important;
+}
+
+#TabsToolbar > #alltabs-button[type="menu"],
+#TabsToolbar > toolbarpaletteitem > #alltabs-button[type="menu"],
+#alltabs-button[type="menu"] {
+  list-style-image: url(chrome://browser/skin/mainwindow-dropdown-arrow-inverted.png) !important;
+}
+
+#tabview-button {
+  list-style-image: url(chrome://browser/skin/tabview/tabview-inverted.png) !important;
+}
+

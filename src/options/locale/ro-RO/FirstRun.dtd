@@ -1,0 +1,13 @@
+<!ENTITY FirstRun.title "Classic Compact a fost instalată/actualizată!">
+<!ENTITY FirstRun.H1.title "Tema Firefox Classic Compact a fost instalată/actualizată!">
+<!ENTITY ThankYouForUsing.label "Vă mulţumesc pentru că aţi ales Classic Compact ca temă Firefox. Această temă este una dintre cele mai compacte teme disponibile pe addons.mozilla.org şi este foarte personalizabilă.">
+<!ENTITY Customize.title "Personalizaţi aspectul Classic Compact folosind panoul său de control">
+<!ENTITY Customize.label "Pentru a personaliza aspectul Classic Compact, mergeţi la meniul Unelte şi alegeţi 'Opţiuni Classic Compact' sau, dacă bara de meniu este dezactivată, din butonul 'Firefox' mergeţi la 'Opţiuni' ('Preferinţe' în Linux) şi alegeţi 'Opţiuni Classic Compact'. Opţiunile dintre care puteţi alege sunt: numeroase seturi de butoane pentru bare de meniu; stilizare buton şi bară de derulare; personalizarea înălţimii barei de meniu, barelor de unelte şi file.">
+<!ENTITY BugsSupport.title "Raportare probleme, sugestii şi sprijin.">
+<!ENTITY BugsSupport.label "Dacă aveţi de raportat probleme, sugestii despre Classic Compact şi/sau aveţi nevoie de alt sprijin privitor la supliment, vă rog vizitaţi <a href='https://forums.mozilla.org/addons/viewtopic.php?f=23&amp;t=4593'>Topicul de sprijin Classic Compact</a>pe forumurile suplimente Mozilla sau contactaţi-mă prin <a href='http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html'>Pagina de internet Classic Compact</a> pe site-ul meu.">
+<!ENTITY PleaseDonate.title "Vă rog faceţi o donaţie pentru a sprijini dezvoltarea Classic Compact">
+<!ENTITY PleaseDonate.label "Deoarece odată la şase săptămâni apare o nouă versiune de Firefox, trebuie să mă menţin atent la schimbările viitoare în Firefox şi trebuie să actualizez Classic Compact în concordanţă. Aceasta necesită foarte multă muncă şi pentru a menţine viabil acest efort, am nevoie de sprijinul dvs. Vă rog luaţi în considerare o <a href='https://addons.mozilla.org/en-US/firefox/addon/classic-compact/developers'>donaţie în sprijinul eforturilor mele</a>.">
+<!ENTITY Enjoy.title "Folosiţi cu plăcere!">
+<!ENTITY Enjoy.label "Sper că veţi folosi cu plăcere Classic Compact ca temă Firefox.">
+<!ENTITY Sincerely.title "Cu sinceritate,">
+<!ENTITY Name.title "Ken Barbalace">

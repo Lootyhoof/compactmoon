@@ -1,0 +1,37 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this file,
+* You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+window,
+dialog {
+  padding: 3px 0 3px 3px;
+}
+
+#instructions {
+  font-weight: bold;
+  font-size: larger;
+}
+
+#palette-box {
+  border-style:solid;
+  border-width:1px;
+  -moz-border-top-colors: ThreeDShadow;
+  -moz-border-right-colors: ThreeDHighlight;
+  -moz-border-bottom-colors: ThreeDHighlight;
+  -moz-border-left-colors: ThreeDShadow;
+  overflow: auto;
+  margin: 5px;
+}
+
+#palette-box > hbox > toolbarpaletteitem {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#palette-box > hbox {
+  min-height: 60px;
+}
+
+#palette-box > toolbarpaletteitem {
+  height: auto;
+}

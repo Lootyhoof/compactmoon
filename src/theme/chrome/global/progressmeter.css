@@ -1,0 +1,88 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this file,
+* You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/* ===== progressmeter.css ==============================================
+  == Styles used by the XUL progressmeter element.
+  ======================================================================= */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* ::::: progressmeter ::::: */
+
+progressmeter {
+  -moz-appearance: none;
+  margin: 0px;
+  border: 0px solid;
+  border-top:0;
+  -moz-border-top-colors: ThreeDShadow;
+  -moz-border-right-colors: ThreeDHighlight;
+  -moz-border-bottom-colors: ThreeDHighlight;
+  -moz-border-left-colors: ThreeDShadow;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  min-width: 128px;
+  min-height: 12px;
+}
+
+.progress-bar{
+  -moz-appearance: none;
+  min-width: 0px;
+  background: url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
+  background-color: Highlight;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+richlistitem[selected="true"] .progress-bar{
+  background-color: ThreeDShadow;
+}
+
+/* ::::: statusbar progressmeter ::::: */
+
+.progressmeter-statusbar {
+  margin: 0;
+  padding:0px;
+  border: 0px;
+  background-color:transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  min-width: 96px;
+}
+.statusbarpanel-progress {
+  padding:0px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+richlistitem progressmeter {
+  margin: 0 2px;
+}
+
+/* --- Tab Mix Plus Adjustments for tab status bar --- */
+#tabbrowser-tabs[tabmix_firefox3] .tabbrowser-tab > .tab-stack > .tab-progress-container > .tab-progress,
+#tabbrowser-tabs[tabmix_skin] .tabbrowser-tab > .tab-stack > .tab-progress-container > .tab-progress{
+  line-height:1px !important;
+  max-height:4px !important;
+  height:4px !important;
+  margin-top:-2px !important;
+  -moz-margin-start:18px !important;
+  -moz-stack-sizing: ignore;
+  }
+#tabbrowser-tabs[tabmix_firefox3] .tabbrowser-tab > .tab-stack > .tab-progress-container > .tab-progress > spacer,
+#tabbrowser-tabs[tabmix_skin] .tabbrowser-tab > .tab-stack > .tab-progress-container > .tab-progress > spacer{
+  line-height:1px !important;
+  max-height:4px !important;
+  height:4px !important;
+  margin:0px !important;
+  overflow-x:hidden !important;
+  -moz-stack-sizing: ignore;
+  }

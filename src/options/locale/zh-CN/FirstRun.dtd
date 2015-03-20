@@ -1,0 +1,13 @@
+<!ENTITY FirstRun.title "Classic Compact 已安装/更新！">
+<!ENTITY FirstRun.H1.title "Firefox 主题 Classic Compact 已安装/更新！">
+<!ENTITY ThankYouForUsing.label "感谢选择 Classic Compact 作为 Firefox 主题。本主题是 addons.mozilla.org 上最紧凑的主题之一，并且具有高度可定制性。">
+<!ENTITY Customize.title "使用 Classic Compact 选项面板定制外观">
+<!ENTITY Customize.label "要定制 Classic Compact 的外观，请打开工具菜单并选择“Classic Compact 选项”，如果你禁用了菜单栏，请从“Firefox”按钮中进入“选项”（Linux 中为“首选项”）然后选择“Classic Compact 选项”。可以选择的选项有：工具栏按钮集；滚动条和按钮样式；自定义菜单栏、工具栏和标签高度。">
+<!ENTITY BugsSupport.title "报告问题、反馈和支持">
+<!ENTITY BugsSupport.label "如果你有任何关于 Classic Compact 的 bug 报告、问题反馈或者需要其它帮助，请访问 Mozilla 附加组件论坛上的 <a href='https://forums.mozilla.org/addons/viewtopic.php?f=23&amp;t=4593'>Classic Compact's 支持主题</a>或者通过 <a href='http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html'>Classic Compact 页面</a>在我的网站上直接联系我。.">
+<!ENTITY PleaseDonate.title "请捐助以支持 Classic Compact 的开发">
+<!ENTITY PleaseDonate.label "由于 Firefox 每六个星期会发布一个新版本，我必须一直关注 Firefox 的更新并且随之更新 Classic Compact。要保持此项目继续需要大量的工作，因此我需要你的支持。请考虑进行<a href='https://addons.mozilla.org/en-US/firefox/addon/classic-compact/developers'>捐助</a>来支持我的工作。">
+<!ENTITY Enjoy.title "请享用！">
+<!ENTITY Enjoy.label "希望你使用 Firefox 主题 Classic Compact 愉快。">
+<!ENTITY Sincerely.title "真诚的，">
+<!ENTITY Name.title "Ken Barbalace">

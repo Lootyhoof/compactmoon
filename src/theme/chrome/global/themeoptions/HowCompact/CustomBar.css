@@ -1,0 +1,554 @@
+/* -4 */
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  toolbarbutton,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  {
+    min-height:12px !important;
+   font-size-adjust:0.45;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) > toolbaritem > #main-menubar > menu > label{
+   font-size-adjust:0.45;
+   margin-top:-3px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) > toolbaritem > #main-menubar > menu  > menupopup menuitem{
+   font-size-adjust:0.45;
+   min-height:12px;
+   margin-top:-2px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  .bookmark-item > .toolbarbutton-icon {
+    max-height:10px !important;
+    max-width:10px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1{
+    min-height:14px !important;
+    min-width:16px !important;
+    font-size-adjust:0.45;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox{
+    min-height:14px !important;
+    font-size-adjust:0.45;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox > dropmarker{
+    height:12px !important;
+    width:12px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .chromeclass-toolbar-additional{
+    min-height:12px !important;
+    min-width:12px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #page-proxy-stack {
+    padding: 0px 3px !important;
+ }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .search-go-button,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar-icons > toolbarbutton > image{
+  height:10px !important;
+  width:10px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #appmenu-button > .button-box .button-icon,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]),
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1 > .toolbarbutton-icon {
+    max-height: 12px !important;
+    max-width: 12px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .searchbar-engine-image,
+  #navigator-toolbox[iconsize="large"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar-icons > toolbarbutton > image{
+    height:12px !important;
+    width:12px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .urlbar-history-dropmarker,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #page-proxy-stack {
+  height: 12px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .urlbar-stack {
+    max-height:12px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .notification-anchor-icon,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .urlbar-icon,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #page-proxy-favicon,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar-throbber {
+    height: 14px !important;
+    width: 14px !important;
+    -moz-transform:  scale(1) !important;
+    transform:  scale(1) !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #identity-box,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .urlbar-stack {
+    height:14px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1{
+    min-height:16px !important;
+    min-width:18px !important; 
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox{
+    min-height:16px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .urlbar-stack {
+    height:14px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .urlbar-textbox-container,
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar-icons{
+  min-height:14px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  #urlbar  .chromeclass-toolbar-additional{
+  min-height:14px !important;
+  min-width:14px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  #urlbar-icons .chromeclass-toolbar-additional{
+  min-height:12px !important;
+  min-width:12px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar-container progressmeter {
+  max-height: 14px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"]  #navigator-toolbox[ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1 > .toolbarbutton-icon {
+    max-height: 14px !important;
+    max-width: 14px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #back-button {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #forward-button {
+  padding-left: 1px !important;
+  padding-right: 0px !important;
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:14px !important;
+width:14px !important;
+max-height: 14px !important;
+max-width: 14px !important;
+}
+
+/* -2 */
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) toolbarbutton,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  {
+    min-height:14px !important;
+   font-size-adjust:0.5;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) > toolbaritem > #main-menubar > menu > label{
+   font-size-adjust:0.5;
+   margin-top:-3px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) > toolbaritem > #main-menubar > menu  > menupopup menuitem{
+   font-size-adjust:0.5;
+   min-height:14px;
+   margin-top:-2px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  .bookmark-item > .toolbarbutton-icon {
+    max-height:12px !important;
+    max-width:12px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1{
+    min-height:16px !important;
+    min-width:18px !important;
+    font-size-adjust:0.5;
+  }
+
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox{
+    font-size-adjust:0.5;
+    min-height:16px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox > dropmarker{
+    height:14px !important;
+    width:14px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .chromeclass-toolbar-additional{
+    min-height:12px !important;
+    min-width:12px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #page-proxy-stack {
+    padding: 0 2px 0 2px !important;
+ }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .search-go-button,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar-icons > toolbarbutton > image{
+  height:12px !important;
+  width:12px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #appmenu-button > .button-box .button-icon,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]),
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1 > .toolbarbutton-icon {
+    max-height: 14px !important;
+    max-width: 14px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .searchbar-engine-image,
+  #navigator-toolbox[iconsize="large"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar-icons > toolbarbutton > image{
+    height:14px !important;
+    width:14px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .urlbar-history-dropmarker,
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"]:not([iconsize="large"]) > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #page-proxy-stack {
+  height: 14px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .urlbar-stack {
+    max-height:14px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1{
+    min-height:18px !important;
+    min-width:20px !important; 
+  }
+
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox{
+  min-height:18px !important;
+  }
+
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .chromeclass-toolbar-additional{
+  min-height:16px !important;
+  min-width:16px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .urlbar-textbox-container,
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar-icons{
+  min-height:16px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar-icons > toolbarbutton > image{
+  height:14px !important;
+  width:14px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1 > .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 16px !important;
+    max-width: 16px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .urlbar-stack {
+    height:16px !important;
+}
+
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar-container progressmeter {
+  max-height: 18px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #back-button {
+  height: 22px !important;
+  width: 22px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #forward-button {
+  padding-left: 2px !important;
+  padding-right: 1px !important;
+  border-top-right-radius: 7px !important;
+  border-bottom-right-radius: 7px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="-2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:16px !important;
+width:16px !important;
+max-height: 16px !important;
+max-width: 16px !important;
+}
+
+/* 2 */
+  #navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  toolbarbutton,
+  #navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar),
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  toolbarbutton,
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  {
+    min-height:18px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1,
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1{
+    min-height:20px !important;
+    min-width:22px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox,
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox{
+    min-height:20px !important;
+  }
+
+#navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar  .chromeclass-toolbar-additional,
+#navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar  .chromeclass-toolbar-additional{
+  min-height:18px !important;
+  min-width:18px !important; 
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]),
+  #navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]),
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]),
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 18px !important;
+    max-width: 18px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #identity-box,
+  #navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .urlbar-stack,
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #identity-box,
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .urlbar-stack {
+    height:18px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #identity-box > hbox > stack,
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #identity-box > hbox > stack{
+    margin-left:1px !important;
+    margin-right:1px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .searchbar-engine-button > .button-box,
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .searchbar-engine-button > .button-box{
+    -moz-margin-start:2px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1,
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1{
+    min-height:22px !important;
+    min-width:24px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox,
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox{
+  min-height:22px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar  .chromeclass-toolbar-additional,
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar  .chromeclass-toolbar-additional{
+  min-height:20px !important;
+  min-width:20px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]),
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 20px !important;
+    max-width: 20px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .urlbar-stack,
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .urlbar-stack {
+    height:20px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #back-button,
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #back-button {
+  height: 26px !important;
+  width: 26px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #forward-button,
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #forward-button {
+  padding-left: 4px;
+  padding-right: 2px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #back-button .toolbarbutton-icon:not([ccOverride="no"]),
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:20px !important;
+width:20px !important;
+max-height: 20px !important;
+max-width: 20px !important;
+}
+
+/* 4 */
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar),
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar){
+    padding-top:1px !important;
+    padding-bottom:1px !important;
+  }
+
+#navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox,
+#navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) toolbarbutton.toolbarbutton-1,
+#navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox,
+#navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) toolbarbutton.toolbarbutton-1{
+  margin-left:2px !important;
+  margin-right:2px !important
+  }
+
+#navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) toolbarbutton[type="menu"],
+#navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) toolbarbutton[type="menu"]{
+  padding-right:2px !important;
+  padding-left:2px !important;
+}
+
+#navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .chromeclass-toolbar-additional,
+#navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .chromeclass-toolbar-additional{
+  margin-left:0px !important;
+  margin-right:0px !important
+  }
+
+#navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  #back-button,
+#navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  #back-button {
+  -moz-margin-end: 0 !important;
+}
+
+#navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  #Forward-button,
+#navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  #Forward-button {
+  -moz-margin-start: 1px !important;
+}
+
+#navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #zoom-out-button,
+#navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #zoom-out-button {
+  -moz-margin-end: 0 !important;
+}
+
+#navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #zoom-in-button,
+#navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #zoom-in-button {
+  -moz-margin-start: 1px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #forward-button,
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #forward-button {
+  -moz-margin-start: -2px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)[currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar):not([currentset]) {
+  padding-top: 5px !important;
+  padding-bottom: 7px !important;
+}
+
+/* 6 */
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  toolbarbutton,
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  > toolbaritem > #main-menubar{
+    min-height:20px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1{
+    min-height:22px !important;
+    min-width:24px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox{
+    min-height:22px !important;
+  }
+
+#navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .chromeclass-toolbar-additional{
+  min-height:20px !important;
+  min-width:20px !important; 
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]),
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 20px !important;
+    max-width: 20px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #identity-box,
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .urlbar-stack {
+    height:20px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #identity-box > hbox > stack{
+    margin-left:2px !important;
+    margin-right:2px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .searchbar-engine-button > .button-box{
+    -moz-margin-start:3px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1{
+    min-height:24px !important;
+    min-width:26px !important; 
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) textbox{
+ min-height:24px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar  .chromeclass-toolbar-additional{
+  min-height:22px !important;
+  min-width:22px !important; 
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1:not(.chromeclass-toolbar-additional) .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 22px !important;
+    max-width: 22px !important;
+  }
+
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #identity-box,
+  #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #urlbar .urlbar-stack {
+    height:22px !important;
+  }
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #back-button {
+  height: 28px !important;
+  width: 28px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)[currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar):not([currentset]) {
+  padding-top: 5px !important;
+  padding-bottom: 7px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)[currentset*="unified-back-forward-button"],
+#navigator-toolbox[iconsize="large"][mode="icons"][tabsontop="true"] > #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar):not([currentset]) {
+  padding-top: 7px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #forward-button {
+  padding-left: 5px !important;
+  padding-right: 3px !important;
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #back-button .toolbarbutton-icon:not([ccOverride="no"]) {
+height:20px !important;
+width:20px !important;
+max-height: 20px !important;
+max-width: 20px !important;
+}
+
+/* Google Toolbar */
+  #navigator-toolbox[ccHowCompactCustomToolbars="-4"]:not(#bogus) > toolbar#gtbToolbar > toolbarbutton#gtbGoogleMenu > image.toolbarbutton-icon:not(#bogus):not([ccOverride="no"]){
+  max-width:34px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="-2"]:not(#bogus) > toolbar#gtbToolbar > toolbarbutton#gtbGoogleMenu > image.toolbarbutton-icon:not(#bogus):not([ccOverride="no"]){
+  max-width:41px !important;
+  }
+
+  #navigator-toolbox[ccHowCompactCustomToolbars="2"]:not(#bogus) > toolbar#gtbToolbar > toolbarbutton#gtbGoogleMenu > image.toolbarbutton-icon:not(#bogus):not([ccOverride="no"]),
+  #navigator-toolbox[ccHowCompactCustomToolbars="4"]:not(#bogus) > toolbar#gtbToolbar > toolbarbutton#gtbGoogleMenu > image.toolbarbutton-icon:not(#bogus):not([ccOverride="no"]),
+  #navigator-toolbox[ccHowCompactCustomToolbars="6"]:not(#bogus) > toolbar#gtbToolbar > toolbarbutton#gtbGoogleMenu > image.toolbarbutton-icon:not(#bogus):not([ccOverride="no"]){
+  max-width:48px !important;
+  }

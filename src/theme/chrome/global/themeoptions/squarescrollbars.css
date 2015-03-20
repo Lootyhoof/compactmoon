@@ -1,0 +1,14 @@
+/* ::::: square border corners ::::: */
+
+thumb,
+scrollbarbutton {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  -moz-outline-radius-topleft: 0px !important;
+  -moz-outline-radius-topright: 0px !important;
+  -moz-outline-radius-bottomleft: 0px !important;
+  -moz-outline-radius-bottomright: 0px !important;
+}
+

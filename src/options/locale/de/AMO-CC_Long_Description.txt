@@ -1,0 +1,140 @@
+************************************************************************
+TRANSLATOR NOTES: 
+1) This description will be used on: https://addons.mozilla.org/firefox/addon/classic-compact/
+2) Please make sure HTML tags (e.g. <b>, </b>, <br>, <li></li>, etc.) stay in correct relative places.
+3) Most of the text under the "available options" section below can be copied and pasted from the prefwindow.dtd
+************************************************************************
+
+Classic Compact wurde für diejenigen erstellt, die ein sehr kompaktes Theme wollen, das den vertikalen Platz von Menü-, Symbol-, Tab-, Such- und Statusleisten minimiert und den Platz für das Browser-Fenster maximiert. Dieses Theme ist eines der kompaktesten, auf addons.mozilla.org verügbaren Themes und ist sehr anpassbar.
+<br><br>
+<b>UNTERSTÜTZT WINDOWS, MAC OSX & LINUX
+</b><br>
+Classic Compact unterstützt Windows, Mac OSX and Linux. Dies macht Classic Compact zu einem idealen Theme für diejenigen, die mit mehreren Betriebssystemen arbeiten und ein fast identisches Look & Feel auf allen Plattformen haben wollen.
+<br><br>
+<b>VERFÜGBARE EINSTELLUNGEN</b>
+<ul>
+<li><b>ALLGEMEIN:
+</b><ul>
+<li><em>Symbolleisten-Symbole (siehe Bildschirmfotos):
+</em><ul><li>Firefox 4.0 Windows (Standard)
+<li>Firefox 4.0 Mac OS X
+<li>Firefox 8.0 Mac OS X - Lion
+<li>Linux Gnome Human
+<li>Linux Oxygen
+<li>Firefox 3.0 Windows XP - Grün
+<li>Firefox 3.0 Windows Vista - Blau
+<li>Firefox 0.9-2.0 Windows
+<li>Firefox 0.9-2.0 Mac OS X
+<li>Classic Compact 3.0
+<li>Classic Compact 2.0
+</ul>
+
+<li><em>Vor/Zurück-Button Hintergrundfarbe (siehe Bildschirmfotos):
+</em><ul>
+<li>Keine (Standard)
+<li>Grün (wie FX3 WinXP)
+<li>Blau (wie FX3 Win Vista)
+<li>Orange (kompatibel mit Linux Gnome Human)
+</ul>
+
+<li><em>Schaltflächen-Ränder:
+</em><ul>
+<li>Ja (Standard)
+<li>nur Vor/Zurück-Button
+<li>Nein
+</ul>
+
+<li><em>Hintergrund Stil:
+</em><ul>
+<li>Farbverlauf (Standard)
+<li>Farbverlauf nur für Buttons & Tabs
+<li>Einfach alle außer Tabs
+<li>Einfach
+</ul>
+
+<li><em>Toolbar Trennlinien:
+</em><ul>
+<li>Keine Trenner (Standard)
+<li>Dünn
+</ul>
+
+<li><em>Rand-Stil:
+</em><ul>
+<li>Abgerundete Ränder (Standard)
+<li>Eckige Ränder
+<li>Nur Abgerundete Tabs
+<li>Nur eckige Scrollleisten
+</ul>
+
+<li><em>Scrollleisten:
+</em><ul>
+<li>Classic Compact Stil (Standard)
+<li>Nativ
+</ul>
+
+<li><em>Betriebssystemfarben:
+</em><ul>
+<li>Halle/Graue Hintergründe (Standard)
+<li>Dunkle/Schwarze Hintergründe. Diese Option ist für Benutzer von wirklich dunklen Betriebsystemfarben. Sie ändert die kritischen schwarzen/dunklen Symbole in weiße/helle.
+</ul>
+
+</ul><li><b>Menüs & Tabs:
+</b><ul>
+<li><em>Menüleiste in einem Button vereinigen:
+</em><ul>
+<li>Nein (Standard)
+<li>Ja
+</ul>
+
+<li><em>Tab Clip Breite: Ganzzahl
+</em>  Setzt die maximale Breite der Tabs
+
+<li><em>Minimale Tabbreite: Ganzzahl
+</em>  Dies setzt die minimale breite von Tabs. Je kleiner diese Nummer ist, desto später werden Tabs ausgeblendet.
+
+<li><em>Tab Schließen-Schaltfläche:
+</em><ul>
+<li>auf allen Tabs (Standard)
+<li>nur auf aktiven Tab
+<li>ganz ausblenden
+<li>am Ende der Tableiste
+</ul>
+
+<li><em>Suchen in neuem Tab öffnen:
+</em><ul>
+<li>Nein (Standard)
+<li>Ja</ul>
+
+<li><em>DTabs in Titelleiste anzeigen (Nur wenn Tabs oben agezeigt werden und die Menüleiste ausgeblendet ist):
+</em><ul>
+<li>Wenn maximiert (Standard)
+<li>Immer
+</ul>
+
+<li><em>RSS-Feed-Symbil in Adressleiste anzeigen:
+</em><ul>
+<li>Nein
+<li>Ja (Standard)
+</ul>
+
+</ul><li><b>Wie kompakt? (Diese Einstellellungen passen die Höhe der entsprechenden Symbolleiste im Hauptfenster an. Einstellungsmöglichkeiten sind: -4, -2, 0, +2, +4 & +6):
+</b><ul>
+<li>Höhe der Menüleiste
+<li>Höhe der Navigations-Symbolleiste
+<li>Höhe der Lesezeichen-Symbolleiste
+<li>Höhe anderer Symbolleisten
+<li>Höhe der Tableiste
+<li>Höhe der Add-On-Leiste
+</ul></ul>
+
+<b>MEHR PLATZ SPAREN MIT KLEINEN SYMBOLEN
+</b><br>
+Um kleine Symbole zu nutzen, klicken Sie mit der rechten Maustaste auf die Menüleisten und wählen Sie "Anpassen…" oder wählen Sie im Menü "Ansicht" unter "Symbolleisten" "Anpassen"; aktivieren Sie dann "kleine Symbole".
+<br><br>
+<b>FEHLERBEHEBUNG
+</b><br>
+Es wird immer versucht sicherzustellen, dass Classic Compact ohne Probleme unter verschiedenen Betriebssystemen und mit anderen Add-ons zusammen funktioniert. Wenn Sie Probleme mit Classic Compact haben (wenn z. B. die Tabs nicht richtig dargestellt werden), versuchen Sie bitte, Ihre anderen Erweiterungen zu deaktivieren um herauszufinden, ob eine von diesen einen Konflikt auslöst. Wenn Sie herausgefunden haben, dass es einen Konflikt mit einer anderen Erweiterung gibt, kontaktieren Sie mich bitte über den <a href="https://forums.mozilla.org/addons/viewtopic.php?f=23&amp;t=4593">Classic Compact Support Thread im Mozilla Add-Ons Forum</a> oder über meine <a href="http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html">Webseite für Classic Compact</a>.
+<br><br>
+<b>CLASSIC COMPACT SUPPORT, VORSCHLÄGE & FEEDBACK-DISKUSSION
+</b><br>
+Wenn Sie irgendwelche Fragen, Vorschläge, Ideen oder Feedback für Classic Compact haben, teilen Sie sich bitte im <a href="https://forums.mozilla.org/addons/viewtopic.php?f=23&t=4593">Classic Compact Thread</a> im Mozilla Add-Ons Forum mit.

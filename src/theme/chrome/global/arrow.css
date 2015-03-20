@@ -1,0 +1,35 @@
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.up {
+  min-width: 0px;
+  list-style-image: url("chrome://global/skin/arrow/arrow-up.png");
+}               
+.up:hover {
+  list-style-image: url("chrome://global/skin/arrow/arrow-up-hov.png");
+}
+.up[disabled="true"] {
+  list-style-image: url("chrome://global/skin/arrow/arrow-up-dis.png");
+}
+
+.down {
+  min-width: 0px;
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn.png");
+}
+.down:hover {
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn-hov.png");
+}
+.down[disabled="true"] {
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn-dis.png");
+}
+
+.right {
+  min-width: 0px;
+  list-style-image: url("chrome://global/skin/arrow/arrow-rit.png");
+}
+.right:hover {
+  list-style-image: url("chrome://global/skin/arrow/arrow-rit-hov.png");
+}
+.right[disabled="true"] {
+  list-style-image: url("chrome://global/skin/arrow/arrow-rit-dis.png");
+}

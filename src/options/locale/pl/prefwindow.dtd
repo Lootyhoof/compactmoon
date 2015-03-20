@@ -1,0 +1,84 @@
+<!ENTITY prefwindow.title "Ustawienia motywu Compact Moon">
+<!ENTITY tab1.title "Ogólne">
+<!ENTITY toolbarbuttons.label "Przyciski paska narzędzi:">
+<!ENTITY classicbuttons4.label "Firefox 4 Windows (Fx4)">
+<!ENTITY classicbuttons4aero.label "Firefox 4 Windows Aero">
+<!ENTITY classicbuttons8osxlion.label "Firefox 8 Mac OS/X Lion">
+<!ENTITY classicbuttons4osx.label "Firefox 4 Mac OS/X">
+<!ENTITY classicbuttons4lgnomehuman.label "Firefox 4 Linux Gnome Human">
+<!ENTITY classicbuttons4lgnomeoxygen.label "Firefox 4 Linux Oxygen">
+<!ENTITY classicbuttons3vista.label "Firefox 3 Vista (Fx3)">
+<!ENTITY classicbuttons3xp.label "Firefox 3 WinXP (Fx3)">
+<!ENTITY classicbuttons1win.label "Firefox 0.9-2.0 Win (Fx2)">
+<!ENTITY classicbuttons1osx.label "Firefox 0.9-2.0 Mac OS/X">
+<!ENTITY classicbuttons3.label "Classic Compact 3">
+<!ENTITY classicbuttons2.label "Classic Compact 2">
+<!ENTITY arrowoption.label "Kolor tła przycisku Do przodu/Wstecz:">
+<!ENTITY classicarrow.label "Brak">
+<!ENTITY keyholearrow.label "Zielony (Fx3 WinXP)">
+<!ENTITY keyholearrowblue.label "Niebieski (Fx3 Vista)">
+<!ENTITY keyholearroworange.label "Pomarańczowy">
+<!ENTITY ButtonBorders.label "Wyświetlaj obramowanie przycisków paska narzędzi">
+<!ENTITY ButtonBordersYes.label "Tak (Fx2, Fx4)">
+<!ENTITY ButtonBordersNo.label "Nie (Fx3)">
+<!ENTITY ButtonBordersOnlyUnified.label "tylko dla Do przodu/Wstecz">
+<!ENTITY backgroundstyle.label "Wyświetlaj tło">
+<!ENTITY gradientbackground.label "gradientowe (K)">
+<!ENTITY gradientbuttontabs.label "jednolite z wyjątkiem przycisków i etykiet kart (Fx)">
+<!ENTITY flatbackground.label "jednolite z wyjątkiem etykiet kart">
+<!ENTITY flatbackgroundall.label "jednolite">
+<!ENTITY toolbardividerborders.label "Obramowanie pasków narzędzi:">
+<!ENTITY noborders.label "– nie wyświetlaj – (K)">
+<!ENTITY chiseled.label "wgłębione (Fx2, Fx3)">
+<!ENTITY borderscornerstyle.label "Wyświetlaj narożniki">
+<!ENTITY roundedcorners.label "zaokrąglone">
+<!ENTITY squarecorners.label "ostre">
+<!ENTITY roundedtabsonly.label "zaokrąglone – tylko karty (Fx)">
+<!ENTITY squaredscrollbarsonly.label "ostre – tylko paski przewijania">
+<!ENTITY scrollbars.label "Wyświetlaj paski przewijania (wymagane odświeżenie strony)">
+<!ENTITY styledscrollbars.label "stylizowane">
+<!ENTITY osscrollbars.label "systemowe (Fx)">
+<!ENTITY ossystemcolors.label "Kolory systemowe:">
+<!ENTITY ossystemcolorslight.label "Jasne/szare tła">
+<!ENTITY ossystemcolorsdark.label "Bardzo ciemne/czarne tła">
+<!ENTITY webpagewindowborder.label "Obramowanie okna strony">
+<!ENTITY webpagewindowborderenabled.label "włączone">
+<!ENTITY webpagewindowborderdisabled.label "wyłączone (K)">
+<!ENTITY ffconfiguration.label "Fx, Fx2, Fx3 i Fx4 – wygląd najbliższy domyślnemu motywowi dla Windows, K - ustawienia kompaktowe.">
+<!ENTITY tab2.title "Menu i karty">
+<!ENTITY toMergeMenus.label "Scalaj pasek menu">
+<!ENTITY toMergeMenusNo.label "– nie scalaj –">
+<!ENTITY toMergeMenusYes.label "Tak">
+<!ENTITY totabMaxWidth.label "Maksymalna szerokość etykiety karty:">
+<!ENTITY toTabMinWidth.label "Minimalna szerokość etykiety karty:">
+<!ENTITY toTabCloseButtons.label "Wyświetlaj przyciski zamykania kart">
+<!ENTITY toTabCloseButtonsAllTabs.label "na wszystkich etykietach">
+<!ENTITY toTabCloseButtonsActiveTab.label "tylko na etykiecie aktywnej karty">
+<!ENTITY toTabCloseButtonsHideEntirely.label "– nie wyświetlaj –">
+<!ENTITY toTabCloseButtonsEndOfTabbar.label "na końcu paska kart">
+<!ENTITY toOpenSearchInTab.label "Wyświetlaj wyniki wyszukiwania w nowej karcie">
+<!ENTITY toOpenSearchInTabNo.label "Nie">
+<!ENTITY toOpenSearchInTabYes.label "Tak">
+<!ENTITY toTabsInTitlebar.label "Wyświetlaj etykiety kart na pasku tytułu">
+<!ENTITY toTabsInTitlebarMaxOnly.label "gdy przeglądarka jest zmaksymalizowana">
+<!ENTITY toTabsInTitlebarAlways.label "zawsze">
+<!ENTITY toTabsInTitlebarDescription.label "Ma zastosowanie tylko, gdy pasek menu jest ukryty, a etykiety kart są wyświetlane na górze.">
+<!ENTITY toRSSFeedInURLBar.label "Wyświetlaj ikonę kanałów RSS w pasku adresu">
+<!ENTITY toRSSFeedInURLBarYes.label "Tak (Fx3)">
+<!ENTITY toRSSFeedInURLBarNo.label "Nie (Fx4)">
+<!ENTITY tab3.title "Ustawienia pasków">
+<!ENTITY howcompactdescription.label "Te ustawienia określają wysokość pasków w głównym oknie przeglądarki.">
+<!ENTITY hcMenuBar.label "Wysokość paska menu:">
+<!ENTITY hcNavBar.label "Wysokość paska narzędzi nawigacyjnych:">
+<!ENTITY hcPersonalBar.label "Wysokość paska narzędzi osobistych:">
+<!ENTITY hcCustomBar.label "Wysokość paska użytkownika:">
+<!ENTITY hcTabBar.label "Wysokość paska etykiet kart:">
+<!ENTITY hcAddonBar.label "Wysokość paska dodatków:">
+<!ENTITY hcOptionsM4.label "-4 (Naprawdę? Nie do wiary.)">
+<!ENTITY hcOptionsM2.label "-2 (Przemęczenie wzroku)">
+<!ENTITY hcOptionsDefault.label "0">
+<!ENTITY hcOptionsP2.label "+2">
+<!ENTITY hcOptionsP4.label "+4">
+<!ENTITY hcOptionsP6.label "+6">
+<!ENTITY MacOSX.label "Informacja. Niektóre ustawienia są niedostępne w systemach Mac OS X i Linux.">
+<!ENTITY PleaseDonate.label "Dokonaj dotacji, by wspomóc rozwój Classic Compact.">

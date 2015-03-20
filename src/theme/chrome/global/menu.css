@@ -1,0 +1,252 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+ /* ===== menu.css =======================================================
+  == Styles used by XUL menu-related elements.
+  ======================================================================= */
+@import url("chrome://os_target/skin/menu.css");
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* ::::: menu/menuitem ::::: */
+
+menu,
+menuitem {
+  -moz-box-align: center;
+  color: MenuText;
+  font: menu;
+  list-style-image: none;
+  -moz-image-region: auto;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+}
+.splitmenu-menuitem {
+  -moz-box-align: center;
+  color: MenuText;
+  font: menu;
+  list-style-image: none;
+  -moz-image-region: auto;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 0px;
+}
+.splitmenu-menu {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 3px;
+
+}
+
+menuitem[default="true"] {
+  font-weight: bold;
+}
+
+menu[disabled="true"],
+menuitem[disabled="true"],
+.splitmenu-menuitem[disabled="true"],
+menu[_moz-menuactive="true"][disabled="true"],
+menuitem[_moz-menuactive="true"][disabled="true"],
+.splitmenu-menuitem[_moz-menuactive="true"][disabled="true"] {
+  color: GrayText;
+  text-shadow: none;
+}
+
+@media -moz-windows-classic) {
+  menu[disabled="true"],
+  menubar > menu[disabled="true"][_moz-menuactive="true"],
+  menuitem[disabled="true"],
+  .splitmenu-menuitem[disabled="true"] {
+    color: ThreeDShadow;
+    text-shadow: 1px 1px ThreeDHighlight;
+  }
+}
+
+menuitem.spell-suggestion {
+  font-weight: bold;
+}
+
+/* ..... internal content .... */
+
+.menu-accel,
+.menu-iconic-accel,
+.menu-text,
+.menu-iconic-text {
+  margin: 0px !important;
+  padding: 1px 0px;
+  color: inherit;
+}
+
+.menu-text {
+  -moz-padding-start: 1.45em !important;
+  -moz-appearance: menuitemtext;
+}
+
+.menu-text,
+.menu-iconic-text {
+  font-weight: inherit;
+  -moz-margin-start: 2px !important;
+  -moz-padding-end: 2px;
+}
+
+.menu-description {
+  font-style: italic;
+  color: GrayText;
+  -moz-margin-start: 1ex !important;
+}
+
+.menu-accel,
+.menu-iconic-accel {
+  color: inherit;
+  -moz-margin-start: 0.74em !important;
+  -moz-margin-end: 1.35em !important;
+}
+
+.menu-iconic-left {
+  min-width: 1.45em;
+}
+
+.menu-iconic-icon {
+  width: 16px;
+  height: 16px;
+}
+
+menu.menu-iconic > .menu-iconic-left,
+menuitem.menuitem-iconic > .menu-iconic-left,
+.splitmenu-menuitem[iconic="true"] > .menu-iconic-left {
+  -moz-appearance: menuimage;
+  padding-top: 2px;
+}
+
+/* ::::: menu/menuitems in menubar ::::: */
+
+menubar > menu {
+  border: 0px solid transparent;
+}
+
+menubar > menu[_moz-menuactive="true"]:not([disabled="true"]) {
+  color: highlighttext;
+  background: Highlight url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
+}
+
+menubar > menu[_moz-menuactive="true"][open="true"] {
+}
+
+menubar > menu:-moz-lwtheme {
+  -moz-appearance: none;
+  border-style: none;
+}
+
+menubar > menu:-moz-lwtheme:not([disabled="true"]) {
+  color: inherit !important;
+}
+
+menubar > menu:-moz-lwtheme[_moz-menuactive="true"]:not([disabled="true"]) {
+  background: Highlight url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
+  color: HighlightText !important;
+  text-shadow: none;
+}
+
+menubar > menu:-moz-window-inactive {
+  color: ThreeDShadow;
+}
+
+/* ..... internal content .... */
+
+.menubar-left {
+  color: inherit;
+}
+
+.menubar-text {
+  margin: -2px 4px 0px 4px !important;
+  color: inherit;
+}
+
+/* ::::: menu/menuitems in popups ::::: */
+
+menupopup > menu,
+menupopup > menuitem {
+  max-width: 42em;
+  line-height:1em;
+  min-height:18px;
+  height:1.5em;
+}
+
+menu[_moz-menuactive="true"],
+menuitem[_moz-menuactive="true"],
+.splitmenu-menuitem[_moz-menuactive="true"] {
+  background: highlight url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x !important;
+  color: highlighttext !important;
+}
+
+/* ::::: menu/menuitems in menulist popups ::::: */
+
+.menulist-menupopup > menuitem > label,
+menulist > menupopup > menuitem > label,
+.menulist-menupopup > menu > label,
+menulist > menupopup > menu > label {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+menulist:-moz-focusring > menupopup > menuitem[_moz-menuactive="true"] {
+  border: 1px dotted #F5DB95;
+  background-color: highlight;
+  color: highlighttext;
+}
+
+menulist > menupopup > menuitem[_moz-menuactive="true"][disabled="true"] {
+  color: GrayText;
+}
+
+menulist > menupopup > menuitem[disabled="true"]:not([_moz-menuactive="true"]):-moz-system-metric(windows-classic) {
+  color: GrayText;
+  text-shadow: none;
+}
+
+menulist > menupopup > menuitem > .menu-iconic-text {
+  margin: 0 !important;
+}
+
+
+/* ::::: menuseparator ::::: */
+
+menuseparator {
+  padding: 0px 1px 0px 1px;
+  border-top: 1px solid ThreeDShadow;
+  border-bottom: 0px solid ThreeDHighlight;
+  line-height:0px;
+  height:0px;
+  margin:2px 0;
+}
+
+menulist > menupopup > menuseparator,
+.menulist-menupopup > menuseparator {
+  padding: 5px 0 6px 0;
+  border-top: 1px solid #000000;
+  border-bottom: none;
+}
+
+/* ::::: autocomplete ::::: */
+
+.autocomplete-history-popup > menuitem {
+  max-width: none !important;
+  font: message-box;
+}
+
+/* ::::: tree column picker ::::: */
+
+.treecell-popupcell-menu {
+  -moz-margin-start: -2px;
+  list-style-image: url("chrome://global/skin/columnselect.gif");
+  -moz-image-region: auto;
+}

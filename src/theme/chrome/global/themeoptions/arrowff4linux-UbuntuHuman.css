@@ -1,0 +1,7 @@
+#back-btn:not([ccOverride="true"]),
+#forward-btn:not([ccOverride="true"]),
+#back-button:not([ccOverride="true"]),
+#forward-button:not([ccOverride="true"]) {
+  list-style-image: url("chrome://global/skin/themeoptions/firefox4linux-UbuntuHuman/Toolbar-dark.png") !important;
+}
+

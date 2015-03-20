@@ -1,0 +1,537 @@
+#TabsToolbar{
+    min-height:12px !important;
+  }
+
+/* -4 */
+
+  window[ccHowCompactTabs="-4"][tabsintitlebar="true"] #appmenu-button,
+  window[ccHowCompactTabs="-4"][cctabsintitlebar="true"] #appmenu-button{
+    max-height:12px !important;
+  }
+  
+  window[ccHowCompactTabs="-4"][tabsintitlebar="true"] #appmenu-button .button-box,
+  window[ccHowCompactTabs="-4"][cctabsintitlebar="true"] #appmenu-button .button-box {
+    font-size:11px;
+    margin:-1px 0 0 0;
+  }
+
+  window[ccHowCompactTabs="-4"][tabsintitlebar="true"] #appmenu-button .button-box .button-icon,
+  window[ccHowCompactTabs="-4"][cctabsintitlebar="true"] #appmenu-button .button-box  .button-icon{
+    height:12px !important;
+    width:12px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] #tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned]{
+    height:12px !important
+  }
+
+  #titlebar[ccHowCompact="-4"] #appmenu-button,
+  #TabsToolbar[ccHowCompact="-4"] #appmenu-toolbar-button,
+  #TabsToolbar[ccHowCompact="-4"] textbox{
+    min-height:12px !important;
+    font-size-adjust:0.45;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] #urlbar .chromeclass-toolbar-additional{
+    min-height:12px !important;
+    min-width:12px !important;
+    background:none !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] #page-proxy-stack {
+    padding: 0px 3px !important;
+ }
+
+  #TabsToolbar[ccHowCompact="-4"] .search-go-button,
+  #TabsToolbar[ccHowCompact="-4"] #urlbar-icons > toolbarbutton > image{
+  height:10px !important;
+  width:10px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] .tab-throbber,
+  #TabsToolbar[ccHowCompact="-4"] .tab-icon-image,
+  #TabsToolbar[ccHowCompact="-4"] .searchbar-engine-image{
+    height:12px !important;
+    width:12px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] .urlbar-history-dropmarker,
+  #TabsToolbar[ccHowCompact="-4"] #page-proxy-stack {
+  height: 12px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] #urlbar .urlbar-stack {
+    max-height:12px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] .notification-anchor-icon,
+  #TabsToolbar[ccHowCompact="-4"] .urlbar-icon,
+  #TabsToolbar[ccHowCompact="-4"] #page-proxy-favicon,
+  #TabsToolbar[ccHowCompact="-4"] #urlbar-throbber {
+    height: 14px !important;
+    width: 14px !important;
+    -moz-transform:  scale(1) !important;
+    transform:  scale(1) !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] #identity-box,
+  #TabsToolbar[ccHowCompact="-4"] #urlbar .urlbar-stack {
+    height:14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] > #tabbrowser-tabs{
+     min-height:14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] > #tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned],
+  #TabsToolbar[ccHowCompact="-4"] > #tabbrowser-tabs .tabbrowser-tab,
+  #TabsToolbar[ccHowCompact="-4"] > #tabbrowser-tabs .tabbrowser-tab > .tab-stack{
+    min-height:14px !important;
+   font-size-adjust:0.45;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] label{
+    height:12px !important;
+    margin-top:-2px !important;
+    margin-bottom:0px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] #new-tab-button{
+    min-height:16px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] > #tabbrowser-tabs .tabbrowser-tab > .tab-stack > .tab-content > .tab-icon > image{
+    max-height: 12px !important;
+    max-width: 12px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] toolbarbutton:not(.tab-close-button){
+    min-height:14px !important;
+    min-width:16px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] .tabs-newtab-button{
+    width:16px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] toolbarbutton.toolbarbutton-1:not([ccOverride="no"]),
+  #TabsToolbar[ccHowCompact="-4"] toolbarbutton:not([ccOverride="no"]) {
+    height: 14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] toolbarbutton.tab-close-button:not([ccOverride="no"]){
+    height: 12px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] #appmenu-button .button-icon,
+  #TabsToolbar[ccHowCompact="-4"] toolbarbutton.toolbarbutton-1 .toolbarbutton-icon:not([ccOverride="no"]),
+  #TabsToolbar[ccHowCompact="-4"] toolbarbutton  .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 14px !important;
+    max-width: 14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] > #tabbrowser-tabs[multibar]  .tabs-newtab-button {
+    min-height:14px !important;
+    height:14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-4"] #appmenu-button > .button-box .button-icon,
+  #TabsToolbar[ccHowCompact="-4"] .tab-close-button .toolbarbutton-icon {
+    max-height: 12px !important;
+    max-width: 12px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] > #tabbrowser-tabs .tabbrowser-tab > .tab-stack > .tab-content > label,
+  #TabsToolbar[ccHowCompact="-4"] .toolbarbutton > label{
+   font-size-adjust:0.45;
+  }
+
+/* -2 */
+  window[ccHowCompactTabs="-2"][tabsintitlebar="true"] #appmenu-button,
+  window[ccHowCompactTabs="-2"][cctabsintitlebar="true"] #appmenu-button{
+    max-height:14px !important;
+  }
+  
+  window[ccHowCompactTabs="-2"][tabsintitlebar="true"] #appmenu-button .button-box,
+  window[ccHowCompactTabs="-2"][cctabsintitlebar="true"] #appmenu-button .button-box {
+    font-size:11px;
+    margin:0;
+  }
+
+  window[ccHowCompactTabs="-2"][tabsintitlebar="true"] #appmenu-button .button-box .button-icon,
+  window[ccHowCompactTabs="-2"][cctabsintitlebar="true"] #appmenu-button .button-box  .button-icon{
+    height:14px !important;
+    width:14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] #tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned]{
+    height:14px !important
+  }
+
+  #titlebar[ccHowCompact="-2"] #appmenu-button,
+  #TabsToolbar[ccHowCompact="-2"] #appmenu-toolbar-button,
+  #TabsToolbar[ccHowCompact="-2"] textbox{
+    min-height:14px !important;
+    font-size-adjust:0.5;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] #urlbar .chromeclass-toolbar-additional{
+    min-height:14px !important;
+    min-width:14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] #page-proxy-stack {
+    padding: 0px 3px !important;
+ }
+
+  #TabsToolbar[ccHowCompact="-2"] .search-go-button,
+  #TabsToolbar[ccHowCompact="-2"] #urlbar-icons > toolbarbutton > image{
+  height:12px !important;
+  width:12px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] .tab-throbber,
+  #TabsToolbar[ccHowCompact="-2"] .tab-icon-image,
+  #TabsToolbar[ccHowCompact="-2"] .searchbar-engine-image{
+    height:14px !important;
+    width:14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] .urlbar-history-dropmarker,
+  #TabsToolbar[ccHowCompact="-2"] #page-proxy-stack {
+  height: 14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] #urlbar .urlbar-stack {
+    max-height:14px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] .notification-anchor-icon,
+  #TabsToolbar[ccHowCompact="-2"] .urlbar-icon,
+  #TabsToolbar[ccHowCompact="-2"] #page-proxy-favicon,
+  #TabsToolbar[ccHowCompact="-2"] #urlbar-throbber {
+    height: 16px !important;
+    width: 16px !important;
+    -moz-transform:  scale(1) !important;
+    transform:  scale(1) !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] #identity-box,
+  #TabsToolbar[ccHowCompact="-2"] #urlbar .urlbar-stack {
+    height:16px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] > #tabbrowser-tabs{
+     min-height:16px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] > #tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned],
+  #TabsToolbar[ccHowCompact="-2"] > #tabbrowser-tabs .tabbrowser-tab,
+  #TabsToolbar[ccHowCompact="-2"] > #tabbrowser-tabs .tabbrowser-tab > .tab-stack{
+    min-height:16px !important;
+   font-size-adjust:0.5;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] label{
+    height:14px !important;
+    margin-top:-1px !important;
+    margin-bottom:0px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] #new-tab-button{
+    min-height:16px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] > #tabbrowser-tabs .tabbrowser-tab > .tab-stack > .tab-content > .tab-icon > image{
+    max-height: 14px !important;
+    max-width: 14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] toolbarbutton:not(.tab-close-button){
+    min-height:16px !important;
+    min-width:18px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] .tabs-newtab-button{
+    width:16px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] #appmenu-button .button-icon,
+  #TabsToolbar[ccHowCompact="-2"] toolbarbutton.toolbarbutton-1 .toolbarbutton-icon:not([ccOverride="no"]),
+  #TabsToolbar[ccHowCompact="-2"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 16px !important;
+    max-width: 16px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] > #tabbrowser-tabs[multibar] .tabs-newtab-button {
+    min-height:16px !important;
+    height:16px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] toolbarbutton.tab-close-button:not([ccOverride="no"]){
+    height: 14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] #appmenu-button > .button-box .button-icon,
+  #TabsToolbar[ccHowCompact="-2"] .tab-close-button .toolbarbutton-icon {
+    max-height: 14px !important;
+    max-width: 14px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="-2"] > #tabbrowser-tabs .tab-stack > .tab-content > label,
+  #TabsToolbar[ccHowCompact="-2"] .toolbarbutton > label{
+   font-size-adjust:0.5;
+  }
+
+/* 2 */
+  #TabsToolbar[ccHowCompact="2"] #tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned]{
+    height:18px !important
+  }
+
+  #TabsToolbar[ccHowCompact="2"] textbox{
+    min-height:18px !important;
+    margin-top:1px !important;
+    margin-bottom:1px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] #urlbar .chromeclass-toolbar-additional{
+    min-height:16px !important;
+    min-width:16px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] #urlbar .urlbar-stack {
+    max-height:16px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] #identity-box,
+  #TabsToolbar[ccHowCompact="2"] #urlbar .urlbar-stack {
+    height:18px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] > #tabbrowser-tabs{
+    min-height:22px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] > #tabbrowser-tabs .tabbrowser-tab,
+  #TabsToolbar[ccHowCompact="2"] > #tabbrowser-tabs .tabbrowser-tab > .tab-stack{
+    min-height:20px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] #new-tab-button{
+    min-height:20px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] toolbarbutton:not(.tab-close-button){
+    min-height:20px !important;
+    min-width:22px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] .tabs-newtab-button{
+    width:22px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] toolbarbutton.toolbarbutton-1:not([ccOverride="no"]),
+  #TabsToolbar[ccHowCompact="2"] toolbarbutton:not([ccOverride="no"]) {
+    height: 20px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] > #tabbrowser-tabs[multibar] .tabs-newtab-button {
+    min-height:20px !important;
+    height:20px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="2"] toolbarbutton.toolbarbutton-1 .toolbarbutton-icon:not([ccOverride="no"]),
+  #TabsToolbar[ccHowCompact="2"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 20px !important;
+    max-width: 20px !important;
+  }
+
+/* 4 */
+  #TabsToolbar[ccHowCompact="4"] #tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned]{
+    height:20px !important
+  }
+
+  #TabsToolbar[ccHowCompact="4"] textbox{
+    min-height:20px !important;
+    margin-top:1px !important;
+    margin-bottom:1px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="4"] #urlbar .chromeclass-toolbar-additional{
+    min-height:18px !important;
+    min-width:18px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="4"] #urlbar .urlbar-stack {
+    max-height:18px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="4"] #identity-box,
+  #TabsToolbar[ccHowCompact="4"] #urlbar .urlbar-stack {
+    height:20px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="4"] > #tabbrowser-tabs{
+     min-height:24px !important;
+  }
+  #TabsToolbar[ccHowCompact="4"] > #tabbrowser-tabs .tabbrowser-tab,
+  #TabsToolbar[ccHowCompact="4"] > #tabbrowser-tabs .tabbrowser-tab > .tab-stack{
+    min-height:22px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="4"] #new-tab-button{
+    min-height:22px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="4"] toolbarbutton:not(.tab-close-button){
+    min-height:22px !important;
+    min-width:24px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="4"] .tabs-newtab-button{
+    width:24px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="4"] toolbarbutton.toolbarbutton-1:not([ccOverride="no"]),
+  #TabsToolbar[ccHowCompact="4"] toolbarbutton:not([ccOverride="no"]) {
+    height: 22px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="4"] > #tabbrowser-tabs[multibar] .tabs-newtab-button {
+    min-height:22px !important;
+    height:22px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="4"] toolbarbutton.toolbarbutton-1 .toolbarbutton-icon:not([ccOverride="no"]),
+  #TabsToolbar[ccHowCompact="4"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 22px !important;
+    max-width: 22px !important;
+  }
+
+/* 6 */
+  #TabsToolbar[ccHowCompact="6"] #tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned]{
+    height:22px !important
+  }
+
+  #TabsToolbar[ccHowCompact="6"] textbox{
+    min-height:22px !important;
+    margin-top:1px !important;
+    margin-bottom:1px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="6"] #urlbar .chromeclass-toolbar-additional{
+    min-height:20px !important;
+    min-width:20px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="6"] #urlbar .urlbar-stack {
+    max-height:20px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="6"] #identity-box,
+  #TabsToolbar[ccHowCompact="6"] #urlbar .urlbar-stack {
+    height:22px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="6"] > #tabbrowser-tabs{
+     min-height:26px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="6"] > #tabbrowser-tabs .tabbrowser-tab,
+  #TabsToolbar[ccHowCompact="6"] > #tabbrowser-tabs .tabbrowser-tab > .tab-stack{
+    min-height:24px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="6"] #new-tab-button{
+    min-height:24px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="6"] toolbarbutton:not(.tab-close-button){
+    min-height:24px !important;
+    min-width:26px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="6"] .tabs-newtab-button{
+    width:26px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="6"] toolbarbutton.toolbarbutton-1:not([ccOverride="no"]),
+  #TabsToolbar[ccHowCompact="6"] toolbarbutton:not([ccOverride="no"]) {
+    height: 24px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="6"] > #tabbrowser-tabs[multibar] .tabs-newtab-button {
+    min-height:24px !important;
+    height:24px !important;
+  }
+
+  #TabsToolbar[ccHowCompact="6"] toolbarbutton.toolbarbutton-1 .toolbarbutton-icon:not([ccOverride="no"]),
+  #TabsToolbar[ccHowCompact="6"] toolbarbutton .toolbarbutton-icon:not([ccOverride="no"]) {
+    max-height: 24px !important;
+    max-width: 24px !important;
+  }
+
+/* Default Full Zoom Level Add-on */
+#TabsToolbar[ccHowCompact="-4"] #statusbarZoomLevel > .toolbarbutton-icon{
+  max-width: 33px !important;
+}
+
+#TabsToolbar[ccHowCompact="-2"] #statusbarZoomLevel > .toolbarbutton-icon{
+  max-width: 38px !important;
+}
+
+#TabsToolbar[ccHowCompact="2"] #statusbarZoomLevel > .toolbarbutton-icon,
+#TabsToolbar[ccHowCompact="4"] #statusbarZoomLevel > .toolbarbutton-icon{
+  max-width: 48px !important;
+}
+
+#TabsToolbar[ccHowCompact="6"] #statusbarZoomLevel > .toolbarbutton-icon{
+  max-width: 53px !important;
+}
+
+/* Tree Style Tabs */
+
+#TabsToolbar[ccHowCompact="-4"]  .tabbrowser-tabs[treestyletab-mode="vertical"]  .tabbrowser-tab[pinned="true"] {
+ 	width: 12px !important;
+	max-width:12px !important;
+   height: 12px;
+    max-height: 12px;
+}
+
+#TabsToolbar[ccHowCompact="-2"]  .tabbrowser-tabs[treestyletab-mode="vertical"]  .tabbrowser-tab[pinned="true"] {
+	width: 14px !important;
+	max-width:14px !important;
+    height: 14px;
+    max-height: 14px;
+}
+
+#TabsToolbar[ccHowCompact="2"]  .tabbrowser-tabs[treestyletab-mode="vertical"]  .tabbrowser-tab[pinned="true"] {
+ 	width: 18px !important;
+	max-width:18px !important;
+    height: 18px;
+    max-height: 18px;
+}
+
+#TabsToolbar[ccHowCompact="4"]  .tabbrowser-tabs[treestyletab-mode="vertical"]  .tabbrowser-tab[pinned="true"] {
+ 	width: 20px !important;
+	max-width:20px !important;
+    height: 20px;
+    max-height: 20px;
+}
+
+#TabsToolbar[ccHowCompact="6"]  .tabbrowser-tabs[treestyletab-mode="vertical"]  .tabbrowser-tab[pinned="true"] {
+ 	width: 22px !important;
+	max-width:22px !important;
+    height: 22px;
+    max-height: 22px;
+}

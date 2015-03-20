@@ -1,0 +1,84 @@
+<!ENTITY prefwindow.title "Compact Moon 选项">
+<!ENTITY tab1.title "主题">
+<!ENTITY toolbarbuttons.label "工具栏按钮">
+<!ENTITY classicbuttons4.label "Firefox 4 Windows (默认, FF4)">
+<!ENTITY classicbuttons4aero.label "Firefox 4 Windows Aero">
+<!ENTITY classicbuttons8osxlion.label "Firefox 8 Mac OS/X Lion">
+<!ENTITY classicbuttons4osx.label "Firefox 4 Mac OS/X">
+<!ENTITY classicbuttons4lgnomehuman.label "Firefox 4 Linux Gnome Human">
+<!ENTITY classicbuttons4lgnomeoxygen.label "Firefox 4 Linux Oxygen">
+<!ENTITY classicbuttons3vista.label "Firefox 3 Vista (FF3)">
+<!ENTITY classicbuttons3xp.label "Firefox 3 WinXP (FF3)">
+<!ENTITY classicbuttons1win.label "Firefox 0.9-2.0 Win (FF2)">
+<!ENTITY classicbuttons1osx.label "Firefox 0.9-2.0 Mac OS/X">
+<!ENTITY classicbuttons3.label "Classic Compact 3">
+<!ENTITY classicbuttons2.label "Classic Compact 2">
+<!ENTITY arrowoption.label "后退/前进按钮背景色">
+<!ENTITY classicarrow.label "无 (默认)">
+<!ENTITY keyholearrow.label "绿色 (FF3 WinXP)">
+<!ENTITY keyholearrowblue.label "蓝色 (FF3 Vista)">
+<!ENTITY keyholearroworange.label "橙色">
+<!ENTITY ButtonBorders.label "显示工具栏按钮边框">
+<!ENTITY ButtonBordersYes.label "是 (默认, FF2, FF4)">
+<!ENTITY ButtonBordersNo.label "否 (FF3)">
+<!ENTITY ButtonBordersOnlyUnified.label "仅后退/前进">
+<!ENTITY backgroundstyle.label "背景样式">
+<!ENTITY gradientbackground.label "渐进色 (默认, MC)">
+<!ENTITY gradientbuttontabs.label "除按钮&amp;标签外单色 (FF)">
+<!ENTITY flatbackground.label "除标签外单色">
+<!ENTITY flatbackgroundall.label "单色">
+<!ENTITY toolbardividerborders.label "工具栏分隔线边框">
+<!ENTITY noborders.label "无 (默认, MC)">
+<!ENTITY chiseled.label "轮廓分明 (FF2, FF3)">
+<!ENTITY borderscornerstyle.label "边框边角样式">
+<!ENTITY roundedcorners.label "圆角 (默认)">
+<!ENTITY squarecorners.label "方角">
+<!ENTITY roundedtabsonly.label "仅标签圆角 (FF)">
+<!ENTITY squaredscrollbarsonly.label "仅滚动条方角">
+<!ENTITY scrollbars.label "滚动条 (需要重新载入网页)">
+<!ENTITY styledscrollbars.label "美化 (默认)">
+<!ENTITY osscrollbars.label "操作系统原生 (FF)">
+<!ENTITY ossystemcolors.label "操作系统颜色">
+<!ENTITY ossystemcolorslight.label "亮/灰背景 (默认)">
+<!ENTITY ossystemcolorsdark.label "暗/黑背景">
+<!ENTITY webpagewindowborder.label "网页窗口边框">
+<!ENTITY webpagewindowborderenabled.label "启用 (默认)">
+<!ENTITY webpagewindowborderdisabled.label "禁用 (MC)">
+<!ENTITY ffconfiguration.label "FF：最接近 Window Firefox 主题的外观。MC：最紧凑的设置。">
+<!ENTITY tab2.title "菜单&amp;标签">
+<!ENTITY toMergeMenus.label "将菜单栏合并到按钮(需要重启浏览器)">
+<!ENTITY toMergeMenusNo.label "否 (默认)">
+<!ENTITY toMergeMenusYes.label "是">
+<!ENTITY totabMaxWidth.label "标签最大宽度">
+<!ENTITY toTabMinWidth.label "标签最小宽度">
+<!ENTITY toTabCloseButtons.label "关闭标签按钮">
+<!ENTITY toTabCloseButtonsAllTabs.label "所有标签 (默认)">
+<!ENTITY toTabCloseButtonsActiveTab.label "仅在活动标签">
+<!ENTITY toTabCloseButtonsHideEntirely.label "完全隐藏">
+<!ENTITY toTabCloseButtonsEndOfTabbar.label "标签栏末尾">
+<!ENTITY toOpenSearchInTab.label "在新标签打开搜索页面">
+<!ENTITY toOpenSearchInTabNo.label "否 (默认)">
+<!ENTITY toOpenSearchInTabYes.label "是">
+<!ENTITY toTabsInTitlebar.label "在标题栏显示标签">
+<!ENTITY toTabsInTitlebarMaxOnly.label "当浏览器最大化时 (默认)">
+<!ENTITY toTabsInTitlebarAlways.label "总是">
+<!ENTITY toTabsInTitlebarDescription.label "仅在标签栏置顶且菜单栏隐藏时应用">
+<!ENTITY toRSSFeedInURLBar.label "在地址栏显示 RSS 订阅图标">
+<!ENTITY toRSSFeedInURLBarYes.label "是 (默认, FF3)">
+<!ENTITY toRSSFeedInURLBarNo.label "否 (FF4)">
+<!ENTITY tab3.title "紧凑程度">
+<!ENTITY howcompactdescription.label "这些设置调整主浏览器窗口中相应工具栏高度。">
+<!ENTITY hcMenuBar.label "菜单栏高度">
+<!ENTITY hcNavBar.label "导航栏高度">
+<!ENTITY hcPersonalBar.label "书签工具栏高度">
+<!ENTITY hcCustomBar.label "自定义工具栏高度">
+<!ENTITY hcTabBar.label "标签栏高度">
+<!ENTITY hcAddonBar.label "附加组件栏高度">
+<!ENTITY hcOptionsM4.label "-4 (疯狂)">
+<!ENTITY hcOptionsM2.label "-2 (视疲劳)">
+<!ENTITY hcOptionsDefault.label "0 (默认)">
+<!ENTITY hcOptionsP2.label "+2">
+<!ENTITY hcOptionsP4.label "+4">
+<!ENTITY hcOptionsP6.label "+6">
+<!ENTITY MacOSX.label "请注意：某些选项不能用于 Mac OS X 和 Linux。">
+<!ENTITY PleaseDonate.label "请进行捐助来支持  Classic Compact 的开发。">

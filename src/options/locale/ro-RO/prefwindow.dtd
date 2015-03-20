@@ -1,0 +1,84 @@
+<!ENTITY prefwindow.title "Opţiuni Compact Moon">
+<!ENTITY tab1.title "Temă">
+<!ENTITY toolbarbuttons.label "Butoane bară de unelte">
+<!ENTITY classicbuttons4.label "Firefox 4 Windows (implicit, FF4)">
+<!ENTITY classicbuttons4aero.label "Firefox 4 Windows Aero">
+<!ENTITY classicbuttons8osxlion.label "Firefox 8 Mac OS/X Lion">
+<!ENTITY classicbuttons4osx.label "Firefox 4 Mac OS/X">
+<!ENTITY classicbuttons4lgnomehuman.label "Firefox 4 Linux Gnome Human">
+<!ENTITY classicbuttons4lgnomeoxygen.label "Firefox 4 Linux Oxygen">
+<!ENTITY classicbuttons3vista.label "Firefox 3 Vista (FF3)">
+<!ENTITY classicbuttons3xp.label "Firefox 3 WinXP (FF3)">
+<!ENTITY classicbuttons1win.label "Firefox 0.9-2.0 Win (FF2)">
+<!ENTITY classicbuttons1osx.label "Firefox 0.9-2.0 Mac OS/X">
+<!ENTITY classicbuttons3.label "Classic Compact 3">
+<!ENTITY classicbuttons2.label "Classic Compact 2">
+<!ENTITY arrowoption.label "Culoare fundal buton Înapoi/Înainte">
+<!ENTITY classicarrow.label "Nimic (implicit)">
+<!ENTITY keyholearrow.label "Verde (FF3 WinXP)">
+<!ENTITY keyholearrowblue.label "Albastru (FF3 Vista)">
+<!ENTITY keyholearroworange.label "Portocaliu">
+<!ENTITY ButtonBorders.label "Afişare chenar butoane bare de unelte">
+<!ENTITY ButtonBordersYes.label "Da (implicit, FF2, FF4)">
+<!ENTITY ButtonBordersNo.label "Nu (FF3)">
+<!ENTITY ButtonBordersOnlyUnified.label "Doar Înapoi/Înainte">
+<!ENTITY backgroundstyle.label "Stil fundal">
+<!ENTITY gradientbackground.label "Degradé (implicit, MC)">
+<!ENTITY gradientbuttontabs.label "Fără, exceptând butoanele şi filele (FF)">
+<!ENTITY flatbackground.label "Fără, exceptând filele">
+<!ENTITY flatbackgroundall.label "Fără">
+<!ENTITY toolbardividerborders.label "Chenare separatoare bară de unelte">
+<!ENTITY noborders.label "Fără (implicit, MC)">
+<!ENTITY chiseled.label "Sculptat (FF2, FF3)">
+<!ENTITY borderscornerstyle.label "Stilizare colţuri chenar">
+<!ENTITY roundedcorners.label "Colţuri rotunjite (implicit)">
+<!ENTITY squarecorners.label "Colţuri drepte">
+<!ENTITY roundedtabsonly.label "Rotunjire doar la file (FF)">
+<!ENTITY squaredscrollbarsonly.label "Colţuri drepte doar la bare de derulare">
+<!ENTITY scrollbars.label "Bare de derulare (necesită re-încărcarea paginii de internet)">
+<!ENTITY styledscrollbars.label "Stilizate (implicit)">
+<!ENTITY osscrollbars.label "Implicite ale sistemului de operare">
+<!ENTITY ossystemcolors.label "Culorile sistemului de operare">
+<!ENTITY ossystemcolorslight.label "Fundaluri gri/luminoase (implicit)">
+<!ENTITY ossystemcolorsdark.label "Fundaluri foarte întunecate/negre">
+<!ENTITY webpagewindowborder.label "Chenar pagină de internet">
+<!ENTITY webpagewindowborderenabled.label "Activat (implicit)">
+<!ENTITY webpagewindowborderdisabled.label "Dezactivat (MC)">
+<!ENTITY ffconfiguration.label "FF: aspectul cel mai apropiat  de tema implicită Firefox Windows. MC: cele mai compacte reglaje.">
+<!ENTITY tab2.title "Meniuri şi file">
+<!ENTITY toMergeMenus.label "Transformare bară de meniu în buton (necesită repornire)">
+<!ENTITY toMergeMenusNo.label "Nu (implicit)">
+<!ENTITY toMergeMenusYes.label "Da">
+<!ENTITY totabMaxWidth.label "Lăţime maximă filă">
+<!ENTITY toTabMinWidth.label "Lăţime minimă filă">
+<!ENTITY toTabCloseButtons.label "Butoane de închidere filă">
+<!ENTITY toTabCloseButtonsAllTabs.label "La toate filele (implicit)">
+<!ENTITY toTabCloseButtonsActiveTab.label "Doar la fila activă">
+<!ENTITY toTabCloseButtonsHideEntirely.label "Ascunse complet">
+<!ENTITY toTabCloseButtonsEndOfTabbar.label "La capătul barei de file">
+<!ENTITY toOpenSearchInTab.label "Deschidere căutări în filă nouă">
+<!ENTITY toOpenSearchInTabNo.label "Nu (implicit)">
+<!ENTITY toOpenSearchInTabYes.label "Da">
+<!ENTITY toTabsInTitlebar.label "Arată filele în bara de titlu">
+<!ENTITY toTabsInTitlebarMaxOnly.label "Când navigatorul este maximizat (implicit)">
+<!ENTITY toTabsInTitlebarAlways.label "Mereu">
+<!ENTITY toTabsInTitlebarDescription.label "Se aplică doar când filele sunt deasupra şi bara de meniu este ascunsă">
+<!ENTITY toRSSFeedInURLBar.label "Arată pictograma fluxuri RSS în bara de adresă">
+<!ENTITY toRSSFeedInURLBarYes.label "Da (implicit, FF3)">
+<!ENTITY toRSSFeedInURLBarNo.label "Nu (FF4)">
+<!ENTITY tab3.title "Cât de compact?">
+<!ENTITY howcompactdescription.label "Aceste reglaje ajustează înălţimea barei respective în fereastra principală a navigatorului.">
+<!ENTITY hcMenuBar.label "Înălţime bară de meniu">
+<!ENTITY hcNavBar.label "Înălţime bară de navigare">
+<!ENTITY hcPersonalBar.label "Înălţime bară personală">
+<!ENTITY hcCustomBar.label "Înălţime bară personalizată">
+<!ENTITY hcTabBar.label "Înălţime bară de file">
+<!ENTITY hcAddonBar.label "Înălţime">
+<!ENTITY hcOptionsM4.label "-4 (Esti nebun?)">
+<!ENTITY hcOptionsM2.label "-2 (Forţează ochii)">
+<!ENTITY hcOptionsDefault.label "0 (Implicit)">
+<!ENTITY hcOptionsP2.label "+2">
+<!ENTITY hcOptionsP4.label "+4">
+<!ENTITY hcOptionsP6.label "+6">
+<!ENTITY MacOSX.label "Vă rog luaţi notă: Unele opţiuni nu sunt disponibile în MacOS X şi Linux.">
+<!ENTITY PleaseDonate.label "Vă rog faceţi o donaţie pentru a sprijini dezvoltarea Classic Compact.">

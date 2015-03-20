@@ -1,0 +1,13 @@
+<!ENTITY FirstRun.title "Classic Compact kuruldu/güncellendi!">
+<!ENTITY FirstRun.H1.title "Firefox temanız Classic Compact kuruldu/güncellendi!">
+<!ENTITY ThankYouForUsing.label "Classic Compact'ı Firefox temanız olarak seçtiğiniz için teşekkürler. Bu tema addons.mozilla.org'daki en toplu temalardan biri ve çok fazla özelleştirilebilir.">
+<!ENTITY Customize.title "Seçenekler panelini kullanarak Classic Compact'ın görünümünü özelleştir">
+<!ENTITY Customize.label "Classic Compact'ın görünümünü özelleştirmek için araçlar menüsüne gidip 'Classic Compact Seçenekleri', menü çubuğu etkinsizse 'Firefox' düğmesinde 'Seçenekler' (Linux'da 'Tercihler') altına gidip 'Classic Compact Seçenekleri'ni seçmelisiniz. Seçenekler arasında birçok araç çubuğu düğme seti; kaydırma çubuğu ve düğme stilleri; menü çubuğunun, araç çubuğunun ve sekmelerin yüksekliğini özelleştirme yer almakta.">
+<!ENTITY BugsSupport.title "Hata raporları, geri bildirim ve destek">
+<!ENTITY BugsSupport.label "Classic Compact ile ilgili hata bildirimleri, geri bildirimleriniz varsa ve/veya yardıma gereksinim duyuyorsanız Mozilla eklentileri forumlarındaki <ahref='https://forums.mozilla.org/addons/viewtopic.php?f=23&amp;t=4593'>Classic Compact'in destek hattına</a> ya da kendi sayfamdaki <ahref='http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html'>Classic Compact'in anasayfası</a> aracılığıyla benimle iletişime geçebilirsiniz.">
+<!ENTITY PleaseDonate.title "Classic Compact'ın gelişimini desteklemek için lütfen bağış yapın.">
+<!ENTITY PleaseDonate.label "Her altı haftada bir yeni Firefox sürümü çıktığından, Firefox'taki gelen değişikliklere karşı uyanık olmam ve Classic Compact'ı bunlara uygun biçimde sürekli güncellemem gerekli. Bu çok fazla iş demek ve bu emeği uygulabilir kılabilmek için sizin desteğinize gereksin duyuyorum. Bu <a href='https://addons.mozilla.org/en-US/firefox/addon/classic-compact/developers'>çabamı desteklemek için</a> lütfen bağışda bulunmayı düşünün.">
+<!ENTITY Enjoy.title "İyi kullanımlar!">
+<!ENTITY Enjoy.label "Firefox temanız olarak Classic Compact'ı kullanmaktan memnun olduğunuzu ümit ediyorum.">
+<!ENTITY Sincerely.title "Saygılarımla,">
+<!ENTITY Name.title "Ken Barbalace">

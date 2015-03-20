@@ -1,0 +1,81 @@
+/* ::::: menu/menuitems in menulist popups ::::: */
+
+.menulist-menupopup > menuitem,
+menulist > menupopup > menuitem,
+.menulist-menupopup > menu,
+menulist > menupopup > menu {
+  -moz-appearance: none;
+  border: 1px solid transparent;
+  padding: 1px 5px;
+  max-width: none;
+  font: message-box;
+  color: -moz-FieldText;
+}
+
+.menulist-menupopup > menuitem > .menu-iconic-left,
+menulist > menupopup > menuitem > .menu-iconic-left,
+.menulist-menupopup > menu > .menu-iconic-left,
+menulist > menupopup > menu > .menu-iconic-left {
+  display: none;
+  padding-top: 0px;
+}
+
+/* ..... menu arrow box ..... */
+
+.menu-right,
+.menu-accel-container {
+  -moz-appearance: none !important;
+  -moz-margin-start: 21px;
+  -moz-box-pack: end;
+}
+
+.menu-right {
+  -moz-appearance: none !important;
+  width: 8px;
+  list-style-image: url("chrome://global/skin/menu/menu-arrow.png");
+  -moz-image-region: rect(0, 8px, 10px, 0);
+  margin:0 3px;
+}
+
+.menu-right[_moz-menuactive="true"]:not([disabled="true"]) {
+  -moz-image-region: rect(0, 16px, 10px, 8px);
+}
+
+.menu-right[disabled="true"] {
+  -moz-image-region: rect(0, 24px, 10px, 16px);
+}
+
+.menu-right:-moz-locale-dir(rtl) {
+  -moz-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/* ::::: checkbox and radio menuitems ::::: */
+
+menuitem[type="checkbox"],
+menuitem[checked="true"] {
+  -moz-appearance: none !important;
+}
+menuitem[checked="true"] > .menu-iconic-left {
+  background: -moz-image-rect("chrome://global/skin/menu/menu-check.png", 0, 10, 11, 0) 5px center no-repeat transparent;
+}
+menuitem[checked="true"] > .menu-iconic-left:-moz-locale-dir(rtl),
+menuitem[selected="true"] > .menu-iconic-left:-moz-locale-dir(rtl) {
+  background-position: 5px center;
+}
+
+menuitem[checked="true"][_moz-menuactive="true"]:not([disabled="true"]) > .menu-iconic-left,
+menupopup > menuitem[selected="true"][_moz-menuactive="true"]:not([disabled="true"]) > .menu-iconic-left {
+ -moz-appearance: none !important;
+  background-image: -moz-image-rect("chrome://global/skin/menu/menu-check.png", 0, 20, 11, 10);
+}
+
+menuitem[type="radio"][checked="true"] > .menu-iconic-left {
+  background: -moz-image-rect("chrome://global/skin/menu/menu-radio.png", 0, 10, 11, 0) 5px center no-repeat transparent;
+}
+
+menuitem[type="radio"][checked="true"][_moz-menuactive="true"]:not([disabled="true"]) > .menu-iconic-left,
+menupopup > menuitem[type="radio"][selected="true"][_moz-menuactive="true"]:not([disabled="true"]) > .menu-iconic-left {
+ -moz-appearance: none !important;
+  background-image: -moz-image-rect("chrome://global/skin/menu/menu-radio.png", 0, 20, 11, 10);
+}

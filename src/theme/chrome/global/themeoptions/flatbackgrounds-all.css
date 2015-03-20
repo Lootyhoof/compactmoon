@@ -1,0 +1,325 @@
+/* ::::: Flat backgrounds ::::: */
+
+#CustomizeToolbarWindow button
+#extensionsManager button,
+.progress-bar,
+.progressmeter-statusbar,
+.splitmenu-menuitem,
+colorpicker[type="button"] ,
+dialog button,
+dropmarker,
+grid button,
+hbox button,
+menu,
+menubar,
+menuitem,
+prefwindow button,
+scrollbar,
+scrollbarbutton,
+spinbuttons,
+textbox button,
+thumb,
+toolbar:not(.devtools-toolbar):not(.devtools-tabbar):not(#inspector-toolbar):not(#devtools-sidebar-toolbar),
+toolbarbutton:not([checked="true"]):not(.tabs-newtab-button),
+toolbaritem,
+treechildren,
+wizard button,
+#identity-box > hbox {
+	background-image:none !important;
+}
+
+  #main-menubar:-moz-system-metric(windows-compositor):not(:-moz-lwtheme):not(:-moz-window-inactive) {
+    background-color: rgba(255,255,255,.5) !important;
+    border-radius: 4px;
+  }
+
+toolbar:not(#TabsToolbar) toolbarbutton:not([checked="true"]):-moz-lwtheme,
+#addon-bar toolbaritem:-moz-lwtheme{
+  background-image:
+    -moz-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), 
+    -moz-linear-gradient(rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.3))
+    !important
+    ;
+}
+
+#urlbar-go-button {
+  background-image: -moz-linear-gradient(rgb(96,190,96), rgb(96,190,96)) !important;
+}
+
+#urlbar-reload-button:not([disabled]):hover {
+  background-image: -moz-linear-gradient(rgb(111,178,225), rgb(111,178,225)) !important;
+}
+
+#urlbar-stop-button {
+  background-image: -moz-linear-gradient(rgb(209,119,100), rgb(209,119,100)) !important;
+}
+
+#urlbar-stop-button:hover {
+  background-image: -moz-linear-gradient(rgb(215,101,77), rgb(215,101,77)) !important;
+}
+
+
+#addon-bar  toolbaritem{
+	background-image:
+		-moz-linear-gradient(rgba(100%,100%,100%,.4), rgba(100%,100%,100%,.4)),
+		-moz-linear-gradient(rgba(30%,30%,30%,.1), rgba(30%,30%,30%,.1))
+		!important
+		;
+	}
+
+#appmenu-button {
+	background-image: -moz-linear-gradient(rgb(10,98,215), rgb(10,98,215) 95% ) !important;
+	}
+
+toolbar #appmenu-button {
+	background-image:none !important;
+	}	
+	
+#main-window[cctabsintitlebar=true][autohide] #TabsToolbar #appmenu-button,
+#main-window[tabsintitlebar] #TabsToolbar #appmenu-button {
+	background-image: -moz-linear-gradient(rgb(10,98,215), rgb(10,98,215) 95% ) !important;
+	}
+
+#main-window[cctabsintitlebar=true][autohide][privatebrowsingmode=temporary] #TabsToolbar #appmenu-button,
+#main-window[tabsintitlebar][privatebrowsingmode=temporary] #TabsToolbar #appmenu-button,
+#main-window[privatebrowsingmode=temporary] #appmenu-button {
+  background-image: -moz-linear-gradient(rgb(153,38,211), rgb(153,38,211) 95%) !important;
+}
+
+#main-window[cctabsintitlebar=true][autohide][tabsontop][privatebrowsingmode=temporary] #TabsToolbar #appmenu-button:hover:active,
+#main-window[tabsintitlebar][privatebrowsingmode=temporary] #TabsToolbar #appmenu-button:hover:active,
+#main-window[privatebrowsingmode=temporary] #appmenu-button:hover:active,
+#main-window[privatebrowsingmode=temporary] #appmenu-button[open] {
+  background-image: -moz-linear-gradient(rgb(144,20,207), rgb(144,20,207) 95%) !important;
+}
+
+#addon-bar toolbaritem {
+	border-top-width:1px !important;
+	}
+
+.spinbuttons-down{
+	background-image: url(chrome://global/skin/arrow/arrow-dn.png) !important;
+	background-position: center !important;
+	}
+
+.spinbuttons-up{
+	background-image: url(chrome://global/skin/arrow/arrow-up.png) !important;
+	background-position: center !important;
+	}
+
+/* ..... increment .... */
+
+scrollbarbutton[type="increment"] {
+	-moz-appearance: none;
+	background-image: url(chrome://global/skin/arrow/arrow-rit.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbarbutton[type="increment"]:hover {
+	background-image: url(chrome://global/skin/arrow/arrow-rit-hov.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbarbutton[type="increment"]:active {
+	background-image: url(chrome://global/skin/arrow/arrow-rit-act.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbarbutton[type="increment"][disabled="true"] {
+	background-image: url(chrome://global/skin/arrow/arrow-rit-dis.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"] {
+	-moz-appearance: none;
+	background-image: url(chrome://global/skin/arrow/arrow-dn.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"]:hover {
+	background-image: url(chrome://global/skin/arrow/arrow-dn-hov.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"]:active {
+	background-image: url(chrome://global/skin/arrow/arrow-dn-act.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="increment"][disabled="true"] {
+	background-image: url(chrome://global/skin/arrow/arrow-dn-dis.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+/* ..... decrement .... */
+
+scrollbarbutton[type="decrement"] {
+	-moz-appearance: none;
+	background-image: url(chrome://global/skin/arrow/arrow-lft.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbarbutton[type="decrement"]:hover {
+	background-image: url(chrome://global/skin/arrow/arrow-lft-hov.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbarbutton[type="decrement"]:active {
+	background-image: url(chrome://global/skin/arrow/arrow-lft-act.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbarbutton[type="decrement"][disabled="true"] {
+	background-image: url(chrome://global/skin/arrow/arrow-lft-dis.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"] {
+	-moz-appearance: none;
+	background-image: url(chrome://global/skin/arrow/arrow-up.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"]:hover {
+	background-image: url(chrome://global/skin/arrow/arrow-up-hov.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"]:active {
+	background-image: url(chrome://global/skin/arrow/arrow-up-act.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"][disabled="true"] {
+	background-image: url(chrome://global/skin/arrow/arrow-up-dis.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	}
+
+
+/* ..... Tree Children Backgrounds.... */
+treechildren::-moz-tree-row(selected),
+treechildren::-moz-tree-row(selected, focus),
+tree[seltype="cell"] > treechildren::-moz-tree-cell(active, selected),
+tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected),
+tree[seltype="cell"] > treechildren::-moz-tree-cell(active, selected, focus),
+tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, focus),
+tree[seltype="cell"] > treechildren::-moz-tree-cell-text(primary, dropOn),
+tree[seltype="text"] > treechildren::-moz-tree-cell-text(primary, dropOn),
+treechildren::-moz-tree-cell-text(primary, dropOn),
+treechildren::-moz-tree-drop-feedback,
+treechildren::-moz-tree-progressmeter,
+treecol,
+treecolpicker {
+	background-image:none !important;
+	}
+
+/* ..... Tabs .... */
+
+#TabsToolbar{
+  background-image: none !important;
+}
+
+#TabsToolbar:-moz-lwtheme,
+#main-window[cctabsintitlebar=true][autohide][tabsontop] #TabsToolbar,
+#main-window[tabsintitlebar] #TabsToolbar{
+	background-image: none !important;
+}
+
+.tabbrowser-tab{
+	background-image:
+		-moz-linear-gradient(center bottom , rgba(90, 90, 90, 0.4) 1px, rgba(26, 26, 26, 0.6) 1px, transparent 1px),
+		-moz-linear-gradient(rgba(190, 190, 190, 0.5), rgba(190, 190, 190, 0.5)),
+		-moz-linear-gradient(-moz-dialog, -moz-dialog)
+		!important;
+	background-position:0 -2px !important;
+		}
+
+#TabsToolbar[multibar="true"] .tabbrowser-tab{
+	background-position:0 0px !important;
+	}
+
+	.tabbrowser-tab:hover{
+	background-image:
+		-moz-linear-gradient(center bottom , rgba(26, 26, 26, 0.6) 1px, transparent 1px),
+		-moz-linear-gradient(rgba(230,230,230,.7), rgba(230,230,230,.7)),
+		-moz-linear-gradient(-moz-dialog, -moz-dialog)
+		!important;
+}
+
+.tabs-newtab-button {
+	background-image:
+		-moz-linear-gradient(center bottom , rgba(90, 90, 90, 0.4) 1px, rgba(26, 26, 26, 0.6) 1px, transparent 1px),
+		-moz-linear-gradient(rgba(190, 190, 190, 0.5), rgba(190, 190, 190, 0.5)),
+		-moz-linear-gradient(-moz-dialog, -moz-dialog)
+		!important;
+	background-position:0 -1px !important;
+	}
+
+.tabs-newtab-button:hover {
+	background-image:
+		-moz-linear-gradient(rgba(230,230,230,.7), rgba(230,230,230,.7)),
+		-moz-linear-gradient(-moz-dialog, -moz-dialog)
+		!important;
+}
+
+#main-window[tabsontop=false]:not([disablechrome]) .tabbrowser-tab[selected=true],
+.tabbrowser-tab[selected="true"] {
+  background-image:
+		-moz-linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)),
+		-moz-linear-gradient(-moz-dialog, -moz-dialog)
+		!important;
+	}
+
+.tabbrowser-tab:-moz-lwtheme{
+  background-image:
+		-moz-linear-gradient(center bottom , rgba(90, 90, 90, 0.4) 1px, rgba(26, 26, 26, 0.6) 1px, transparent 1px),
+		-moz-linear-gradient(rgba(190, 190, 190, 0.5), rgba(190, 190, 190, 0.5))
+		!important;
+	}
+
+.tabbrowser-tab:hover:-moz-lwtheme{
+	background-image:
+		-moz-linear-gradient(center bottom , rgba(26, 26, 26, 0.6) 1px, transparent 1px),
+		-moz-linear-gradient(rgba(230,230,230,.7), rgba(230,230,230,.7))
+		!important;
+}
+
+.tabs-newtab-button:-moz-lwtheme{
+	background-image:
+		-moz-linear-gradient(center bottom , rgba(90, 90, 90, 0.4) 1px, rgba(26, 26, 26, 0.6) 1px, transparent 1px),
+		-moz-linear-gradient(rgba(190, 190, 190, 0.5), rgba(190, 190, 190, 0.5))
+		!important;
+	}
+
+.tabs-newtab-button:-moz-lwtheme:hover {
+	background-image:
+		-moz-linear-gradient(rgba(230,230,230,.7), rgba(230,230,230,.7))
+		!important;
+}
+
+#main-window[tabsontop=false]:not([disablechrome]) .tabbrowser-tab[selected=true]:-moz-lwtheme,
+.tabbrowser-tab[selected="true"]:-moz-lwtheme{
+	background-image:
+		-moz-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6), rgba(255,255,255,.6), rgba(255,255,255,.6), rgba(255,255,255, 0.9))
+		!important;
+	}
+
+#tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned]{
+  background-size: 100% -moz-calc(100% + 1px), 100% -moz-calc(100% + 1px), 100% -moz-calc(100% + 1px) !important;
+}

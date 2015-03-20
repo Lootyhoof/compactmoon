@@ -1,0 +1,72 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/***** TABS WIDTHS *******/
+/* 1 */
+.tabbrowser-tab[fadein]:not([pinned]) {
+  min-width: 100px !important;
+  max-width: 250px !important;
+}
+
+/***** TABS IN TITLEBAR *******/
+/* 2 Normal Window */
+#main-window[cctabsintitlebar=true][autohide=true][tabsontop=true]:not([tabsintitlebar]):not([inFullscreen])  .titlebar-placeholder[type="caption-buttons"] {
+    width:0px !important;
+  }
+
+/* 3  Normal Window */
+#main-window[cctabsintitlebar=true][autohide=true][tabsontop=true]:not([tabsintitlebar]):not([inFullscreen])  .titlebar-placeholder[type="appmenu-button"] {
+    width:0px !important;
+    margin-left:2px;
+}
+
+/* 4  Normal Window */
+#main-window[cctabsintitlebar=true][autohide=true][tabsontop=true]:not([tabsintitlebar]):not([inFullscreen]):not([TabsCollapsed=true]) #toolbar-menubar[autohide=true]{
+    margin-top: 0px;
+    background:none;
+  }
+
+/* 5 Max Window*/
+#main-window[tabsintitlebar=true]:not([inFullscreen]):not([TabsCollapsed=true]) #titlebar{
+    margin-bottom: 0px !important;
+  }
+
+
+/* 6  Normal Window */
+#main-window[cctabsintitlebar=true][autohide=true][tabsontop=true]:not([tabsintitlebar]):not([inFullscreen]):not([TabsCollapsed=true]) #toolbar-menubar[autohide=true]:-moz-system-metric(windows-default-theme),
+#main-window[cctabsintitlebar=true][autohide=true][tabsontop=true]:not([tabsintitlebar]):not([inFullscreen]):not([TabsCollapsed=true]) #toolbar-menubar[autohide=true]:-moz-system-metric(windows-theme-zune){
+    margin-top: 0px;
+  }
+
+/* 7 Max Window */
+#main-window[tabsintitlebar=true]:not([inFullscreen]):not([TabsCollapsed=true]) #titlebar:-moz-system-metric(windows-default-theme),
+#main-window[tabsintitlebar=true]:not([inFullscreen]):not([TabsCollapsed=true]) #titlebar:-moz-system-metric(windows-theme-zune){
+    margin-bottom: 0px !important;
+  }
+
+/* 8  Normal Window */
+#main-window[cctabsintitlebar=true][autohide=true][tabsontop=true]:not([tabsintitlebar]):not([inFullscreen]):not([TabsCollapsed=true]) #toolbar-menubar[autohide=true]:-moz-system-metric(windows-theme-aero) {
+    margin-top: 0px !Important;
+  }
+
+/* 9 Max Window */
+#main-window[tabsintitlebar=true]:not([inFullscreen]):not([TabsCollapsed=true]) #titlebar:-moz-system-metric(windows-theme-aero):not([ccOverride="true"]) {
+    margin-bottom: 0px !important;
+  }
+
+
+  /***** Hide RSS feed icon in URL bar *******/
+#urlbar-single-feed-button[ccoHide="true"]{display:none !important;}
+#urlbar-multiple-feed-button[ccoHide="true"]{display:none !important;}
+
+
+  /***** MISC FIXES *******/
+/* Fixes Firefox 4 UI Fixer */
+#main-window[cctabsintitlebar=true][autohide=true][tabsontop=true]:not([tabsintitlebar]):not([inFullscreen]) #fixer-menu-button ~ .titlebar-placeholder[type="appmenu-button"] {
+    width:0px !important;
+}
+
+/* Fixes the close button on all tabs */
+.tabbrowser-tabs[ccoclosebuttons="alltabs"]:not([tabmix_skin]):not([tabmix_firefox3]) > * > * > * > .tab-close-button:not([pinned]) {
+  display: -moz-box;
+}
+

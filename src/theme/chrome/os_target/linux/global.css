@@ -1,0 +1,13 @@
+.autoscroller {
+  background-position: center top !important;
+  background-image: url("chrome://global/skin/icons/autoscroll-gnome.png") !important;
+}
+
+.autoscroller[scrolldir="NS"] {
+  background-position: center center !important;
+}
+
+.autoscroller[scrolldir="EW"] {
+  background-position: center bottom !important;
+}
+
