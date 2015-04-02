@@ -13,7 +13,19 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 @namespace html url("http://www.w3.org/1999/xhtml");
 
-
+/* Pale Moon: Window title fix */
+#main-window[tabsontop=false]:after {
+  margin-left: -80px !important;
+  }
+  
+  
+@media all and (-moz-windows-compositor) {
+  @media not all and (-moz-windows-glass) {
+    #main-window[tabsontop=false]:after { /* Windows 8 */
+	  margin-left: 0px !important;
+	  }
+	}
+}
 
 
 #menubar-items {
