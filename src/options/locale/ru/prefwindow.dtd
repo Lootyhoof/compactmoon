@@ -24,8 +24,8 @@
 <!ENTITY ButtonBordersOnlyUnified.label "Только назад/вперед">
 <!ENTITY backgroundstyle.label "Стиль фона">
 <!ENTITY gradientbackground.label "Градиентный (У, К)">
-<!ENTITY gradientbuttontabs.label "Ровный кроме кнопок и табов (FF)">
-<!ENTITY flatbackground.label "Ровный кроме вкладок (FF)">
+<!ENTITY gradientbuttontabs.label "Ровный кроме кнопок и табов (PM)">
+<!ENTITY flatbackground.label "Ровный кроме вкладок (PM)">
 <!ENTITY flatbackgroundall.label "Ровный">
 <!ENTITY toolbardividerborders.label "Разделители границ панели инструментов">
 <!ENTITY noborders.label "Без границ (У, К)">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "Стиль углов границ">
 <!ENTITY roundedcorners.label "Закругленные углы (У)">
 <!ENTITY squarecorners.label "Квадратные углы">
-<!ENTITY roundedtabsonly.label "Только закругленные вкладки (FF)">
+<!ENTITY roundedtabsonly.label "Только закругленные вкладки (PM)">
 <!ENTITY squaredscrollbarsonly.label "Только квадратные строки прокрутки">
 <!ENTITY scrollbars.label "Строки прокрутки">
 <!ENTITY styledscrollbars.label "Стилизованные (У)">
-<!ENTITY osscrollbars.label "Родная операционная система (FF)">
+<!ENTITY osscrollbars.label "Родная операционная система (PM)">
 <!ENTITY ossystemcolors.label "Цвета операционной системы">
 <!ENTITY ossystemcolorslight.label "Светлый/серый фон (У)">
 <!ENTITY ossystemcolorsdark.label "Очень темный/черный фон">
 <!ENTITY webpagewindowborder.label "Граница окна веб-страницы">
 <!ENTITY webpagewindowborderenabled.label "Включить (У)">
 <!ENTITY webpagewindowborderdisabled.label "Отключить (К)">
-<!ENTITY ffconfiguration.label "У: умолчание.  FF: показывают какие настройки оказываются наиболее приближенными к значению по умолчанию темы Firefox.  К: показывает наиболее компактные настройки.">
+<!ENTITY ffconfiguration.label "У: умолчание.  FF: показывают какие настройки оказываются наиболее приближенными к значению по умолчанию темы Pale Moon.  К: показывает наиболее компактные настройки.">
 <!ENTITY tab2.title "Меню и Вкладки">
 <!ENTITY toMergeMenus.label "Объединить панели меню в один значок">
 <!ENTITY toMergeMenusNo.label "Нет (У)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "УЧТИТЕ: Некоторые опции не доступны для Mac OS X и Linux.">
-<!ENTITY PleaseDonate.label "Пожалуйста, сделайте пожертвование для поддержки разработки Classic Compact.">

@@ -24,7 +24,7 @@
 <!ENTITY ButtonBordersOnlyUnified.label "tylko dla Do przodu/Wstecz">
 <!ENTITY backgroundstyle.label "Wyświetlaj tło">
 <!ENTITY gradientbackground.label "gradientowe (K)">
-<!ENTITY gradientbuttontabs.label "jednolite z wyjątkiem przycisków i etykiet kart (Fx)">
+<!ENTITY gradientbuttontabs.label "jednolite z wyjątkiem przycisków i etykiet kart (PM)">
 <!ENTITY flatbackground.label "jednolite z wyjątkiem etykiet kart">
 <!ENTITY flatbackgroundall.label "jednolite">
 <!ENTITY toolbardividerborders.label "Obramowanie pasków narzędzi:">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "Wyświetlaj narożniki">
 <!ENTITY roundedcorners.label "zaokrąglone">
 <!ENTITY squarecorners.label "ostre">
-<!ENTITY roundedtabsonly.label "zaokrąglone – tylko karty (Fx)">
+<!ENTITY roundedtabsonly.label "zaokrąglone – tylko karty (PM)">
 <!ENTITY squaredscrollbarsonly.label "ostre – tylko paski przewijania">
 <!ENTITY scrollbars.label "Wyświetlaj paski przewijania (wymagane odświeżenie strony)">
 <!ENTITY styledscrollbars.label "stylizowane">
-<!ENTITY osscrollbars.label "systemowe (Fx)">
+<!ENTITY osscrollbars.label "systemowe (PM)">
 <!ENTITY ossystemcolors.label "Kolory systemowe:">
 <!ENTITY ossystemcolorslight.label "Jasne/szare tła">
 <!ENTITY ossystemcolorsdark.label "Bardzo ciemne/czarne tła">
 <!ENTITY webpagewindowborder.label "Obramowanie okna strony">
 <!ENTITY webpagewindowborderenabled.label "włączone">
 <!ENTITY webpagewindowborderdisabled.label "wyłączone (K)">
-<!ENTITY ffconfiguration.label "Fx, Fx2, Fx3 i Fx4 – wygląd najbliższy domyślnemu motywowi dla Windows, K - ustawienia kompaktowe.">
+<!ENTITY ffconfiguration.label "PM, Fx2, Fx3 i Fx4 – wygląd najbliższy domyślnemu motywowi dla Windows, K - ustawienia kompaktowe.">
 <!ENTITY tab2.title "Menu i karty">
 <!ENTITY toMergeMenus.label "Scalaj pasek menu">
 <!ENTITY toMergeMenusNo.label "– nie scalaj –">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "Informacja. Niektóre ustawienia są niedostępne w systemach Mac OS X i Linux.">
-<!ENTITY PleaseDonate.label "Dokonaj dotacji, by wspomóc rozwój Classic Compact.">

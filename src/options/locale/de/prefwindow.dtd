@@ -24,8 +24,8 @@
 <!ENTITY ButtonBordersOnlyUnified.label "Nur vor/zurück">
 <!ENTITY backgroundstyle.label "Hintergrund Stil">
 <!ENTITY gradientbackground.label "Farbverlauf (Standard, MC)">
-<!ENTITY gradientbuttontabs.label "Einfach außer Schaltflächen &amp; Tabs (Fx)">
-<!ENTITY flatbackground.label "Einfach außer Tabs (Fx)">
+<!ENTITY gradientbuttontabs.label "Einfach außer Schaltflächen &amp; Tabs (PM)">
+<!ENTITY flatbackground.label "Einfach außer Tabs (PM)">
 <!ENTITY flatbackgroundall.label "Einfach">
 <!ENTITY toolbardividerborders.label "Toolbar Trennlinien Ränder">
 <!ENTITY noborders.label "Keine (Standard, MC)">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "Rand-Stil">
 <!ENTITY roundedcorners.label "Abgerundete Ränder (Standard)">
 <!ENTITY squarecorners.label "Eckige Ränder">
-<!ENTITY roundedtabsonly.label "Nur Abgerundete Tabs (Fx)">
+<!ENTITY roundedtabsonly.label "Nur Abgerundete Tabs (PM)">
 <!ENTITY squaredscrollbarsonly.label "Nur eckige Scrollleisten">
 <!ENTITY scrollbars.label "Scrollleisten">
 <!ENTITY styledscrollbars.label "Gestaltet (Standard)">
-<!ENTITY osscrollbars.label "Nativ (Fx)">
+<!ENTITY osscrollbars.label "Nativ (PM)">
 <!ENTITY ossystemcolors.label "Betriebssystemfarben">
 <!ENTITY ossystemcolorslight.label "Halle/Graue Hintergründe (Standard)">
 <!ENTITY ossystemcolorsdark.label "Sehr dunkle/schwarze Hintergründe">
 <!ENTITY webpagewindowborder.label "Fensterrand">
 <!ENTITY webpagewindowborderenabled.label "Eingeschaltet (Standard)">
 <!ENTITY webpagewindowborderdisabled.label "Ausgeschaltet (MC)">
-<!ENTITY ffconfiguration.label "Fx, Fx2, Fx3 &amp; Fx3: Standard Windows Firefox Theme am ähnlichsten.  MC: kompakteste Einstellung.">
+<!ENTITY ffconfiguration.label "PM, Fx2, Fx3 &amp; Fx3: Standard Windows Pale Moon Theme am ähnlichsten.  MC: kompakteste Einstellung.">
 <!ENTITY tab2.title "Menüs &amp; Tabs">
 <!ENTITY toMergeMenus.label "Menüleiste in einem Button vereinigen">
 <!ENTITY toMergeMenusNo.label "Nein (Standard)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "BITTE BEACHTEN: Manche Optionen sind nicht unter Max OS X und Linux verfügbar.">
-<!ENTITY PleaseDonate.label "Bitte erwägen Sie eine Spende, um die Entwicklung von Classic Compact zu unterstützen.">

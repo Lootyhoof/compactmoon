@@ -24,8 +24,8 @@
 <!ENTITY ButtonBordersOnlyUnified.label "Sólo atrás/adelante">
 <!ENTITY backgroundstyle.label "Estilo de fondo">
 <!ENTITY gradientbackground.label "Degradado (por defecto, MC)">
-<!ENTITY gradientbuttontabs.label "Plano excepto en botones y pestañas (FF)">
-<!ENTITY flatbackground.label "Plano excepto en pestañas (FF)">
+<!ENTITY gradientbuttontabs.label "Plano excepto en botones y pestañas (PM)">
+<!ENTITY flatbackground.label "Plano excepto en pestañas (PM)">
 <!ENTITY flatbackgroundall.label "Plano">
 <!ENTITY toolbardividerborders.label "Bordes de los divisores de la barras">
 <!ENTITY noborders.label "Ninguno (por defecto, MC)">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "Estilo de esquinas de los bordes">
 <!ENTITY roundedcorners.label "Esquinas redondeadas (por defecto)">
 <!ENTITY squarecorners.label "Esquinas cuadradas">
-<!ENTITY roundedtabsonly.label "Sólo las pestañas redondeadas (FF)">
+<!ENTITY roundedtabsonly.label "Sólo las pestañas redondeadas (PM)">
 <!ENTITY squaredscrollbarsonly.label "Sólo las barras de deslizamiento cuadradas">
 <!ENTITY scrollbars.label "Barras de deslizamiento (debe recargar la página)">
 <!ENTITY styledscrollbars.label "Con estilo (por defecto)">
-<!ENTITY osscrollbars.label "Nativas del Sistema Operativo (FF)">
+<!ENTITY osscrollbars.label "Nativas del Sistema Operativo (PM)">
 <!ENTITY ossystemcolors.label "Colores del sistema">
 <!ENTITY ossystemcolorslight.label "Fondos claro/gris (por defecto)">
 <!ENTITY ossystemcolorsdark.label "Fondos oscuros/negros">
 <!ENTITY webpagewindowborder.label "Borde de la ventana de la página">
 <!ENTITY webpagewindowborderenabled.label "Habilitado (por defecto)">
 <!ENTITY webpagewindowborderdisabled.label "Deshabilitado (MC)">
-<!ENTITY ffconfiguration.label "FF: apariencia más parecida al tema por defecto de Firefox en Windows. MC: opciones más compactas.">
+<!ENTITY ffconfiguration.label "PM: apariencia más parecida al tema por defecto de Pale Moon en Windows. MC: opciones más compactas.">
 <!ENTITY tab2.title "Menú y pestañas">
 <!ENTITY toMergeMenus.label "Compactar la barra de menú en un botón (debe reiniciar)">
 <!ENTITY toMergeMenusNo.label "No (por defecto)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "POR FAVOR, TENGA EN CUENTA: Algunas opciones no están disponibles en Mac OS X y Linux.">
-<!ENTITY PleaseDonate.label "Por favor, realice una donación para contribuir al desarrollo de Classic Compact.">

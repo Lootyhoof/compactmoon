@@ -24,8 +24,8 @@
 <!ENTITY ButtonBordersOnlyUnified.label "Yalnızca geri/ileri">
 <!ENTITY backgroundstyle.label "Zemin stili">
 <!ENTITY gradientbackground.label "Eğimli (varsayılan, MC)">
-<!ENTITY gradientbuttontabs.label "Tuşlar ve sekmeler dışında düz (FF)">
-<!ENTITY flatbackground.label "Sekmeler hariç düz (FF)">
+<!ENTITY gradientbuttontabs.label "Tuşlar ve sekmeler dışında düz (PM)">
+<!ENTITY flatbackground.label "Sekmeler hariç düz (PM)">
 <!ENTITY flatbackgroundall.label "Düz">
 <!ENTITY toolbardividerborders.label "Araç çubuğu ayırıcı kenarlıklar">
 <!ENTITY noborders.label "Hiç (varsayılan, MC)">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "Kenarlık köşe stili">
 <!ENTITY roundedcorners.label "Yuvarlatılmış köşeler (varsayılan)">
 <!ENTITY squarecorners.label "Kareli köşeler">
-<!ENTITY roundedtabsonly.label "Yalnız sekmeler için yuvarlatılmış (FF)">
+<!ENTITY roundedtabsonly.label "Yalnız sekmeler için yuvarlatılmış (PM)">
 <!ENTITY squaredscrollbarsonly.label "Yalnız kaydırma çubukları için kareli">
 <!ENTITY scrollbars.label "Kaydırma çubukları">
 <!ENTITY styledscrollbars.label "Tarzlı (varsayılan)">
-<!ENTITY osscrollbars.label "İşletim Sistemi\'nin kendi stili(FF)">
+<!ENTITY osscrollbars.label "İşletim Sistemi\'nin kendi stili(PM)">
 <!ENTITY ossystemcolors.label "İşletim Sistemi sistem renkleri">
 <!ENTITY ossystemcolorslight.label "Açık/gri arka planlar (varsayılan)">
 <!ENTITY ossystemcolorsdark.label "Çok koyu/siyah arka planlar">
 <!ENTITY webpagewindowborder.label "Web sayfası pencere kenarlığı">
 <!ENTITY webpagewindowborderenabled.label "Etkin (varsayılan)">
 <!ENTITY webpagewindowborderdisabled.label "Devredışı (MC)">
-<!ENTITY ffconfiguration.label "FF: öntanımlı Windows Firefox temasına en yakın görünüm. MC: en özlü ayarlar.">
+<!ENTITY ffconfiguration.label "PM: öntanımlı Windows Pale Moon temasına en yakın görünüm. MC: en özlü ayarlar.">
 <!ENTITY tab2.title "Menüler ve Sekmeler">
 <!ENTITY toMergeMenus.label "Menü çubuğunu bir tek butona indirge">
 <!ENTITY toMergeMenusNo.label "Hayır (varsayılan)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "HATIRLATMA: Bazı seçenekler Mac OS X ve Linux'da yok.">
-<!ENTITY PleaseDonate.label "Classic Compact gelişimini desteklemek için lütfen bağışda bulunun.">

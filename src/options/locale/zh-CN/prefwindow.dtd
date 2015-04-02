@@ -24,7 +24,7 @@
 <!ENTITY ButtonBordersOnlyUnified.label "仅后退/前进">
 <!ENTITY backgroundstyle.label "背景样式">
 <!ENTITY gradientbackground.label "渐进色 (默认, MC)">
-<!ENTITY gradientbuttontabs.label "除按钮&amp;标签外单色 (FF)">
+<!ENTITY gradientbuttontabs.label "除按钮&amp;标签外单色 (PM)">
 <!ENTITY flatbackground.label "除标签外单色">
 <!ENTITY flatbackgroundall.label "单色">
 <!ENTITY toolbardividerborders.label "工具栏分隔线边框">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "边框边角样式">
 <!ENTITY roundedcorners.label "圆角 (默认)">
 <!ENTITY squarecorners.label "方角">
-<!ENTITY roundedtabsonly.label "仅标签圆角 (FF)">
+<!ENTITY roundedtabsonly.label "仅标签圆角 (PM)">
 <!ENTITY squaredscrollbarsonly.label "仅滚动条方角">
 <!ENTITY scrollbars.label "滚动条 (需要重新载入网页)">
 <!ENTITY styledscrollbars.label "美化 (默认)">
-<!ENTITY osscrollbars.label "操作系统原生 (FF)">
+<!ENTITY osscrollbars.label "操作系统原生 (PM)">
 <!ENTITY ossystemcolors.label "操作系统颜色">
 <!ENTITY ossystemcolorslight.label "亮/灰背景 (默认)">
 <!ENTITY ossystemcolorsdark.label "暗/黑背景">
 <!ENTITY webpagewindowborder.label "网页窗口边框">
 <!ENTITY webpagewindowborderenabled.label "启用 (默认)">
 <!ENTITY webpagewindowborderdisabled.label "禁用 (MC)">
-<!ENTITY ffconfiguration.label "FF：最接近 Window Firefox 主题的外观。MC：最紧凑的设置。">
+<!ENTITY ffconfiguration.label "PM：最接近 Window Pale Moon 主题的外观。MC：最紧凑的设置。">
 <!ENTITY tab2.title "菜单&amp;标签">
 <!ENTITY toMergeMenus.label "将菜单栏合并到按钮(需要重启浏览器)">
 <!ENTITY toMergeMenusNo.label "否 (默认)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "请注意：某些选项不能用于 Mac OS X 和 Linux。">
-<!ENTITY PleaseDonate.label "请进行捐助来支持  Classic Compact 的开发。">

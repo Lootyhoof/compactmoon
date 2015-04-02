@@ -24,7 +24,7 @@
 <!ENTITY ButtonBordersOnlyUnified.label "само за назад и напред">
 <!ENTITY backgroundstyle.label "Стил позадине">
 <!ENTITY gradientbackground.label "преливи (подразумевано, MC)">
-<!ENTITY gradientbuttontabs.label "једнобојно, осим дугмади и језичака (FF)">
+<!ENTITY gradientbuttontabs.label "једнобојно, осим дугмади и језичака (PM)">
 <!ENTITY flatbackground.label "једнобојно, осим језичака (FF)">
 <!ENTITY flatbackgroundall.label "једнобојно">
 <!ENTITY toolbardividerborders.label "Изглед раздвајача у траци са алаткама">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "Стил углова оквира">
 <!ENTITY roundedcorners.label "заобљени углови (подразумевано)">
 <!ENTITY squarecorners.label "оштри углови">
-<!ENTITY roundedtabsonly.label "само заобљени језичци (FF)">
+<!ENTITY roundedtabsonly.label "само заобљени језичци (PM)">
 <!ENTITY squaredscrollbarsonly.label "само оштре траке за померање">
 <!ENTITY scrollbars.label "Траке за померање">
 <!ENTITY styledscrollbars.label "стилизоване (подразумеване)">
-<!ENTITY osscrollbars.label "из оперативног система (FF)">
+<!ENTITY osscrollbars.label "из оперативног система (PM)">
 <!ENTITY ossystemcolors.label "систем боја из оперативног система">
 <!ENTITY ossystemcolorslight.label "светле/сиве позадине (подразумеване)">
 <!ENTITY ossystemcolorsdark.label "веома тамне/црне позадине">
 <!ENTITY webpagewindowborder.label "Оквир прозора са страницама">
 <!ENTITY webpagewindowborderenabled.label "омогућен (подразумевано)">
 <!ENTITY webpagewindowborderdisabled.label "онемогућен (MC)">
-<!ENTITY ffconfiguration.label "FF, FF2, FF3 &amp; FF4: најсличније подразумеваном изгледу Фајерфокса на Windows-у.  MC: најсажетије поставке.">
+<!ENTITY ffconfiguration.label "PM, FF2, FF3 &amp; FF4: најсличније подразумеваном изгледу Фајерфокса на Windows-у.  MC: најсажетије поставке.">
 <!ENTITY tab2.title "Менији и језичци">
 <!ENTITY toMergeMenus.label "Обједини све меније у једно дугме (потребно је поновно покретање)">
 <!ENTITY toMergeMenusNo.label "не (подразумевано)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "НАПОМЕНА: неке опције нису доступне на Mac OS X и Linux.">
-<!ENTITY PleaseDonate.label "Молимо вас да прилогом подржите будући развој овог додатка.">

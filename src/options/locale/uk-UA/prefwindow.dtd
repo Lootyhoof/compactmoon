@@ -24,7 +24,7 @@
 <!ENTITY ButtonBordersOnlyUnified.label "Тільки назад/вперед">
 <!ENTITY backgroundstyle.label "Стиль фону">
 <!ENTITY gradientbackground.label "Градієнти (типовий, MC)">
-<!ENTITY gradientbuttontabs.label "Плоскі, окрім кнопок &amp; вкладки (FF)">
+<!ENTITY gradientbuttontabs.label "Плоскі, окрім кнопок &amp; вкладки (PM)">
 <!ENTITY flatbackground.label "Плоскі, окрім вкладок">
 <!ENTITY flatbackgroundall.label "Плоскі">
 <!ENTITY toolbardividerborders.label "Межі розподілювачів панелі інструментів">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "Стиль кутів меж">
 <!ENTITY roundedcorners.label "Закруглені кути (типовий)">
 <!ENTITY squarecorners.label "Прямі кути">
-<!ENTITY roundedtabsonly.label "Тільки округлі вкладки (FF)">
+<!ENTITY roundedtabsonly.label "Тільки округлі вкладки (PM)">
 <!ENTITY squaredscrollbarsonly.label "Тільки прямі прокрутки">
 <!ENTITY scrollbars.label "Смуга прокрутки (потребує перезавантаження сторінки)">
 <!ENTITY styledscrollbars.label "Стилізована (типовий)">
-<!ENTITY osscrollbars.label "Типова для ОС(FF)">
+<!ENTITY osscrollbars.label "Типова для ОС(PM)">
 <!ENTITY ossystemcolors.label "Системні кольори ОС">
 <!ENTITY ossystemcolorslight.label "Світлий/сірий фон (типовий)">
 <!ENTITY ossystemcolorsdark.label "Дуже темний/чорний фон">
 <!ENTITY webpagewindowborder.label "Межі вікон веб-сторінки">
 <!ENTITY webpagewindowborderenabled.label "Увімкнути (типовий)">
 <!ENTITY webpagewindowborderdisabled.label "Вимкнути (МС)">
-<!ENTITY ffconfiguration.label "FF: настройки наближені до типового зовнішнього вигляду теми Windows Firefox. MC: найкомпактніші настройки.">
+<!ENTITY ffconfiguration.label "PM: настройки наближені до типового зовнішнього вигляду теми Windows Pale Moon. MC: найкомпактніші настройки.">
 <!ENTITY tab2.title "Меню &amp; Вкладки">
 <!ENTITY toMergeMenus.label "Об'єднання панелі меню в одну кнопку (потрібний перезапуск)">
 <!ENTITY toMergeMenusNo.label "Ні (типово)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "ЗВЕРНІТЬ УВАГУ: Деякі опції не доступні у Mac OS X та Linux.">
-<!ENTITY PleaseDonate.label "Будь ласка, зробіть пожертву для підтримки розробки Classic Compact.">

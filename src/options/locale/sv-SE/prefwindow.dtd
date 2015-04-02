@@ -24,27 +24,27 @@
 <!ENTITY ButtonBordersOnlyUnified.label "Bara bakåt/framåt">
 <!ENTITY backgroundstyle.label "Stil på bakgrunden">
 <!ENTITY gradientbackground.label "Toning (standard, MC)">
-<!ENTITY gradientbuttontabs.label "Platt förutom knappar &amp; flikar (FF)">
-<!ENTITY flatbackground.label "Platt förutom flikar (FF)">
+<!ENTITY gradientbuttontabs.label "Platt förutom knappar &amp; flikar (PM)">
+<!ENTITY flatbackground.label "Platt förutom flikar (PM)">
 <!ENTITY flatbackgroundall.label "Platt">
 <!ENTITY toolbardividerborders.label "Gräns mellan verktygsfält">
 <!ENTITY noborders.label "Ingen (standard, MC)">
-<!ENTITY chiseled.label "Utmejslad (FF)">
+<!ENTITY chiseled.label "Utmejslad (PM)">
 <!ENTITY borderscornerstyle.label "Stil på ramhörn">
 <!ENTITY roundedcorners.label "Rundade hörn (standard)">
 <!ENTITY squarecorners.label "Fyrkantiga hörn">
-<!ENTITY roundedtabsonly.label "Bara rundade flikar (FF)">
+<!ENTITY roundedtabsonly.label "Bara rundade flikar (PM)">
 <!ENTITY squaredscrollbarsonly.label "Bara fyrkantiga rullningslister">
 <!ENTITY scrollbars.label "Rullningslister">
 <!ENTITY styledscrollbars.label "Tillsnyggade (standard)">
-<!ENTITY osscrollbars.label "OS-standard (FF)">
+<!ENTITY osscrollbars.label "OS-standard (PM)">
 <!ENTITY ossystemcolors.label "Operativsystemfärger">
 <!ENTITY ossystemcolorslight.label "Ljusa/gråa bakgrunder (standard)">
 <!ENTITY ossystemcolorsdark.label "Mycket mörka/svarta bakgrunder">
 <!ENTITY webpagewindowborder.label "Ram runt webbsidan">
 <!ENTITY webpagewindowborderenabled.label "Aktiverad (standard)">
 <!ENTITY webpagewindowborderdisabled.label "Inaktiverad (MC)">
-<!ENTITY ffconfiguration.label "FF, FF2 &amp; FF3: utseende nära standard Firefox-tema i Windows.  MC: mest kompakta inställningen.">
+<!ENTITY ffconfiguration.label "PM, FF2 &amp; FF3: utseende nära standard Pale Moon-tema i Windows.  MC: mest kompakta inställningen.">
 <!ENTITY tab2.title "Menyer &amp; Flikar">
 <!ENTITY toMergeMenus.label "Slå ihop menylisten till en knapp">
 <!ENTITY toMergeMenusNo.label "Nej (standard)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "PLEASE NOTE: Some options are not available in Mac OS X and Linux.">
-<!ENTITY PleaseDonate.label "Please make a donation to support Classic Compact development.">

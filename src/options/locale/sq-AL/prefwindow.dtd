@@ -24,7 +24,7 @@
 <!ENTITY ButtonBordersOnlyUnified.label "Vetem per Parpa/Perpara">
 <!ENTITY backgroundstyle.label "Stili i sfondit">
 <!ENTITY gradientbackground.label "I pershkallezuar (standarde, MC)">
-<!ENTITY gradientbuttontabs.label "E sheshte pervec butonave dhe skedave (FF)">
+<!ENTITY gradientbuttontabs.label "E sheshte pervec butonave dhe skedave (PM)">
 <!ENTITY flatbackground.label "E sheshte pervec skedave">
 <!ENTITY flatbackgroundall.label "E sheshte">
 <!ENTITY toolbardividerborders.label "Bordurat ndarese te shiritit">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "Stili i qosheve bordurave">
 <!ENTITY roundedcorners.label "Qoshe te rrumbullakosura (standarde)">
 <!ENTITY squarecorners.label "Qoshe katrore">
-<!ENTITY roundedtabsonly.label "Vetem skedat te rrumbullakosura (FF)">
+<!ENTITY roundedtabsonly.label "Vetem skedat te rrumbullakosura (PM)">
 <!ENTITY squaredscrollbarsonly.label "Katrore vetem ashensoret">
 <!ENTITY scrollbars.label "Ashensoret (nevojitet ri-ngarkim i faqes)">
 <!ENTITY styledscrollbars.label "Me stil (standarde)">
-<!ENTITY osscrollbars.label "Sipas SO (FF)">
+<!ENTITY osscrollbars.label "Sipas SO (PM)">
 <!ENTITY ossystemcolors.label "Ngjyrat standarde te SO">
 <!ENTITY ossystemcolorslight.label "Sfonde te lehta/gri (standarde)">
 <!ENTITY ossystemcolorsdark.label "Sfonde shume te erreta/te zeza">
 <!ENTITY webpagewindowborder.label "Bordura e dritares se faqes web">
 <!ENTITY webpagewindowborderenabled.label "Aktive (standarde)">
 <!ENTITY webpagewindowborderdisabled.label "Jo-aktive (MC)">
-<!ENTITY ffconfiguration.label "FF: pamja me e perafert per temen standarde te Windows Firefox.  MC: parametrat me te ngushte.">
+<!ENTITY ffconfiguration.label "PM: pamja me e perafert per temen standarde te Windows Pale Moon.  MC: parametrat me te ngushte.">
 <!ENTITY tab2.title "Menute dhe skedat">
 <!ENTITY toMergeMenus.label "Permblidh shiritin e menuve ne nje buton (nevojitet restart)">
 <!ENTITY toMergeMenusNo.label "Jo (standarde)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "PLEASE NOTE: Some options are not available in Mac OS X and Linux.">
-<!ENTITY PleaseDonate.label "Please make a donation to support Classic Compact development.">

@@ -24,8 +24,8 @@
 <!ENTITY ButtonBordersOnlyUnified.label "戻る/進むのみ">
 <!ENTITY backgroundstyle.label "背景表示">
 <!ENTITY gradientbackground.label "グラデーション (既定値、MC)">
-<!ENTITY gradientbuttontabs.label "ボタンとタブ以外フラット (FF)">
-<!ENTITY flatbackground.label "タブ以外フラット (FF)">
+<!ENTITY gradientbuttontabs.label "ボタンとタブ以外フラット (PM)">
+<!ENTITY flatbackground.label "タブ以外フラット (PM)">
 <!ENTITY flatbackgroundall.label "フラット">
 <!ENTITY toolbardividerborders.label "ツールバー区切りのボーダー">
 <!ENTITY noborders.label "なし (既定値、MC)">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "ボーダーの角">
 <!ENTITY roundedcorners.label "角を丸める (既定値)">
 <!ENTITY squarecorners.label "角を四角く">
-<!ENTITY roundedtabsonly.label "タブのみ丸める (FF)">
+<!ENTITY roundedtabsonly.label "タブのみ丸める (PM)">
 <!ENTITY squaredscrollbarsonly.label "スクロールバーのみ四角く">
 <!ENTITY scrollbars.label "スクロールバー">
 <!ENTITY styledscrollbars.label "スタイルあり (既定値)">
-<!ENTITY osscrollbars.label "OS ネイティブ (FF)">
+<!ENTITY osscrollbars.label "OS ネイティブ (PM)">
 <!ENTITY ossystemcolors.label "OS システム色">
 <!ENTITY ossystemcolorslight.label "明るい/灰色の背景 (既定値)">
 <!ENTITY ossystemcolorsdark.label "暗い/黒い背景">
 <!ENTITY webpagewindowborder.label "Web ページ ウィンドウのボーダー">
 <!ENTITY webpagewindowborderenabled.label "有効 (既定値)">
 <!ENTITY webpagewindowborderdisabled.label "無効 (MC)">
-<!ENTITY ffconfiguration.label "FF: Windows 向け既定の Firefox テーマに似せた見た目。MC: 最もコンパクトになる設定。">
+<!ENTITY ffconfiguration.label "PM: Windows 向け既定の Pale Moon テーマに似せた見た目。MC: 最もコンパクトになる設定。">
 <!ENTITY tab2.title "メニューとタブ">
 <!ENTITY toMergeMenus.label "メニュー バーを一つのボタンにまとめる">
 <!ENTITY toMergeMenusNo.label "まとめない (既定値)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "注意: いくつかのオプションは Mac OS X と Linux のみで利用できます。">
-<!ENTITY PleaseDonate.label "Classic Compact の開発を支援するために寄付してください。">

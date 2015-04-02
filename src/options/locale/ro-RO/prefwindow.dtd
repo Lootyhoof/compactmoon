@@ -24,7 +24,7 @@
 <!ENTITY ButtonBordersOnlyUnified.label "Doar Înapoi/Înainte">
 <!ENTITY backgroundstyle.label "Stil fundal">
 <!ENTITY gradientbackground.label "Degradé (implicit, MC)">
-<!ENTITY gradientbuttontabs.label "Fără, exceptând butoanele şi filele (FF)">
+<!ENTITY gradientbuttontabs.label "Fără, exceptând butoanele şi filele (PM)">
 <!ENTITY flatbackground.label "Fără, exceptând filele">
 <!ENTITY flatbackgroundall.label "Fără">
 <!ENTITY toolbardividerborders.label "Chenare separatoare bară de unelte">
@@ -33,7 +33,7 @@
 <!ENTITY borderscornerstyle.label "Stilizare colţuri chenar">
 <!ENTITY roundedcorners.label "Colţuri rotunjite (implicit)">
 <!ENTITY squarecorners.label "Colţuri drepte">
-<!ENTITY roundedtabsonly.label "Rotunjire doar la file (FF)">
+<!ENTITY roundedtabsonly.label "Rotunjire doar la file (PM)">
 <!ENTITY squaredscrollbarsonly.label "Colţuri drepte doar la bare de derulare">
 <!ENTITY scrollbars.label "Bare de derulare (necesită re-încărcarea paginii de internet)">
 <!ENTITY styledscrollbars.label "Stilizate (implicit)">
@@ -44,7 +44,7 @@
 <!ENTITY webpagewindowborder.label "Chenar pagină de internet">
 <!ENTITY webpagewindowborderenabled.label "Activat (implicit)">
 <!ENTITY webpagewindowborderdisabled.label "Dezactivat (MC)">
-<!ENTITY ffconfiguration.label "FF: aspectul cel mai apropiat  de tema implicită Firefox Windows. MC: cele mai compacte reglaje.">
+<!ENTITY ffconfiguration.label "PM: aspectul cel mai apropiat  de tema implicită Pale Moon Windows. MC: cele mai compacte reglaje.">
 <!ENTITY tab2.title "Meniuri şi file">
 <!ENTITY toMergeMenus.label "Transformare bară de meniu în buton (necesită repornire)">
 <!ENTITY toMergeMenusNo.label "Nu (implicit)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "Vă rog luaţi notă: Unele opţiuni nu sunt disponibile în MacOS X şi Linux.">
-<!ENTITY PleaseDonate.label "Vă rog faceţi o donaţie pentru a sprijini dezvoltarea Classic Compact.">

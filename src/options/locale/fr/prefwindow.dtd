@@ -24,7 +24,7 @@
 <!ENTITY ButtonBordersOnlyUnified.label "Seulement en avant/en arrière">
 <!ENTITY backgroundstyle.label "Style du fond d'écran">
 <!ENTITY gradientbackground.label "Dégradé (par défaut, MC)">
-<!ENTITY gradientbuttontabs.label "Simple sauf pour les boutons et onglets (FF)">
+<!ENTITY gradientbuttontabs.label "Simple sauf pour les boutons et onglets (PM)">
 <!ENTITY flatbackground.label "Simple sauf pour les onglets">
 <!ENTITY flatbackgroundall.label "Simple">
 <!ENTITY toolbardividerborders.label "Bordures pour les séparateurs de barre d'outils">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "Style des coins de bordure">
 <!ENTITY roundedcorners.label "Coins arrondis (par défaut)">
 <!ENTITY squarecorners.label "Coins à angle droit">
-<!ENTITY roundedtabsonly.label "Angles arrondis pour onglets seulement (FF)">
+<!ENTITY roundedtabsonly.label "Angles arrondis pour onglets seulement (PM)">
 <!ENTITY squaredscrollbarsonly.label "Angles droits pour barres de défilement seulement">
 <!ENTITY scrollbars.label "Barres de défilement">
 <!ENTITY styledscrollbars.label "Stylés (par défaut)">
-<!ENTITY osscrollbars.label "Suivant le système d'exploitation (FF)">
+<!ENTITY osscrollbars.label "Suivant le système d'exploitation (PM)">
 <!ENTITY ossystemcolors.label "Couleurs du système d'exploitation">
 <!ENTITY ossystemcolorslight.label "Arrière-plans clairs/gris (par défaut)">
 <!ENTITY ossystemcolorsdark.label "Arrière-plans très sombres/noirs">
 <!ENTITY webpagewindowborder.label "Bordure pour la fenêtre de la page Web">
 <!ENTITY webpagewindowborderenabled.label "Activée (par défaut)">
 <!ENTITY webpagewindowborderdisabled.label "Désactivée (MC)">
-<!ENTITY ffconfiguration.label "FF : aspect le plus proche du thème par défaut de Firefox/Windows. MC : un affichage le plus compact possible.">
+<!ENTITY ffconfiguration.label "PM : aspect le plus proche du thème par défaut de Pale Moon/Windows. MC : un affichage le plus compact possible.">
 <!ENTITY tab2.title "Menus et onglets">
 <!ENTITY toMergeMenus.label "Fusionner la barre de menu en un bouton">
 <!ENTITY toMergeMenusNo.label "Non (par défaut)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "ATTENTION : certaines options ne sont pas disponibles sous Mac OS X et Linux.">
-<!ENTITY PleaseDonate.label "Merci de faire un don pour soutenir le développement de Classic compact.">

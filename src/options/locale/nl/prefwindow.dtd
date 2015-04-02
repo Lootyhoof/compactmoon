@@ -24,7 +24,7 @@
 <!ENTITY ButtonBordersOnlyUnified.label "Alleen Terug/Vooruit-knoppen">
 <!ENTITY backgroundstyle.label "Achtergrond stijl">
 <!ENTITY gradientbackground.label "Gradaties (standaard, MC)">
-<!ENTITY gradientbuttontabs.label "Plat, behalve knoppen en tabbladen (FF)">
+<!ENTITY gradientbuttontabs.label "Plat, behalve knoppen en tabbladen (PM)">
 <!ENTITY flatbackground.label "Plat, behalve tabbladen">
 <!ENTITY flatbackgroundall.label "Plat">
 <!ENTITY toolbardividerborders.label "Werkbalk scheidingsranden">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "Stijl omranding hoeken">
 <!ENTITY roundedcorners.label "Afgeronde hoeken (standaard)">
 <!ENTITY squarecorners.label "Rechte hoeken">
-<!ENTITY roundedtabsonly.label "Alleen afgeronde tabbladen (FF)">
+<!ENTITY roundedtabsonly.label "Alleen afgeronde tabbladen (PM)">
 <!ENTITY squaredscrollbarsonly.label "Alleen rechthoekige schuifbalken">
 <!ENTITY scrollbars.label "Schuifbalken (herladen webpagina vereist)">
 <!ENTITY styledscrollbars.label "Gestileerd (standaard)">
-<!ENTITY osscrollbars.label "OS origineel (FF)">
+<!ENTITY osscrollbars.label "OS origineel (PM)">
 <!ENTITY ossystemcolors.label "OS systeemkleuren">
 <!ENTITY ossystemcolorslight.label "Lichte/grijze achtergronden (standaard)">
 <!ENTITY ossystemcolorsdark.label "Zeer donkere/zwarte achtergronden">
 <!ENTITY webpagewindowborder.label "Webpagina omranding">
 <!ENTITY webpagewindowborderenabled.label "Ingeschakeld (standaard)">
 <!ENTITY webpagewindowborderdisabled.label "Uitgeschakeld (MC)">
-<!ENTITY ffconfiguration.label "FF: benadert het standaard Windows Firefox thema het meest. MC: meest compacte instelling.">
+<!ENTITY ffconfiguration.label "PM: benadert het standaard Windows Pale Moon thema het meest. MC: meest compacte instelling.">
 <!ENTITY tab2.title "Menu\'s &amp; Tabbladen">
 <!ENTITY toMergeMenus.label "Menubalk in één knop onderbrengen (herstart vereist)">
 <!ENTITY toMergeMenusNo.label "Nee (standaard)">
@@ -81,4 +81,3 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "LET OP: Sommige opties zijn niet beschikbaar in Mac OS X en Linux.">
-<!ENTITY PleaseDonate.label "Doneer a.u.b. om de ontwikkeling van Classic Compact te ondersteunen.">

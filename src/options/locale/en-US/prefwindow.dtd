@@ -24,7 +24,7 @@
 <!ENTITY ButtonBordersOnlyUnified.label "Only back/forward">
 <!ENTITY backgroundstyle.label "Background style">
 <!ENTITY gradientbackground.label "Gradients (default, MC)">
-<!ENTITY gradientbuttontabs.label "Flat except buttons &amp; tabs (FF)">
+<!ENTITY gradientbuttontabs.label "Flat except buttons &amp; tabs (PM)">
 <!ENTITY flatbackground.label "Flat except tabs">
 <!ENTITY flatbackgroundall.label "Flat">
 <!ENTITY toolbardividerborders.label "Toolbar divider borders">
@@ -33,18 +33,18 @@
 <!ENTITY borderscornerstyle.label "Border corner styling">
 <!ENTITY roundedcorners.label "Rounded corners (default)">
 <!ENTITY squarecorners.label "Squared corners">
-<!ENTITY roundedtabsonly.label "Rounded tabs only (FF)">
+<!ENTITY roundedtabsonly.label "Rounded tabs only (PM)">
 <!ENTITY squaredscrollbarsonly.label "Squared scrollbars only">
 <!ENTITY scrollbars.label "Scrollbars (requires webpage reload)">
 <!ENTITY styledscrollbars.label "Styled (default)">
-<!ENTITY osscrollbars.label "OS Native (FF)">
+<!ENTITY osscrollbars.label "OS Native (PM)">
 <!ENTITY ossystemcolors.label "OS system colors">
 <!ENTITY ossystemcolorslight.label "Light/gray backgrounds (default)">
 <!ENTITY ossystemcolorsdark.label "Very dark/black backgrounds">
 <!ENTITY webpagewindowborder.label "Webpage window border">
 <!ENTITY webpagewindowborderenabled.label "Enabled (default)">
 <!ENTITY webpagewindowborderdisabled.label "Disabled (MC)">
-<!ENTITY ffconfiguration.label "FF: closest appearance to default Windows Firefox theme.  MC: most compact settings.">
+<!ENTITY ffconfiguration.label "PM: closest appearance to default Windows Pale Moon theme.  MC: most compact settings.">
 <!ENTITY tab2.title "Menus &amp; Tabs">
 <!ENTITY toMergeMenus.label "Merge menubar into one button (requires restart)">
 <!ENTITY toMergeMenusNo.label "No (default)">
@@ -81,4 +81,4 @@
 <!ENTITY hcOptionsP4.label "+4">
 <!ENTITY hcOptionsP6.label "+6">
 <!ENTITY MacOSX.label "PLEASE NOTE: Some options are not available in Mac OS X and Linux.">
-<!ENTITY PleaseDonate.label "Please make a donation to support Classic Compact development.">
+
