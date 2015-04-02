@@ -325,7 +325,6 @@
   </tabpanel>
       </tabpanels>
     </tabbox>
-   <hbox align="center"><label href="https://addons.mozilla.org/en-US/firefox/addon/classic-compact/developers" class="text-link" value="&PleaseDonate.label;"/></hbox>
    <hbox align="center" id="spacer"></hbox>
   </prefpane>
 </prefwindow>

@@ -255,14 +255,6 @@ var compactmoonoptions = {
         mergedMenu.parentNode.removeChild(mergedMenu);
       }
     }
-    if(this.prefs.get("toFirstRun") === false) {
-      var url='chrome://compactmoonoptions/skin/help/FirstRun.xhtml';
-      var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"]  
-                         .getService(Components.interfaces.nsIWindowMediator);  
-      var mainWindow = wm.getMostRecentWindow("navigator:browser");  
-      window.setTimeout(function(){mainWindow.gBrowser.addTab(url)}, 1000);  
-      Services.prefs.setBoolPref("extensions.compactmoonoptions.toFirstRun", true);
-    }
 
   },
 
