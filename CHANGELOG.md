@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.0.2
+- remove "First run" window
+- remove donate message
+
 ### 1.0.1
 - fix Compact Moon Options pref window access
 - remove more Classic Compact references
