@@ -1,5 +1,8 @@
 # Changelog
 
+### 1.0.3
+- fix titlebar position
+
 ### 1.0.2
 - remove "First run" window
 - remove donate message
