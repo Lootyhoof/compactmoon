@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.0.4
+- remove double padlocks on HTTPS
+- Options: remove internal Classic Compact references
+
 ### 1.0.3
 - fix titlebar position
 
