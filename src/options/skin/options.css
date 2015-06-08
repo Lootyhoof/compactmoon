@@ -8,57 +8,57 @@
   visibility: visible;
 }
 
-#classiccompactoptionsPreferences button[dlgtype="accept"]:not([hidden="true"]) ~ button[dlgtype="cancel"]{display:none;}
+#compactmoonoptionsPreferences button[dlgtype="accept"]:not([hidden="true"]) ~ button[dlgtype="cancel"]{display:none;}
 
-#classiccompactoptionsPreferences .paneSelector {
+#compactmoonoptionsPreferences .paneSelector {
 	display:none;
 	}
 
-#classiccompactoptionsPreferences #pane1 {
+#compactmoonoptionsPreferences #pane1 {
 	padding:2px;
 	}
-#classiccompactoptionsPreferences #pane1 tabpanels {
+#compactmoonoptionsPreferences #pane1 tabpanels {
 	padding:3px;
 	}
 
-#classiccompactoptionsPreferences #pane1 hbox label {
+#compactmoonoptionsPreferences #pane1 hbox label {
 	margin:4px 5px;
 	}
 
-#classiccompactoptionsPreferences hbox menulist {
+#compactmoonoptionsPreferences hbox menulist {
 	margin:3px 0 0;
 	padding:0px;
 	}
 
-#classiccompactoptionsPreferences hbox menulist menuitem {
+#compactmoonoptionsPreferences hbox menulist menuitem {
 	padding:0px;
 	-moz-padding-end: 15px;
 	}
 
-#classiccompactoptionsPreferences #totabMaxWidth,
-#classiccompactoptionsPreferences #toTabMinWidth {
+#compactmoonoptionsPreferences #totabMaxWidth,
+#compactmoonoptionsPreferences #toTabMinWidth {
 	width:3em;
 	margin:3px 0 0;
 	}
 
-#classiccompactoptionsPreferences description{
+#compactmoonoptionsPreferences description{
 	width:430px;
 	margin:0 0 0 15px;
 	}
 
-#classiccompactoptionsPreferences .TabNote > description{
+#compactmoonoptionsPreferences .TabNote > description{
 	margin:10px 0 0 0;
 	}
 
-#classiccompactoptionsPreferences #toFFConfiguration description{
+#compactmoonoptionsPreferences #toFFConfiguration description{
 	width:435px;
 	margin:4px 5px;
 	}
 
-#classiccompactoptionsPreferences #toNote description{
+#compactmoonoptionsPreferences #toNote description{
 	width:445px;
 	margin:3px;
 	}
-#classiccompactoptionsPreferences #spacer{
+#compactmoonoptionsPreferences #spacer{
 	height:30px;
 	}

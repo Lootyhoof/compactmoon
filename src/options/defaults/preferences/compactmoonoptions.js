@@ -26,4 +26,4 @@ pref("extensions.compactmoonoptions.toHowCompactAddonBar", 0);
 
 
 // See http://kb.mozillazine.org/Localize_extension_descriptions
-pref("extensions.{ff497972-c067-44d8-b98e-98e62085837f}.description", "chrome://compactmoonoptions/locale/classiccompactoptions.properties");
+pref("extensions.{ff497972-c067-44d8-b98e-98e62085837f}.description", "chrome://compactmoonoptions/locale/compactmoonoptions.properties");

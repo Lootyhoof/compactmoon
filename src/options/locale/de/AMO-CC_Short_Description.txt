@@ -1,3 +1,0 @@
-﻿A very compact & highly customizable theme that minimizes space consumed by menu & tool bars without hurting the overall usability. Supports Windows, Mac & Linux.
-
-Ein kompaktes und sehr anpassbares Theme, das den Platz von Menü- und Symbolleisten minimiert, ohne die allgemeinen Nutzbarkeit einzuschränken. Unterstützt Windows, Mac & Linux

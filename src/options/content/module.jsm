@@ -226,7 +226,7 @@ var compactmoonoptions = {
     for (let [k, v] in Iterator(attributes))
       this.updatePref(k, v);
 
-    for each (let id in ["compactmoonoptions", "classiccompactoptions_appmenu_options"]) {
+    for each (let id in ["compactmoonoptions", "compactmoonoptions_appmenu_options"]) {
       // Why not just unhide them to begin with?
       let el = document.getElementById(id);
       if (el)
@@ -239,11 +239,11 @@ var compactmoonoptions = {
       return;
 
     //find our menu popup
-    var menusub = document.getElementById('classiccompactoptions_mergedmenu-popup');
+    var menusub = document.getElementById('compactmoonoptions_mergedmenu-popup');
 
     //move each of the menus into the sub menu
     if (this.osString != "Darwin") {
-      let mergedMenu = document.getElementById("classiccompactoptions_mergedmenu");
+      let mergedMenu = document.getElementById("compactmoonoptions_mergedmenu");
       if(this.prefs.get("toMergeMenus") === "yes") {
         if (mergedMenu)
           mergedMenu.hidden = false;

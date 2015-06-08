@@ -36,26 +36,26 @@
   -
   - ***** END LICENSE BLOCK ***** -->
 
-<!DOCTYPE overlay SYSTEM "chrome://compactmoonoptions/locale/classiccompactoptions.dtd">
-<overlay id="classiccompactoptions-overlay"
+<!DOCTYPE overlay SYSTEM "chrome://compactmoonoptions/locale/compactmoonoptions.dtd">
+<overlay id="compactmoonoptions-overlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	<script src="overlay.js"/>
 	<stringbundleset id="stringbundleset">
-		<stringbundle id="classiccompactoptions-strings" src="chrome://compactmoonoptions/locale/classiccompactoptions.properties"/>
+		<stringbundle id="compactmoonoptions-strings" src="chrome://compactmoonoptions/locale/compactmoonoptions.properties"/>
 	</stringbundleset>
 
 	<menupopup id="menu_ToolsPopup">
-		<menuitem id="classiccompactoptions" label="&classiccompactoptions.label;" hidden="false" oncommand="compactmoonoptions_overlay.openPreferences(event);"/>
+		<menuitem id="compactmoonoptions" label="&compactmoonoptions.label;" hidden="false" oncommand="compactmoonoptions_overlay.openPreferences(event);"/>
 	</menupopup>
 
 	<menupopup id="appmenu_customizeMenu">
-		<menuitem id="classiccompactoptions_appmenu_options" insertafter="appmenu_preferences" label="&classiccompactoptions.label;" hidden="true" oncommand="compactmoonoptions_overlay.openPreferences(event);"/>
+		<menuitem id="compactmoonoptions_appmenu_options" insertafter="appmenu_preferences" label="&compactmoonoptions.label;" hidden="true" oncommand="compactmoonoptions_overlay.openPreferences(event);"/>
 	</menupopup>
 
 	<!-- Firefox -->
 	<menubar id="main-menubar">
-		<menu id="classiccompactoptions_mergedmenu" hidden="true" type="menu" insertbefore="file-menu" label="&classiccompactoptions.menu;" tooltiptext="&classiccompactoptions.menu;" accesskey="&classiccompactoptions.menuaccesskey;">
-			<menupopup id="classiccompactoptions_mergedmenu-popup" />
+		<menu id="compactmoonoptions_mergedmenu" hidden="true" type="menu" insertbefore="file-menu" label="&compactmoonoptions.menu;" tooltiptext="&compactmoonoptions.menu;" accesskey="&compactmoonoptions.menuaccesskey;">
+			<menupopup id="compactmoonoptions_mergedmenu-popup" />
 		</menu>
 	</menubar>
 

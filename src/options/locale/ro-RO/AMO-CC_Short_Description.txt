@@ -1,3 +1,0 @@
-O temă foarte compactă şi personalizabilă care minimizează spaţiul consumat de barele de meniu şi de unelte fără 
-
-să afecteze folosirea în general. Suportă Windows, Mac şi Linux.
