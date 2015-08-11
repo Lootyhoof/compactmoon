@@ -83,6 +83,7 @@
             <menulist id="toToolbarButtons" preference="toToolbarButtons1">
               <menupopup>
                 <menuitem id="ff4" value="ff4" label="&classicbuttons4.label;"/>
+				<menuitem id="pm" value="pm" label="&classicbuttonspm.label;"/>
                 <menuitem id="ff4aero" value="ff4aero" label="&classicbuttons4aero.label;"/>
                 <menuitem id="ff8osxlion" value="ff8osxlion" label="&classicbuttons8osxlion.label;"/>
                 <menuitem id="ff4osx" value="ff4osx" label="&classicbuttons4osx.label;"/>

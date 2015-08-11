@@ -41,6 +41,7 @@ let stylesheets = {
   "buttonsfirefox3vista":             {prefs:{toToolbarButtons:"ff3v"}},
   "buttonsfirefox3xp":                {prefs:{toToolbarButtons:"ff3xp"}},
   "buttonsclassic2dark":              {prefs:{toOSSystemColors:"dark",toToolbarButtons:"ff4"}},
+  "buttonspalemoon":             	  {prefs:{toToolbarButtons:"pm"}},
   "buttonsfirefox4aero":              {prefs:{toToolbarButtons:"ff4aero"}},
   "buttonsfirefox4linux-GnomeHuman":  {prefs:{toToolbarButtons:"ff4lgnomehuman"}},
   "buttonsfirefox4linux-GnomeOxygen": {prefs:{toToolbarButtons:"ff4lgnomeoxygen"}},

@@ -2,6 +2,7 @@
 <!ENTITY tab1.title "Theme">
 <!ENTITY toolbarbuttons.label "Toolbar buttons">
 <!ENTITY classicbuttons4.label "Firefox 4 Windows (default, FF4)">
+<!ENTITY classicbuttonspm.label "Pale Moon">
 <!ENTITY classicbuttons4aero.label "Firefox 4 Windows Aero">
 <!ENTITY classicbuttons8osxlion.label "Firefox 8 Mac OS/X Lion">
 <!ENTITY classicbuttons4osx.label "Firefox 4 Mac OS/X">
