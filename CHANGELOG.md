@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.1.0
+- Pale Moon v26 compatibility
+- fix window borders on Windows 10
+- Options: add Pale Moon default icons
+
 ### 1.0.4
 - remove double padlocks on HTTPS
 - Options: remove internal Classic Compact references
