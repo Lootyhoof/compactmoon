@@ -2856,7 +2856,7 @@ toolbar:not(#nav-bar) .notification-anchor-icon {
 }
 
 #plugins-notification-icon {
-  list-style-image: url(chrome://mozapps/skin/plugins/pluginGeneric-16.png);
+  list-style-image: url(chrome://browser/skin/notification-pluginNormal.png);
 }
 
 #alert-plugins-notification-icon {
@@ -2864,7 +2864,7 @@ toolbar:not(#nav-bar) .notification-anchor-icon {
 }
 
 #blocked-plugins-notification-icon {
-  list-style-image: url(chrome://mozapps/skin/plugins/notifyPluginBlocked.png);
+  list-style-image: url(chrome://browser/skin/notification-pluginBlocked.png);
 }
 
 #plugins-notification-icon,
