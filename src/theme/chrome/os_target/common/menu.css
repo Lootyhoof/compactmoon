@@ -37,7 +37,7 @@ menuitem[checked="true"] {
 }
 menuitem[type="checkbox"] > .menu-iconic-left,
 menuitem[checked="true"] > .menu-iconic-left {
-  -moz-appearance: menucheckbox;
+  -moz-appearance: menucheckbox !important;
   padding-top: 0px;
 }
 
