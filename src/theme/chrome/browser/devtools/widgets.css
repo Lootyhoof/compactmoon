@@ -113,13 +113,13 @@
 
 .breadcrumbs-widget-item {
   background-color: transparent;
-  background-image: none;
-  box-shadow:none;
+  background-image: none !important;
+  box-shadow: none !important;
   -moz-appearance: none;
   overflow: hidden;
   min-width: 85px;
   max-width: 250px;
-  min-height: 22px;
+  min-height: 25px;
   border-style: solid;
   border-width: 2px 13px;
   margin: 0 -11px 0 0;
@@ -320,7 +320,6 @@
 }
 
 .side-menu-widget-item.selected {
-  background: -moz-linear-gradient(hsl(206,61%,40%), hsl(206,61%,31%)) repeat-x top left;
   background: linear-gradient(hsl(206,61%,40%), hsl(206,61%,31%)) repeat-x top left !important;
   box-shadow: inset 0 1px 0 hsla(210,40%,83%,.15),
               inset 0 -1px 0 hsla(210,40%,83%,.05);
@@ -341,11 +340,6 @@
   background-position: center left, top left;
 }
 
-.side-menu-widget-item-label {
-  padding: 4px 0px;
-  cursor: inherit;
-}
-
 .side-menu-widget-item-arrow {
   -moz-margin-start: -8px;
   width: 8px;
@@ -355,7 +349,6 @@
   padding: 4px;
 }
 
-.side-menu-widget-item-label,
 .side-menu-widget-item label {
   cursor: inherit;
 }
@@ -379,7 +372,6 @@
 
 .side-menu-widget-item-other:first-of-type {
   margin-top: 4px;
-  border-top-left-radius: 4px;
 }
 
 .side-menu-widget-item-other:last-of-type {
@@ -387,9 +379,7 @@
 }
 
 .side-menu-widget-item-other > label {
-  cursor: inherit;
   color: #f5f7fa;
-  text-shadow: 0 1px 1px #111;
 }
 
 .side-menu-widget-empty-notice-container {
@@ -420,8 +410,13 @@
 }
 
 .variables-view-scope > .variables-view-element-details:not(:empty) {
+  margin-top: 1px;
   -moz-margin-start: 2px;
   -moz-margin-end: 1px;
+}
+
+.variables-view-scope > .variables-view-element-details.enum:not(:empty) {
+  border-bottom: 1px solid #ddd;
 }
 
 /* Generic traits applied to both variables and properties */
@@ -486,16 +481,15 @@
 }
 
 .variable-or-property:not(:focus) > .title > .token-boolean {
-  color: #777;
+  color: #10c;
 }
 
 .variable-or-property:not(:focus) > .title > .token-number {
-  color: #c40a16;
+  color: #c00;
 }
 
 .variable-or-property:not(:focus) > .title > .token-string {
-  max-width: 30em;
-  color: #1c00cf;
+  color: #282;
 }
 
 .variable-or-property:not(:focus) > .title > .token-other {

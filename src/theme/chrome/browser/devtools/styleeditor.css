@@ -1,6 +1,7 @@
+/* vim:set ts=2 sw=2 sts=2 et: */
 /* This Source Code Form is subject to the terms of the Mozilla Public
-* License, v. 2.0. If a copy of the MPL was not distributed with this file,
-* You can obtain one at http://mozilla.org/MPL/2.0/. */
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #style-editor-chrome {
   background-color: hsl(211,21%,26%);
@@ -54,14 +55,14 @@
 }
 
 .stylesheet-enabled {
-  padding: 0 0 4px;
+  padding: 8px 0;
   margin: 0 8px;
   background-image: url(itemToggle.png);
   background-repeat: no-repeat;
   background-clip: content-box;
-  background-position: 0 2px;
-  width: 20px;
-  height: 32px;
+  background-position: 0 8px;
+  width: 24px;
+  height: 40px;
 }
 
 .disabled > .stylesheet-enabled {

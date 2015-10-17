@@ -17,69 +17,6 @@
   -moz-border-start-color: transparent;
 }
 
-.side-menu-widget-item-checkbox {
-  -moz-appearance: none;
-  -moz-margin-end: -6px;
-  padding: 0;
-  opacity: 0;
-  transition: opacity .15s ease 0s;
-}
-
-/* Only show the checkbox when the source is hovered over, is selected, or if it
- * is not checked. */
-.side-menu-widget-item:hover > .side-menu-widget-item-checkbox,
-.side-menu-widget-item.selected > .side-menu-widget-item-checkbox,
-.side-menu-widget-item-checkbox:not([checked]) {
-  opacity: 1;
-  transition: opacity .15s ease-out 0s;
-}
-
-.side-menu-widget-item-checkbox > .checkbox-check {
-  -moz-appearance: none;
-  background: none;
-  background-image: url(itemToggle.png);
-  background-repeat: no-repeat;
-  background-clip: content-box;
-  background-size: 32px 16px;
-  background-position: -16px 0;
-  width: 16px;
-  height: 16px;
-  border: 0;
-}
-
-.side-menu-widget-item-checkbox[checked] > .checkbox-check {
-  background-position: 0 0;
-}
-
-.side-menu-widget-item-checkbox:not([checked]) ~ .side-menu-widget-item-contents {
-  color: #888;
-}
-
-.side-menu-widget-item-checkbox:not([checked]) ~ .side-menu-widget-item-contents > .dbg-breakpoint {
-  display: none;
-}
-
-/* Black box message */
-
-#black-boxed-message {
-  background: url(background-noise-toolbar.png) rgb(61,69,76);
-  /* Prevent the container deck from aquiring the height from this message. */
-  min-height: 1px;
-  padding: 25vh 0;
-  color: white;
-}
-
-#black-boxed-message-label,
-#black-boxed-message-button {
-  text-align: center;
-  font-size: 120%;
-}
-
-#black-boxed-message-button {
-  margin-top: 1em;
-  padding: .25em;
-}
-
 /* ListWidget items */
 
 .list-widget-item {
@@ -125,7 +62,7 @@
 /* Sources and breakpoints view */
 
 .dbg-breakpoint {
-  -moz-margin-start: -14px;
+  font-family: monospace;
 }
 
 .dbg-breakpoint-line {
@@ -135,13 +72,6 @@
 .dbg-breakpoint-text {
   -moz-margin-start: 10px !important;
   font-style: italic;
-  font-size: 90%;
-}
-
-.dbg-breakpoint-checkbox {
-  width: 16px;
-  height: 16px;
-  margin: 2px;
 }
 
 /* Watch expressions view */
@@ -163,6 +93,7 @@
 
 .dbg-expression-input {
   -moz-padding-start: 2px !important;
+  font-family: Menlo, Monaco, monospace;
 }
 
 /* Searchbox and the search operations help panel */
@@ -172,12 +103,8 @@
   -moz-margin-start: 1px;
 }
 
-#filter-label {
-  -moz-margin-start: 2px;
-}
-
-#searchbox-panel-operators {
-  margin-top: 5px;
+#searchbox-panel-description {
+  margin-top: 0;
   margin-bottom: 8px;
   -moz-margin-start: 2px;
 }
@@ -189,6 +116,7 @@
   -moz-margin-start: 2px;
   -moz-margin-end: 6px;
   text-align: center;
+  font-family: Menlo, Monaco, monospace;
 }
 
 .searchbox-panel-operator-label {
@@ -286,6 +214,7 @@
   -moz-padding-end: 4px;
   padding-top: 2px;
   text-align: end;
+  font-family: monospace;
   color: #8c8c8c;
 }
 
@@ -293,6 +222,7 @@
   -moz-padding-start: 4px;
   padding-top: 1px;
   padding-bottom: 1px;
+  font-family: monospace;
 }
 
 .dbg-results-line-contents-string {

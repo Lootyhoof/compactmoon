@@ -18,7 +18,7 @@
 
 #requests-menu-toolbar {
   height: 33px;
-  padding: 2px 0 3px;
+  padding: 0;
 }
 
 .requests-menu-header:first-child {
@@ -26,7 +26,7 @@
 }
 
 .requests-menu-subitem {
-  padding: 1px 4px;
+  padding: 4px;
 }
 
 .requests-menu-header:not(:last-child):-moz-locale-dir(ltr),
@@ -45,7 +45,7 @@
   -moz-appearance: none;
   background: none;
   min-width: 20px;
-  min-height: 22px; /* Remaining 1px comes from border of the toolbar. */
+  min-height: 32px; /* Remaining 1px comes from border of the toolbar. */
   margin: 0;
   border: none;
   padding: 0;
@@ -365,6 +365,7 @@ box.requests-menu-status[code^="5"] {
 
 .tabpanel-summary-value {
   -moz-padding-start: 3px;
+  font-family: Menlo, Monaco, monospace;
 }
 
 .variable-or-property:not(:focus) > .title > .token-string {
@@ -380,11 +381,6 @@ box.requests-menu-status[code^="5"] {
 
 #headers-summary-size {
   padding-top: 2px;
-}
-
-#headers-summary-resend {
-  margin: 0 6px;
-  min-height: 20px;
 }
 
 /* Response tabpanel */
@@ -424,24 +420,6 @@ box.requests-menu-status[code^="5"] {
 
 #timings-tabpanel .requests-menu-timings-total {
   transition: transform 0.2s ease-out;
-}
-
-/* Custom request form */
-
-#custom-pane {
-  padding: 0.6em 0.5em;
-}
-
-.custom-header {
-  font-size: 1.1em;
-}
-
-.custom-section {
-  margin-top: 0.5em;
-}
-
-#custom-method-value {
-  width: 4.5em;
 }
 
 /* Footer */

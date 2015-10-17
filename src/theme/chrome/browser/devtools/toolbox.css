@@ -2,11 +2,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#toolbox-buttons {
-  margin-top:2px;
-}
 #toolbox-controls {
-  margin: 2px 4px 0;
+  margin: 0 4px;
+  max-height: none !important;
+  padding: 8px 0;
 }
 
 #toolbox-controls > toolbarbutton,
@@ -32,8 +31,7 @@
 
 #toolbox-dock-window,
 #toolbox-dock-bottom,
-#toolbox-dock-side,
-#toolbox-close {
+#toolbox-dock-side {
   opacity: 0.6;
 }
 
@@ -61,8 +59,9 @@
   -moz-appearance: none;
   border: none;
   margin: 0;
-  padding: 0 8px;
+  padding: 8px;
   width: 16px;
+  max-height: none !important;
 }
 
 .command-button:hover {
@@ -128,7 +127,7 @@
 #command-button-scratchpad:hover:active {
   -moz-image-region: rect(0px, 48px, 16px, 32px);
 }
- 
+
 /* Tabs */
 
 .devtools-tabbar {
@@ -138,7 +137,7 @@
   border-bottom: 1px solid #060a0d;
   box-shadow: 0 1px 0 hsla(204,45%,98%,.05) inset,
               0 -1px 0 hsla(206,37%,4%,.1) inset;
-  min-height: 1.8em;
+  min-height: 32px;
   padding: 0;
 }
 
@@ -149,11 +148,11 @@
 .devtools-tab {
   -moz-appearance: none;
   min-width: 32px;
-  min-height: 22px;
-  max-width: 140px;
+  min-height: 32px;
+  max-width: 110px;
   color: #b6babf;
   margin: 0;
-  padding: 2px;
+  padding: 0;
   background-image: linear-gradient(hsla(204,45%,98%,.05), hsla(204,45%,98%,.1)),
                     linear-gradient(hsla(204,45%,98%,.05), hsla(204,45%,98%,.1));
   background-size: 1px 100%;
@@ -167,6 +166,10 @@
   -moz-margin-end: 0;
   -moz-margin-start: 4px;
   opacity: 0.6;
+}
+
+#toolbox-tab-options > image {
+  margin: 0 8px;
 }
 
 .devtools-tab:hover > image {
@@ -248,27 +251,27 @@
 }
 
 .options-vertical-pane {
-  margin: 5px;
+  margin: 15px;
   width: calc(50% - 30px);
   min-width: 400px;
   -moz-padding-start: 5px;
 }
 
 .options-vertical-pane > label {
-  padding: 2px 0;
+  padding: 5px 0;
   font-size: 1.4rem;
 }
 
 .options-groupbox {
   -moz-margin-start: 15px;
-  padding: 2px;
+  padding: 4px;
 }
 
 .options-groupbox > * {
   padding: 2px;
 }
 
- .options-citation-label {
+.options-citation-label {
   font-size: 1rem !important;
   /* !important is required otherwise font-size will still be 1.4rem */
   font-style: italic;
@@ -279,9 +282,4 @@
 .options-citation-label + label {
   padding: 3px 0 0 !important; /* To align it with the checkbox */
   font-style: italic;
-}
-
-.hidden-labels-box:not(.visible) > label,
-.hidden-labels-box.visible ~ .hidden-labels-box > label:last-child {
-  display: none;
 }
