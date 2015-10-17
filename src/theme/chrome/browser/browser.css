@@ -202,8 +202,8 @@ toolbar  > #appmenu-container > #appmenu-button{
                     linear-gradient(rgb(69,170,246), rgb(30,40,209) 95%);
   border-color: rgba(6,42,83,.9);
   box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,
-              0 0 1.5px 1px rgba(250,234,169,.7) inset,
-              0 -1px 0 rgba(250,234,169,.5) inset;
+              0 0 2px 1px rgba(169,234,250,.7) inset,
+              0 -1px 0 rgba(169,234,250,.5) inset;
 }
 
 toolbar #appmenu-button:hover:not(:active):not([open]) {
@@ -228,8 +228,8 @@ toolbar #appmenu-button:hover:not(:active):not([open]) {
                     linear-gradient(rgb(69,170,246), rgb(30,40,209) 95%);
   border-color: rgba(6,42,83,.9);
   box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,
-              0 0 1.5px 1px rgba(250,234,169,.7) inset,
-              0 -1px 0 rgba(250,234,169,.5) inset;
+              0 0 2px 1px rgba(169,234,250,.7) inset,
+              0 -1px 0 rgba(169,234,250,.5) inset;
   -moz-transition: none;
 }
 
