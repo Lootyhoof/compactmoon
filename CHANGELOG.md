@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.1.2 (theme only)
+- (Win10) round corner removal on certain UI elements
+- (Win10) shade window background on Pale Moon 26 builds later than b2
+- re-base devtools on default theme
+- ensure checkmark menuitems behave with external addons
+- remove orange on appmenu hover background
+
 ### 1.1.1
 - add plugin alert icons
 
