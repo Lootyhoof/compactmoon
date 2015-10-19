@@ -6,6 +6,7 @@
 - re-base devtools on default theme
 - ensure checkmark menuitems behave with external addons
 - remove orange on appmenu hover background
+- use inverted icons when legibility is reduced
 
 ### 1.1.1
 - add plugin alert icons
