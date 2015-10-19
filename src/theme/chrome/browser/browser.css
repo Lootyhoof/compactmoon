@@ -2470,18 +2470,41 @@ window[cctabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > #new-tab-but
   -moz-image-region: rect(0, 13px, 11px, 0);
 }
 
-#TabsToolbar > #alltabs-button[type="menu"]:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
-#TabsToolbar > toolbarpaletteitem > #alltabs-button[type="menu"]:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
-#alltabs-button[type="menu"]:-moz-lwtheme-brighttext,
-window[tabsintitlebar="true"] #TabsToolbar > #alltabs-button[type="menu"],
-window[tabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > #alltabs-button[type="menu"],
-window[tabsintitlebar="true"] #alltabs-button[type="menu"],
-window[cctabsintitlebar="true"] #TabsToolbar > #alltabs-button[type="menu"],
-window[cctabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > #alltabs-button[type="menu"],
-window[cctabsintitlebar="true"] #alltabs-button[type="menu"] {
+#alltabs-button[type="menu"]:-moz-lwtheme-brighttext {
   list-style-image: url(chrome://browser/skin/mainwindow-dropdown-arrow-inverted.png);
 }
 
+#alltabs-button:not([type="menu"]):-moz-lwtheme-brighttext {
+  list-style-image: url(chrome://browser/skin/tabbrowser/alltabs-inverted.png);
+}
+
+@media (-moz-os-version: windows-xp),
+  (-moz-os-version: windows-vista),
+  (-moz-os-version: windows-win7),
+  (-moz-os-version: windows-win8) {
+  #TabsToolbar > #alltabs-button[type="menu"]:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
+  #TabsToolbar > toolbarpaletteitem > #alltabs-button[type="menu"]:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
+  window[tabsintitlebar="true"] #TabsToolbar > #alltabs-button[type="menu"],
+  window[tabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > #alltabs-button[type="menu"],
+  window[tabsintitlebar="true"] #alltabs-button[type="menu"],
+  window[cctabsintitlebar="true"] #TabsToolbar > #alltabs-button[type="menu"],
+  window[cctabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > #alltabs-button[type="menu"],
+  window[cctabsintitlebar="true"] #alltabs-button[type="menu"] {
+    list-style-image: url(chrome://browser/skin/mainwindow-dropdown-arrow-inverted.png);
+  }
+
+  #TabsToolbar > #alltabs-button:not([type="menu"]):-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
+  #TabsToolbar > toolbarpaletteitem > #alltabs-button:not([type="menu"]):-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
+  window[tabsintitlebar="true"] #TabsToolbar > #alltabs-button:not([type="menu"]),
+  window[tabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > #alltabs-button:not([type="menu"]),
+  window[tabsintitlebar="true"] #alltabs-button:not([type="menu"]),
+  window[cctabsintitlebar="true"] #TabsToolbar > #alltabs-button:not([type="menu"]),
+  window[cctabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > #alltabs-button:not([type="menu"]),
+  window[cctabsintitlebar="true"] #alltabs-button:not([type="menu"]) {
+    list-style-image: url(chrome://browser/skin/tabbrowser/alltabs-inverted.png);
+  }
+}
+  
 #alltabs-button[type="menu"] > .toolbarbutton-icon {
   margin: 2px 0;
 }
@@ -2519,6 +2542,26 @@ window[cctabsintitlebar="true"] #alltabs-button[type="menu"] {
   -moz-box-align:center !important;
 
   border: none;
+}
+
+.tabs-closebutton:-moz-lwtheme-brighttext {
+  list-style-image: url("chrome://global/skin/icons/close-inverted.png");
+}
+
+@media (-moz-os-version: windows-xp),
+  (-moz-os-version: windows-vista),
+  (-moz-os-version: windows-win7),
+  (-moz-os-version: windows-win8) {
+  #TabsToolbar > .tabs-closebutton:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
+  #TabsToolbar > toolbarpaletteitem > .tabs-closebutton:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
+  window[tabsintitlebar="true"] #TabsToolbar > .tabs-closebutton,
+  window[tabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > .tabs-closebutton,
+  window[tabsintitlebar="true"] #alltabs-button[type="menu"],
+  window[cctabsintitlebar="true"] #TabsToolbar > .tabs-closebutton,
+  window[cctabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > .tabs-closebutton,
+  window[cctabsintitlebar="true"] .tabs-closebutton {
+    list-style-image: url(chrome://global/skin/icons/close-inverted.png);
+  }
 }
 
 .tabs-closebutton > .toolbarbutton-icon {
