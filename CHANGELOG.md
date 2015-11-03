@@ -1,5 +1,8 @@
 # Changelog
 
+### 1.1.3 (theme only)
+- fix label positioning for addon icons (e.g. uBlock)
+
 ### 1.1.2 (theme only)
 - (Win10) round corner removal on certain UI elements
 - (Win10) shade window background on Pale Moon 26 builds later than b2
