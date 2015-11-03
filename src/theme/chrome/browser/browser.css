@@ -4382,8 +4382,6 @@ width: 14px;
 toolbar:not(#TabsToolbar) toolbarbutton > .toolbarbutton-icon {
   max-height: 18px !important;
   max-width: 18px !important;
-  -moz-transform:  scale(1);
-  transform:  scale(1);
 }
 toolbarbutton#bookmarks-menu-button > .toolbarbutton-icon:not([ccOverride="Yes"]) {
   max-height:none !important;
@@ -4402,8 +4400,6 @@ toolbar#addon-bar:not(#TabsToolbar) toolbarbutton > .toolbarbutton-icon,
 #navigator-toolbox > toolbar:not(#TabsToolbar):not(#nav-bar) toolbarbutton > .toolbarbutton-icon {
   max-width: 16px !important;
   max-height: 16px !important;
-  -moz-transform:  scale(1);
-  transform:  scale(1);
 }
 
 #navigator-toolbox[iconsize="large"] > #nav-bar > #urlbar toolbarbutton > .toolbarbutton-icon,
