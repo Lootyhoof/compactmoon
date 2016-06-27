@@ -798,7 +798,7 @@ menuitem.bookmark-item {
   list-style-image: url("chrome://browser/skin/ccToolbar.png");
 }
 
-.toolbarbutton-1:-moz-lwtheme-brighttext {
+toolbar[brighttext] .toolbarbutton-1 {
   list-style-image: url("chrome://browser/skin/Toolbar-inverted.png");
 }
 
@@ -1235,7 +1235,7 @@ toolbar[mode="full"] .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([cc
 #home-button.bookmark-item {
   list-style-image: url("chrome://browser/skin/ccToolbar.png");
 }
-#home-button.bookmark-item:-moz-lwtheme-brighttext {
+toolbar[brighttext] #home-button.bookmark-item {
   list-style-image: url("chrome://browser/skin/Toolbar-inverted.png");
 }
 #home-button {
@@ -1264,7 +1264,7 @@ toolbar[mode="full"] .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([cc
   list-style-image: url("chrome://browser/skin/ccToolbar.png");
 }
 
-#bookmarks-menu-button.bookmark-item:-moz-lwtheme-brighttext {
+toolbar[brighttext] #bookmarks-menu-button.bookmark-item {
   list-style-image: url("chrome://browser/skin/Toolbar-inverted.png");
 }
 
@@ -1357,7 +1357,7 @@ toolbar[mode="full"] .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([cc
 
 #TabsToolbar > #tabview-button:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
 #TabsToolbar > toolbarpaletteitem > #tabview-button:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
-#tabview-button:-moz-lwtheme-brighttext {
+toolbar[brighttext] #tabview-button {
   list-style-image: url(chrome://browser/skin/tabview/tabview-inverted.png);
 }
 
@@ -2359,8 +2359,8 @@ window[sizemode="maximized"][tabsintitlebar="true"] #tabbrowser-tabs[positionpin
 
 .tabbrowser-arrowscrollbox > .scrollbutton-up:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
 .tabbrowser-arrowscrollbox > .scrollbutton-down:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
-.tabbrowser-arrowscrollbox > .scrollbutton-up:-moz-lwtheme-brighttext,
-.tabbrowser-arrowscrollbox > .scrollbutton-down:-moz-lwtheme-brighttext,
+toolbar[brighttext] .tabbrowser-arrowscrollbox > .scrollbutton-up,
+toolbar[brighttext] .tabbrowser-arrowscrollbox > .scrollbutton-down,
 window[tabsontop="true"] .tabbrowser-arrowscrollbox > .scrollbutton-up,
 window[tabsontop="true"] .tabbrowser-arrowscrollbox > .scrollbutton-down,
 window[cctabsontop="true"] .tabbrowser-arrowscrollbox > .scrollbutton-up,
@@ -2417,8 +2417,8 @@ window[cctabsontop="true"] .tabbrowser-arrowscrollbox > .scrollbutton-down {
 #TabsToolbar > #new-tab-button:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
 #TabsToolbar > toolbarpaletteitem > #new-tab-button:-moz-system-metric(windows-compositor):not(:-moz-lwtheme),
 .tabs-newtab-button:-moz-lwtheme-brighttext,
-#TabsToolbar > #new-tab-button:-moz-lwtheme-brighttext,
-#TabsToolbar > toolbarpaletteitem > #new-tab-button:-moz-lwtheme-brighttext,
+#TabsToolbar[brighttext] > #new-tab-button,
+#TabsToolbar[brighttext] > toolbarpaletteitem > #new-tab-button,
 window[tabsintitlebar="true"] #TabsToolbar > #new-tab-button,
 window[tabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > #new-tab-button,
 window[cctabsintitlebar="true"] #TabsToolbar > #new-tab-button,
@@ -2472,11 +2472,11 @@ window[cctabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > #new-tab-but
   -moz-image-region: rect(0, 13px, 11px, 0);
 }
 
-#alltabs-button[type="menu"]:-moz-lwtheme-brighttext {
+toolbar[brighttext] #alltabs-button[type="menu"] {
   list-style-image: url(chrome://browser/skin/mainwindow-dropdown-arrow-inverted.png);
 }
 
-#alltabs-button:not([type="menu"]):-moz-lwtheme-brighttext {
+toolbar[brighttext] #alltabs-button:not([type="menu"]) {
   list-style-image: url(chrome://browser/skin/tabbrowser/alltabs-inverted.png);
 }
 
