@@ -2021,19 +2021,9 @@ toolbar:not(#TabsToolbar):not(#nav-bar) #urlbar > toolbarbutton {
 
 .panel-promo-closebutton {
   -moz-appearance: none;
-  list-style-image: url("chrome://global/skin/icons/close.png");
-  -moz-image-region: rect(0, 16px, 16px, 0);
   border: none;
   -moz-margin-end: -10px;
   margin-top: -5px;
-}
-
-.panel-promo-closebutton:hover {
-  -moz-image-region: rect(0, 32px, 16px, 16px);
-}
-
-.panel-promo-closebutton:hover:active {
-  -moz-image-region: rect(0, 48px, 16px, 32px);
 }
 
 .panel-promo-closebutton > .toolbarbutton-text {
@@ -2336,26 +2326,14 @@ window[sizemode="maximized"][tabsintitlebar="true"] #tabbrowser-tabs[positionpin
 /* Tab close button */
 .tab-close-button {
   -moz-appearance: none;
-  -moz-image-region: rect(0, 64px, 16px, 48px);
   border: none;
   border-width:0 !important;
   margin:-3px 0 -2px;
   padding: 0px;
-  list-style-image: url("chrome://global/skin/icons/close.png");
 }
 
-.tab-close-button:hover,
-.tab-close-button:hover[selected="true"] {
-  -moz-image-region: rect(0, 32px, 16px, 16px);
-}
-
-.tab-close-button:hover:active,
-.tab-close-button:hover:active[selected="true"] {
-  -moz-image-region: rect(0, 48px, 16px, 32px);
-}
-
-.tab-close-button[selected="true"] {
-  -moz-image-region: rect(0, 16px, 16px, 0);
+.tab-close-button:not([selected]):not(:hover):not(:active) {
+  -moz-image-region: rect(0, 64px, 16px, 48px);
 }
 
 /* Tab scrollbox arrow, tabstrip new tab and all-tabs buttons */
@@ -2559,8 +2537,6 @@ window[cctabsintitlebar="true"] #TabsToolbar > toolbarpaletteitem > #new-tab-but
 /* Tabstrip close button */
 .tabs-closebutton {
   -moz-appearance: none;
-  list-style-image: url("chrome://global/skin/icons/close.png");
-  -moz-image-region: rect(0, 16px, 16px, 0);
   padding: 0px 2px !important;
   margin: 0px;
   -moz-box-align:center !important;
@@ -3194,17 +3170,7 @@ toolbar:not(#nav-bar) .notification-anchor-icon {
 #addonbar-closebutton {
   border: none;
   padding: 0 2px;
-  list-style-image: url("chrome://global/skin/icons/close.png");
   -moz-appearance: none;
-  -moz-image-region: rect(0, 16px, 16px, 0);
-}
-
-#addonbar-closebutton:hover {
-  -moz-image-region: rect(0, 32px, 16px, 16px);
-}
-
-#addonbar-closebutton:hover:active {
-  -moz-image-region: rect(0, 48px, 16px, 32px);
 }
 
 /* Status panel */
