@@ -2,13 +2,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-/* This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
-
 @import url("chrome://global/skin/");
 @import url("chrome://os_target/skin/browser.css");
 @import url("chrome://browser/skin/padlock/padlock.css");
+@import url("chrome://appver/skin/browser.css");
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 @namespace html url("http://www.w3.org/1999/xhtml");
@@ -3483,152 +3480,7 @@ html|*.highlighter-nodeinfobar-pseudo-classes {
   margin: 7px 0;
 }
 
-/* Developer Toolbar */
-
-#developer-toolbar {
-  padding: 0;
-  min-height: 22px;
-  background-image: url(devtools/background-noise-toolbar.png), linear-gradient(#303840, #2d3640);
-  border-top: 1px solid #060a0d;
-  box-shadow: 0 1px 0 hsla(204,45%,98%,.05) inset, 0 -1px 0 hsla(206,37%,4%,.1) inset;
-}
-
-.developer-toolbar-button {
-  -moz-appearance: none;
-  border: none;
-  background: transparent;
-  margin: 0;
-  padding: 0 10px;
-  width: 32px;
-}
-
-.developer-toolbar-button > image {
-  margin: auto 10px;
-}
-
-#developer-toolbar-toolbox-button {
-  list-style-image: url("chrome://browser/skin/devtools/toggle-tools.png");
-  -moz-image-region: rect(0px, 16px, 16px, 0px);
-  min-width: 18px;
-}
-
-#developer-toolbar-toolbox-button > label {
-  display: none;
-}
-
-#developer-toolbar-toolbox-button:hover {
-  -moz-image-region: rect(0px, 32px, 16px, 16px);
-}
-
-#developer-toolbar-toolbox-button:hover:active {
-  -moz-image-region: rect(0px, 48px, 16px, 32px);
-}
-
-#developer-toolbar-toolbox-button[checked=true] {
-  -moz-image-region: rect(0px, 64px, 16px, 48px);
-}
-
-#developer-toolbar-toolbox-button > .toolbarbutton-text {
-  display: none;
-}
-
-#developer-toolbar-toolbox-button > .toolbarbutton-icon {
-  list-style-image: url("chrome://browser/skin/devtools/toggle-tools.png");
-  -moz-image-region: rect(0px, 16px, 16px, 0px);
-  -moz-margin-end: 0;
-}
-
-.developer-toolbar-button {
-  -moz-appearance: none;
-  min-width: 78px;
-  min-height: 22px;
-  text-shadow: 0 -1px 0 hsla(210,8%,5%,.45);
-  border-radius: 3px;
-  color: inherit;
-  border: 1px solid transparent;
-  margin: 0 5px;
-  padding: 0 10px;
-  list-style-image: url("chrome://browser/skin/devtools/tools-icons-small.png");
-}
-
-.developer-toolbar-button[open=true],
-.developer-toolbar-button:active:hover,
-.developer-toolbar-button[checked=true] {
-  border-color: hsla(210,8%,5%,.6);
-  background: rgba(0,0,0,.6);
-  box-shadow: 0 1px 2px rgba(0,0,0,.5) inset, 0 1px 0 hsla(210,16%,76%,.1);
-}
-
-.developer-toolbar-button:hover,
-.developer-toolbar-button[checked=true],
-.developer-toolbar-button[open=true] {
-  color: hsl(208,100%,60%) !important;
-  text-shadow: 0 0 6px hsl(208,100%,60%);
-}
-
-.developer-toolbar-button[checked=true] {
-  background: rgba(0,0,0,.4);
-}
-
-#developer-toolbar-toolbox-button {
-  -moz-image-region: rect(64px, 16px, 80px, 0);
-}
-
-/* Highlight toolbar - Option menu */
-
-#inspector-option-toolbarbutton:-moz-focusring {
-  outline: 1px dotted hsla(210,30%,85%,0.4);
-  outline-offset: -2px;
-}
-
 /* GCLI */
-
-html|*#gcli-tooltip-frame,
-html|*#gcli-output-frame {
-  padding: 0;
-  border-width: 0;
-  background-color: transparent;
-}
-
-#gcli-output,
-#gcli-tooltip {
-  border-width: 0;
-  background-color: transparent;
-  -moz-appearance: none;
-  margin-bottom: -2px;
-}
-
-.gclitoolbar-input-node,
-.gclitoolbar-complete-node{
-  margin: 0;
-  -moz-box-align: center;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-right: 4px;
-  text-shadow: none;
-  box-shadow: none;
-  border-width: 0;
-  background-color: transparent;
-}
-
-.gclitoolbar-input-node {
-  -moz-appearance: none;
-  color: hsl(210,30%,85%);
-  padding-left: 20px;
-  background-color: #242b33;
-  background-repeat: no-repeat;
-  background-position: 4px center;
-  box-shadow: 0 1px 1px hsla(206,37%,4%,.2) inset,
-              1px 0 0 hsla(206,37%,4%,.2) inset,
-              -1px 0 0 hsla(206,37%,4%,.2) inset;
-  outline-style: none;
-  background-image: -moz-image-rect(url("chrome://browser/skin/devtools/commandline-icon.png"), 0, 16, 16, 0);
-}
-
-.gclitoolbar-input-node[focused="true"] {
-  background-image: -moz-image-rect(url("chrome://browser/skin/devtools/commandline-icon.png"), 0, 32, 16, 16);
-  background-color: #232e38;
-}
 
 .gclitoolbar-input-node > .textbox-input-box > html|*.textbox-input::-moz-selection {
   background-color: hsl(210,30%,85%);
