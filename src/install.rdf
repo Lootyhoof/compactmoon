@@ -5,7 +5,7 @@
  
   <Description about="urn:mozilla:install-manifest">
     <em:id>{a0d70d73-3faf-46c3-b98e-98e62085837f}</em:id>
-    <em:version>1.5.0</em:version>
+    <em:version>1.6.0</em:version>
     <em:name>Compact Moon</em:name>
     <em:description>A very clean and compact theme with classic buttons that minimizes vertical space consumed by menus &amp; tool bars. Fork of "Classic Compact" by Ken Barbalace</em:description>
     <em:type>32</em:type>
