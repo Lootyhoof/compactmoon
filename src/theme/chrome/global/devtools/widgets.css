@@ -207,6 +207,7 @@
   border-radius: 0;
   outline: none;
   color: hsl(210,30%,85%);
+  transition: none;
 }
 
 .breadcrumbs-widget-item > .button-box {
