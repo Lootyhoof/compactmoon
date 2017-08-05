@@ -1,5 +1,8 @@
 # Changelog
 
+### 1.1.1-options
+- fix `sv-SE` locale
+
 ### 1.6.0
 - sync about:support styling with default
 - sync about:permissions styling with default
