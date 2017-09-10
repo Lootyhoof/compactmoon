@@ -57,32 +57,32 @@
 }
 
 #black-box {
-  list-style-image: url("chrome://global/skin/devtools/debugger-blackbox.png");
+  list-style-image: url(debugger-blackbox.png);
 }
 
 @media (min-resolution: 2dppx) {
   #black-box {
-    list-style-image: url("chrome://global/skin/devtools/debugger-blackbox@2x.png");
+    list-style-image: url(debugger-blackbox@2x.png);
   }
 }
 
 #pretty-print {
-  list-style-image: url("chrome://global/skin/devtools/debugger-prettyprint.png");
+  list-style-image: url(debugger-prettyprint.png);
 }
 
 @media (min-resolution: 2dppx) {
   #pretty-print {
-    list-style-image: url("chrome://global/skin/devtools/debugger-prettyprint@2x.png");
+    list-style-image: url(debugger-prettyprint@2x.png);
   }
 }
 
 #toggle-breakpoints {
-  list-style-image: url("chrome://global/skin/devtools/debugger-toggleBreakpoints.png");
+  list-style-image: url(debugger-toggleBreakpoints.png);
 }
 
 @media (min-resolution: 2dppx) {
   #toggle-breakpoints {
-    list-style-image: url("chrome://global/skin/devtools/debugger-toggleBreakpoints@2x.png");
+    list-style-image: url(debugger-toggleBreakpoints@2x.png);
   }
 }
 
@@ -121,7 +121,7 @@
 #black-boxed-message-button > .button-box > .button-icon {
   width: 16px;
   height: 16px;
-  background-image: url("chrome://global/skin/devtools/debugger-blackbox.png");
+  background-image: url(debugger-blackbox.png);
   background-position: 0 0;
   background-size: 32px 16px;
   background-repeat: no-repeat;
@@ -130,7 +130,7 @@
 
 @media (min-resolution: 2dppx) {
   #black-boxed-message-button > .button-box > .button-icon {
-    background-image: url("chrome://global/skin/devtools/debugger-blackbox@2x.png");
+    background-image: url(debugger-blackbox@2x.png);
   }
 }
 
@@ -208,7 +208,7 @@
 /* Tracer */
 
 #trace {
-  list-style-image: url("chrome://global/skin/devtools/tracer-icon.png");
+  list-style-image: url(tracer-icon.png);
   -moz-image-region: rect(0px,16px,16px,0px);
 }
 
@@ -218,7 +218,7 @@
 
 @media (min-resolution: 2dppx) {
   #trace {
-    list-style-image: url("chrome://global/skin/devtools/tracer-icon@2x.png");
+    list-style-image: url(tracer-icon@2x.png);
     -moz-image-region: rect(0px,32px,32px,0px);
   }
 
@@ -309,7 +309,7 @@
 }
 
 .dbg-expression-arrow {
-  background-image: url("chrome://global/skin/devtools/commandline-icon.png");
+  background-image: url(commandline-icon.png);
   background-position: -16px 0;
   background-repeat: no-repeat;
   background-size: 32px 16px;
@@ -320,7 +320,7 @@
 
 @media (min-resolution: 2dppx) {
   .dbg-expression-arrow {
-    background-image: url("chrome://global/skin/devtools/commandline-icon@2x.png");
+    background-image: url(commandline-icon@2x.png);
   }
 }
 
@@ -546,22 +546,22 @@
 }
 
 #resume {
-  list-style-image: url("chrome://global/skin/devtools/debugger-pause.png");
+  list-style-image: url(debugger-pause.png);
   -moz-image-region: rect(0px,16px,16px,0px);
 }
 
 #resume[checked] {
-  list-style-image: url("chrome://global/skin/devtools/debugger-play.png");
+  list-style-image: url(debugger-play.png);
 }
 
 @media (min-resolution: 2dppx) {
   #resume {
-    list-style-image: url("chrome://global/skin/devtools/debugger-pause@2x.png");
+    list-style-image: url(debugger-pause@2x.png);
     -moz-image-region: rect(0px,32px,32px,0px);
   }
 
   #resume[checked] {
-    list-style-image: url("chrome://global/skin/devtools/debugger-play@2x.png");
+    list-style-image: url(debugger-play@2x.png);
     -moz-image-region: rect(0px,64px,32px,32px);
   }
 }
@@ -575,28 +575,28 @@
 }
 
 #step-over {
-  list-style-image: url("chrome://global/skin/devtools/debugger-step-over.png");
+  list-style-image: url(debugger-step-over.png);
 }
 
 #step-in {
-  list-style-image: url("chrome://global/skin/devtools/debugger-step-in.png");
+  list-style-image: url(debugger-step-in.png);
 }
 
 #step-out {
-  list-style-image: url("chrome://global/skin/devtools/debugger-step-out.png");
+  list-style-image: url(debugger-step-out.png);
 }
 
 @media (min-resolution: 2dppx) {
   #step-over {
-    list-style-image: url("chrome://global/skin/devtools/debugger-step-over@2x.png");
+    list-style-image: url(debugger-step-over@2x.png);
   }
 
   #step-in {
-    list-style-image: url("chrome://global/skin/devtools/debugger-step-in@2x.png");
+    list-style-image: url(debugger-step-in@2x.png);
   }
 
   #step-out {
-    list-style-image: url("chrome://global/skin/devtools/debugger-step-out@2x.png");
+    list-style-image: url(debugger-step-out@2x.png);
   }
 }
 
@@ -604,12 +604,12 @@
   background: none;
   box-shadow: none;
   border: none;
-  list-style-image: url("chrome://global/skin/devtools/debugger-collapse.png");
+  list-style-image: url(debugger-collapse.png);
   -moz-image-region: rect(0px,16px,16px,0px);
 }
 
 #instruments-pane-toggle[pane-collapsed] {
-  list-style-image: url("chrome://global/skin/devtools/debugger-expand.png");
+  list-style-image: url(debugger-expand.png);
 }
 
 #instruments-pane-toggle:hover {
@@ -618,12 +618,12 @@
 
 @media (min-resolution: 2dppx) {
   #instruments-pane-toggle {
-    list-style-image: url("chrome://global/skin/devtools/debugger-collapse@2x.png");
+    list-style-image: url(debugger-collapse@2x.png);
     -moz-image-region: rect(0px,32px,32px,0px);
   }
 
   #instruments-pane-toggle[pane-collapsed] {
-    list-style-image: url("chrome://global/skin/devtools/debugger-expand@2x.png");
+    list-style-image: url(debugger-expand@2x.png);
   }
 
   #instruments-pane-toggle:hover {

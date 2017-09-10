@@ -420,7 +420,6 @@ div.CodeMirror span.eval-text {
 
 .devtools-toolbar {
   padding: 0 3px;
-  background-image: none;
 }
 
 .devtools-toolbar checkbox {
@@ -727,20 +726,20 @@ div.CodeMirror span.eval-text {
 }
 
 .theme-dark .devtools-searchinput {
-  background-image: url("chrome://global/skin/devtools/magnifying-glass.png");
+  background-image: url(magnifying-glass.png);
 }
 
 .theme-light .devtools-searchinput {
-  background-image: url("chrome://global/skin/devtools/magnifying-glass-light.png");
+  background-image: url(magnifying-glass-light.png);
 }
 
 @media (min-resolution: 2dppx) {
   .theme-dark .devtools-searchinput {
-    background-image: url("chrome://global/skin/devtools/magnifying-glass@2x.png");
+    background-image: url(magnifying-glass@2x.png);
   }
 
   .theme-light .devtools-searchinput {
-    background-image: url("chrome://global/skin/devtools/magnifying-glass-light@2x.png");
+    background-image: url(magnifying-glass-light@2x.png);
   }
 }
 
@@ -1288,7 +1287,7 @@ div.CodeMirror span.eval-text {
 .theme-light #requests-menu-network-summary-button .button-icon,
 .theme-light .event-tooltip-debugger-icon,
 .theme-light .devtools-button::before {
-  filter: url("chrome://global/skin/devtools/filters.svg#invert");
+  filter: url(filters.svg#invert);
 }
 
 /* Since selected backgrounds are blue, we want to use the normal

@@ -418,7 +418,6 @@ div.CodeMirror span.eval-text {
 
 .devtools-toolbar {
   padding: 0 3px;
-  background-image: none;
 }
 
 .devtools-toolbar checkbox {
@@ -1106,11 +1105,6 @@ div.CodeMirror span.eval-text {
   }
 }
 
-#toolbox-buttons,
-#command-button-pick{
-  margin-bottom: -7px !important;
-}
-
 /* Tabs */
 
 .devtools-tabbar {
@@ -1291,7 +1285,7 @@ div.CodeMirror span.eval-text {
 .theme-light #requests-menu-network-summary-button .button-icon,
 .theme-light .event-tooltip-debugger-icon,
 .theme-light .devtools-button::before {
-  filter: url("chrome://global/skin/devtools/filters.svg#invert");
+  filter: url(filters.svg#invert);
 }
 
 /* Since selected backgrounds are blue, we want to use the normal

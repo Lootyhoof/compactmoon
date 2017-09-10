@@ -106,7 +106,7 @@
 .stylesheet-enabled {
   padding: 8px 0;
   margin: 0 8px;
-  background-image: url("chrome://global/skin/devtools/itemToggle.png");
+  background-image: url(itemToggle.png);
   background-repeat: no-repeat;
   background-clip: content-box;
   background-position: 0 8px;
@@ -117,7 +117,7 @@
 
 @media (min-resolution: 2dppx) {
   .stylesheet-enabled {
-    background-image: url("chrome://global/skin/devtools/itemToggle@2x.png");
+    background-image: url(itemToggle@2x.png);
   }
 }
 
@@ -127,7 +127,7 @@
 
 /* Invert all toggle icons but the one in the active row for light theme */
 .theme-light .splitview-nav > li:not(.splitview-active) .stylesheet-enabled {
-  filter: url("chrome://global/skin/devtools/filters.svg#invert");
+  filter: url(filters.svg#invert);
 }
 
 .splitview-nav > li > .stylesheet-enabled:focus,

@@ -53,7 +53,7 @@
 
 .side-menu-widget-item-checkbox .checkbox-check {
   -moz-appearance: none;
-  background-image: url("chrome://global/skin/devtools/itemToggle.png");
+  background-image: url(itemToggle.png);
   background-color: transparent;
   background-repeat: no-repeat;
   background-clip: content-box;
@@ -66,7 +66,7 @@
 
 @media (min-resolution: 2dppx) {
   .side-menu-widget-item-checkbox .checkbox-check {
-    background-image: url("chrome://global/skin/devtools/itemToggle@2x.png");
+    background-image: url(itemToggle@2x.png);
   }
 }
 
@@ -76,7 +76,7 @@
 
 /* Invert all toggle icons but the one in the active row for light theme */
 .theme-light .side-menu-widget-item:not(.selected) .checkbox-check {
-  filter: url("chrome://global/skin/devtools/filters.svg#invert");
+  filter: url(filters.svg#invert);
 }
 
 /* Shader source editors */
