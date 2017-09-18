@@ -1,18 +1,26 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 notification {
-  background-color: InfoBackground;
-  color: InfoText;
+  --dialog-color: -moz-Dialog;
+  --dialog-text-color: -moz-DialogText;
+  --info-background-color: InfoBackground;
+  --info-text-color: InfoText;
+  background-color: var(--info-background-color);
+  color: var(--info-text-color);
   text-shadow: none;
 }
 
 notification[type="info"] {
-  background-color: -moz-Dialog;
-  color: -moz-DialogText;
+  background-color: var(--dialog-color);
+  color: var(--dialog-text-color);
 }
 
 notification[type="critical"] {
-  background-image: -moz-linear-gradient(rgb(212,0,0), rgb(152,0,0));
+  background-image: linear-gradient(rgb(212,0,0), rgb(152,0,0));
   color: rgba(255,255,255,0.95);
 }
 

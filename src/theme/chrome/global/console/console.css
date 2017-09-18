@@ -9,14 +9,17 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 .console-box {
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --shadow-light-color: ThreeDLightShadow;
+  background-color: var(--field-color);
+  color: var(--field-text-color);
 }
 
 /* ::::: console rows ::::: */
 
 .console-row {
-  border-bottom: 1px solid ThreeDLightShadow;
+  border-bottom: 1px solid var(--shadow-light-color);
   padding: 2px 0px;
 }
 

@@ -11,10 +11,13 @@
 /* ::::: toolbox ::::: */
 
 toolbox {
+  --dialog-color: -moz-dialog;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-color: ThreeDShadow;
   -moz-appearance: none;
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
   border-top: 0px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDHighlight;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-highlight-color);
 }
 
 /* ::::: toolbar & menubar ::::: */
@@ -22,8 +25,8 @@ toolbox {
 menubar {
   min-width: 1px;
   min-height:14px;
-  border-top: 0px solid ThreeDHighlight;
-  border-bottom: 0px solid ThreeDShadow;
+  border-top: 0px solid var(--shadow-highlight-color);
+  border-bottom: 0px solid var(--shadow-color);
 }
 
 toolbar {
@@ -31,8 +34,8 @@ toolbar {
   background-repeat: repeat-x;
   min-width: 1px;
   min-height: 14px;
-  border-top: 0px solid ThreeDHighlight;
-  border-bottom: 0px solid ThreeDShadow;
+  border-top: 0px solid var(--shadow-highlight-color);
+  border-bottom: 0px solid var(--shadow-color);
 }
 
 #toolbar-menubar {
@@ -41,7 +44,7 @@ toolbar {
 
 toolbar:first-child, menubar {
   min-width: 1px;
-  border-bottom: 0px solid ThreeDShadow;
+  border-bottom: 0px solid var(--shadow-color);
   border-top: 0px !important;
 }
 
@@ -62,8 +65,8 @@ toolbarseparator {
   border-bottom: 1px solid transparent;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
-  -moz-border-left-colors  : transparent transparent ThreeDShadow;
-  -moz-border-right-colors : transparent transparent ThreeDHighlight;
+  -moz-border-left-colors  : transparent transparent var(--shadow-color);
+  -moz-border-right-colors : transparent transparent var(--shadow-highlight-color);
   }
 
 #addon-bar > toolbarseparator {

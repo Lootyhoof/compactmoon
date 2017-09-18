@@ -8,15 +8,23 @@
 
 menupopup,
 panel {
+  --dialog-color: -moz-Dialog;
+  --dialog-text-color: -moz-DialogText;
+  --menu-color: Menu;
+  --menu-text-color: MenuText;
+  --shadow-color: ThreeDShadow;
+  --shadow-face-color: ThreeDFace;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-light-color: ThreeDLightShadow;
   border: 3px solid transparent;
-  -moz-border-top-colors   : ThreeDLightShadow ThreeDHighlight ThreeDFace;
-  -moz-border-left-colors  : ThreeDLightShadow ThreeDHighlight ThreeDFace;
-  -moz-border-right-colors : ThreeDDarkShadow  ThreeDShadow    ThreeDFace;
-  -moz-border-bottom-colors: ThreeDDarkShadow  ThreeDShadow    ThreeDFace;
+  -moz-border-top-colors   : var(--shadow-light-color) var(--shadow-highlight-color) var(--shadow-face-color);
+  -moz-border-left-colors  : var(--shadow-light-color) var(--shadow-highlight-color) var(--shadow-face-color);
+  -moz-border-right-colors : var(--shadow-dark-color)  var(--shadow-color)    var(--shadow-face-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color)  var(--shadow-color)    var(--shadow-face-color);
   padding: 0px;
   min-width: 1px;
-  background: Menu;
-  color: MenuText;
+  background: var(--menu-color);
+  color: var(--menu-text-color);
 }
 
 menupopup {
@@ -52,9 +60,9 @@ panel[type="arrow"] {
   .panel-arrowcontent {
     border-radius: 6px;
     padding: 10px;
-    color: -moz-DialogText;
-    background: -moz-Dialog;
-    border: 1px solid ThreeDShadow;
+    color: var(--dialog-text-color);
+    background: var(--dialog-color);
+    border: 1px solid var(--shadow-color);
   }
 
   .panel-arrow[side="top"],
@@ -177,13 +185,15 @@ tooltip[titletip="true"] {
 
 menulist > menupopup,
 .menulist-menupopup {
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
   -moz-appearance: none;
   border-width: 1px;
-  -moz-border-top-colors: -moz-FieldText;
-  -moz-border-right-colors: -moz-FieldText;
-  -moz-border-bottom-colors: -moz-FieldText;
-  -moz-border-left-colors: -moz-FieldText;
+  -moz-border-top-colors: var(--field-text-color);
+  -moz-border-right-colors: var(--field-text-color);
+  -moz-border-bottom-colors: var(--field-text-color);
+  -moz-border-left-colors: var(--field-text-color);
   padding: 0px;
   min-width: 0px;
-  background-color: -moz-Field;
+  background-color: var(--field-color);
 }

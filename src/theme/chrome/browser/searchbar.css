@@ -1,3 +1,13 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+ 
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+:root {
+  --shadow-color: ThreeDShadow;
+}
+
 .searchbar-textbox {
   width: 6em;
   min-width: 6em;
@@ -30,7 +40,7 @@
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
   border: 1px solid;
-  border-color: ThreeDShadow;
+  border-color: var(--shadow-color);
   border-width:0 1px 0 0;
 }
 

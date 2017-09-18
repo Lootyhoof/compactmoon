@@ -11,6 +11,11 @@
 /* ::::: radio ::::: */
 
 radio {
+  --dialog-color: -moz-Dialog;
+  --field-color: -moz-Field;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-highlight-color: ThreeDHighlight;
   -moz-appearance: radio-container;
   -moz-box-align: center;
   margin: 2px 4px;
@@ -40,13 +45,13 @@ radio {
 /* ..... focused state ..... */
 
 radio[focused="true"] > .radio-label-box {
-  border: 1px dotted ThreeDDarkShadow;
+  border: 1px dotted var(--shadow-dark-color);
 }
 
 /* ..... disabled state ..... */
 
 radio[disabled="true"] > .radio-check-box1 {
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
 }
 
 radio[disabled="true"] {
@@ -54,22 +59,22 @@ radio[disabled="true"] {
 }
 
 radio[disabled="true"]:-moz-system-metric(windows-classic) {
-  color: ThreeDShadow;
-  text-shadow: 1px 1px ThreeDHighlight;
+  color: var(--shadow-color);
+  text-shadow: 1px 1px var(--shadow-highlight-color);
 }
 
 /* ::::: checkmark image ::::: */
 
 .radio-check-box1 {
   margin: 1px 0px;
-  border-top: 1px solid ThreeDShadow;
-  border-right: 1px solid ThreeDShadow;
-  border-bottom: 1px solid ThreeDShadow;
-  border-left: 1px solid ThreeDShadow;
+  border-top: 1px solid var(--shadow-color);
+  border-right: 1px solid var(--shadow-color);
+  border-bottom: 1px solid var(--shadow-color);
+  border-left: 1px solid var(--shadow-color);
   border-radius: 50%;
   width: 12px;
   height: 12px;
-  background-color: -moz-Field;
+  background-color: var(--field-color);
 }
 
 .radio-check-box2 {
@@ -85,7 +90,7 @@ radio[disabled="true"]:-moz-system-metric(windows-classic) {
 }
 
 radio:hover:active > .radio-check-box1 {
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
 }
 
 /* ..... selected state ..... */

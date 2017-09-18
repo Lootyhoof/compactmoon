@@ -1,9 +1,12 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 .wizard-header {
-  border-bottom: 2px groove ThreeDFace;
-  background-color: Window;
-  color: WindowText;
+  --shadow-face-color: ThreeDFace;
+  --window-color: Window;
+  --window-text-color: WindowText;
+  border-bottom: 2px groove var(--shadow-face-color);
+  background-color: var(--window-color);
+  color: var(--window-text-color);
 }
 
 .wizard-header-box-1 {

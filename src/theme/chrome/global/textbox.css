@@ -12,20 +12,26 @@
 /* ::::: textbox ::::: */
 
 textbox {
+  --dialog-color: -moz-Dialog;
+  --dialog-text-color: -moz-DialogText;
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
   cursor: text;
   margin: 0px 2px;
   border: 1px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-bottom-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-bottom-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-dark-color);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   padding: 0px 1px;
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  background-color: var(--field-color);
+  color: var(--field-text-color);
 }
 
 html|*.textbox-input,
@@ -55,15 +61,15 @@ html|*.textbox-textarea::-moz-placeholder {
 /* ..... readonly state ..... */
 
 textbox[readonly="true"] {
-  background-color: -moz-Dialog;
-  color: -moz-DialogText;
+  background-color: var(--dialog-color);
+  color: var(--dialog-text-color);
 }
 
 /* ..... disabled state ..... */
 
 textbox[disabled="true"] {
   cursor: default;
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
   color: GrayText;
 }
 

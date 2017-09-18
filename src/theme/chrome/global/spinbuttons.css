@@ -5,6 +5,11 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 spinbuttons {
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-face-color: ThreeDFace;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-light-color: ThreeDLightShadow;
   cursor: default;
 }
 
@@ -13,11 +18,11 @@ spinbuttons {
   min-height: 6px;
   margin: 0 !important;
   border: 1px solid;
-  -moz-border-top-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDHighlight ThreeDLightShadow;
-  background-color: ThreeDFace;
+  -moz-border-top-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  background-color: var(--shadow-face-color);
 }
 
 .spinbuttons-button > .button-box {
@@ -27,18 +32,18 @@ spinbuttons {
 .spinbuttons-button:hover:active
 {
   border: 1px solid;
-  -moz-border-top-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-top-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-dark-color) var(--shadow-color);
 }
 
 .spinbuttons-button[disabled="true"] {
   border: 1px solid;
-  -moz-border-top-colors: ThreeDHighlight ThreeDLightShadow !important;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow !important;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow !important;
-  -moz-border-left-colors: ThreeDHighlight ThreeDLightShadow !important;
+  -moz-border-top-colors: var(--shadow-highlight-color) var(--shadow-light-color) !important;
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color) !important;
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color) !important;
+  -moz-border-left-colors: var(--shadow-highlight-color) var(--shadow-light-color) !important;
 }
 
 .spinbuttons-up {

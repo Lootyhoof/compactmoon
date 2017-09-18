@@ -11,14 +11,26 @@
 /* ::::: tree ::::: */
 
 tree {
+  --cell-highlight-color: -moz-cellhighlight;
+  --cell-highlight-text-color: -moz-cellhighlighttext;
+  --dialog-color: -moz-Dialog;
+  --dialog-text-color: -moz-DialogText;
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --highlight-color: Highlight;
+  --highlight-text-color: HighlightText;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-light-color: ThreeDLightShadow;
   margin: 0px 4px;
   border: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-bottom-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-dark-color);
+  background-color: var(--field-color);
+  color: var(--field-text-color);
   -moz-appearance: none;
 }
 
@@ -29,7 +41,7 @@ tree {
 }
 
 .focusring:-moz-focusring > .tree-stack > .tree-rows > .tree-bodybox {
-  border: 1px solid -moz-FieldText;
+  border: 1px solid var(--field-text-color);
 }
 
 
@@ -39,21 +51,21 @@ treechildren::-moz-tree-row {
   border: 1px solid transparent;
   min-height: 18px;
   height: 1.3em;
-  color: -moz-FieldText;
+  color: var(--field-text-color);
 }
 
 treechildren::-moz-tree-row(selected) {
   background: url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
-  background-color: -moz-cellhighlight;
+  background-color: var(--cell-highlight-color);
 }
 
 treechildren::-moz-tree-row(selected, focus) {
   background: url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
-  background-color: Highlight;
+  background-color: var(--highlight-color);
 }
 
 treechildren::-moz-tree-row(current, focus) {
-  border: 1px dotted Highlight;
+  border: 1px dotted var(--highlight-color);
 }
 
 treechildren::-moz-tree-row(selected, current, focus) {
@@ -70,7 +82,7 @@ tree[seltype="text"] > treechildren::-moz-tree-row {
 
 treechildren::-moz-tree-cell {
   padding: 0px 2px 0px 2px;
-  color: -moz-cellhighlighttext;
+  color: var(--cell-highlight-text-color);
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell-text,
@@ -80,7 +92,7 @@ treechildren::-moz-tree-cell-text {
 }
 
 treechildren::-moz-tree-cell-text(selected) {
-  color: -moz-cellhighlighttext;
+  color: var(--cell-highlight-text-color);
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell {
@@ -95,38 +107,38 @@ tree[seltype="text"] > treechildren::-moz-tree-cell-text {
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell(active, selected) {
   background: url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
-  background-color: -moz-cellhighlight;
+  background-color: var(--cell-highlight-color);
 }
 tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected) {
-  color: -moz-cellhighlighttext;
+  color: var(--cell-highlight-text-color);
 }
 
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected) {
   background: url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
-  background-color: -moz-cellhighlight;
-  color: -moz-cellhighlighttext;
+  background-color: var(--cell-highlight-color);
+  color: var(--cell-highlight-text-color);
 }
 
 treechildren::-moz-tree-cell-text(selected, focus) {
-  color: HighlightText;
+  color: var(--highlight-text-color);
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell(active, selected, focus) {
   background: url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
-  background-color: Highlight;
+  background-color: var(--highlight-color);
 }
 
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, focus) {
   background: url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
-  background-color: Highlight;
+  background-color: var(--highlight-color);
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected, focus) {
-  color: HighlightText;
+  color: var(--highlight-text-color);
 }
 
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, focus) {
-  color: HighlightText;
+  color: var(--highlight-text-color);
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell(active, current, focus) {
@@ -150,38 +162,38 @@ tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, curre
 tree[seltype="cell"] > treechildren::-moz-tree-line,
 tree[seltype="text"] > treechildren::-moz-tree-line,
 treechildren::-moz-tree-line {
-  border: 1px dotted ThreeDShadow;
+  border: 1px dotted var(--shadow-color);
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-line(active, selected, focus),
 treechildren::-moz-tree-line(selected, focus) {
-  border: 1px dotted HighlightText;
+  border: 1px dotted var(--highlight-text-color);
 }
 
 /* ::::: tree separator ::::: */
 
 treechildren::-moz-tree-separator {
-  border-top: 1px solid ThreeDShadow;
-  border-bottom: 1px solid ThreeDHighlight;
+  border-top: 1px solid var(--shadow-color);
+  border-bottom: 1px solid var(--shadow-highlight-color);
 }
 
 
 /* ::::: drop feedback ::::: */
 
 treechildren::-moz-tree-row(dropOn) {
-  background-color: Highlight;
+  background-color: var(--highlight-color);
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell-text(primary, dropOn),
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(primary, dropOn),
 treechildren::-moz-tree-cell-text(primary, dropOn) {
   background: url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
-  color: HighlightText;
+  color: var(--highlight-text-color);
 }
 
 treechildren::-moz-tree-drop-feedback {
   background: url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
-  background-color: Highlight;
+  background-color: var(--highlight-color);
   width: 50px;
   height: 2px;
   -moz-margin-start: 5px;
@@ -193,13 +205,13 @@ treechildren::-moz-tree-progressmeter {
   margin: 2px 4px;
   padding: 1px;
   border: 1px solid;
-  border-top-color: ThreeDShadow;
-  border-right-color: ThreeDHighlight;
-  border-bottom-color: ThreeDHighlight;
-  border-left-color: ThreeDShadow;
+  border-top-color: var(--shadow-color);
+  border-right-color: var(--shadow-highlight-color);
+  border-bottom-color: var(--shadow-highlight-color);
+  border-left-color: var(--shadow-color);
   background: url("chrome://global/skin/toolbar/Toolbar-bkgd.png") repeat-x;
-  background-color: -moz-Dialog;
-  color: ThreeDShadow;
+  background-color: var(--dialog-color);
+  color: var(--shadow-color);
 }
 
 treechildren::-moz-tree-progressmeter(progressUndetermined) {
@@ -218,13 +230,13 @@ treecolpicker {
   -moz-box-align: center;
   -moz-box-pack: center;
   border: 2px solid;
-  -moz-border-top-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDHighlight ThreeDLightShadow;
+  -moz-border-top-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-highlight-color) var(--shadow-light-color);
   background: url("chrome://global/skin/toolbar/Toolbar-bkgd.png") repeat-x;
-  background-color: -moz-Dialog;
-  color: -moz-DialogText;
+  background-color: var(--dialog-color);
+  color: var(--dialog-text-color);
   padding: 0px 4px;
 }
 
@@ -250,10 +262,10 @@ treecolpicker:hover:active {
   border-right: 1px solid;
   border-bottom: 1px solid;
   border-left: 2px solid;
-  -moz-border-top-colors: ThreeDShadow -moz-Dialog;
-  -moz-border-right-colors: ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDShadow;
-  -moz-border-left-colors: ThreeDShadow -moz-Dialog;
+  -moz-border-top-colors: var(--shadow-color) var(--dialog-color);
+  -moz-border-right-colors: var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-color) var(--dialog-color);
   padding-top: 1px;
   padding-bottom: 0px;
   -moz-padding-start: 5px;
@@ -270,30 +282,30 @@ treecolpicker:hover:active {
 /* ::::: column drag and drop styles ::::: */
 
 treecol[dragging="true"] {
-  -moz-border-top-colors: ThreeDDarkShadow transparent !important;
-  -moz-border-right-colors: ThreeDDarkShadow transparent!important;
-  -moz-border-bottom-colors: ThreeDDarkShadow transparent !important;
-  -moz-border-left-colors: ThreeDDarkShadow transparent !important;
-  background-color: ThreeDShadow !important;
-  color: ThreeDHighlight !important;
+  -moz-border-top-colors: var(--shadow-dark-color) transparent !important;
+  -moz-border-right-colors: var(--shadow-dark-color) transparent!important;
+  -moz-border-bottom-colors: var(--shadow-dark-color) transparent !important;
+  -moz-border-left-colors: var(--shadow-dark-color) transparent !important;
+  background-color: var(--shadow-color) !important;
+  color: var(--shadow-highlight-color) !important;
 }
 
 treecol[insertafter="true"]:-moz-locale-dir(ltr),
 treecol[insertbefore="true"]:-moz-locale-dir(rtl) {
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color);
 }
 
 treecol[insertafter="true"]:-moz-locale-dir(rtl),
 treecol[insertbefore="true"]:-moz-locale-dir(ltr) {
-  -moz-border-left-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-left-colors: var(--shadow-dark-color) var(--shadow-color);
 }
 
 treechildren::-moz-tree-column(insertbefore) {
-  -moz-border-start: 1px solid ThreeDShadow;
+  -moz-border-start: 1px solid var(--shadow-color);
 }
 
 treechildren::-moz-tree-column(insertafter) {
-  -moz-border-end: 1px solid ThreeDShadow;
+  -moz-border-end: 1px solid var(--shadow-color);
 }
 
 /* ::::: sort direction indicator :::::  */
@@ -366,11 +378,11 @@ treechildren::-moz-tree-cell-text(selected, editing) {
 
 .tree-input {
   -moz-appearance: none;
-  border: 1px solid Highlight;
-  -moz-border-top-colors: Highlight;
-  -moz-border-bottom-colors: Highlight;
-  -moz-border-left-colors: Highlight;
-  -moz-border-right-colors: Highlight;
+  border: 1px solid var(--highlight-color);
+  -moz-border-top-colors: var(--highlight-color);
+  -moz-border-bottom-colors: var(--highlight-color);
+  -moz-border-left-colors: var(--highlight-color);
+  -moz-border-right-colors: var(--highlight-color);
   margin: 0;
   -moz-margin-start: -4px;
   padding: 1px;

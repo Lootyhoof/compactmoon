@@ -11,14 +11,16 @@
 /* ::::: progressmeter ::::: */
 
 progressmeter {
+  --shadow-color: ThreeDShadow;
+  --shadow-highlight-color: ThreeDHighlight;
   -moz-appearance: none;
   margin: 0px;
   border: 0px solid;
   border-top:0;
-  -moz-border-top-colors: ThreeDShadow;
-  -moz-border-right-colors: ThreeDHighlight;
-  -moz-border-bottom-colors: ThreeDHighlight;
-  -moz-border-left-colors: ThreeDShadow;
+  -moz-border-top-colors: var(--shadow-color);
+  -moz-border-right-colors: var(--shadow-highlight-color);
+  -moz-border-bottom-colors: var(--shadow-highlight-color);
+  -moz-border-left-colors: var(--shadow-color);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -39,7 +41,7 @@ progressmeter {
 }
 
 richlistitem[selected="true"] .progress-bar{
-  background-color: ThreeDShadow;
+  background-color: var(--shadow-color);
 }
 
 /* ::::: statusbar progressmeter ::::: */
@@ -76,7 +78,8 @@ richlistitem progressmeter {
   margin-top:-2px !important;
   -moz-margin-start:18px !important;
   -moz-stack-sizing: ignore;
-  }
+}
+
 #tabbrowser-tabs[tabmix_firefox3] .tabbrowser-tab > .tab-stack > .tab-progress-container > .tab-progress > spacer,
 #tabbrowser-tabs[tabmix_skin] .tabbrowser-tab > .tab-stack > .tab-progress-container > .tab-progress > spacer{
   line-height:1px !important;
@@ -85,4 +88,4 @@ richlistitem progressmeter {
   margin:0px !important;
   overflow-x:hidden !important;
   -moz-stack-sizing: ignore;
-  }
+}

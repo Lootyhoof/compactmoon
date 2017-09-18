@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this file,
+* You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 /** 
@@ -7,9 +11,10 @@
  */  
 treeitem[selected="true"] > treerow
   {
+    --field-text-color    : -moz-FieldText;
     background            : transparent !important;
     border                : none !important;
-    color                 : -moz-FieldText !important;
+    color                 : var(--field-text-color) !important;
   }
   
 treecell:hover

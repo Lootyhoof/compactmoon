@@ -11,13 +11,17 @@
 /* ::::: toolbarbutton ::::: */
 
 toolbarbutton {
+  --dialog-color: -moz-Dialog;
+  --dialog-text-color: -moz-DialogText;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-color: ThreeDShadow;
   -moz-box-align: center;
   -moz-box-pack: center;
   margin: 0;
   border: 1px solid transparent;
   padding: 0px;
   background-color: transparent;
-  color: -moz-DialogText;
+  color: var(--dialog-text-color);
 }
 
 .toolbarbutton-icon[label]:not([label=""]),
@@ -41,18 +45,18 @@ toolbarbutton.tabbable {
 toolbarbutton:-moz-focusring {
   /* -moz-appearance looks redundant here but is necessary.
       Without it, the outline won't appear. */
-  outline: 1px dotted -moz-DialogText;
+  outline: 1px dotted var(--dialog-text-color);
   outline-offset: -2px;
 }
 
 toolbarbutton:hover:not([disabled="true"]) {
-  border-color: ThreeDHighlight ThreeDShadow ThreeDShadow ThreeDHighlight;
+  border-color: var(--shadow-highlight-color) var(--shadow-color) var(--shadow-color) var(--shadow-highlight-color);
 }
 
 toolbarbutton:hover:active:not([disabled="true"]),
 toolbarbutton[open="true"]:hover,
 toolbarbutton[open="true"] {
-  border-color: ThreeDShadow ThreeDHighlight ThreeDHighlight ThreeDShadow;
+  border-color: var(--shadow-color) var(--shadow-highlight-color) var(--shadow-highlight-color) var(--shadow-color);
   padding-top: 0px;
   padding-bottom: 0px;
   -moz-padding-start: 0px;
@@ -66,13 +70,13 @@ toolbarbutton[disabled="true"] {
 
 @media all and (-moz-windows-classic) {
   toolbarbutton[disabled="true"] {
-    color: ThreeDShadow;
-    text-shadow: 1px 1px ThreeDHighlight;
+    color: var(--shadow-color);
+    text-shadow: 1px 1px var(--shadow-highlight-color);
   }
 }
 
 toolbarbutton[checked="true"]:not([disabled="true"]) {
-  border-color: ThreeDShadow ThreeDHighlight ThreeDHighlight ThreeDShadow;
+  border-color: var(--shadow-color) var(--shadow-highlight-color) var(--shadow-highlight-color) var(--shadow-color);
   padding-top: 0px;
   padding-bottom: 0px;
   -moz-padding-start: 0px;

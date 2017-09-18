@@ -5,10 +5,15 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 richlistbox {
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --highlight-color: Highlight;
+  --highlight-text-color: HighlightText;
+  --richlistitem-selected-outline: #F3D982;
   -moz-appearance: listbox;
   margin: 2px 4px;
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  background-color: var(--field-color);
+  color: var(--field-text-color);
 }
 
 richlistbox[disabled="true"] {
@@ -16,21 +21,21 @@ richlistbox[disabled="true"] {
 }
 
 richlistitem[selected="true"] {
-  background-color: Highlight ;
-  color: HighlightText
+  background-color: var(--highlight-color);
+  color: var(--highlight-text-color);
 }
 
 richlistbox:focus > richlistitem[selected="true"] {
-  background-color: Highlight;
-  color: HighlightText;
+  background-color: var(--highlight-color);
+  color: var(--highlight-text-color);
 }
 
 richlistbox[seltype="multiple"]:focus > richlistitem[current="true"] {
-  outline: 1px dotted Highlight;
+  outline: 1px dotted var(--highlight-color);
   outline-offset: -1px;
 }
 
 richlistbox[seltype="multiple"]:focus > richlistitem[current="true"][selected="true"] {
-  outline: 1px dotted #F3D982; /* TODO: find a suitable system color */
+  outline: 1px dotted var(--richlistitem-selected-outline); /* TODO: find a suitable system color */
 }
 

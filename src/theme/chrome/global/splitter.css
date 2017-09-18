@@ -11,15 +11,19 @@
 /* ::::: splitter (vertical) ::::: */
 
 splitter {
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-face-color: ThreeDFace;
+  --shadow-highlight-color: ThreeDHighlight;
   -moz-box-align: center;
   -moz-box-pack: center;
   cursor: ew-resize;
   border-width: 0 2px;
   border-style: solid;
-  -moz-border-left-colors: ThreeDShadow ThreeDHighlight;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDFace;
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-highlight-color);
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-face-color);
   min-width: 6px;
-  background-color: ThreeDFace;
+  background-color: var(--shadow-face-color);
 }
 
 splitter[state="collapsed"][collapse="before"],
@@ -45,8 +49,8 @@ splitter:-moz-lwtheme {
 splitter[orient="vertical"] {
   cursor: ns-resize;
   border-width: 2px 0;
-  -moz-border-top-colors: ThreeDShadow ThreeDHighlight;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDFace;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-highlight-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-face-color);
   min-height: 6px;
 }
 
@@ -68,8 +72,8 @@ splitter[disabled="true"] {
 
 grippy {
   cursor: pointer;
-  border-top: 1px solid ThreeDShadow;
-  border-bottom: 1px solid ThreeDShadow;
+  border-top: 1px solid var(--shadow-color);
+  border-bottom: 1px solid var(--shadow-color);
   min-width: 4px;
   min-height: 115px;
   background-color: transparent;
@@ -77,14 +81,14 @@ grippy {
 }
 
 grippy:hover {
-  background-color: ThreeDHighlight;
+  background-color: var(--shadow-highlight-color);
 }
 
 splitter[orient="vertical"] > grippy {
   border-top: none;
-  border-right: 1px solid ThreeDShadow;
+  border-right: 1px solid var(--shadow-color);
   border-bottom: none;
-  border-left: 1px solid ThreeDShadow;;
+  border-left: 1px solid var(--shadow-color);
   min-width: 115px;
   min-height: 4px;
 }

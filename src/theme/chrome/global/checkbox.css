@@ -11,6 +11,11 @@
 /* ::::: checkbox ::::: */
 
 checkbox {
+  --dialog-color: -moz-Dialog;
+  --field-color: -moz-Field;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-highlight-color: ThreeDHighlight;
   -moz-box-align: center;
   margin: 2px 4px;
   padding-top: 1px;
@@ -36,11 +41,11 @@ checkbox {
 /* ..... focused state ..... */
 
 checkbox:-moz-focusring > .checkbox-label-box {
-  outline: 1px dotted ThreeDDarkShadow;
+  outline: 1px dotted var(--shadow-dark-color);
 }
 
 checkbox:focus > .checkbox-label-box {
-  border: 1px dotted ThreeDDarkShadow;
+  border: 1px dotted var(--shadow-dark-color);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -51,7 +56,7 @@ checkbox:focus > .checkbox-label-box {
 /* ..... disabled state ..... */
 
 checkbox[disabled="true"] > .checkbox-check {
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
 }
 
 checkbox[disabled="true"] {
@@ -59,8 +64,8 @@ checkbox[disabled="true"] {
 }
 
 checkbox[disabled="true"]:-moz-system-metric(windows-classic) {
-  color: ThreeDShadow;
-  text-shadow: 1px 1px ThreeDHighlight;
+  color: var(--shadow-color);
+  text-shadow: 1px 1px var(--shadow-highlight-color);
 }
 
 /* ::::: checkmark image ::::: */
@@ -69,21 +74,21 @@ checkbox[disabled="true"]:-moz-system-metric(windows-classic) {
   -moz-appearance: none;
   -moz-box-align: center;
   border: 1px solid;
-  -moz-border-top-colors: ThreeDShadow;
-  -moz-border-right-colors: ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDShadow;
-  -moz-border-left-colors: ThreeDShadow;
+  -moz-border-top-colors: var(--shadow-color);
+  -moz-border-right-colors: var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-color);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   min-width: 13px;
   min-height: 13px;
-  background: -moz-Field no-repeat 50% 50%;
+  background: var(--field-color) no-repeat 50% 50%;
 }
 
 checkbox:hover:active > .checkbox-check {
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
 }
 
 /* ..... checked state ..... */
@@ -93,6 +98,6 @@ checkbox[checked="true"] > .checkbox-check {
 }
 
 checkbox[checked="true"][disabled="true"] > .checkbox-check {
-  background-image: url("chrome://global/skin/checkbox/cbox-check-dis.gif") !important
+  background-image: url("chrome://global/skin/checkbox/cbox-check-dis.gif") !important;
 }
 

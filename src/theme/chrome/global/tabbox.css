@@ -13,22 +13,28 @@
 .tabs-left,
 .tabs-right {
   border-bottom: 2px solid;
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
+  -moz-border-bottom-colors: var(--shadow-highlight-color) var(--shadow-light-color);
 }
 
 /* ::::: tabpanels ::::: */
 
 tabpanels {
+  --dialog-color: -moz-Dialog;
+  --dialog-text-color: -moz-DialogText;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-light-color: ThreeDLightShadow;
   -moz-appearance: none;
   border-right: 2px solid;
   border-bottom: 2px solid;
   border-left: 2px solid;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDHighlight ThreeDLightShadow;
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-highlight-color) var(--shadow-light-color);
   padding: 8px;
-  background-color: -moz-Dialog;
-  color: -moz-DialogText;
+  background-color: var(--dialog-color);
+  color: var(--dialog-text-color);
 }
 
 /* ::::: tab ::::: */
@@ -40,15 +46,15 @@ tab
   border-top: 1px solid;
   border-right: 1px solid;
   border-left: 1px solid;
-  border-bottom: 0px solid ThreeDHighlight;
-  -moz-border-top-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDHighlight ThreeDLightShadow;
+  border-bottom: 0px solid var(--shadow-highlight-color);
+  -moz-border-top-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-highlight-color) var(--shadow-light-color);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   padding: 0px 3px 1px;
-  background-color: -moz-Dialog;
-  color: -moz-DialogText;
+  background-color: var(--dialog-color);
+  color: var(--dialog-text-color);
 }
 
 tab:-moz-locale-dir(rtl) {
@@ -72,12 +78,12 @@ tab:-moz-focusring > .tab-middle {
 
 tab[beforeselected="true"]:-moz-locale-dir(ltr),
 tab[selected="true"]:-moz-locale-dir(rtl) + tab {
-  -moz-border-right-colors: ThreeDDarkShadow;
+  -moz-border-right-colors: var(--shadow-dark-color);
 }
 
 tab[selected="true"]:-moz-locale-dir(ltr) + tab,
 tab[beforeselected="true"]:-moz-locale-dir(rtl) {
-  -moz-border-left-colors: ThreeDDarkShadow;
+  -moz-border-left-colors: var(--shadow-dark-color);
 }
 
 tab:first-of-type[selected="true"] {
@@ -95,8 +101,8 @@ tab:first-of-type[selected="true"] {
   margin-bottom: 2px;
   border-top: 1px solid;
   border-bottom: 2px solid;
-  -moz-border-top-colors: ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow;
+  -moz-border-top-colors: var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color);
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 2px;
@@ -106,7 +112,7 @@ tab:first-of-type[selected="true"] {
 
 .tab-bottom[selected="true"] {
   margin-bottom: 0;
-  -moz-border-top-colors: -moz-Dialog;
+  -moz-border-top-colors: var(--dialog-color);
   padding: 4px 6px 1px 6px;
 }
 
@@ -124,7 +130,7 @@ tab:first-of-type[selected="true"] {
 
 .tabs-bottom > .tabs-left,
 .tabs-bottom > .tabs-right {
-  border-top: 1px solid ThreeDShadow;
+  border-top: 1px solid var(--shadow-color);
   border-bottom: none;
 }
 

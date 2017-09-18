@@ -12,6 +12,10 @@
 /* ::::: scrollbar ::::: */
 
 scrollbar {
+  --dialog-color: -moz-Dialog;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-highlight-color: ThreeDHighlight;
   -moz-appearance: none;
   -moz-binding: url("chrome://global/content/bindings/scrollbar.xml#scrollbar");
   cursor: default;
@@ -27,10 +31,10 @@ scrollbar[orient="vertical"] {
 thumb,
 scrollbarbutton {
   border: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDHighlight;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDHighlight;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-highlight-color);
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-highlight-color);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -90,10 +94,10 @@ scrollbarbutton {
 }
 
 scrollbarbutton:hover:active, scrollbarbutton[active="true"] {
-  -moz-border-top-colors: ThreeDShadow -moz-Dialog;
-  -moz-border-right-colors: ThreeDShadow -moz-Dialog;
-  -moz-border-bottom-colors: ThreeDShadow -moz-Dialog;
-  -moz-border-left-colors: ThreeDShadow -moz-Dialog;
+  -moz-border-top-colors: var(--shadow-color) var(--dialog-color);
+  -moz-border-right-colors: var(--shadow-color) var(--dialog-color);
+  -moz-border-bottom-colors: var(--shadow-color) var(--dialog-color);
+  -moz-border-left-colors: var(--shadow-color) var(--dialog-color);
 }
 
 /* ::::: square at the corner of two scrollbars ::::: */
@@ -103,7 +107,7 @@ scrollcorner {
   -moz-binding: url(chrome://global/content/bindings/scrollbar.xml#scrollbar-base);
   width: 16px;
   cursor: default;
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
 }
 
 /* ..... increment .... */

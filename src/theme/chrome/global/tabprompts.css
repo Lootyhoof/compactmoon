@@ -1,16 +1,25 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this file,
+* You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /* Tab Modal Prompt boxes */
 tabmodalprompt {
+  --tabmodalprompt-container-text-color: black;
+  --tabmodalprompt-container-background-color: white;
+  --tabmodalprompt-container-border: 1px solid hsla(0,0%,0%,.5);
+  --tabmodalprompt-container-button-background-color: hsla(0,0%,0%,.05);
+  --tabmodalprompt-container-button-border-top: 1px solid hsla(0,0%,0%,.05);
   background-image: url(chrome://global/skin/icons/tabprompts-bgtexture.png);
   background-color: hsla(0,0%,10%,.5);
   font-family: sans-serif; /* use content font not system UI font */
 }
 
 .mainContainer {
-  color: black;
-  background-color: white;
+  color: var(--tabmodalprompt-container-text-color);
+  background-color: var(--tabmodalprompt-container-background-color);
   background-clip: padding-box;
   border-radius: 2px;
-  border: 1px solid hsla(0,0%,0%,.5);
+  border: var(--tabmodalprompt-container-border);
 }
 
 .topContainer {
@@ -19,6 +28,6 @@ tabmodalprompt {
 
 .buttonContainer {
   padding: 12px 20px 15px;
-  background-color: hsla(0,0%,0%,.05);
-  border-top: 1px solid hsla(0,0%,0%,.05);
+  background-color: var(--tabmodalprompt-container-button-background-color);
+  border-top: var(--tabmodalprompt-container-button-border-top);
 }

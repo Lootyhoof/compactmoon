@@ -12,9 +12,19 @@
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
+:root {
+  --dialog-color: -moz-Dialog;
+  --dialog-text-color: -moz-DialogText;
+  --shadow-color: ThreeDShadow;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-light-color: ThreeDLightShadow;
+}
+
 /* ::::: XBL bindings ::::: */
 
-* {-moz-box-sizing:content-box;}
+* {
+  -moz-box-sizing:content-box;
+}
 
 radio {
   -moz-binding: url("chrome://global/skin/globalBindings.xml#radio");
@@ -41,8 +51,8 @@ dialog,
 wizard,
 prefwindow {
   -moz-appearance: window;
-  background-color: -moz-Dialog;
-  color: -moz-DialogText;
+  background-color: var(--dialog-color);
+  color: var(--dialog-text-color);
   font: message-box;
 }
 
@@ -94,11 +104,11 @@ iframe {
 
 statusbar {
   -moz-appearance: none;
-  border-top: 1px solid ThreeDLightShadow;
-  border-left: 1px solid ThreeDShadow;
-  border-right: 1px solid ThreeDHighlight;
-  border-bottom: 1px solid ThreeDHighlight;
-  background-color: -moz-Dialog;
+  border-top: 1px solid var(--shadow-light-color);
+  border-left: 1px solid var(--shadow-color);
+  border-right: 1px solid var(--shadow-highlight-color);
+  border-bottom: 1px solid var(--shadow-highlight-color);
+  background-color: var(--dialog-color);
   min-height: 16px;
 }
 
@@ -106,10 +116,10 @@ statusbarpanel {
   -moz-appearance: none;
   -moz-box-align: center;
   -moz-box-pack: center;
-  border-left: 1px solid ThreeDHighlight;
-  border-top: 1px solid ThreeDHighlight;
-  border-right: 1px solid ThreeDShadow;
-  border-bottom: 1px solid ThreeDShadow;
+  border-left: 1px solid var(--shadow-highlight-color);
+  border-top: 1px solid var(--shadow-highlight-color);
+  border-right: 1px solid var(--shadow-color);
+  border-bottom: 1px solid var(--shadow-color);
   padding: 0 4px;
 }
 
@@ -138,10 +148,10 @@ statusbarpanel:not(.statusbar-resizerpanel):-moz-lwtheme {
 
 sidebarheader {
   height: 22px;
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
   -moz-appearance: toolbox;
-  border-bottom: 1px solid ThreeDShadow;
-  border-top: 1px solid ThreeDHighlight;
+  border-bottom: 1px solid var(--shadow-color);
+  border-top: 1px solid var(--shadow-highlight-color);
 }
 
 sidebarheader > label {
@@ -180,16 +190,16 @@ sidebarheader:-moz-lwtheme {
 }
 
 .inset {
-  border: 1px solid ThreeDShadow;
-  border-right-color: ThreeDHighlight;
-  border-bottom-color: ThreeDHighlight;
+  border: 1px solid var(--shadow-color);
+  border-right-color: var(--shadow-highlight-color);
+  border-bottom-color: var(--shadow-highlight-color);
   margin: 0 5px 5px;
 }
 
 .outset {
-  border: 1px solid ThreeDShadow;
-  border-left-color: ThreeDHighlight;
-  border-top-color: ThreeDHighlight;
+  border: 1px solid var(--shadow-color);
+  border-left-color: var(--shadow-highlight-color);
+  border-top-color: var(--shadow-highlight-color);
 }
 
 /* separators */
@@ -208,15 +218,15 @@ separator.thin[orient="vertical"] {
 }
 
 separator.groove:not([orient="vertical"]) {
-  border-top: 1px solid ThreeDShadow;
-  border-bottom: 1px solid ThreeDHighlight;
+  border-top: 1px solid var(--shadow-color);
+  border-bottom: 1px solid var(--shadow-highlight-color);
   height: 0;
   margin-top: 0.4em;
   margin-bottom: 0.4em;
 }
 separator.groove[orient="vertical"] {
-  border-left: 1px solid ThreeDShadow;
-  border-right: 1px solid ThreeDHighlight;
+  border-left: 1px solid var(--shadow-color);
+  border-right: 1px solid var(--shadow-highlight-color);
   width: 0;
   margin-left: 0.4em;
   margin-right: 0.4em;
@@ -256,8 +266,8 @@ label[disabled="true"] {
 }
 
 label[disabled="true"]:-moz-system-metric(windows-classic) {
-  color: ThreeDShadow;
-  text-shadow: 1px 1px ThreeDHighlight;
+  color: var(--shadow-color);
+  text-shadow: 1px 1px var(--shadow-highlight-color);
 }
 
 .tooltip-label {
@@ -299,7 +309,7 @@ label[disabled="true"]:-moz-system-metric(windows-classic) {
 }
 
 .text-link:-moz-focusring {
-  border: 1px dotted -moz-DialogText;
+  border: 1px dotted var(--dialog-text-color);
 }
 
 /* :::::: autoscroll popup ::::: */
@@ -335,10 +345,10 @@ label[disabled="true"]:-moz-system-metric(windows-classic) {
       -moz-linear-gradient(rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), 
       -moz-linear-gradient(rgba(80, 80, 80, 0.01), rgba(80, 80, 80, 0.1), rgba(80, 80, 80, 0.1), rgba(80, 80, 80, 0.1), rgba(80, 80, 80, 0.1), rgba(80, 80, 80, 0.1))
       ;
-  border-left: 1px solid ThreeDShadow;
-  border-top: 0px solid ThreeDShadow;
-  border-right: 1px solid ThreeDHighlight;
-  border-bottom: 1px solid ThreeDHighlight;
+  border-left: 1px solid var(--shadow-color);
+  border-top: 0px solid var(--shadow-color);
+  border-right: 1px solid var(--shadow-highlight-color);
+  border-bottom: 1px solid var(--shadow-highlight-color);
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;

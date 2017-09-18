@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /*
  *  This defines the look-and-feel styling of the error pages.
  *  (see: netError.xhtml)
@@ -7,20 +11,29 @@
  *              Henrik Skupin  <mozilla@hskupin.info>
  */
 
+:root {
+  --dialog-color: -moz-Dialog;
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --info-background-color: InfoBackground;
+  --shadow-color: ThreeDShadow;
+  --shadow-light-color: ThreeDLightShadow;
+}
+
 html {
-  background: -moz-Dialog;
+  background: var(--dialog-color);
 }
 
 body {
   margin: 0;
   padding: 0 1em;
-  color: -moz-FieldText;
+  color: var(--field-text-color);
   font: message-box;
 }
 
 h1 {
   margin: 0 0 .6em 0;
-  border-bottom: 1px solid ThreeDLightShadow;
+  border-bottom: 1px solid var(--shadow-light-color);
   font-size: 160%;
 }
 
@@ -43,11 +56,11 @@ ul {
   min-width: 13em;
   max-width: 52em;
   margin: 4em auto;
-  border: 1px solid ThreeDShadow;
+  border: 1px solid var(--shadow-color);
   border-radius: 10px;
   padding: 3em;
   -moz-padding-start: 30px;
-  background: url("chrome://global/skin/icons/warning-large.png") left 0 no-repeat -moz-Field;
+  background: url("chrome://global/skin/icons/warning-large.png") left 0 no-repeat var(--field-color);
   background-origin: content-box;
 }
 
@@ -55,7 +68,7 @@ ul {
   background-image: url("chrome://global/skin/icons/sslWarning.png");
 }
 
-body[dir="rtl"] #errorPageContainer {
+#errorPageContainer:-moz-dir(rtl) {
   background-position: right 0;
 }
 
@@ -69,7 +82,7 @@ body[dir="rtl"] #errorPageContainer {
 
 #errorShortDesc > p {
   overflow: auto;
-  border-bottom: 1px solid ThreeDLightShadow;
+  border-bottom: 1px solid var(--shadow-light-color);
   padding-bottom: 1em;
   font-size: 130%;
   white-space: pre-wrap;
@@ -96,7 +109,7 @@ body[dir="rtl"] #errorPageContainer {
   opacity: .4;
 }
 
-body[dir="rtl"] #brand {
+#brand:-moz-dir(rtl) {
   right: auto;
   left: 0;
 }
@@ -114,7 +127,7 @@ body[dir="rtl"] #brand {
 }
 
 #securityOverrideContent {
-  background-color: InfoBackground;
+  background-color: var(--info-background-color);
   color: InfoText;
   padding: 10px;
   border-radius: 10px;

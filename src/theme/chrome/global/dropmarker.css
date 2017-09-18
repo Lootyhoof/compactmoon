@@ -1,14 +1,23 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this file,
+* You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 dropmarker {
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-face-color: ThreeDFace;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-light-color: ThreeDLightShadow;
   -moz-appearance: none;
   width: 16px;
   height: 16px;
   -moz-box-align: center;
   -moz-box-pack: center;
   border: 2px solid;
-  -moz-border-top-colors: ThreeDLightShadow ThreeDHighlight;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDLightShadow ThreeDHighlight;
+  -moz-border-top-colors: var(--shadow-light-color) var(--shadow-highlight-color);
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-light-color) var(--shadow-highlight-color);
   background-color: -moz-Dialog;
   padding: 1px 0;
   list-style-image: url("chrome://global/skin/arrow/arrow-dn.png");
@@ -16,18 +25,18 @@ dropmarker {
 }
 
 dropmarker:hover:active:not([disabled="true"]) {
-   -moz-border-top-colors: ThreeDShadow ThreeDFace;
-  -moz-border-right-colors: ThreeDShadow ThreeDFace;
-  -moz-border-bottom-colors: ThreeDShadow ThreeDFace;
-  -moz-border-left-colors: ThreeDShadow ThreeDFace;
+   -moz-border-top-colors: var(--shadow-color) var(--shadow-face-color);
+  -moz-border-right-colors: var(--shadow-color) var(--shadow-face-color);
+  -moz-border-bottom-colors: var(--shadow-color) var(--shadow-face-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-face-color);
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
 dropmarker[disabled="true"] {
   list-style-image: url("chrome://global/skin/arrow/arrow-dn-dis.png");
-  -moz-border-top-colors: ThreeDLightShadow ThreeDHighlight !important;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow !important;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow !important;
-  -moz-border-left-colors: ThreeDLightShadow ThreeDHighlight !important;
+  -moz-border-top-colors: var(--shadow-light-color) var(--shadow-highlight-color) !important;
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color) !important;
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color) !important;
+  -moz-border-left-colors: var(--shadow-light-color) var(--shadow-highlight-color) !important;
 }

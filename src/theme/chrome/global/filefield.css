@@ -4,12 +4,13 @@
 
 /* File Field Widget */
 filefield {
+  --dialog-color: -moz-Dialog;
   margin: 2px 4px;
   -moz-appearance: textfield;
 }
 
 .fileFieldContentBox {
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
 }
 
 .fileFieldIcon[disabled="true"] {

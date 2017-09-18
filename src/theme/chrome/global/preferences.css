@@ -11,6 +11,11 @@
 /* ::::: dialog ::::: */
 
 prefwindow {
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --pane-hover-background: #E0E8F6;
+  --pane-selected-background: #C1D2EE;
+  --pane-text-color: #000000;
   padding: 0px;
 }
 
@@ -47,14 +52,15 @@ radio[pane] {
   margin: 0px 1px 0px 1px;
   padding: 1px 3px 1px 3px;
   min-width: 4.5em;
+  color: var(--pane-text-color);
 }
 
 .paneSelector {
   border-bottom: 2px groove ThreeDFace;
   margin: 0px;
   -moz-padding-start: 10px;
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  background-color: var(--field-color);
+  color: var(--field-text-color);
 }
 
 .paneButtonIcon {
@@ -63,14 +69,14 @@ radio[pane] {
 }
 
 radio[pane]:hover {
-  background-color: #E0E8F6;
-  color: black;
+  background-color: var(--pane-hover-background);
+  color: var(--pane-text-color);
   -moz-appearance: none;
 }
 
 radio[pane][selected="true"] {
-  background-color: #C1D2EE;
-  color: black; 
+  background-color: var(--pane-selected-background);
+  color: var(--pane-text-color); 
   -moz-appearance: none;
 }
 

@@ -1,8 +1,17 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this file,
+* You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 /* ::::: scale ::::: */
 
 .scale-slider {
+  --dialog-color: -moz-Dialog;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-light-color: ThreeDLightShadow;
   -moz-appearance: scale-horizontal;
   background: url("chrome://global/skin/scale/scale-tray-horiz.gif") 0% 50% repeat-x;
   margin: 2px 4px;
@@ -23,11 +32,11 @@
 .scale-thumb {
   -moz-appearance: scalethumb-horizontal;
   border: 2px solid;
-  -moz-border-top-colors: ThreeDLightShadow ThreeDHighlight;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDLightShadow ThreeDHighlight;
-  background-color: -moz-Dialog;
+  -moz-border-top-colors: var(--shadow-light-color) var(--shadow-highlight-color);
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-light-color) var(--shadow-highlight-color);
+  background-color: var(--dialog-color);
   min-width: 30px;
   min-height: 15px;
 }
@@ -39,8 +48,8 @@
 }
 
 .scale-thumb[disabled="true"] {
-  -moz-border-top-colors: ThreeDHighlight ThreeDLightShadow !important;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow !important;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow !important;
-  -moz-border-left-colors: ThreeDHighlight ThreeDLightShadow !important;
+  -moz-border-top-colors: var(--shadow-highlight-color) var(--shadow-light-color) !important;
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color) !important;
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color) !important;
+  -moz-border-left-colors: var(--shadow-highlight-color) var(--shadow-light-color) !important;
 }

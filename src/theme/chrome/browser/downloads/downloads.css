@@ -2,6 +2,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+:root {
+  --highlight-color: Highlight;
+  --highlight-text-color: HighlightText;
+}
+
 /*** Panel and outer controls ***/
 
 #downloadsPanel > .panel-arrowcontainer > .panel-arrowcontent {
@@ -43,7 +48,7 @@
 }
 
 #downloadsPanel[keyfocus] > #downloadsFooter > #downloadsHistory:focus {
-  outline: 1px -moz-dialogtext dotted;
+  outline: 1px var(--dialog-text-color) dotted;
   outline-offset: -1px;
 }
 
@@ -68,7 +73,7 @@ richlistitem[type="download"] {
 }
 
 #downloadsPanel[keyfocus] > #downloadsFooter > #downloadsSummary:focus {
-  outline: 1px -moz-dialogtext dotted;
+  outline: 1px var(--dialog-text-color) dotted;
   outline-offset: -5px;
 }
 
@@ -99,7 +104,7 @@ richlistitem[type="download"]:first-child {
 }
 
 #downloadsPanel[keyfocus] > #downloadsListBox:focus > richlistitem[type="download"][selected] {
-  outline: 1px -moz-dialogtext dotted;
+  outline: 1px var(--dialog-text-color) dotted;
   outline-offset: -1px;
 }
 
@@ -168,7 +173,7 @@ richlistitem[type="download"]:first-child {
 }
 
 #downloadsPanel[keyfocus] .downloadButton:focus > .button-box {
-  border: 1px dotted ThreeDDarkShadow;
+  border: 1px dotted var(--shadow-dark-color);
 }
 
 /*** Highlighted list items ***/
@@ -177,8 +182,8 @@ richlistitem[type="download"]:first-child {
   border-radius: 3px;
   border-top: 1px solid hsla(0,0%,100%,.2);
   border-bottom: 1px solid hsla(0,0%,0%,.2);
-  background-color: Highlight;
-  color: HighlightText;
+  background-color: var(--highlight-color);
+  color: var(--highlight-text-color);
   cursor: pointer;
 }
 
@@ -235,14 +240,14 @@ richlistitem[type="download"]:hover > stack > .downloadButton.downloadRetry:acti
 /*** Main indicator icon ***/
 
 #downloads-indicator-icon {
-  background: -moz-image-rect(url("chrome://browser/skin/Toolbar.png"),
+  background: -moz-image-rect(var(--toolbarbutton-image),
                               0, 108, 18, 90) center no-repeat;
   min-width: 18px;
   min-height: 18px;
 }
 
 toolbar[brighttext] #downloads-indicator-icon {
-  background: -moz-image-rect(url("chrome://browser/skin/Toolbar-inverted.png"),
+  background: -moz-image-rect(var(--toolbarbutton-bright-image),
                               0, 108, 18, 90) center no-repeat;
 }
 
@@ -254,7 +259,7 @@ toolbar[brighttext] #downloads-indicator-icon {
    equivalent to -moz-any([progress], [paused]). */
 
 #downloads-indicator:not([counter]) > #downloads-indicator-anchor > #downloads-indicator-progress-area > #downloads-indicator-counter {
-  background: -moz-image-rect(url("chrome://browser/skin/Toolbar.png"),
+  background: -moz-image-rect(var(--toolbarbutton-image),
                               0, 108, 18, 90) center no-repeat;
   background-size: 12px;
 }

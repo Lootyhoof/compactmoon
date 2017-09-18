@@ -11,21 +11,27 @@
 /* :::::::::: button :::::::::: */
 
 button {
+  --button-text-color: ButtonText;
+  --dialog-color: -moz-Dialog;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-light-color: ThreeDLightShadow;
   -moz-appearance: none;
   margin: 1px 3px 1px 3px;
   min-width: 6.3em;
   border: 2px solid;
-  -moz-border-top-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDHighlight ThreeDLightShadow;
+  -moz-border-top-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-highlight-color) var(--shadow-light-color);
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  background-color: -moz-Dialog;
-  background-image: -moz-linear-gradient(top, rgba(255,255,255,0.47) 0%, rgba(255,255,255,0.38) 12%, rgba(252,252,252,0.34) 18%, rgba(246,246,246,0.3) 24%, rgba(233,233,233,0.26) 29%, rgba(212,212,212,0.22) 35%, rgba(180,180,180,0.2) 41%, rgba(136,136,136,0.17) 47%, rgba(31,31,31,0.15) 59%, rgba(0,0,0,0.14) 65%, rgba(0,0,0,0.18) 76%, rgba(0,0,0,0.2) 100%);
-  color: ButtonText;
+  background-color: var(--dialog-color);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.47) 0%, rgba(255,255,255,0.38) 12%, rgba(252,252,252,0.34) 18%, rgba(246,246,246,0.3) 24%, rgba(233,233,233,0.26) 29%, rgba(212,212,212,0.22) 35%, rgba(180,180,180,0.2) 41%, rgba(136,136,136,0.17) 47%, rgba(31,31,31,0.15) 59%, rgba(0,0,0,0.14) 65%, rgba(0,0,0,0.18) 76%, rgba(0,0,0,0.2) 100%);
+  color: var(--button-text-color);
 }
 
 .button-box {
@@ -46,16 +52,16 @@ button {
 /* .......... focused state .......... */
 
 button:focus {
-  -moz-border-top-colors: ThreeDDarkShadow ThreeDHighlight ThreeDHighlight;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDDarkShadow ThreeDHighlight ThreeDHighlight;
+  -moz-border-top-colors: var(--shadow-dark-color) var(--shadow-highlight-color) var(--shadow-highlight-color);
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-dark-color) var(--shadow-highlight-color) var(--shadow-highlight-color);
 }
 
 
 
 button:-moz-focusring > .button-box {
-  border: 1px dotted ThreeDDarkShadow;
+  border: 1px dotted var(--shadow-dark-color);
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
@@ -65,28 +71,28 @@ button:-moz-focusring > .button-box {
 /* .......... default state .......... */
 
 button[default="true"] {
-  -moz-border-top-colors: ThreeDDarkShadow ThreeDHighlight ThreeDLightShadow;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDDarkShadow ThreeDShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDDarkShadow ThreeDShadow;
-  -moz-border-left-colors: ThreeDDarkShadow ThreeDHighlight ThreeDLightShadow;
+  -moz-border-top-colors: var(--shadow-dark-color) var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-dark-color) var(--shadow-color);
+  -moz-border-left-colors: var(--shadow-dark-color) var(--shadow-highlight-color) var(--shadow-light-color);
 }
 
 /* .......... active/open/checked state .......... */
 
-button:hover {
-  background-color: -moz-Dialog;
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.18) 24%, rgba(0,0,0,0.14) 35%, rgba(31,31,31,0.15) 41%, rgba(136,136,136,0.17) 53%, rgba(180,180,180,0.2) 59%, rgba(212,212,212,0.22) 65%, rgba(233,233,233,0.26) 71%, rgba(246,246,246,0.3) 76%, rgba(252,252,252,0.34) 82%, rgba(255,255,255,0.38) 88%, rgba(255,255,255,0.47) 100%);
+button:hover:not([disabled="true"]) {
+  background-color: var(--dialog-color);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.18) 24%, rgba(0,0,0,0.14) 35%, rgba(31,31,31,0.15) 41%, rgba(136,136,136,0.17) 53%, rgba(180,180,180,0.2) 59%, rgba(212,212,212,0.22) 65%, rgba(233,233,233,0.26) 71%, rgba(246,246,246,0.3) 76%, rgba(252,252,252,0.34) 82%, rgba(255,255,255,0.38) 88%, rgba(255,255,255,0.47) 100%);
 }
 
-button:hover:active,
-button[open="true"],
-button[checked="true"] {
-  -moz-border-top-colors: ThreeDDarkShadow ThreeDShadow transparent;
-  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow transparent;
-  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow transparent;
-  -moz-border-left-colors: ThreeDDarkShadow ThreeDShadow transparent;
-  background-color: -moz-Dialog;
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.18) 24%, rgba(0,0,0,0.14) 35%, rgba(31,31,31,0.15) 41%, rgba(136,136,136,0.17) 53%, rgba(180,180,180,0.2) 59%, rgba(212,212,212,0.22) 65%, rgba(233,233,233,0.26) 71%, rgba(246,246,246,0.3) 76%, rgba(252,252,252,0.34) 82%, rgba(255,255,255,0.38) 88%, rgba(255,255,255,0.47) 100%);
+button:hover:active:not([disabled="true"]),
+button[open="true"]:not([disabled="true"]),
+button[checked="true"]:not([disabled="true"]) {
+  -moz-border-top-colors: var(--shadow-dark-color) var(--shadow-color) transparent;
+  -moz-border-right-colors: var(--shadow-dark-color) var(--shadow-color) transparent;
+  -moz-border-bottom-colors: var(--shadow-dark-color) var(--shadow-color) transparent;
+  -moz-border-left-colors: var(--shadow-dark-color) var(--shadow-color) transparent;
+  background-color: var(--dialog-color);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.18) 24%, rgba(0,0,0,0.14) 35%, rgba(31,31,31,0.15) 41%, rgba(136,136,136,0.17) 53%, rgba(180,180,180,0.2) 59%, rgba(212,212,212,0.22) 65%, rgba(233,233,233,0.26) 71%, rgba(246,246,246,0.3) 76%, rgba(252,252,252,0.34) 82%, rgba(255,255,255,0.38) 88%, rgba(255,255,255,0.47) 100%);
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3) inset,
               0 0 0 1.5px rgba(255, 255, 255, 0.1) inset,
               0 1px 0 rgba(0, 0, 0, 0.1),
@@ -96,9 +102,9 @@ button[checked="true"] {
                    box-shadow .3s ease-in
 }
 
-button:hover:active > .button-box:-moz-system-metric(windows-classic),
-button[open="true"] > .button-box:-moz-system-metric(windows-classic),
-button[checked="true"] > .button-box:-moz-system-metric(windows-classic) {
+button:hover:active:not([disabled="true"]) > .button-box:-moz-system-metric(windows-classic),
+button[open="true"]:not([disabled="true"]) > .button-box:-moz-system-metric(windows-classic),
+button[checked="true"]:not([disabled="true"]) > .button-box:-moz-system-metric(windows-classic) {
   -moz-padding-start: 4px;
   -moz-padding-end: 3px;
 }
@@ -106,16 +112,16 @@ button[checked="true"] > .button-box:-moz-system-metric(windows-classic) {
 /* .......... disabled state .......... */
 
 button[disabled="true"] {
-  -moz-border-top-colors: transparent ThreeDHighlight ThreeDLightShadow !important;
-  -moz-border-right-colors: transparent ThreeDDarkShadow ThreeDShadow !important;
-  -moz-border-bottom-colors: transparent ThreeDDarkShadow ThreeDShadow !important;
-  -moz-border-left-colors: transparent ThreeDHighlight ThreeDLightShadow !important;
-  color: GrayText;
+  -moz-border-top-colors: transparent var(--shadow-highlight-color) var(--shadow-light-color) !important;
+  -moz-border-right-colors: transparent var(--shadow-dark-color) var(--shadow-color) !important;
+  -moz-border-bottom-colors: transparent var(--shadow-dark-color) var(--shadow-color) !important;
+  -moz-border-left-colors: transparent var(--shadow-highlight-color) var(--shadow-light-color) !important;
+  color: var(--shadow-color);
 }
 
 button[disabled="true"]:-moz-system-metric(windows-classic) {
-  color: ThreeDShadow;
-  text-shadow: 1px 1px ThreeDHighlight;
+  color: var(--shadow-color);
+  text-shadow: 1px 1px var(--shadow-highlight-color);
 }
 
 button[disabled="true"] > .button-box {

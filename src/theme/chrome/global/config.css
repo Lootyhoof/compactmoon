@@ -1,18 +1,28 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this file,
+* You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 @import url("chrome://global/skin/");
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
+:root {
+  --dialog-color: -moz-Dialog;
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --shadow-color: ThreeDShadow;
+  --shadow-light-color: ThreeDLightShadow;
+}
 
 #warningScreen
 {
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
 }
 
 #warningBox
 {
-  background-color: -moz-Field;
-  color: -moz-FieldText;
-  border: 1px solid ThreeDShadow;
+  background-color: var(--field-color);
+  color: var(--field-text-color);
+  border: 1px solid var(--shadow-color);
   border-radius: 10px;
   padding: 3em;
   -moz-padding-start: 30px;
@@ -29,7 +39,7 @@
 {
   margin: 0 0 .6em 0;
   font-size: 160%;
-  border-bottom: 1px solid ThreeDLightShadow
+  border-bottom: 1px solid var(--shadow-light-color)
 }
 
 #warningText

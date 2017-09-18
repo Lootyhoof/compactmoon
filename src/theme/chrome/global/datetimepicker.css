@@ -10,6 +10,16 @@
 @namespace html url("http://www.w3.org/1999/xhtml");
 
 datepicker, timepicker {
+  --dialog-color: -moz-Dialog;
+  --dialog-text-color: -moz-DialogText;
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --highlight-color: Highlight;
+  --highlight-text-color: HighlightText;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-light-color: ThreeDLightShadow;
   margin: 2px 4px;
   padding: 0;
   border: none;
@@ -22,15 +32,15 @@ datepicker, timepicker {
   cursor: text;
   -moz-margin-end: 2px;
   border: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-bottom-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-dark-color);
   padding: 2px 0 3px 0;
   -moz-padding-start: 4px;
   -moz-padding-end: 2px;
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  background-color: var(--field-color);
+  color: var(--field-text-color);
 }
 
 .datetimepicker-input-subbox {
@@ -51,26 +61,26 @@ html|*.datetimepicker-input {
 
 datepicker[readonly="true"],
 timepicker[readonly="true"] {
-  background-color: -moz-Dialog;
-  color: -moz-DialogText;
+  background-color: var(--dialog-color);
+  color: var(--dialog-text-color);
 }
 
 datepicker[disabled="true"],
 timepicker[disabled="true"] {
   cursor: default;
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
   color: GrayText;
 } 
 
 .datepicker-mainbox {
   margin: 2px 4px;
   border: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-bottom-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-dark-color);
+  background-color: var(--field-color);
+  color: var(--field-text-color);
 }
 
 .datepicker-popupgrid > .datepicker-mainbox {
@@ -88,8 +98,8 @@ timepicker[disabled="true"] {
 }
 
 .datepicker-gridlabel[selected="true"] {
-  background-color: Highlight;
-  color: HighlightText;
+  background-color: var(--highlight-color);
+  color: var(--highlight-text-color);
 }
 
 .datepicker-button {

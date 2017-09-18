@@ -11,6 +11,13 @@
 /* ::::: dialog ::::: */
 
 dialog { 
+  --highlight-color: Highlight;
+  --highlight-text-color: HighlightText;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-highlight-color: ThreeDHighlight;
+  --window-color: Window;
+  --window-text-color: WindowText;
   padding-top: 8px;
   padding-bottom: 10px;
   -moz-padding-start: 8px;
@@ -29,13 +36,13 @@ dialog {
 dialogheader {
   margin: 0px 5px 5px 5px;
   border: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDHighlight ThreeDDarkShadow;
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDDarkShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-highlight-color) var(--shadow-dark-color);
+  -moz-border-bottom-colors: var(--shadow-highlight-color) var(--shadow-dark-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-dark-color);
   padding: 5px 8px;
-  background-color: Highlight;
-  color: HighlightText;
+  background-color: var(--highlight-color);
+  color: var(--highlight-text-color);
 }
 
 .dialogheader-title {
@@ -55,13 +62,13 @@ dialogheader {
   border-left: none;
   border-right: none;
   border-top: none;
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDShadow;
+  -moz-border-bottom-colors: var(--shadow-highlight-color) var(--shadow-color);
   padding-top: 12px;
   padding-bottom: 12px;
   -moz-padding-start: 25px;
   -moz-padding-end: 5px;
-  background-color: Window;
-  color: WindowText;
+  background-color: var(--window-color);
+  color: var(--window-text-color);
 }
 
 .header-large > .dialogheader-title {

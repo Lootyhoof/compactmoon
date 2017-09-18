@@ -1,3 +1,16 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+ 
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+:root {
+  --highlight-color: ThreeDHighlight;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  
+  --toolbarbutton-image: url("chrome://browser/skin/Toolbar.png");
+}
 
 /* Toolbar */
 #placesToolbar {
@@ -7,13 +20,13 @@
 
 /* back & forward buttons */
 #back-button, #forward-button {
-  list-style-image: url("chrome://browser/skin/ccToolbar.png");
+  list-style-image: var(--toolbarbutton-image);
   -moz-box-orient: vertical;
   -moz-appearance: none;
   padding: 0px 1px;
   background: rgba(151,152,153,.05)
-              -moz-linear-gradient(rgba(251,252,253,.95), rgba(246,247,248,.47) 49%,
-                                   rgba(231,232,233,.45) 51%, rgba(225,226,229,.3));
+              linear-gradient(rgba(251,252,253,.95), rgba(246,247,248,.47) 49%,
+                              rgba(231,232,233,.45) 51%, rgba(225,226,229,.3));
   background-clip: padding-box;
   border-radius: 4.5px;
   border: 1px solid;
@@ -122,11 +135,11 @@
 }
 
 #placesMenu > menu:hover {
-  border-color: ThreeDHighlight ThreeDShadow ThreeDShadow ThreeDHighlight;
+  border-color: var(--highlight-color) var(--shadow-color) var(--shadow-color) var(--highlight-color);
 }
 
 #placesMenu > menu[open="true"] {
-  border-color: ThreeDShadow ThreeDHighlight ThreeDHighlight ThreeDShadow;
+  border-color: var(--shadow-color) var(--highlight-color) var(--highlight-color) var(--shadow-color);
 }
 
 #placesMenu > menu > .menubar-text {
@@ -175,7 +188,7 @@
 
 /* Root View */
 #placesView {
-  border-top: 1px solid ThreeDDarkShadow;
+  border-top: 1px solid var(--shadow-dark-color);
 }
 
 /* Place List, Place Content */
@@ -197,7 +210,7 @@
 
 #detailsDeck,
 #infoPaneBox {
-  border-top: 1px solid ThreeDShadow;
+  border-top: 1px solid var(--shadow-color);
   padding: 5px;
 }
 
@@ -260,9 +273,9 @@
 }
 
 #organizerScopeBar > toolbarbutton:not([disabled="true"]):not([checked="true"]):hover {
-  border-color: ThreeDShadow;
+  border-color: var(--shadow-color);
 }
 
 #organizerScopeBar > toolbarbutton[checked="true"] {
-  border-color: ThreeDDarkShadow !important;
+  border-color: var(--shadow-dark-color) !important;
 }

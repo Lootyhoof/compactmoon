@@ -2,9 +2,19 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+:root {
+  --dialog-color: -moz-Dialog;
+  --dialog-text-color: -moz-DialogText;
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --highlight-color: Highlight;
+  --highlight-text-color: HighlightText;
+  --shadow-color: ThreeDShadow;
+}
+
 html {
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  background-color: var(--field-color);
+  color: var(--field-text-color);
   font: message-box;
 }
 
@@ -27,17 +37,17 @@ body {
 }
 
 table {
-  background-color: -moz-Dialog;
-  color: -moz-DialogText;
+  background-color: var(--dialog-color);
+  color: var(--dialog-text-color);
   font: message-box;
   text-align: start;
   width: 100%;
-  border: 1px solid ThreeDShadow;
+  border: 1px solid var(--shadow-color);
   border-spacing: 0px;
 }
 
 th, td {
-  border: 1px dotted ThreeDShadow;
+  border: 1px dotted var(--shadow-color);
   padding: 3px;
 }
 
@@ -47,8 +57,8 @@ thead th {
 
 th {
   text-align: start;
-  background-color: Highlight;
-  color: HighlightText;
+  background-color: var(--highlight-color);
+  color: var(--highlight-text-color);
 }
 
 th.column {
@@ -58,7 +68,7 @@ th.column {
 
 td {
   text-align: start;
-  border-top: 1px dotted ThreeDShadow;
+  border-top: 1px dotted var(--shadow-color);
 }
 
 .prefs-table {
@@ -79,9 +89,9 @@ td {
 }
 
 #action-box {
-  background-color: -moz-Dialog;
-  border: 1px solid ThreeDShadow;
-  color: -moz-DialogText;
+  background-color: var(--dialog-color);
+  border: 1px solid var(--shadow-color);
+  color: var(--dialog-text-color);
   float: right;
   margin-top: 2em;
   margin-bottom: 20px;

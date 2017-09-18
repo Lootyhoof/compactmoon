@@ -12,18 +12,27 @@
 /* :::::::::: menulist :::::::::: */
 
 menulist {
+  --button-text-color: ButtonText;
+  --dialog-color: -moz-Dialog;
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --highlight-color: Highlight;
+  --highlight-text-color: HighlightText;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-face-color: ThreeDFace;
   margin: 0px 2px;
   border: 1px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-bottom-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-bottom-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-dark-color);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  background-color: var(--field-color);
+  color: var(--field-text-color);
   text-shadow: none;
 }
 
@@ -59,7 +68,7 @@ menulist {
 .menulist-dropmarker {
   -moz-margin-end: 0 !important;
   background: url(chrome://browser/skin/tabbrowser/tab-bkgnd.png) repeat-x;
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
   -moz-outline-radius-topright: 3px;
   -moz-outline-radius-bottomright: 3px;
 }
@@ -74,7 +83,7 @@ menulist[disabled="true"]:hover:active > .menulist-dropmarker {
 
 menulist:hover:active > .menulist-dropmarker {
    background: url(chrome://browser/skin/tabbrowser/tab-active-bkgnd.png) repeat-x;
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
   -moz-border-top-colors: -moz-use-text-color;
   -moz-border-right-colors: -moz-use-text-color;
   -moz-border-bottom-colors: -moz-use-text-color;
@@ -87,19 +96,19 @@ menulist:hover:active > .menulist-dropmarker {
 
 menulist:not([disabled="true"]) > .menulist-dropmarker:hover {
   background: url(chrome://browser/skin/tabbrowser/tab-hover-bkgnd.png) repeat-x;
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
 }
 
 menulist:not([disabled="true"]):active > .menulist-dropmarker {
   background: url(chrome://browser/skin/tabbrowser/tab-active-bkgnd.png) repeat-x;
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
 }
 
 /* ..... focused state ..... */
 
 menulist:focus:not([open="true"]):not(.menulist-compact) > .menulist-label-box {
-  background-color: Highlight;
-  color: HighlightText;
+  background-color: var(--highlight-color);
+  color: var(--highlight-text-color);
 }
 
 menulist:-moz-focusring:not([open="true"]) > .menulist-label-box {
@@ -109,7 +118,7 @@ menulist:-moz-focusring:not([open="true"]) > .menulist-label-box {
 /* ..... disabled state ..... */
 
 menulist[disabled="true"] {
-  background-color: -moz-Dialog;
+  background-color: var(--dialog-color);
   color: GrayText;
 }
 
@@ -137,12 +146,12 @@ html|*.menulist-editable-input {
   -moz-box-align: center;
   -moz-box-pack: center;
   margin: 0;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-bottom-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
-  background-color: ThreeDFace;
-  color: ButtonText;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-bottom-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-dark-color);
+  background-color: var(--shadow-face-color);
+  color: var(--button-text-color);
   list-style-image: url("chrome://global/skin/arrow/arrow-dn.png");
 }
 
@@ -156,10 +165,10 @@ html|*.menulist-editable-input {
 }
 
 .menulist-compact[open="true"] {
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-bottom-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-bottom-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-dark-color);
 }
 
 .menulist-compact[disabled="true"] {

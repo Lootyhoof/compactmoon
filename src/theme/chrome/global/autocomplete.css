@@ -9,6 +9,17 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 @namespace html url("http://www.w3.org/1999/xhtml");
 
+panel[type="autocomplete"],
+panel[type="autocomplete-richlistbox"],
+.autocomplete-history-popup,
+treechildren.autocomplete-treebody,
+.autocomplete-richlistitem {
+  --field-color: -moz-Field;
+  --highlight-color: Highlight;
+  --highlight-text-color: HighlightText;
+  --shadow-dark-color: ThreeDDarkShadow;
+}
+
 /* ::::: autocomplete ::::: */
 
 /* .padded is used by autocomplete widgets that don't have an icon. Gross. -dwh */
@@ -40,12 +51,12 @@ panel[type="autocomplete-richlistbox"],
 .autocomplete-history-popup {
   -moz-appearance: none;
   border-width: 1px;
-  -moz-border-top-colors: ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDDarkShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow;
-  -moz-border-left-colors: ThreeDDarkShadow;
+  -moz-border-top-colors: var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-dark-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color);
+  -moz-border-left-colors: var(--shadow-dark-color);
   padding: 0;
-  background-color: -moz-Field;
+  background-color: var(--field-color);
 }
 
 .autocomplete-history-popup {
@@ -77,11 +88,11 @@ panel[type="autocomplete-richlistbox"],
 }
 
 treechildren.autocomplete-treebody::-moz-tree-row(selected) {
- background-color: Highlight;
+ background-color: var(--highlight-color);
 }
 
 treechildren.autocomplete-treebody::-moz-tree-cell-text(selected) {
-  color: HighlightText !important;
+  color: var(--highlight-text-color) !important;
 }
 
 .autocomplete-treebody::-moz-tree-image(treecolAutoCompleteValue) {
@@ -101,8 +112,8 @@ treechildren.autocomplete-treebody::-moz-tree-cell-text(selected) {
 }
 
 .autocomplete-richlistitem[selected="true"] {
-  background-color: Highlight;
-  color: HighlightText;
+  background-color: var(--highlight-color);
+  color: var(--highlight-text-color);
 }
 
 @media (-moz-windows-default-theme) {
