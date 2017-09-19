@@ -1,5 +1,8 @@
 #downloadManager {
-  background-color: ThreeDFace;
+  --shadow-face-color: ThreeDFace;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-light-color: ThreeDLightShadow;
+  background-color: var(--shadow-face-color);
 }
 
 /* Download View */
@@ -8,7 +11,7 @@
     -moz-appearance: none;
     margin: 0;
     border-bottom: 2px solid;
-    -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
+    -moz-border-bottom-colors: var(--shadow-highlight-color) var(--shadow-light-color);
   }
 }
 
@@ -16,7 +19,7 @@
 richlistitem[type="download"] {
   padding: 2px 4px;
   min-height: 40px;
-  border-bottom: 1px solid ThreeDLightShadow;
+  border-bottom: 1px solid var(--shadow-light-color);
 }
 
 richlistitem[type="download"][selected="true"] {
@@ -24,7 +27,7 @@ richlistitem[type="download"][selected="true"] {
 }
 
 richlistitem[type="download"][alternate="true"]:not([selected="true"]) {
-  background-color: ThreeDLightShadow;
+  background-color: var(--shadow-light-color);
 }
 
 richlistitem[type="download"] .name {

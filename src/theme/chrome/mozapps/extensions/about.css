@@ -1,4 +1,6 @@
 #genericAbout {
+  --dialog-color: -moz-Dialog;
+  --dialog-text-color: -moz-DialogText;
   padding: 0px;
   min-height: 200px;
   max-height: 400px;
@@ -6,8 +8,8 @@
 }
 
 #clientBox {
-  background-color: -moz-Dialog;
-  color: -moz-DialogText;
+  background-color: var(--dialog-color);
+  color: var(--dialog-text-color);
 }
 
 @media all and (-moz-windows-compositor) {
