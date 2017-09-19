@@ -4,10 +4,6 @@
  
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-:root {
-  --shadow-color: ThreeDShadow;
-}
-
 .searchbar-textbox {
   width: 6em;
   min-width: 6em;
