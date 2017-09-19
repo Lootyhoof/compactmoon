@@ -15,7 +15,11 @@
 :root {
   --dialog-color: -moz-Dialog;
   --dialog-text-color: -moz-DialogText;
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
   --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-face-color: ThreeDFace;
   --shadow-highlight-color: ThreeDHighlight;
   --shadow-light-color: ThreeDLightShadow;
 }

@@ -2,21 +2,27 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+:root {
+  --dialog-color: -moz-Dialog;
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --shadow-light-color: ThreeDLightShadow;
+}
 
 html {
-  background: -moz-Dialog;
+  background: var(--dialog-color);
 }
 
 body {
   margin: 0;
   padding: 0 1em;
-  color: -moz-FieldText;
+  color: var(--field-text-color);
   font: message-box;
 }
 
 h1 {
   margin: 0 0 .6em 0;
-  border-bottom: 1px solid ThreeDLightShadow;
+  border-bottom: 1px solid var(--shadow-light-color);
   font-size: 160%;
 }
 
@@ -33,7 +39,7 @@ h2 {
   border-radius: 10px;
   padding: 3em;
   -moz-padding-start: 30px;
-  background: url("chrome://global/skin/icons/sslWarning.png") left 0 no-repeat -moz-Field;
+  background: url("chrome://global/skin/icons/sslWarning.png") left 0 no-repeat var(--field-color);
   background-origin: content-box;
 }
 

@@ -6,6 +6,9 @@
 
 /* View buttons */
 #viewGroup {
+  --pane-hover-background: #E0E8F6;
+  --pane-selected-background: #C1D2EE;
+  --pane-text-color: #000000;
   -moz-padding-start: 5px;
 }
 
@@ -17,23 +20,22 @@
   padding: 1px;
   margin: 0 1px;
   min-width: 4.5em;
+  color: var(--pane-text-color);
 }
 
 #viewGroup > radio:hover {
-  background-color: #E0E8F6;
-  color: black;
+  background-color: var(--pane-hover-background);
 }
 
 #viewGroup > radio[selected="true"] {
-  background-color: #C1D2EE;
-  color: black;
+  background-color: var(--pane-selected-background);
 }
 
 #topBar {
-  border-bottom: 2px groove ThreeDFace;
+  border-bottom: 2px groove var(--shadow-face-color);
   -moz-padding-start: 5px;
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  background-color: var(--field-color);
+  color: var(--field-text-color);
 }
 
 #generalTab {
@@ -194,16 +196,16 @@ treechildren::-moz-tree-cell-text(broken) {
 }
 
 #feedListbox richlistitem[selected="true"] {
-  background-color: -moz-Dialog;
-  color: -moz-DialogText;
+  background-color: var(--dialog-color);
+  color: var(--dialog-text-color);
 }
 
 #feedListbox {
   border: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-bottom-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-dark-color);
 }
 
 .feedTitle {
@@ -215,11 +217,11 @@ treechildren::-moz-tree-cell-text(broken) {
   margin-top: .5em;
   overflow: auto;
   border: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
-  background-color: -moz-field;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-bottom-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-dark-color);
+  background-color: var(--field-color);
 }
 
 .permission {
@@ -236,7 +238,7 @@ treechildren::-moz-tree-cell-text(broken) {
 }
 
 .permission:hover {
-  background-color: -moz-dialog;
+  background-color: var(--dialog-color);
 }
 
 /* Security Tab */
