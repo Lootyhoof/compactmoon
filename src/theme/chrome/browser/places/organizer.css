@@ -5,10 +5,6 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 :root {
-  --highlight-color: ThreeDHighlight;
-  --shadow-color: ThreeDShadow;
-  --shadow-dark-color: ThreeDDarkShadow;
-  
   --toolbarbutton-image: url("chrome://browser/skin/Toolbar.png");
 }
 
@@ -135,11 +131,11 @@
 }
 
 #placesMenu > menu:hover {
-  border-color: var(--highlight-color) var(--shadow-color) var(--shadow-color) var(--highlight-color);
+  border-color: var(--shadow-highlight-color) var(--shadow-color) var(--shadow-color) var(--shadow-highlight-color);
 }
 
 #placesMenu > menu[open="true"] {
-  border-color: var(--shadow-color) var(--highlight-color) var(--highlight-color) var(--shadow-color);
+  border-color: var(--shadow-color) var(--shadow-highlight-color) var(--shadow-highlight-color) var(--shadow-color);
 }
 
 #placesMenu > menu > .menubar-text {
