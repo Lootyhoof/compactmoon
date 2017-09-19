@@ -35,6 +35,11 @@ treechildren::-moz-tree-image(title) {
 
 treechildren::-moz-tree-image(title, livemarkItem) {
   list-style-image: url("chrome://browser/skin/livemark-item.png");
+  -moz-image-region: auto;
+}
+
+treechildren::-moz-tree-image(title, livemarkItem, visited) {
+  -moz-image-region: rect(0px, 32px, 16px, 16px);
 }
 
 treechildren::-moz-tree-image(title, separator) {
@@ -86,6 +91,11 @@ treechildren::-moz-tree-image(title, query) {
 treechildren::-moz-tree-image(title, query, tagContainer),
 treechildren::-moz-tree-image(query, OrganizerQuery_Tags) {
   list-style-image: url("chrome://mozapps/skin/places/tagContainerIcon.png");
+  -moz-image-region: auto;
+}
+
+treechildren::-moz-tree-image(query, OrganizerQuery_Downloads) {
+  list-style-image: url("chrome://browser/skin/places/downloads.png");
   -moz-image-region: auto;
 }
 
