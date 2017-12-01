@@ -7,12 +7,12 @@
   margin: 3px 4px 10px 4px;
   height: 14em;
   border: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  -moz-border-top-colors: var(--shadow-color) var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-bottom-colors: var(--shadow-highlight-color) var(--shadow-light-color);
+  -moz-border-left-colors: var(--shadow-color) var(--shadow-dark-color);
+  background-color: var(--field-color);
+  color: var(--field-text-color);
 }
 
 #itemWarningIntro {
@@ -64,8 +64,8 @@ installitem {
   -moz-appearance: none;
   border: none;
   padding: 0;
-  background-color: -moz-Field;
-  color: -moz-FieldText;
+  background-color: var(--field-color);
+  color: var(--field-text-color);
   margin-top: 1px;
   margin-bottom: 1px;
   -moz-margin-start: 6px;
