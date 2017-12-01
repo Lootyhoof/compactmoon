@@ -14,6 +14,14 @@
 <!ENTITY classicbuttons1osx.label "Firefox 0.9-2.0 Mac OS/X">
 <!ENTITY classicbuttons3.label "Classic Compact 3">
 <!ENTITY classicbuttons2.label "Classic Compact 2">
+<!ENTITY classicbuttonsgooglechrome.label "Google Chrome">
+<!ENTITY classicbuttonskempelton.label "Kempelton">
+<!ENTITY classicbuttonsmx3.label "Maxthon 3">
+<!ENTITY classicbuttonsmx4.label "Maxthon 4">
+<!ENTITY classicbuttonsoperachromium.label "Opera (Chromium)">
+<!ENTITY classicbuttonsoperapresto.label "Opera (Presto)">
+<!ENTITY classicbuttonsqute.label "Qute">
+<!ENTITY classicbuttonswhitemoon.label "White Moon">
 <!ENTITY arrowoption.label "后退/前进按钮背景色">
 <!ENTITY classicarrow.label "无 (默认)">
 <!ENTITY keyholearrow.label "绿色 (FF3 WinXP)">
