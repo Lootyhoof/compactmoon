@@ -12,7 +12,27 @@
 :root {
   --appmenu-border-radius: 4px;
 
+  --back-button-background-color: transparent;
+  --back-button-background-image: linear-gradient(rgba(251,252,253,.97), rgba(246,247,248,.5) 49%, rgba(231,232,233,.45) 51%, rgba(225,226,229,.2));
+  --back-button-box-shadow: 0 0 0 1px rgba(255,255,255,.3) inset, 0 0 0 2px rgba(255,255,255,.1) inset, 0 0 0 1px rgba(0,0,0,.15), 0 1px 0 rgba(0,0,0,.4), 0 1px 1px rgba(0,0,0,.3), 1px 2px 1px rgba(0,0,0,.2);
+  --back-button-hover-background-color: var(--back-button-background-color);
+  --back-button-hover-background-image: var(--back-button-background-image);
+  --back-button-hover-box-shadow: 0 0 0 1px rgba(255,255,255,.3) inset, 0 0 0 2px rgba(255,255,255,.1) inset, 0 0 0 1px hsla(190,50%,40%,.3), 0 1px 0 rgba(0,0,0,.4), 0 1px 1px rgba(0,0,0,.3), 1px 2px 1px rgba(0,0,0,.2), 0 0 5px 1px hsl(190,90%,80%);
+  --back-button-active-background-color: var(--back-button-background-color);
+  --back-button-active-background-image: var(--back-button-background-image);
+  --back-button-active-box-shadow: 0 0 6.5px rgba(0,0,0,.4) inset, 0 0 2px rgba(0,0,0,.4) inset, 0 0 0 1px rgba(0,0,0,.65), 0 2px 0 rgba(255,255,255,.4);
+
   --dialog-color: -moz-dialog;
+
+  --forward-button-background-color: transparent;
+  --forward-button-background-image: linear-gradient(rgba(251,252,253,.97), rgba(246,247,248,.5) 49%, rgba(231,232,233,.45) 51%, rgba(225,226,229,.2));
+  --forward-button-box-shadow: none;
+  --forward-button-hover-background-color: var(--forward-button-background-color);
+  --forward-button-hover-background-image: var(--forward-button-background-image);
+  --forward-button-hover-box-shadow: var(--forward-button-box-shadow);
+  --forward-button-active-background-color: var(--forward-button-background-color);
+  --forward-button-active-background-image: var(--forward-button-background-image);
+  --forward-button-active-box-shadow: var(--forward-button-box-shadow);
   
   --shadow-color: ThreeDShadow;
   --shadow-dark-color: ThreeDDarkShadow;
@@ -1196,33 +1216,24 @@ toolbar[mode="full"] .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([cc
   z-index: 1;
   margin-top: -2px;
   margin-bottom: -2px;
+  margin-right: -5px !important;
   border: none;
-  background-image: linear-gradient(rgba(251,252,253,.97), rgba(246,247,248,.5) 49%,
-                                         rgba(231,232,233,.45) 51%, rgba(225,226,229,.2));
-  box-shadow: 0 0 0 1px rgba(255,255,255,.3) inset,
-              0 0 0 2px rgba(255,255,255,.1) inset,
-              0 0 0 1px rgba(0,0,0,.15),
-              0 1px 0 rgba(0,0,0,.4),
-              0 1px 1px rgba(0,0,0,.3),
-              1px 2px 1px rgba(0,0,0,.2);
+  background-color: var(--back-button-background-color);
+  background-image: var(--back-button-background-image);
+  box-shadow: var(--back-button-box-shadow);
 }
 
 #navigator-toolbox[iconsize="large"][mode="icons"] #back-button:not([disabled="true"]):not([open="true"]):not(:active):hover {
-  box-shadow: 0 0 0 1px rgba(255,255,255,.3) inset,
-              0 0 0 2px rgba(255,255,255,.1) inset,
-              0 0 0 1px hsla(190,50%,40%,.3),
-              0 1px 0 rgba(0,0,0,.4),
-              0 1px 1px rgba(0,0,0,.3),
-              1px 2px 1px rgba(0,0,0,.2),
-              0 0 5px 1px hsl(190,90%,80%);
+  background-color: var(--back-button-hover-background-color);
+  background-image: var(--back-button-hover-background-image);
+  box-shadow: var(--back-button-hover-box-shadow);
 }
 
 #navigator-toolbox[iconsize="large"][mode="icons"] #back-button:not([disabled="true"]):hover:active,
 #navigator-toolbox[iconsize="large"][mode="icons"] #back-button[open="true"] {
-  box-shadow: 0 0 6.5px rgba(0,0,0,.4) inset,
-              0 0 2px rgba(0,0,0,.4) inset,
-              0 0 0 1px rgba(0,0,0,.65),
-              0 2px 0 rgba(255,255,255,.4);
+  background-color: var(--back-button-active-background-color);
+  background-image: var(--back-button-active-background-image);
+  box-shadow: var(--back-button-active-box-shadow);
 }
 
 #navigator-toolbox[iconsize="large"][mode="icons"] > toolbar[currentset*="unified-back-forward-button"]:not(#nav-bar),
@@ -1240,21 +1251,29 @@ toolbar[mode="full"] .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([cc
 
 #navigator-toolbox[iconsize="large"][mode="icons"] #forward-button {
   /*mask: url(keyhole-forward-mask.svg#mask); XXX: this regresses twinopen */
-  mask: url(chrome://browser/content/browser.xul#winstripe-keyhole-forward-mask);
+  clip-path: url(chrome://browser/content/browser.xul#windows-keyhole-forward-clip-path);
   -moz-margin-start: -2px;
-  padding-left: 3px;
+  padding-left: 8px;
   padding-right: 1px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
-  background-image: linear-gradient(rgba(251,252,253,.97), rgba(246,247,248,.5) 49%,
-                                         rgba(231,232,233,.45) 51%, rgba(225,226,229,.2));
+  background-color: var(--forward-button-background-color);
+  background-image: var(--forward-button-background-image);
+  box-shadow: var(--forward-button-box-shadow);
 }
 
 #navigator-toolbox[iconsize="large"][mode="icons"] #forward-button:not([disabled="true"]):not(:active):hover {
-  /*mask: url(keyhole-forward-mask.svg#mask-hover);*/
-  mask: url(chrome://browser/content/browser.xul#winstripe-keyhole-forward-mask-hover);
   /* Don't animate the box shadow, as the blur and spread radii affect the mask. */
   -moz-transition: background-color .4s ease-in;
+  background-color: var(--forward-button-hover-background-color);
+  background-image: var(--forward-button-hover-background-image);
+  box-shadow: var(--forward-button-hover-box-shadow);
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #forward-button:not([disabled="true"]):hover:active {
+  background-color: var(--forward-button-active-background-color);
+  background-image: var(--forward-button-active-background-image);
+  box-shadow: var(--forward-button-hover-active-shadow);
 }
 
 .unified-nav-back[_moz-menuactive]:-moz-locale-dir(ltr),

@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /* ::::: square border corners ::::: */
 
 colorpicker[type="button"] ,
@@ -44,7 +48,11 @@ radio .radio-check-box2 {
   border-bottom-right-radius: 50% !important;
 }
 #navigator-toolbox[iconsize="large"][mode="icons"] #forward-button {
-  mask: none !important;
+  clip-path: none !important;
   -moz-margin-start: 0px !important;
   padding-left: 3px !important;
-  }
+}
+
+#navigator-toolbox[iconsize="large"][mode="icons"] #back-button {
+  margin-right: 0px !important;
+}

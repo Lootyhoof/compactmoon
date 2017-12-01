@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /* ::::: Flat backgrounds ::::: */
 
 #CustomizeToolbarWindow button,
@@ -28,189 +32,186 @@ wizard button,
   background-image:none !important;
 }
 
-  #main-menubar:-moz-system-metric(windows-compositor):not(:-moz-lwtheme):not(:-moz-window-inactive) {
-    background-color: rgba(255,255,255,.5) !important;
-    border-radius: 4px;
-  }
+#main-menubar:-moz-system-metric(windows-compositor):not(:-moz-lwtheme):not(:-moz-window-inactive) {
+  background-color: rgba(255,255,255,.5) !important;
+  border-radius: 4px;
+}
 
 toolbar:not(#TabsToolbar) toolbarbutton:not([checked="true"]):-moz-lwtheme,
 #addon-bar toolbaritem:-moz-lwtheme{
-  background-image:
-    -moz-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), 
-    -moz-linear-gradient(rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.3))
-    !important
-    ;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), 
+                    linear-gradient(rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.3)) !important;
 }
 
 #urlbar-go-button {
-  background-image: -moz-linear-gradient(rgb(96,190,96), rgb(96,190,96)) !important;
+  background-image: linear-gradient(rgb(96,190,96), rgb(96,190,96)) !important;
 }
 
 #urlbar-reload-button:not([disabled]):hover {
-  background-image: -moz-linear-gradient(rgb(111,178,225), rgb(111,178,225)) !important;
+  background-image: linear-gradient(rgb(111,178,225), rgb(111,178,225)) !important;
 }
 
 #urlbar-stop-button {
-  background-image: -moz-linear-gradient(rgb(209,119,100), rgb(209,119,100)) !important;
+  background-image: linear-gradient(rgb(209,119,100), rgb(209,119,100)) !important;
 }
 
 #urlbar-stop-button:hover {
-  background-image: -moz-linear-gradient(rgb(215,101,77), rgb(215,101,77)) !important;
+  background-image: linear-gradient(rgb(215,101,77), rgb(215,101,77)) !important;
 }
 
 #appmenu-button {
-	background-image: -moz-linear-gradient(rgb(10,98,215), rgb(10,98,215) 95% ) !important;
-	}
+  background-image: linear-gradient(rgb(10,98,215), rgb(10,98,215) 95% ) !important;
+  }
 
 toolbar #appmenu-button {
-	background-image:none !important;
-	}
+  background-image:none !important;
+}
 
 #main-window[cctabsintitlebar=true][autohide][tabsontop] #TabsToolbar #appmenu-button,
 #main-window[tabsintitlebar] #TabsToolbar #appmenu-button {
-	background-image: -moz-linear-gradient(rgb(10,98,215), rgb(10,98,215) 95% ) !important;
-	}
+  background-image: linear-gradient(rgb(10,98,215), rgb(10,98,215) 95% ) !important;
+}
 
 #main-window[cctabsintitlebar=true][autohide][tabsontop][privatebrowsingmode=temporary] #TabsToolbar #appmenu-button,
 #main-window[tabsintitlebar][privatebrowsingmode=temporary] #TabsToolbar #appmenu-button,
 #main-window[privatebrowsingmode=temporary] #appmenu-button {
-  background-image: -moz-linear-gradient(rgb(153,38,211), rgb(153,38,211) 95%) !important;
+  background-image: linear-gradient(rgb(153,38,211), rgb(153,38,211) 95%) !important;
 }
 
 #main-window[cctabsintitlebar=true][autohide][tabsontop][privatebrowsingmode=temporary] #TabsToolbar #appmenu-button:hover:active,
 #main-window[tabsintitlebar][privatebrowsingmode=temporary] #TabsToolbar #appmenu-button:hover:active,
 #main-window[privatebrowsingmode=temporary] #appmenu-button:hover:active,
 #main-window[privatebrowsingmode=temporary] #appmenu-button[open] {
-  background-image: -moz-linear-gradient(rgb(144,20,207), rgb(144,20,207) 95%) !important;
+  background-image: linear-gradient(rgb(144,20,207), rgb(144,20,207) 95%) !important;
 }
 
 #main-window[privatebrowsingmode=temporary] #appmenu-button {
-  background-image: -moz-linear-gradient(rgb(153,38,211), rgb(153,38,211) 95%) !important;
+  background-image: linear-gradient(rgb(153,38,211), rgb(153,38,211) 95%) !important;
 }
 
 #main-window[privatebrowsingmode=temporary] #appmenu-button:hover:active,
 #main-window[privatebrowsingmode=temporary] #appmenu-button[open] {
-  background-image: -moz-linear-gradient(rgb(144,20,207), rgb(144,20,207) 95%) !important;
+  background-image: linear-gradient(rgb(144,20,207), rgb(144,20,207) 95%) !important;
 }
 
 #addon-bar  toolbaritem {
-	border-top-width:1px !important;
-	margin-top:1px !important;
-	}
+  border-top-width:1px !important;
+  margin-top:1px !important;
+}
 
 .spinbuttons-down{
-	background-image: url(chrome://global/skin/arrow/arrow-dn.png) !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-dn.png) !important;
+  background-position: center !important;
+}
 
 .spinbuttons-up{
-	background-image: url(chrome://global/skin/arrow/arrow-up.png) !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-up.png) !important;
+  background-position: center !important;
+}
 
 /* ..... increment .... */
 
 scrollbarbutton[type="increment"] {
-	-moz-appearance: none;
-	background-image: url(chrome://global/skin/arrow/arrow-rit.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  -moz-appearance: none;
+  background-image: url(chrome://global/skin/arrow/arrow-rit.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbarbutton[type="increment"]:hover {
-	background-image: url(chrome://global/skin/arrow/arrow-rit-hov.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-rit-hov.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbarbutton[type="increment"]:active {
-	background-image: url(chrome://global/skin/arrow/arrow-rit-act.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-rit-act.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbarbutton[type="increment"][disabled="true"] {
-	background-image: url(chrome://global/skin/arrow/arrow-rit-dis.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-rit-dis.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbar[orient="vertical"] > scrollbarbutton[type="increment"] {
-	-moz-appearance: none;
-	background-image: url(chrome://global/skin/arrow/arrow-dn.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  -moz-appearance: none;
+  background-image: url(chrome://global/skin/arrow/arrow-dn.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbar[orient="vertical"] > scrollbarbutton[type="increment"]:hover {
-	background-image: url(chrome://global/skin/arrow/arrow-dn-hov.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-dn-hov.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbar[orient="vertical"] > scrollbarbutton[type="increment"]:active {
-	background-image: url(chrome://global/skin/arrow/arrow-dn-act.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-dn-act.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbar[orient="vertical"] > scrollbarbutton[type="increment"][disabled="true"] {
-	background-image: url(chrome://global/skin/arrow/arrow-dn-dis.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-dn-dis.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 /* ..... decrement .... */
 
 scrollbarbutton[type="decrement"] {
-	-moz-appearance: none;
-	background-image: url(chrome://global/skin/arrow/arrow-lft.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  -moz-appearance: none;
+  background-image: url(chrome://global/skin/arrow/arrow-lft.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbarbutton[type="decrement"]:hover {
-	background-image: url(chrome://global/skin/arrow/arrow-lft-hov.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-lft-hov.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbarbutton[type="decrement"]:active {
-	background-image: url(chrome://global/skin/arrow/arrow-lft-act.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-lft-act.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbarbutton[type="decrement"][disabled="true"] {
-	background-image: url(chrome://global/skin/arrow/arrow-lft-dis.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-lft-dis.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"] {
-	-moz-appearance: none;
-	background-image: url(chrome://global/skin/arrow/arrow-up.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  -moz-appearance: none;
+  background-image: url(chrome://global/skin/arrow/arrow-up.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"]:hover {
-	background-image: url(chrome://global/skin/arrow/arrow-up-hov.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-up-hov.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"]:active {
-	background-image: url(chrome://global/skin/arrow/arrow-up-act.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-up-act.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"][disabled="true"] {
-	background-image: url(chrome://global/skin/arrow/arrow-up-dis.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: center !important;
-	}
+  background-image: url(chrome://global/skin/arrow/arrow-up-dis.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 
 /* ..... Tree Children Backgrounds.... */
 treechildren::-moz-tree-row(selected),
@@ -226,31 +227,22 @@ treechildren::-moz-tree-drop-feedback,
 treechildren::-moz-tree-progressmeter,
 treecol,
 treecolpicker {
-	background-image:none !important;
-	}
+  background-image:none !important;
+}
 
 /* ..... Tabs .... */
 
 #TabsToolbar:not(:-moz-system-metric(windows-compositor)){
-  background-image:
-    -moz-linear-gradient(-moz-dialog, -moz-dialog)
-    !important
-    ;
+  background-image: linear-gradient(var(--dialog-color), var(--dialog-color)) !important;
 }
 
 #main-window[cctabsintitlebar=true][autohide][tabsontop] #TabsToolbar,
 #main-window[tabsintitlebar] #TabsToolbar{
-  background-image:
-    none
-    !important
-    ;
+  background-image: none !important;
 }
 
 #TabsToolbar:-moz-lwtheme {
-	background-image:
-		-moz-linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), 
-		-moz-linear-gradient(rgba(50, 50, 50, 0.15), rgba(50, 50, 50, 0.15))
-		!important
-		;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), 
+                    linear-gradient(rgba(50, 50, 50, 0.15), rgba(50, 50, 50, 0.15)) !important;
 }
 

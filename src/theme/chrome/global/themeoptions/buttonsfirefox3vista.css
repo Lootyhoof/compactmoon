@@ -1,34 +1,12 @@
-#back-btn,
-#forward-btn,
-#back-button,
-#forward-button,
-#stop-button,
-#reload-button,
-#home-button,
-#downloads-button,
-#history-button,
-#history-menu-button,
-#feed-button,
-#fullscreen-button,
-#sync-button,
-#bookmarks-button,
-#bookmarks-menu-button,
-#print-button,
-#new-window-button,
-toolbar:not(#TabsToolbar) #new-tab-button,
-#cut-button,
-#copy-button,
-#paste-button,
-#zoom-in-button,
-#zoom-out-button,
-#downloads-indicator-icon {
-  list-style-image: url("chrome://global/skin/themeoptions/firefox3vista/Toolbar.png") !important;
-}
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#downloads-indicator:not([counter]) > #downloads-indicator-anchor > #downloads-indicator-progress-area > #downloads-indicator-counter:not([CCOverride=true]) {
-  background: -moz-image-rect(url("chrome://global/skin/themeoptions/firefox3vista/Toolbar.png"),
-                              0, 108, 18, 90) center no-repeat;
-  background-size: 12px;
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+:root {
+  --toolbarbutton-image: url("chrome://global/skin/themeoptions/firefox3vista/Toolbar.png") !important;
+  --toolbarbutton-bright-image: url("chrome://global/skin/themeoptions/firefox3vista/Toolbar.png") !important;
 }
 
 treechildren::-moz-tree-image(title, query, OrganizerQuery_History) {

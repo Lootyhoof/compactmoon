@@ -1,39 +1,49 @@
-#back-btn:not([disabled="true"]):not(:hover):not(:active),
-#forward-btn:not([disabled="true"]):not(:hover):not(:active),
-#back-button:not([disabled="true"]):not(:hover):not(:active), #forward-button:not([disabled="true"]):not(:hover):not(:active){
-  background-image:
-	-moz-linear-gradient(rgba(255,195,133,1), rgba(230,148,75,1), rgba(205,92,1,1), rgba(232,107,0,1), rgba(253,126,0,1) 100%) !important;
-  background-color:
-	rgba(245,123,2,.1) !important;
-  box-shadow:
-	0 0 0 1px rgba(255,255,255,.3) inset,
-	0 0 0 1px rgba(219,111,2,.15),
-	0 0 0 1px rgba(219,111,2,0) !important;
-  }
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#back-btn:hover:not([disabled="true"]),
-#forward-btn:hover:not([disabled="true"]),
-#back-button:hover:not([disabled="true"]), #forward-button:hover:not([disabled="true"]){
-  background-image:
-	-moz-linear-gradient(rgba(255,195,133,.7), rgba(230,148,75,.7), rgba(205,92,1,.7), rgba(232,107,0,.7), rgba(253,126,0,.7) 100%) !important;
-  background-color:
-	rgba(0,255,12,1) !important;
-  box-shadow:
-	0 0 0 1px rgba(255,255,255,.3) inset,
-	0 0 0 1px rgba(219,111,2,.15),
-	0 0 0 1px rgba(219,111,2,0) !important;
-	}
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-#back-btn:hover:active:not([disabled="true"]),
-#forward-btn:hover:active:not([disabled="true"]),
-#back-button:hover:active:not([disabled="true"]), #forward-button:hover:active:not([disabled="true"]){
-  background-image:
-	-moz-linear-gradient(rgba(255,195,133,.4), rgba(230,148,75,.4), rgba(205,92,1,.4), rgba(232,107,0,.4), rgba(253,126,0,.4) 100%) !important;
-  background-color:
-	rgba(0,114,4,1) !important;
-	}
+:root {
+  --back-button-background-image: linear-gradient(rgba(255,195,133,1), rgba(230,148,75,1), rgba(205,92,1,1), rgba(232,107,0,1), rgba(253,126,0,1) 100%) !important;
+  --back-button-background-color: rgba(245,123,2,.1) !important;
+  --back-button-box-shadow: 0 0 0 1px rgba(255,255,255,.3) inset, 0 0 0 1px rgba(219,111,2,.15), 0 0 0 1px rgba(219,111,2,0) !important;
+  --back-button-hover-background-image: linear-gradient(rgba(255,195,133,.7), rgba(230,148,75,.7), rgba(205,92,1,.7), rgba(232,107,0,.7), rgba(253,126,0,.7) 100%) !important;
+  --back-button-hover-background-color: rgba(255,165,0,1) !important;
+  --back-button-hover-box-shadow: 0 0 0 1px rgba(255,255,255,.3) inset, 0 0 0 1px rgba(219,111,2,.15), 0 0 0 1px rgba(219,111,2,0) !important;
+  --back-button-active-background-image: linear-gradient(rgba(255,195,133,.4), rgba(230,148,75,.4), rgba(205,92,1,.4), rgba(232,107,0,.4), rgba(253,126,0,.4) 100%) !important;
+  --back-button-active-background-color: rgba(142,90,0,1) !important;
+  --back-button-active-box-shadow: var(--back-button-hover-box-shadow) !important;
+}
 
-#back-button:not([disabled="true"]) > label, #forward-button:not([disabled="true"]) > label{
-	color: white !important;
-	}
+#back-btn,
+#forward-btn,
+#back-button,
+#forward-button {
+  background-color: var(--back-button-background-color) !important;
+  background-image: var(--back-button-background-image) !important;
+  box-shadow: var(--back-button-box-shadow) !important;
+}
 
+#back-btn:not([disabled="true"]):hover,
+#forward-btn:not([disabled="true"]):hover,
+#back-button:not([disabled="true"]):hover,
+#forward-button:not([disabled="true"]):hover {
+  background-color: var(--back-button-hover-background-color) !important;
+  background-image: var(--back-button-hover-background-image) !important;
+  box-shadow: var(--back-button-hover-box-shadow) !important;
+}
+
+#back-btn:not([disabled="true"]):hover:active,
+#forward-btn:not([disabled="true"]):hover:active,
+#back-button:not([disabled="true"]):hover:active,
+#forward-button:not([disabled="true"]):hover:active {
+  background-color: var(--back-button-active-background-color) !important;
+  background-image: var(--back-button-active-background-image) !important;
+  box-shadow: var(--back-button-active-box-shadow) !important;
+}
+
+#back-button:not([disabled="true"]) > label,
+#forward-button:not([disabled="true"]) > label{
+  color: white !important;
+}
