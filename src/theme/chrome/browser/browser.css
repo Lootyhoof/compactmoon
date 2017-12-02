@@ -1097,7 +1097,7 @@ toolbar:not(#TabsToolbar) .toolbarbutton-1:not([type="menu-button"]):not([disabl
 .toolbarbutton-1:not(:-moz-any(#back-button, #forward-button, #reload-button, #stop-button, #home-button, #print-button, #downloads-button, #history-button, #history-menu-button, #bookmarks-button, #bookmarks-menu-button, #new-tab-button, #new-window-button, #cut-button, #copy-button, #paste-button, #fullscreen-button, #zoom-out-button, #zoom-in-button, #sync-button, #feed-button, #alltabs-button, #tabview-button)) > .toolbarbutton-icon {
 }
 
-toolbar[mode="full"] .toolbarbutton-1:not([ccOverride="no"]):not(#urlbar-single-feed-button):not(#urlbar-multiple-feed-button),
+toolbar[mode="full"] .toolbarbutton-1:not([ccOverride="no"]),
 toolbar[mode="full"] .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([ccOverride="no"]) {
   min-width: 57px !important;
 }
@@ -3992,88 +3992,31 @@ toolbar#addon-bar:not(#TabsToolbar) toolbarbutton > .toolbarbutton-icon,
   margin: -1px 0 0;
 }
 
-/* Feed icon */
+/* Pale Moon Feed icon */
 
-/* hide default Pale Moon feed icon */
-#ub-feed-button{
-  display: none !important;
+#ub-feed-button,
+#ub-feed-button > .button-box,
+#ub-feed-button:hover:active > .button-box {
+  padding: 0px;
+  margin: 0px;
+  border: 0px; 
+  background-color: transparent !important;
 }
 
-/* restore feed button for 4.0 */
-#tab-view-deck #urlbar-icons {
-  -moz-binding: url("chrome://global/skin/globalBindings.xml#restore-feed-button");
-}
-
-#urlbar-multiple-feed-button,
-#urlbar-multiple-feed-button > .button-box,
-#urlbar-single-feed-button,
-#urlbar-single-feed-button > .button-box,
-#urlbar #feed-button,
-#urlbar #feed-button > .button-box,
-#urlbar #feed-button:hover:active > .button-box {
-   padding: 0px;
-   margin: 0px;
-   border: 0px;
-   background-color: transparent;
-}
-
-#urlbar-multiple-feed-button .button-menu-dropmarker,
-#urlbar-multiple-feed-button .button-text,
-#urlbar-single-feed-button .button-text,
-#urlbar #feed-button > hbox > .button-menu-dropmarker,
-#urlbar #feed-button > hbox > .button-text {
-   display: none;
-}
-
-#urlbar-multiple-feed-button,
-#urlbar[chromedir="ltr"] #feed-button,
-#urlbar[chromedir="rtl"] #feed-button {
-  -moz-binding: url("chrome://global/content/bindings/button.xml#menu");
-}
-
-#urlbar-multiple-feed-button,
-#urlbar-single-feed-button,
-#urlbar #feed-button {
-  -moz-appearance: none;
-  padding: 0 2px !important;
-  background-image: none;
-  min-width: 0px;
+#ub-feed-button {
+  -moz-appearance: none; 
+  min-width: 0px; 
   list-style-image: url("chrome://browser/skin/feeds/feed-icons-16.png");
   -moz-image-region: rect(0px 16px 16px 0px);
 }
 
-#urlbar-multiple-feed-button:hover,
-#urlbar-single-feed-button:hover,
-#urlbar #feed-button:hover {
+#ub-feed-button:hover {
   -moz-image-region: rect(0px 32px 16px 16px);
 }
 
-#urlbar-multiple-feed-button[open="true"],
-#urlbar-single-feed-button[open="true"],
-#urlbar #feed-button[open="true"],
-#urlbar #feed-button:hover:active {
+#ub-feed-button[open="true"],
+#ub-feed-button:hover:active {
   -moz-image-region: rect(0px 48px 16px 32px);
-}
-
-#urlbar-multiple-feed-button,
-#urlbar-single-feed-button,
-#urlbar[chromedir="ltr"] #feed-button:not([feeds]),
-#urlbar[chromedir="rtl"] #feed-button:not([feeds]) {
-  visibility: collapse;
-}
-
-#urlbar-multiple-feed-button:not([hidden]),
-#urlbar-single-feed-button:not([hidden]):not([disabled]) {
-  visibility: visible !important;
-}
-
-#urlbar #urlbar-icons > .toolbarbutton-1 > .toolbarbutton-icon{
-  margin: 0;
-}
-
-#urlbar-multiple-feed-button > label,
-#urlbar-single-feed-button > label {
-  display:none;
 }
 
 /* ========================== */
