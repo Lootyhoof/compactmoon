@@ -1,0 +1,161 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* ::::: Variables ::::: */
+.panel-arrowcontent {
+  --panel-arrowcontent-background: var(--field-color);
+  --panel-arrowcontent-color: var(--field-text-color);
+  --panel-arrowcontent-border: 1px solid var(--shadow-color);
+}
+
+/* ::::: menupopup ::::: */
+
+menupopup,
+panel {
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  --menu-color: Menu;
+  --menu-text-color: MenuText;
+  --shadow-color: ThreeDShadow;
+  --shadow-dark-color: ThreeDDarkShadow;
+  --shadow-face-color: ThreeDFace;
+  --shadow-highlight-color: ThreeDHighlight;
+  --shadow-light-color: ThreeDLightShadow;
+  border: 3px solid transparent;
+  -moz-border-top-colors   : var(--shadow-light-color) var(--shadow-highlight-color) var(--shadow-face-color);
+  -moz-border-left-colors  : var(--shadow-light-color) var(--shadow-highlight-color) var(--shadow-face-color);
+  -moz-border-right-colors : var(--shadow-dark-color)  var(--shadow-color)    var(--shadow-face-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color)  var(--shadow-color)    var(--shadow-face-color);
+  padding: 0px;
+  min-width: 1px;
+  background: var(--menu-color);
+  color: var(--menu-text-color);
+}
+
+menupopup {
+  -moz-appearance: menupopup;
+}
+
+menupopup > menu > menupopup {
+ /* align submenus */
+  -moz-margin-start: -3px;
+  margin-top: -3px;
+}
+
+panel[type="arrow"] {
+  -moz-appearance: none;
+  background: transparent;
+  border: none;
+}
+
+panel[type="arrow"][side="top"],
+panel[type="arrow"][side="bottom"] {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+panel[type="arrow"][side="left"],
+panel[type="arrow"][side="right"] {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.panel-arrowcontent {
+  padding: 10px;
+  color: var(--panel-arrowcontent-color);
+  background: var(--panel-arrowcontent-background);
+  background-clip: padding-box;
+  border: var(--panel-arrowcontent-border);
+  border-radius: 4px;
+  margin: 4px;
+}
+
+.panel-arrow[side="top"],
+.panel-arrow[side="bottom"] {
+  list-style-image: url("chrome://global/skin/arrow/panelarrow-vertical-themed.svg");
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.panel-arrow[side="top"] {
+  margin-bottom: -5px;
+}
+
+.panel-arrow[side="bottom"] {
+  transform: scaleY(-1);
+  margin-top: -5px;
+}
+
+.panel-arrow[side="left"],
+.panel-arrow[side="right"] {
+  list-style-image: url("chrome://global/skin/arrow/panelarrow-horizontal-themed.svg");
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.panel-arrow[side="left"] {
+  margin-right: -5px;
+}
+
+.panel-arrow[side="right"] {
+  transform: scaleX(-1);
+  margin-left: -5px;
+}
+
+@media (-moz-windows-default-theme) {
+  .panel-arrowcontent {
+    --panel-arrowcontent-border: 1px solid hsla(210,4%,10%,.2);
+    box-shadow: 0 0 4px hsla(210,4%,10%,.2);
+  }
+
+  .panel-arrow[side="top"],
+  .panel-arrow[side="bottom"] {
+    list-style-image: url("chrome://global/skin/arrow/panelarrow-vertical.svg");
+  }
+
+  .panel-arrow[side="left"],
+  .panel-arrow[side="right"] {
+    list-style-image: url("chrome://global/skin/arrow/panelarrow-horizontal.svg");
+  }
+}
+
+/* ::::: tooltip ::::: */
+
+tooltip {
+  -moz-appearance: tooltip;
+  margin-top: 21px;
+  border: 1px solid InfoText;
+  padding: 2px 3px;
+  max-width: 40em;
+  background-color: InfoBackground;
+  color: InfoText;
+  font: message-box;
+}
+
+tooltip[titletip="true"] {
+ /* See bug 32157 comment 128
+  * margin: -2px 0px 0px -3px;
+  */
+  max-width: none;
+}
+
+/* rules for popups associated with menulists */
+
+menulist > menupopup {
+  --field-color: -moz-Field;
+  --field-text-color: -moz-FieldText;
+  -moz-appearance: none;
+  border-width: 1px;
+  -moz-border-top-colors: var(--field-text-color);
+  -moz-border-right-colors: var(--field-text-color);
+  -moz-border-bottom-colors: var(--field-text-color);
+  -moz-border-left-colors: var(--field-text-color);
+  padding: 0px;
+  min-width: 0px;
+  background-color: var(--field-color);
+}

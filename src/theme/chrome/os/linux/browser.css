@@ -1,0 +1,4 @@
+#toolbar-menubar:not(:-moz-lwtheme),
+#TabsToolbar[tabsontop="true"]:not(:-moz-lwtheme) {
+  -moz-appearance: menubar !important;
+}
