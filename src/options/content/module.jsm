@@ -59,9 +59,11 @@ let stylesheets = {
 
   // White Back/Forward Arrows
   "arrowff1win":                      {prefs:{toArrows:["!=","classic"], toToolbarButtons:["|", "ff1osx", "ff1win"]}},
-  "arrowff4win":                      {prefs:{toArrows:["!=","classic"], toToolbarButtons:["|", "ff3v", "ff3xp", "ff4"]}},
+  "arrowff4win":                      {prefs:{toArrows:["!=","classic"], toToolbarButtons:["|", "ff3v", "ff3xp", "ff4", "pm"]}},
   "arrowff4linux-GnomeHuman":         {prefs:{toArrows:["!=","classic"], toToolbarButtons:["|", "cc2", "cc3", "ff4lgnomehuman", "ff4lgnomeoxygen"]}},
   "arrowff4osx":                      {prefs:{toArrows:["!=","classic"], toToolbarButtons:["|", "ff4osx", "ff8osxlion"]}},
+  "arrowkempelton":                   {prefs:{toArrows:["!=","classic"], toToolbarButtons:["|", "kempelton"]}},
+  "arrowdark":                        {prefs:{toArrows:["!=","classic"], toToolbarButtons:["|", "googlechrome", "mx3", "mx4", "operachromium", "operapresto", "qute", "whitemoon"]}},
 
   // Back/Forward Background Colors
   "arrowbcgreen":                     {prefs:{toArrows:"keyhole"}},
