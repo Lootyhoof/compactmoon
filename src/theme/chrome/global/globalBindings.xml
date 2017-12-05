@@ -59,4 +59,36 @@
     </content>
   </binding>
 
+   <binding id="restore-feed-button">
+    <content>
+      <xul:toolbarbutton
+       id="urlbar-single-feed-button"
+       style="-moz-user-focus: none;"
+       insertBefore="star-button"
+       label=""
+       class="toolbarbutton-1 chromeclass-toolbar-additional"
+       onclick="return FeedHandler.onFeedButtonClick(event);" >
+       <xul:observes element="singleFeedMenuitemState" attribute="feed"/>
+       <xul:observes element="singleFeedMenuitemState" attribute="disabled"/>
+       <xul:observes element="subscribeToPageMenuitem" attribute="hidden"/>
+       </xul:toolbarbutton>
+       
+       <xul:toolbarbutton
+       id="urlbar-multiple-feed-button"
+       style="-moz-user-focus: none;"
+       insertBefore="star-button"
+       label=""
+       class="toolbarbutton-1 chromeclass-toolbar-additional"
+       observes="multipleFeedsMenuitemState" >
+         <xul:observes element="subscribeToPageMenupopup" attribute="hidden"/>
+         <xul:menupopup id="subscribeToPageSubmenuMenupopup"
+         position="after_end"
+         onpopupshowing="return FeedHandler.buildFeedList(event.target);"
+         oncommand="return FeedHandler.subscribeToFeed(null, event);"
+         onclick="checkForMiddleClick(this, event);"/>
+       </xul:toolbarbutton>
+      <children/>
+    </content>
+  </binding> 
+
   </bindings>
