@@ -1,4 +1,42 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+:root {
+  --menubar-text-color: -moz-menubartext;
+}
+
 #toolbar-menubar:not(:-moz-lwtheme),
 #TabsToolbar[tabsontop="true"]:not(:-moz-lwtheme) {
   -moz-appearance: menubar !important;
+}
+
+#main-menubar:not(:-moz-lwtheme) > menu:not([_moz-menuactive="true"]):not([disabled="true"]),
+#TabsToolbar[tabsontop="true"]:not(:-moz-lwtheme) {
+  color: var(--menubar-text-color) !important;
+}
+
+/* ::::: app menu button ::::: */
+
+#appmenu-toolbar-button {
+  border-radius: var(--appmenu-border-radius);
+  margin: 2px;
+}
+
+#main-window[sizemode=maximized] #appmenu-toolbar-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none;
+  margin: 2px 2px 2px 0px;
+}
+
+/* Private browsing indicator */
+
+#main-window[privatebrowsingmode=temporary] #toolbar-menubar[autohide="false"] ~ #TabsToolbar::before {
+  display: -moz-box;
+  content: "";
+  background: url("chrome://browser/skin/Privacy-16.png") center no-repeat;
+  width: 32px;
 }

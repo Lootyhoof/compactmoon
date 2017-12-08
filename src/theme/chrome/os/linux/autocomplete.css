@@ -11,16 +11,6 @@
 
 /* ::::: autocomplete popups ::::: */
 
-textbox[enablehistory="true"] {
-  -moz-appearance: none;
-  border: 0;
-  background-color: transparent;
-}
-
-textbox[enablehistory="true"] > .autocomplete-textbox-container {
-  -moz-appearance: menulist-textfield;
-}
-
 panel[type="autocomplete"],
 panel[type="autocomplete-richlistbox"],
 .autocomplete-history-popup {

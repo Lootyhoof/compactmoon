@@ -4,6 +4,24 @@
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
+:root {
+  --titlebar-text-color: currentColor;
+}
+
+/* ::::: app menu button ::::: */
+
+#appmenu-button {
+  margin: 0 0 1px;
+  border-radius: 0 0 var(--appmenu-border-radius) var(--appmenu-border-radius);
+  border-top: none;
+}
+
+@media all and (-moz-windows-compositor) {
+  #appmenu-button {
+    margin-bottom: 0px;
+  }
+}
+
 @media all and (-moz-windows-compositor) {
   #main-window {
     -moz-appearance: -moz-win-glass;
@@ -27,7 +45,7 @@
     }
     
     :root:not(:-moz-window-inactive):not(:-moz-lwtheme) {
-      --window-text-color: black;
+      --titlebar-text-color: black;
     }
     
     #titlebar-min:not(:-moz-window-inactive):not(:-moz-lwtheme) {
@@ -73,7 +91,7 @@
     }
     
     :root:not(:-moz-window-inactive):not(:-moz-lwtheme) {
-      --window-text-color: -moz-win-accentcolortext;
+      --titlebar-text-color: -moz-win-accentcolortext;
     }
     
     #titlebar-min {
@@ -413,7 +431,7 @@
   @media (-moz-os-version: windows-win8) {
     /* Use a light text styling on dark window frames */
     :root[darkwindowframe="true"]:not(:-moz-lwtheme):not(:-moz-window-inactive) {
-      --window-text-color: white;
+      --titlebar-text-color: white;
     }
   }
 
@@ -421,7 +439,7 @@
          (-moz-os-version: windows-win10) {
     /* Fade text stylings on window inactivity */
     :root:not(:-moz-lwtheme):-moz-window-inactive {
-      --window-text-color: rgba(0, 0, 0, 0.5);
+      --titlebar-text-color: rgba(0, 0, 0, 0.5);
     }
   }
   

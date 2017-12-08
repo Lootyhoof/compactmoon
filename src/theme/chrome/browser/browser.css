@@ -185,10 +185,7 @@
   min-width:25px;
   -moz-appearance: none;
   padding: 0 4px 0;
-  margin: 0 0 1px;
-  border-radius: 0 0 var(--appmenu-border-radius) var(--appmenu-border-radius);
   border: 1px solid rgba(83,42,6,.9);
-  border-top: none;
   box-shadow: 0 1px 0 rgba(255,255,255,.25) inset,
               0 0 0 1px rgba(255,255,255,.25) inset;
   background-image: linear-gradient(rgb(82,182,247), rgb(10,98,215) 95%);
@@ -204,19 +201,13 @@
   display:none;
 }
 
-@media all and (-moz-windows-compositor) {
-  #appmenu-button {
-    margin-bottom: 0px;
-  }
-}
-
 #main-window[tabsintitlebar]  #appmenu-button-container > #appmenu-toolbar-button,
 #main-window[tabsintitlebar]  #appmenu-button-container > #appmenu-button{
   max-height:16px;
 }
 
-toolbar  > #appmenu-container > #appmenu-toolbar-button,
-toolbar  > #appmenu-container > #appmenu-button{
+toolbar > #appmenu-container > #appmenu-toolbar-button,
+toolbar:not(#TabsToolbar) > #appmenu-container > #appmenu-button{
   padding: 0px 1px;
   margin: 0 1px;
   border-radius: 4px;
@@ -283,6 +274,7 @@ toolbar  > #appmenu-container > #appmenu-button{
               0 -1px 0 rgba(169,234,250,.5) inset;
 }
 
+toolbar:not(#TabsToolbar) #appmenu-toolbar-button:hover:not(:active):not([open])
 toolbar #appmenu-button:hover:not(:active):not([open]) {
   background-image: url(chrome://browser/skin/tabbrowser/tab-bkgnd.png);
   background-repeat:  repeat-x;
@@ -343,13 +335,12 @@ toolbar #appmenu-button:hover:not(:active):not([open]) {
   background-image: linear-gradient(rgb(144,20,207), rgb(95,0,158) 95%);
 }
 
-#appmenu-toolbar-button > .button-box,
 #appmenu-button > .button-box {
   border-style: none;
   padding: 0;
 }
 
-#appmenu-toolbar-button > .button-box > .button-menu-dropmarker,
+#appmenu-toolbar-button > .toolbarbutton-menu-dropmarker,
 #appmenu-button > .button-box > .button-menu-dropmarker {
   list-style-image: url("chrome://browser/skin/appmenu-dropmarker.png");
   width: auto;
@@ -358,12 +349,11 @@ toolbar #appmenu-button:hover:not(:active):not([open]) {
   margin: 0;
 }
 
-toolbar #appmenu-toolbar-button  > .button-box,
 toolbar #appmenu-button > .button-box {
   margin: 0;
 }
 
-toolbar #appmenu-toolbar-button > .button-box > .button-menu-dropmarker,
+toolbar:not(#TabsToolbar) #appmenu-toolbar-button > .toolbarbutton-menu-dropmarker,
 toolbar #appmenu-button > .button-box > .button-menu-dropmarker {
   -moz-margin-start: 0;
   list-style-image: url("chrome://global/skin/arrow/arrow-dn.png");
