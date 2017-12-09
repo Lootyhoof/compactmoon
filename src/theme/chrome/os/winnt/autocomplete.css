@@ -16,10 +16,10 @@ panel[type="autocomplete-richlistbox"],
 .autocomplete-history-popup {
   -moz-appearance: none;
   border-width: 1px;
-  -moz-border-top-colors: ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDDarkShadow;
-  -moz-border-bottom-colors: ThreeDDarkShadow;
-  -moz-border-left-colors: ThreeDDarkShadow;
+  -moz-border-top-colors: var(--shadow-dark-color);
+  -moz-border-right-colors: var(--shadow-dark-color);
+  -moz-border-bottom-colors: var(--shadow-dark-color);
+  -moz-border-left-colors: var(--shadow-dark-color);
   padding: 0;
   background-color: -moz-Field;
 }
@@ -36,8 +36,8 @@ panel[type="autocomplete-richlistbox"],
 }
 
 .autocomplete-richlistitem[selected="true"] {
-  background-color: Highlight;
-  color: HighlightText;
+  background-color: var(--highlight-color);
+  color: var(--highlight-text-color);
 }
 
 @media (-moz-os-version: windows-vista) and (-moz-windows-default-theme),

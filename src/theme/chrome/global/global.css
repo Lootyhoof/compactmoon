@@ -17,6 +17,10 @@
   --dialog-text-color: -moz-DialogText;
   --field-color: -moz-Field;
   --field-text-color: -moz-FieldText;
+  --highlight-color: Highlight;
+  --highlight-text-color: HighlightText;
+  --menu-color: Menu;
+  --menu-text-color: MenuText;
   --shadow-color: ThreeDShadow;
   --shadow-dark-color: ThreeDDarkShadow;
   --shadow-face-color: ThreeDFace;

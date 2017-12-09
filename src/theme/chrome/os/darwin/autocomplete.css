@@ -26,7 +26,7 @@ panel[type="autocomplete"],
 panel[type="autocomplete-richlistbox"],
 .autocomplete-history-popup {
   padding: 0px !important;
-  background-color: -moz-Field;
+  background-color: var(--field-color);
   font: icon;
   -moz-appearance: none;
 }
@@ -50,8 +50,8 @@ panel[type="autocomplete-richlistbox"],
 }
 
 .autocomplete-richlistitem[selected="true"] {
-  background-color: Highlight;
-  color: HighlightText;
+  background-color: var(--highlight-color);
+  color: var(--highlight-text-color);
   background-image: linear-gradient(rgba(255,255,255,0.3), transparent);
 }
 
