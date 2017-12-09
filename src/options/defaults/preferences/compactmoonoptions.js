@@ -15,7 +15,7 @@ pref("browser.tabs.tabMaxWidth", 250);
 pref("extensions.compactmoonoptions.toTabsInTitlebar", "MaxOnly");
 pref("extensions.compactmoonoptions.toTabsInTitlebarAdjustmentMaxWindow", 0);
 pref("extensions.compactmoonoptions.toTabsInTitlebarAdjustmentNormalWindow", 0);
-pref("extensions.compactmoonoptions.toRSSFeedInURLBarHidden", true);
+pref("extensions.compactmoonoptions.toRSSFeedInURLBarHidden", false);
 
 pref("extensions.compactmoonoptions.toHowCompactMenuBar", 0);
 pref("extensions.compactmoonoptions.toHowCompactNavBar", 0);
