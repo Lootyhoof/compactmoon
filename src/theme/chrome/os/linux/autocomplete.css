@@ -17,8 +17,8 @@ panel[type="autocomplete-richlistbox"],
   -moz-appearance: none;
   border: 1px solid var(--shadow-color);
   padding: 0;
-  background: Menu;
-  color: MenuText;
+  background: var(--menu-color);
+  color: var(--menu-text-color);
 }
 
 /* ::::: tree ::::: */
