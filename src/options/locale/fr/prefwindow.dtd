@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Barres de défilement">
 <!ENTITY styledscrollbars.label "Stylés (par défaut)">
 <!ENTITY osscrollbars.label "Suivant le système d'exploitation (PM)">
-<!ENTITY ossystemcolors.label "Couleurs du système d'exploitation">
-<!ENTITY ossystemcolorslight.label "Arrière-plans clairs/gris (par défaut)">
-<!ENTITY ossystemcolorsdark.label "Arrière-plans très sombres/noirs">
+<!ENTITY uimodecolors.label "Mode navigateur">
+<!ENTITY uimodecolorslight.label "Clair (par défaut)">
+<!ENTITY uimodecolorsdark.label "Sombre">
 <!ENTITY webpagewindowborder.label "Bordure pour la fenêtre de la page Web">
 <!ENTITY webpagewindowborderenabled.label "Activée (par défaut)">
 <!ENTITY webpagewindowborderdisabled.label "Désactivée (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Toujours">
 <!ENTITY toTabsInTitlebarDescription.label "Ne s'applique que lorsque les onglets sont au-dessus et que la barre de menu est cachée">
 <!ENTITY toRSSFeedInURLBar.label "Afficher l'icône des flux RSS dans la barre d'adresse">
-<!ENTITY toRSSFeedInURLBarYes.label "Oui (par défaut, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Oui (par défaut, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "Non (FF4)">
 <!ENTITY tab3.title "Compact à quel degré ?">
 <!ENTITY howcompactdescription.label "Ces paramètres ajustent la hauteur de la barre d'outils correspondante à celle de la fenêtre principale du navigateur.">

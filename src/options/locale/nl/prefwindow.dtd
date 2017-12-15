@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Schuifbalken (herladen webpagina vereist)">
 <!ENTITY styledscrollbars.label "Gestileerd (standaard)">
 <!ENTITY osscrollbars.label "OS origineel (PM)">
-<!ENTITY ossystemcolors.label "OS systeemkleuren">
-<!ENTITY ossystemcolorslight.label "Lichte/grijze achtergronden (standaard)">
-<!ENTITY ossystemcolorsdark.label "Zeer donkere/zwarte achtergronden">
+<!ENTITY uimodecolors.label "Browser-modus">
+<!ENTITY uimodecolorslight.label "Licht (standaard)">
+<!ENTITY uimodecolorsdark.label "Donker">
 <!ENTITY webpagewindowborder.label "Webpagina omranding">
 <!ENTITY webpagewindowborderenabled.label "Ingeschakeld (standaard)">
 <!ENTITY webpagewindowborderdisabled.label "Uitgeschakeld (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Altijd">
 <!ENTITY toTabsInTitlebarDescription.label "Alleen van toepassing indien tabbladen bovenaan liggen en menubalk is verborgen.">
 <!ENTITY toRSSFeedInURLBar.label "RSS-feed pictogram in navigatiebalk weergeven">
-<!ENTITY toRSSFeedInURLBarYes.label "Ja (standaard, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Ja (standaard, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "Nee (FF4)">
 <!ENTITY tab3.title "Compactheid">
 <!ENTITY howcompactdescription.label "Deze instellingen passen de hoogte van de betreffende werkbalk aan in het hoofd browservenster.">

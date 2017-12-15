@@ -1,0 +1,223 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this file,
+* You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/* Variables */
+
+:root,
+panel[type="autocomplete"],
+panel[type="autocomplete-richlistbox"],
+.autocomplete-history-popup,
+treechildren.autocomplete-treebody,
+.autocomplete-richlistitem,
+button,
+checkbox,
+colorpicker,
+.colorpickertile,
+datepicker,
+timepicker,
+dialog,
+dropmarker,
+filefield,
+findbar,
+groupbox,
+treeitem[selected="true"] > treerow,
+menulist,
+notification,
+menupopup,
+panel,
+prefwindow,
+progressmeter,
+radio,
+richlistbox,
+.scale-slider,
+spinbuttons,
+splitter,
+tabpanels,
+tabmodalprompt,
+textbox,
+toolbox,
+toolbarbutton,
+tree,
+.wizard-header,
+.alertBox,
+.console-box {
+  --button-text-color: white !important;
+  --dialog-color: rgb(43, 43, 43) !important;
+  --dialog-text-color: white !important;
+  --field-color: rgb(65, 65, 65) !important;
+  --field-text-color: white !important;
+  --highlight-color: rgb(80, 80, 80) !important;
+  --highlight-text-color: white !important;
+  --pane-selected-background: rgb(110, 110, 110) !important;
+  --pane-hover-background: rgb(120, 120, 120) !important;
+  --pane-text-color: white !important;
+  --shadow-color: rgb(75, 75, 75) !important;
+  --shadow-dark-color: rgb(25, 25, 25) !important;
+  --shadow-light-color: rgb(130, 130, 130) !important;
+  --shadow-highlight-color: rgb(110, 110, 110) !important;
+  --shadow-face-color: rgb(90, 90, 90) !important;
+  --window-color: rgb(35, 35, 35) !important;
+  --window-text-color: white !important;
+}
+
+.category {
+  --category-text-color: white !important;
+  --category-selected-text-color: white !important;
+}
+
+tree {
+  --cell-highlight-color: rgb(100, 100, 100) !important;
+  --cell-highlight-text-color: white !important;
+}
+
+/* Image tweaks */
+
+checkbox[checked="true"] > .checkbox-check {
+  background-image: url("chrome://global/skin/checkbox/cbox-check-white.gif") !important;
+}
+
+.close-icon:not(:-moz-lwtheme) {
+  list-style-image: url("chrome://global/skin/icons/close-inverted.png") !important;
+}
+  
+dropmarker:not(.urlbar-history-dropmarker) {
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn-white.png") !important;
+}
+
+.panel-arrow[side="top"],
+.panel-arrow[side="bottom"] {
+  list-style-image: url("chrome://global/skin/arrow/panelarrow-vertical-unix-themed.svg") !important;
+}
+
+.panel-arrow[side="left"],
+.panel-arrow[side="right"] {
+  list-style-image: url("chrome://global/skin/arrow/panelarrow-horizontal-unix-themed.svg") !important;
+}
+  @media (-moz-os-version: windows-vista),
+         (-moz-os-version: windows-win7),
+         (-moz-os-version: windows-win8),
+         (-moz-os-version: windows-win10) {
+  .panel-arrow[side="top"],
+  .panel-arrow[side="bottom"] {
+    list-style-image: url("chrome://global/skin/arrow/panelarrow-vertical-themed.svg") !important;
+  }
+  .panel-arrow[side="left"],
+  .panel-arrow[side="right"] {
+    list-style-image: url("chrome://global/skin/arrow/panelarrow-horizontal-themed.svg") !important;
+  }
+}
+
+.tabs-newtab-button:not(:-moz-lwtheme),
+#new-tab-button:not(:-moz-lwtheme) {
+  list-style-image: url("chrome://browser/skin/tabbrowser/newtab-inverted.png") !important;
+}
+
+/* Style tweaks */
+  
+#itemList,
+tab,
+treecol,
+treecolpicker,
+tabpanels caption,
+richlistbox,
+window,
+page,
+dialog,
+wizard,
+prefwindow {
+  -moz-appearance: none !important;
+}
+  
+button[disabled="true"] {
+  color: var(--shadow-light-color) !important;
+}
+
+.datepicker-next > * > .button-icon,
+.datepicker-previous > * > .button-icon,
+.tabbrowser-tab[selected=true] > * > * > .tab-close-button:not(:-moz-lwtheme),
+.tabbrowser-tab:hover:not([selected=true]) > * > * > .tab-close-button:not(:-moz-lwtheme),
+.radio-check-box2 {
+  filter: invert(1);
+}
+
+@media (-moz-windows-default-theme) {
+  #header-search {
+    color: black !important;
+  }
+}
+
+menubar:not(#main-menubar) > menu:not(:-moz-lwtheme) {
+  color: white !important;
+}
+
+tab:not([selected=true]):not(.tabbrowser-tab){
+  background: rgb(20, 20, 20) !important;
+}
+tab:first-of-type[selected="true"]:not(.tabbrowser-tab) {
+  padding: 0px 3px 2px 3px !important;
+}
+
+.tabbrowser-tab[selected=true]:not(:-moz-lwtheme) > * > * > .tab-text {
+  color: black !important;
+}
+
+#print-preview-toolbar:not(:-moz-lwtheme) {
+  -moz-appearance: none !important;
+  background-color: var(--dialog-color) !important;
+}
+
+@media (-moz-windows-glass) {
+  #main-window:not([tabsintitlebar]):not([cctabsintitlebar]):not(:-moz-lwtheme) {
+    background-color: var(--window-color) !important;
+  }
+}
+
+@media not all and (-moz-windows-glass) {
+  #main-window:not(:-moz-lwtheme)::after,
+  #TabsToolbar:not(:-moz-lwtheme){
+    color: white !important;
+  }
+  
+  #main-window:not(:-moz-lwtheme) {
+    background-color: var(--window-color) !important;
+  }
+}
+
+/* Style the caption buttons on Windows 10 more appropriately */
+
+@media (-moz-os-version: windows-win10) {
+  #titlebar-min:not(:-moz-lwtheme) {
+    list-style-image: url(chrome://browser/skin/caption-buttons.svg#minimize-white) !important;
+  }
+
+  #titlebar-max:not(:-moz-lwtheme) {
+    list-style-image: url(chrome://browser/skin/caption-buttons.svg#maximize-white) !important;
+  }
+
+  #main-window[sizemode="maximized"] #titlebar-max:not(:-moz-lwtheme) {
+    list-style-image: url(chrome://browser/skin/caption-buttons.svg#restore-white) !important;
+  }
+
+  #titlebar-close:not(:-moz-lwtheme) {
+    list-style-image: url(chrome://browser/skin/caption-buttons.svg#close-white) !important;
+  }
+
+  .titlebar-button:not(#titlebar-close):not(:-moz-lwtheme):hover {
+    background-color: hsla(0, 0%, 100%, .17) !important;
+  }
+
+  .titlebar-button:not(#titlebar-close):not(:-moz-lwtheme):hover:active	{
+    background-color: hsla(0, 0%, 100%, .27) !important;
+    transition: none;
+  }
+
+  #titlebar-close:not(:-moz-lwtheme):hover {
+    background-color: hsla(0, 86%, 49%, 1) !important;
+  }
+
+  #titlebar-close:not(:-moz-window-inactive):not(:-moz-lwtheme):hover:active	{
+    background-color: hsla(0, 60%, 39%, 1) !important;
+    transition: none !important;
+  }
+}

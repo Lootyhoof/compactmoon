@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Смуга прокрутки (потребує перезавантаження сторінки)">
 <!ENTITY styledscrollbars.label "Стилізована (типовий)">
 <!ENTITY osscrollbars.label "Типова для ОС(PM)">
-<!ENTITY ossystemcolors.label "Системні кольори ОС">
-<!ENTITY ossystemcolorslight.label "Світлий/сірий фон (типовий)">
-<!ENTITY ossystemcolorsdark.label "Дуже темний/чорний фон">
+<!ENTITY uimodecolors.label "Режим браузера">
+<!ENTITY uimodecolorslight.label "Світла (типовий)">
+<!ENTITY uimodecolorsdark.label "Темна">
 <!ENTITY webpagewindowborder.label "Межі вікон веб-сторінки">
 <!ENTITY webpagewindowborderenabled.label "Увімкнути (типовий)">
 <!ENTITY webpagewindowborderdisabled.label "Вимкнути (МС)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Завжди">
 <!ENTITY toTabsInTitlebarDescription.label "Застосовувати тільки коли вкладки зверху і меню приховано">
 <!ENTITY toRSSFeedInURLBar.label "Показувати RSS потік в адресному рядку">
-<!ENTITY toRSSFeedInURLBarYes.label "Так (типовий, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Так (типовий, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "Ні (FF4)">
 <!ENTITY tab3.title "Наскільки компактно?">
 <!ENTITY howcompactdescription.label "Ці налатування регулюють висоту відповідних панелей інструментів у головному вікні браузера.">

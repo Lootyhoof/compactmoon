@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Kaydırma çubukları">
 <!ENTITY styledscrollbars.label "Tarzlı (varsayılan)">
 <!ENTITY osscrollbars.label "İşletim Sistemi\'nin kendi stili(PM)">
-<!ENTITY ossystemcolors.label "İşletim Sistemi sistem renkleri">
-<!ENTITY ossystemcolorslight.label "Açık/gri arka planlar (varsayılan)">
-<!ENTITY ossystemcolorsdark.label "Çok koyu/siyah arka planlar">
+<!ENTITY uimodecolors.label "Tarayıcı modu">
+<!ENTITY uimodecolorslight.label "Hafif (varsayılan)">
+<!ENTITY uimodecolorsdark.label "Koyu">
 <!ENTITY webpagewindowborder.label "Web sayfası pencere kenarlığı">
 <!ENTITY webpagewindowborderenabled.label "Etkin (varsayılan)">
 <!ENTITY webpagewindowborderdisabled.label "Devredışı (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Her zaman">
 <!ENTITY toTabsInTitlebarDescription.label "Yalnızca sekmeler üstte ve menü çubuğu saklıyken">
 <!ENTITY toRSSFeedInURLBar.label "RSS beslemesini URL çubuğunda göster">
-<!ENTITY toRSSFeedInURLBarYes.label "Evet (varsayılan, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Evet (varsayılan, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "Hayır (FF4)">
 <!ENTITY tab3.title "Ne kadar Yoğun?">
 <!ENTITY howcompactdescription.label "Bu ayarlar ana ağ gezgini penceresindeki ilişkili araç çubuklarının boylarını ayarlar.">

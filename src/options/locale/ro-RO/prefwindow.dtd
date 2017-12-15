@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Bare de derulare (necesită re-încărcarea paginii de internet)">
 <!ENTITY styledscrollbars.label "Stilizate (implicit)">
 <!ENTITY osscrollbars.label "Implicite ale sistemului de operare">
-<!ENTITY ossystemcolors.label "Culorile sistemului de operare">
-<!ENTITY ossystemcolorslight.label "Fundaluri gri/luminoase (implicit)">
-<!ENTITY ossystemcolorsdark.label "Fundaluri foarte întunecate/negre">
+<!ENTITY uimodecolors.label "Mod browser">
+<!ENTITY uimodecolorslight.label "Ușoară (implicit)">
+<!ENTITY uimodecolorsdark.label "Întuneric">
 <!ENTITY webpagewindowborder.label "Chenar pagină de internet">
 <!ENTITY webpagewindowborderenabled.label "Activat (implicit)">
 <!ENTITY webpagewindowborderdisabled.label "Dezactivat (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Mereu">
 <!ENTITY toTabsInTitlebarDescription.label "Se aplică doar când filele sunt deasupra şi bara de meniu este ascunsă">
 <!ENTITY toRSSFeedInURLBar.label "Arată pictograma fluxuri RSS în bara de adresă">
-<!ENTITY toRSSFeedInURLBarYes.label "Da (implicit, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Da (implicit, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "Nu (FF4)">
 <!ENTITY tab3.title "Cât de compact?">
 <!ENTITY howcompactdescription.label "Aceste reglaje ajustează înălţimea barei respective în fereastra principală a navigatorului.">

@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Строки прокрутки">
 <!ENTITY styledscrollbars.label "Стилизованные (У)">
 <!ENTITY osscrollbars.label "Родная операционная система (PM)">
-<!ENTITY ossystemcolors.label "Цвета операционной системы">
-<!ENTITY ossystemcolorslight.label "Светлый/серый фон (У)">
-<!ENTITY ossystemcolorsdark.label "Очень темный/черный фон">
+<!ENTITY uimodecolors.label "Режим браузера">
+<!ENTITY uimodecolorslight.label "Светлая (У)">
+<!ENTITY uimodecolorsdark.label "Темная">
 <!ENTITY webpagewindowborder.label "Граница окна веб-страницы">
 <!ENTITY webpagewindowborderenabled.label "Включить (У)">
 <!ENTITY webpagewindowborderdisabled.label "Отключить (К)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Всегда">
 <!ENTITY toTabsInTitlebarDescription.label "Применимо только когда табы сверху, а меню спрятано">
 <!ENTITY toRSSFeedInURLBar.label "Показывать иконку ленты RSS в строке URL">
-<!ENTITY toRSSFeedInURLBarYes.label "Да (по-умолчанию, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Да (по-умолчанию, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "Нет (FF4)">
 <!ENTITY tab3.title "Насколько компактно?">
 <!ENTITY howcompactdescription.label "Эти настройки устанавливают высоту соответствующей панели в главном окне браузера.">

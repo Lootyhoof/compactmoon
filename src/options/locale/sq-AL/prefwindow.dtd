@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Ashensoret (nevojitet ri-ngarkim i faqes)">
 <!ENTITY styledscrollbars.label "Me stil (standarde)">
 <!ENTITY osscrollbars.label "Sipas SO (PM)">
-<!ENTITY ossystemcolors.label "Ngjyrat standarde te SO">
-<!ENTITY ossystemcolorslight.label "Sfonde te lehta/gri (standarde)">
-<!ENTITY ossystemcolorsdark.label "Sfonde shume te erreta/te zeza">
+<!ENTITY uimodecolors.label "Mënyra e shfletuesit">
+<!ENTITY uimodecolorslight.label "Lehta (standarde)">
+<!ENTITY uimodecolorsdark.label "I errët">
 <!ENTITY webpagewindowborder.label "Bordura e dritares se faqes web">
 <!ENTITY webpagewindowborderenabled.label "Aktive (standarde)">
 <!ENTITY webpagewindowborderdisabled.label "Jo-aktive (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Gjithmone">
 <!ENTITY toTabsInTitlebarDescription.label "E mundshme vetem kur shiriti i menuse eshte i fshehur dhe skedat jane mbi te gjitha">
 <!ENTITY toRSSFeedInURLBar.label "Afisho ikonen e te dhenave RSS ne shiritin e URL">
-<!ENTITY toRSSFeedInURLBarYes.label "Po (standarde, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Po (standarde, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "Jo (FF4)">
 <!ENTITY tab3.title "Sa kompakte?">
 <!ENTITY howcompactdescription.label "Keto funksione ju mundesojne te kontrolloni lartesine e shiriti.">

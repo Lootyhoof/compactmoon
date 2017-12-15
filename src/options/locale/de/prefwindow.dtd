@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Scrollleisten">
 <!ENTITY styledscrollbars.label "Gestaltet (Standard)">
 <!ENTITY osscrollbars.label "Nativ (PM)">
-<!ENTITY ossystemcolors.label "Betriebssystemfarben">
-<!ENTITY ossystemcolorslight.label "Halle/Graue Hintergründe (Standard)">
-<!ENTITY ossystemcolorsdark.label "Sehr dunkle/schwarze Hintergründe">
+<!ENTITY uimodecolors.label "Browsermodus">
+<!ENTITY uimodecolorslight.label "Helle (Standard)">
+<!ENTITY uimodecolorsdark.label "Dunkle">
 <!ENTITY webpagewindowborder.label "Fensterrand">
 <!ENTITY webpagewindowborderenabled.label "Eingeschaltet (Standard)">
 <!ENTITY webpagewindowborderdisabled.label "Ausgeschaltet (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Immer">
 <!ENTITY toTabsInTitlebarDescription.label "Nur wenn Tabs oben agezeigt werden und die Menüleiste ausgeblendet ist">
 <!ENTITY toRSSFeedInURLBar.label "RSS-Feed-Symbil in Adressleiste anzeigen">
-<!ENTITY toRSSFeedInURLBarYes.label "Ja (default, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Ja (default, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "Nein (FF4)">
 <!ENTITY tab3.title "Wie kompakt?">
 <!ENTITY howcompactdescription.label "Diese Einstellellungen passen die Höhe der entsprechenden Symbolleiste im Hauptfenster an.">

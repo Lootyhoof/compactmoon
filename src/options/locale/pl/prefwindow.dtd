@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Wyświetlaj paski przewijania (wymagane odświeżenie strony)">
 <!ENTITY styledscrollbars.label "stylizowane">
 <!ENTITY osscrollbars.label "systemowe (PM)">
-<!ENTITY ossystemcolors.label "Kolory systemowe:">
-<!ENTITY ossystemcolorslight.label "Jasne/szare tła">
-<!ENTITY ossystemcolorsdark.label "Bardzo ciemne/czarne tła">
+<!ENTITY uimodecolors.label "Tryb przeglądarki">
+<!ENTITY uimodecolorslight.label "Jasny motyw">
+<!ENTITY uimodecolorsdark.label "Ciemny motyw">
 <!ENTITY webpagewindowborder.label "Obramowanie okna strony">
 <!ENTITY webpagewindowborderenabled.label "włączone">
 <!ENTITY webpagewindowborderdisabled.label "wyłączone (K)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "zawsze">
 <!ENTITY toTabsInTitlebarDescription.label "Ma zastosowanie tylko, gdy pasek menu jest ukryty, a etykiety kart są wyświetlane na górze.">
 <!ENTITY toRSSFeedInURLBar.label "Wyświetlaj ikonę kanałów RSS w pasku adresu">
-<!ENTITY toRSSFeedInURLBarYes.label "Tak (Fx3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Tak (PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "Nie (Fx4)">
 <!ENTITY tab3.title "Ustawienia pasków">
 <!ENTITY howcompactdescription.label "Te ustawienia określają wysokość pasków w głównym oknie przeglądarki.">

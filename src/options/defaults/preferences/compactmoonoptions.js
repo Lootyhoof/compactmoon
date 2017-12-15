@@ -7,7 +7,7 @@ pref("extensions.compactmoonoptions.toBackgrounds", "gradients");
 pref("extensions.compactmoonoptions.toToolbarDividers", "none");
 pref("extensions.compactmoonoptions.toCornerStyles", "rounded");
 pref("extensions.compactmoonoptions.toScrollbars", "styled");
-pref("extensions.compactmoonoptions.toOSSystemColors", "light");
+pref("extensions.compactmoonoptions.toUIModeColors", "light");
 
 pref("extensions.compactmoonoptions.toMergeMenus", "no");
 pref("browser.tabs.tabMinWidth", 100);

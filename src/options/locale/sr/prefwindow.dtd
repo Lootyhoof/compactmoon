@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Траке за померање">
 <!ENTITY styledscrollbars.label "стилизоване (подразумеване)">
 <!ENTITY osscrollbars.label "из оперативног система (PM)">
-<!ENTITY ossystemcolors.label "систем боја из оперативног система">
-<!ENTITY ossystemcolorslight.label "светле/сиве позадине (подразумеване)">
-<!ENTITY ossystemcolorsdark.label "веома тамне/црне позадине">
+<!ENTITY uimodecolors.label "Режим претраживача">
+<!ENTITY uimodecolorslight.label "Светла (подразумеване)">
+<!ENTITY uimodecolorsdark.label "Мрачна">
 <!ENTITY webpagewindowborder.label "Оквир прозора са страницама">
 <!ENTITY webpagewindowborderenabled.label "омогућен (подразумевано)">
 <!ENTITY webpagewindowborderdisabled.label "онемогућен (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "увек">
 <!ENTITY toTabsInTitlebarDescription.label "Примењује се само када су језичци на врху, а менији сакривени">
 <!ENTITY toRSSFeedInURLBar.label "Прикажи икону за RSS довод у траци адресе">
-<!ENTITY toRSSFeedInURLBarYes.label "да (подразумевано, ФФ3)">
+<!ENTITY toRSSFeedInURLBarYes.label "да (подразумевано, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "не (ФФ4)">
 <!ENTITY tab3.title "Колико мали?">
 <!ENTITY howcompactdescription.label "Ове поставке утичу на висину одређених трака са алаткама у главном прозору.">

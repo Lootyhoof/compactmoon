@@ -24,6 +24,7 @@
 
 @media all and (-moz-windows-compositor) {
   #main-window {
+    background: transparent;
     -moz-appearance: -moz-win-glass;
   }
 

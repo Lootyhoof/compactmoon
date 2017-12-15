@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "滚动条 (需要重新载入网页)">
 <!ENTITY styledscrollbars.label "美化 (默认)">
 <!ENTITY osscrollbars.label "操作系统原生 (PM)">
-<!ENTITY ossystemcolors.label "操作系统颜色">
-<!ENTITY ossystemcolorslight.label "亮/灰背景 (默认)">
-<!ENTITY ossystemcolorsdark.label "暗/黑背景">
+<!ENTITY uimodecolors.label "浏览器模式">
+<!ENTITY uimodecolorslight.label "亮色主题 (默认)">
+<!ENTITY uimodecolorsdark.label "暗色主题">
 <!ENTITY webpagewindowborder.label "网页窗口边框">
 <!ENTITY webpagewindowborderenabled.label "启用 (默认)">
 <!ENTITY webpagewindowborderdisabled.label "禁用 (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "总是">
 <!ENTITY toTabsInTitlebarDescription.label "仅在标签栏置顶且菜单栏隐藏时应用">
 <!ENTITY toRSSFeedInURLBar.label "在地址栏显示 RSS 订阅图标">
-<!ENTITY toRSSFeedInURLBarYes.label "是 (默认, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "是 (默认, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "否 (FF4)">
 <!ENTITY tab3.title "紧凑程度">
 <!ENTITY howcompactdescription.label "这些设置调整主浏览器窗口中相应工具栏高度。">

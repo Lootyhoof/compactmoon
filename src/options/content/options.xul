@@ -23,7 +23,7 @@
       <preference id="toToolbarDividers1" name="extensions.compactmoonoptions.toToolbarDividers" type="string" instantApply="true"/>
       <preference id="toCornerStyles1" name="extensions.compactmoonoptions.toCornerStyles" type="string" instantApply="true"/>
       <preference id="toScrollbars1" name="extensions.compactmoonoptions.toScrollbars" type="string" instantApply="true"/>
-      <preference id="toOSSystemColors1" name="extensions.compactmoonoptions.toOSSystemColors" type="string" instantApply="true"/>
+      <preference id="toUIModeColors1" name="extensions.compactmoonoptions.toUIModeColors" type="string" instantApply="true"/>
 
       <preference id="toMergeMenus1" name="extensions.compactmoonoptions.toMergeMenus" type="string" instantApply="true"/>
       <preference id="totabMaxWidth1" name="browser.tabs.tabMaxWidth" type="int" instantApply="true"/>
@@ -138,11 +138,11 @@
             </menulist>
           </hbox>
           <hbox align="center">
-            <label control="toOSSystemColors">&ossystemcolors.label;</label>
-            <menulist id="toOSSystemColors" preference="toOSSystemColors1">
+            <label control="toUIModeColors">&uimodecolors.label;</label>
+            <menulist id="toUIModeColors" preference="toUIModeColors1">
               <menupopup>
-                <menuitem value="light" label="&ossystemcolorslight.label;"/>
-                <menuitem value="dark" label="&ossystemcolorsdark.label;"/>
+                <menuitem value="light" label="&uimodecolorslight.label;"/>
+                <menuitem value="dark" label="&uimodecolorsdark.label;"/>
               </menupopup>
             </menulist>
           </hbox>

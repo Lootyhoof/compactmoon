@@ -40,13 +40,13 @@ let stylesheets = {
   "buttonsfirefox0.9win":             {prefs:{toToolbarButtons:"ff1win"}},
   "buttonsfirefox3vista":             {prefs:{toToolbarButtons:"ff3v"}},
   "buttonsfirefox3xp":                {prefs:{toToolbarButtons:"ff3xp"}},
-  "buttonsclassic2dark":              {prefs:{toOSSystemColors:"dark",toToolbarButtons:"ff4"}},
+  "buttonsclassic2dark":              {prefs:{toUIModeColors:"dark",toToolbarButtons:"ff4"}},
   "buttonspalemoon":              	  {prefs:{toToolbarButtons:"pm"}},
   "buttonsfirefox4aero":              {prefs:{toToolbarButtons:"ff4aero"}},
   "buttonsfirefox4linux-GnomeHuman":  {prefs:{toToolbarButtons:"ff4lgnomehuman"}},
   "buttonsfirefox4linux-GnomeOxygen": {prefs:{toToolbarButtons:"ff4lgnomeoxygen"}},
   "buttonsfirefox4osx":               {prefs:{toToolbarButtons:"ff4osx"}},
-  "buttonsfirefox4osxdark":           {prefs:{toOSSystemColors:"dark",toToolbarButtons:"ff4osx"}},
+  "buttonsfirefox4osxdark":           {prefs:{toUIModeColors:"dark",toToolbarButtons:"ff4osx"}},
   "buttonsfirefox8osx-Lion":          {prefs:{toToolbarButtons:"ff8osxlion"}},
   "buttonsgooglechrome":              {prefs:{toToolbarButtons:"googlechrome"}},
   "buttonskempelton":                 {prefs:{toToolbarButtons:"kempelton"}},
@@ -86,16 +86,16 @@ let stylesheets = {
   "squarecorners":                    {prefs:{toCornerStyles:"square"}},
   "roundtabs":                        {prefs:{toCornerStyles:"roundtabs"}},
 
-  // sysColors
-  "darkarrows":                       {prefs:{toOSSystemColors:"dark"}},
+  // uiColors
+  "modedark":                         {prefs:{toUIModeColors:"dark"}},
 
   // ccoScrollbars
   "xulscrollbars":                    {type: "agent",os: ["!=", "Darwin"],prefs:{toScrollbars:"os"}},
   "nativescrollbars":                 {type: "agent",os: "Darwin",prefs:{toScrollbars:"os"}},
-  "squarescrollbars":                 {prefs:{toOSSystemColors:["!=", "dark"], toCornerStyles: "squarescrollbars"}},
-  "darkscrollbarsflat":               {prefs:{toOSSystemColors:"dark", toBackgrounds:["!=","gradients"]}},
-  "scrollbarsflat":                   {prefs:{toOSSystemColors:["!=", "dark"], toBackgrounds:["!=","gradients"]}},
-  "darkscrollbarsbeveled":            {prefs:{toOSSystemColors:"dark", toBackgrounds: "gradients",}},
+  "squarescrollbars":                 {prefs:{toUIModeColors:["!=", "dark"], toCornerStyles: "squarescrollbars"}},
+  "darkscrollbarsflat":               {prefs:{toUIModeColors:"dark", toBackgrounds:["!=","gradients"]}},
+  "scrollbarsflat":                   {prefs:{toUIModeColors:["!=", "dark"], toBackgrounds:["!=","gradients"]}},
+  "darkscrollbarsbeveled":            {prefs:{toUIModeColors:"dark", toBackgrounds: "gradients",}},
 
   // HowCompact
   "HowCompact/Toolbars":              {anyPrefs:{toHowCompactAddonBar: ["!=", 0],toHowCompactPersonalBar: ["!=", 0],toHowCompactMenuBar: ["!=", 0]}},

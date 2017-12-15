@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "スクロールバー">
 <!ENTITY styledscrollbars.label "スタイルあり (既定値)">
 <!ENTITY osscrollbars.label "OS ネイティブ (PM)">
-<!ENTITY ossystemcolors.label "OS システム色">
-<!ENTITY ossystemcolorslight.label "明るい/灰色の背景 (既定値)">
-<!ENTITY ossystemcolorsdark.label "暗い/黒い背景">
+<!ENTITY uimodecolors.label "ブラウザモード">
+<!ENTITY uimodecolorslight.label "ライトテーマ (既定値)">
+<!ENTITY uimodecolorsdark.label "ダークテーマ">
 <!ENTITY webpagewindowborder.label "Web ページ ウィンドウのボーダー">
 <!ENTITY webpagewindowborderenabled.label "有効 (既定値)">
 <!ENTITY webpagewindowborderdisabled.label "無効 (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "常に">
 <!ENTITY toTabsInTitlebarDescription.label "タブがタイトル バーにありメニュー バーが非表示の時のみ適用">
 <!ENTITY toRSSFeedInURLBar.label "URL バーに RSS フィード アイコンを表示">
-<!ENTITY toRSSFeedInURLBarYes.label "はい (既定の状態、FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "はい (既定の状態、PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "いいえ (FF4)">
 <!ENTITY tab3.title "どこまでコンパクトに?">
 <!ENTITY howcompactdescription.label "メイン ブラウザ ウィンドウ上の各ツールバーの高さを調整します。">

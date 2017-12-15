@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Barras de rolagem">
 <!ENTITY styledscrollbars.label "Estilizadas (padrão)">
 <!ENTITY osscrollbars.label "Nativas do Sistema Operacional (PM)">
-<!ENTITY ossystemcolors.label "Cores do Sistema Operacional">
-<!ENTITY ossystemcolorslight.label "Fundo claro/cinza (padrão)">
-<!ENTITY ossystemcolorsdark.label "Fundo bem escuro/preto">
+<!ENTITY uimodecolors.label "Modo navegador">
+<!ENTITY uimodecolorslight.label "Claro (padrão)">
+<!ENTITY uimodecolorsdark.label "Escuro">
 <!ENTITY webpagewindowborder.label "Borda da área de exibição das páginas">
 <!ENTITY webpagewindowborderenabled.label "Ativada (padrão)">
 <!ENTITY webpagewindowborderdisabled.label "Desativada (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Sempre">
 <!ENTITY toTabsInTitlebarDescription.label "Válido apenas quando abas estão no topo e a barra de menu está oculta">
 <!ENTITY toRSSFeedInURLBar.label "Exibir ícone de RSS feed na barra de endereços">
-<!ENTITY toRSSFeedInURLBarYes.label "Sim (padrão, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Sim (padrão, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "Não (FF4)">
 <!ENTITY tab3.title "Quão compacto?">
 <!ENTITY howcompactdescription.label "Essas configurações ajustam a altura de suas respectivas barras de ferramentas na janela principal do navegador.">

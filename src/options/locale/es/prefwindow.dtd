@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Barras de deslizamiento (debe recargar la página)">
 <!ENTITY styledscrollbars.label "Con estilo (por defecto)">
 <!ENTITY osscrollbars.label "Nativas del Sistema Operativo (PM)">
-<!ENTITY ossystemcolors.label "Colores del sistema">
-<!ENTITY ossystemcolorslight.label "Fondos claro/gris (por defecto)">
-<!ENTITY ossystemcolorsdark.label "Fondos oscuros/negros">
+<!ENTITY uimodecolors.label "Modo de navegador">
+<!ENTITY uimodecolorslight.label "Claro (por defecto)">
+<!ENTITY uimodecolorsdark.label "Oscuro">
 <!ENTITY webpagewindowborder.label "Borde de la ventana de la página">
 <!ENTITY webpagewindowborderenabled.label "Habilitado (por defecto)">
 <!ENTITY webpagewindowborderdisabled.label "Deshabilitado (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Siempre">
 <!ENTITY toTabsInTitlebarDescription.label "Sólo se aplica si las pestañas están en la parte superior y la barra de menú oculta.">
 <!ENTITY toRSSFeedInURLBar.label "Mostrar el icono de RSS Feed en la barra de URL">
-<!ENTITY toRSSFeedInURLBarYes.label "Sí (por defecto en FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Sí (por defecto en PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "No (FF4)">
 <!ENTITY tab3.title "¿Cómo de compacto?">
 <!ENTITY howcompactdescription.label "Estas predisposiciones ajustan la altura de las diferentes barras de herramientas de la ventana principal del navegador.">

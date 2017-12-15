@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Rullningslister">
 <!ENTITY styledscrollbars.label "Tillsnyggade (standard)">
 <!ENTITY osscrollbars.label "OS-standard (PM)">
-<!ENTITY ossystemcolors.label "Operativsystemfärger">
-<!ENTITY ossystemcolorslight.label "Ljusa/gråa bakgrunder (standard)">
-<!ENTITY ossystemcolorsdark.label "Mycket mörka/svarta bakgrunder">
+<!ENTITY uimodecolors.label "Webbläsarläge">
+<!ENTITY uimodecolorslight.label "Ljust (standard)">
+<!ENTITY uimodecolorsdark.label "Mörkt">
 <!ENTITY webpagewindowborder.label "Ram runt webbsidan">
 <!ENTITY webpagewindowborderenabled.label "Aktiverad (standard)">
 <!ENTITY webpagewindowborderdisabled.label "Inaktiverad (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Alltid">
 <!ENTITY toTabsInTitlebarDescription.label "Gäller bara när flikarna är högst upp och menyfältet är dolt">
 <!ENTITY toRSSFeedInURLBar.label "Visa RSS-ikon i URL-fältet">
-<!ENTITY toRSSFeedInURLBarYes.label "Ja (standard, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Ja (standard, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "Nej (FF4)">
 <!ENTITY tab3.title "Hur kompakt?">
 <!ENTITY howcompactdescription.label "Dessa inställningar justerar höjden av deras respektive verktygsfält i webbläsarens huvudfönster.">

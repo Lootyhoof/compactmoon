@@ -47,9 +47,9 @@
 <!ENTITY scrollbars.label "Scrollbars (requires webpage reload)">
 <!ENTITY styledscrollbars.label "Styled (default)">
 <!ENTITY osscrollbars.label "OS Native (PM)">
-<!ENTITY ossystemcolors.label "OS system colors">
-<!ENTITY ossystemcolorslight.label "Light/gray backgrounds (default)">
-<!ENTITY ossystemcolorsdark.label "Very dark/black backgrounds">
+<!ENTITY uimodecolors.label "Browser mode">
+<!ENTITY uimodecolorslight.label "Light (default)">
+<!ENTITY uimodecolorsdark.label "Dark">
 <!ENTITY webpagewindowborder.label "Webpage window border">
 <!ENTITY webpagewindowborderenabled.label "Enabled (default)">
 <!ENTITY webpagewindowborderdisabled.label "Disabled (MC)">
@@ -73,7 +73,7 @@
 <!ENTITY toTabsInTitlebarAlways.label "Always">
 <!ENTITY toTabsInTitlebarDescription.label "Only applies when tabs are on top and the menu bar is hidden">
 <!ENTITY toRSSFeedInURLBar.label "Display RSS feed icon in URL bar">
-<!ENTITY toRSSFeedInURLBarYes.label "Yes (default, FF3)">
+<!ENTITY toRSSFeedInURLBarYes.label "Yes (default, PM)">
 <!ENTITY toRSSFeedInURLBarNo.label "No (FF4)">
 <!ENTITY tab3.title "How Compact?">
 <!ENTITY howcompactdescription.label "These settings adjust the height of their respective toolbar on the main browser window.">
