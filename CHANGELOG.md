@@ -1,5 +1,27 @@
 # Changelog
 
+### 2.0.0b1 (options & theme)
+- add dark mode (replaces "dark OS colors" mode)
+- add Google Chrome icon set (from PMChrome)
+- add Kempelton icon set (from Kempelton Reloaded)
+- add Maxthon 3 icon set (from Maxi3)
+- add Maxthon 4 icon set (from Maxi4)
+- add Opera (Chromium) icon set (from PMOpera)
+- add Opera (Presto) icon set (from Opresto)
+- add Qute icon set (from Qute 4 PM)
+- add White Moon icon set
+- fix statusbar progressmeter
+- add about:plugins styling
+- improve downloads indicator styling
+- improve white back/forward arrow styling with specific configurations in Compact Moon Options
+- sync devtools styling with default
+- sync doorhanger popup styling with default
+- sync about:addons styling with default
+- Win10: draw a background on the main window to improve accent color detection
+- Linux: improve text legibility in menubar and menus
+- Linux: fix scrollbars
+- major cleanup
+
 ### 1.1.1-options
 - fix `sv-SE` locale
 
