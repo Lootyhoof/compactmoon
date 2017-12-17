@@ -133,6 +133,16 @@ button[disabled="true"] {
   color: var(--shadow-light-color) !important;
 }
 
+#downloadsFooter {
+  background-color: var(--shadow-color) !important;
+}
+
+@media (-moz-windows-default-theme) {
+  #downloadsFooter {
+    box-shadow: -1px 0px 2px rgb(23, 23, 23) inset !important;
+  }
+}
+
 .datepicker-next > * > .button-icon,
 .datepicker-previous > * > .button-icon,
 .tabbrowser-tab[selected=true] > * > * > .tab-close-button:not(:-moz-lwtheme),
