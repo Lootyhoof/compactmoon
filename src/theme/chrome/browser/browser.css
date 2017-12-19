@@ -2059,7 +2059,7 @@ toolbar:not(#TabsToolbar):not(#nav-bar) #urlbar > toolbarbutton {
 
 #main-window[cctabsintitlebar=true][autohide=true][tabsontop=true] #TabsToolbar:not(:-moz-lwtheme),
 #main-window[tabsintitlebar] #TabsToolbar:not(:-moz-lwtheme){
-  background-image: none;
+  background: none;
 }
 
 #main-window[sizemode="maximized"][tabsintitlebar] #toolbar-menubar[inactive] ~ #TabsToolbar:-moz-system-metric(windows-default-theme):not(:-moz-system-metric(windows-compositor)),

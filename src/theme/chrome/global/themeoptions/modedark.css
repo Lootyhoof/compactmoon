@@ -182,13 +182,33 @@ tab:first-of-type[selected="true"]:not(.tabbrowser-tab) {
   background-color: var(--dialog-color) !important;
 }
 
-@media (-moz-windows-glass) {
-  #main-window:not([tabsintitlebar]):not([cctabsintitlebar]):not(:-moz-lwtheme) {
-    background-color: var(--window-color) !important;
+@media not all and (-moz-os-version: windows-win10) {
+  @media (-moz-windows-default-theme), (-moz-windows-theme: aero), (-moz-windows-classic) {
+    #main-window:not([tabsintitlebar]):not([cctabsintitlebar=true]):not(:-moz-lwtheme) {
+      background-color: var(--window-color) !important;
+    }
+    
+    #main-window[tabsintitlebar][cctabsintitlebar=true] #TabsToolbar {
+      background: transparent !important;
   }
 }
 
-@media not all and (-moz-windows-glass) {
+@media (-moz-windows-classic) {
+  menupopup menuitem:not([disabled=true]),
+  menubar menu:not([disabled=true]),
+  splitmenu:not([disabled=true]) .menu-iconic-text,
+  splitmenu:not([disabled=true]) .menu-text{
+    color: white !important;
+  }
+
+  menu:not([disabled=true]):not(:hover) .menu-right,
+  menuitem[type="checkbox"]:not(:hover) > .menu-iconic-left,
+  menuitem[checked="true"]:not(:hover) > .menu-iconic-left{
+    filter: invert(1) !important;
+  }
+}
+
+@media (-moz-os-version: windows-win10) {
   #main-window:not(:-moz-lwtheme)::after,
   #TabsToolbar:not(:-moz-lwtheme){
     color: white !important;
