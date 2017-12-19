@@ -49,6 +49,7 @@ tree,
   --field-text-color: white !important;
   --highlight-color: rgb(80, 80, 80) !important;
   --highlight-text-color: white !important;
+  --menu-color: var(--dialog-color) !important;
   --pane-selected-background: rgb(110, 110, 110) !important;
   --pane-hover-background: rgb(120, 120, 120) !important;
   --pane-text-color: white !important;
@@ -121,12 +122,16 @@ treecol,
 treecolpicker,
 tabpanels caption,
 richlistbox,
-window,
+window:not(#main-window),
 page,
 dialog,
 wizard,
 prefwindow {
   -moz-appearance: none !important;
+}
+
+#appmenu-popup menupopup {
+  -moz-appearance: menupopup !important;
 }
   
 button[disabled="true"] {
