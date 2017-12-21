@@ -1,5 +1,8 @@
 # Changelog
 
+### 2.0.1 (options)
+- fix maxVersion in install.rdf
+
 ### 2.0.0 (options & theme)
 - add dark mode (replaces "dark OS colors" mode)
 - add Google Chrome icon set (from PMChrome)
