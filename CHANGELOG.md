@@ -1,6 +1,6 @@
 # Changelog
 
-### 2.0.0b1 (options & theme)
+### 2.0.0 (options & theme)
 - add dark mode (replaces "dark OS colors" mode)
 - add Google Chrome icon set (from PMChrome)
 - add Kempelton icon set (from Kempelton Reloaded)
@@ -14,12 +14,15 @@
 - add about:plugins styling
 - improve downloads indicator styling
 - improve white back/forward arrow styling with specific configurations in Compact Moon Options
+- set RSS icon to appear in urlbar by default
 - sync devtools styling with default
 - sync doorhanger popup styling with default
 - sync about:addons styling with default
 - Win10: draw a background on the main window to improve accent color detection
 - Linux: improve text legibility in menubar and menus
-- Linux: fix scrollbars
+- Linux: redesign appmenu button
+- Linux/macOS: fix scrollbars
+- macOS: improve general compatibility
 - major cleanup
 
 ### 1.1.1-options
