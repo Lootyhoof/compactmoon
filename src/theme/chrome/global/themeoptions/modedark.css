@@ -58,6 +58,11 @@ tree,
   --shadow-light-color: rgb(130, 130, 130) !important;
   --shadow-highlight-color: rgb(110, 110, 110) !important;
   --shadow-face-color: rgb(90, 90, 90) !important;
+  --tabmodalprompt-container-text-color: white !important;
+  --tabmodalprompt-container-background-color: var(--dialog-color) !important;
+  --tabmodalprompt-container-border: var(--shadow-color) !important;
+  --tabmodalprompt-container-button-background-color: var(--shadow-color) !important;
+  --tabmodalprompt-container-button-border-top: var(--shadow-color) !important;
   --window-color: rgb(35, 35, 35) !important;
   --window-text-color: white !important;
 }
@@ -126,7 +131,8 @@ window:not(#main-window),
 page,
 dialog,
 wizard,
-prefwindow {
+prefwindow,
+radio {
   -moz-appearance: none !important;
 }
 
@@ -190,6 +196,7 @@ tab:first-of-type[selected="true"]:not(.tabbrowser-tab) {
     
     #main-window[tabsintitlebar][cctabsintitlebar=true] #TabsToolbar {
       background: transparent !important;
+    }
   }
 }
 
@@ -208,6 +215,7 @@ tab:first-of-type[selected="true"]:not(.tabbrowser-tab) {
   }
 }
 
+/* Style the titlebar on Windows 10 more appropriately */
 @media (-moz-os-version: windows-win10) {
   #main-window:not(:-moz-lwtheme)::after,
   #TabsToolbar:not(:-moz-lwtheme){
@@ -217,11 +225,7 @@ tab:first-of-type[selected="true"]:not(.tabbrowser-tab) {
   #main-window:not(:-moz-lwtheme) {
     background-color: var(--window-color) !important;
   }
-}
 
-/* Style the caption buttons on Windows 10 more appropriately */
-
-@media (-moz-os-version: windows-win10) {
   #titlebar-min:not(:-moz-lwtheme) {
     list-style-image: url(chrome://browser/skin/caption-buttons.svg#minimize-white) !important;
   }
