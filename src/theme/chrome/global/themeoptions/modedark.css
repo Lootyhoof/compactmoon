@@ -26,6 +26,7 @@ menulist,
 notification,
 menupopup,
 panel,
+.panel-arrowcontent,
 prefwindow,
 progressmeter,
 radio,
@@ -53,6 +54,9 @@ tree,
   --pane-selected-background: rgb(110, 110, 110) !important;
   --pane-hover-background: rgb(120, 120, 120) !important;
   --pane-text-color: white !important;
+  --panel-arrowcontent-background: var(--field-color) !important;
+  --panel-arrowcontent-color: var(--field-text-color) !important;
+  --panel-arrowcontent-border: 1px solid var(--shadow-color) !important;
   --shadow-color: rgb(75, 75, 75) !important;
   --shadow-dark-color: rgb(25, 25, 25) !important;
   --shadow-light-color: rgb(130, 130, 130) !important;
