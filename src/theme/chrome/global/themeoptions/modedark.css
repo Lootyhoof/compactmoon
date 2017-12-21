@@ -136,7 +136,8 @@ page,
 dialog,
 wizard,
 prefwindow,
-radio {
+radio,
+sidebarheader {
   -moz-appearance: none !important;
 }
 
