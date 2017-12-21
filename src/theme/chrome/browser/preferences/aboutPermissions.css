@@ -4,22 +4,27 @@
 
 /* background styles borrowed from extensions.css */
 #permissions-page {
+  --permissions-content-background-color: rgba(255, 255, 255, 0.35);
+  --permissions-content-bg-stop1: rgba(255, 255, 255, 0);
+  --permissions-content-bg-stop2: rgba(255, 255, 255, 0.75));
+  --permissions-page-bg-stop1: rgba(255,255,255,0.5);
+  --permissions-page-bg-stop2: rgba(255,255,255,0);
   -moz-appearance: none;
   padding: 8px;
   background-repeat: repeat;
-  color: -moz-dialogText;
-  background-color: -moz-dialog;
+  color: var(--dialog-text-color);
+  background-color: var(--dialog-color);
   background-image: /* Fade-out texture at the top, and blend with browser tab */
-                    -moz-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0) 30%),
+                    linear-gradient(var(--permissions-page-bg-stop1), var(--permissions-page-bg-stop2) 30%),
                     /* Texture */
                     url("chrome://mozapps/skin/extensions/background-texture.png");
 }
 
 #permissions-content {
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: var(--permissions-content-background-color);
   background-image: -moz-linear-gradient(top,
-                                         rgba(255, 255, 255, 0),
-                                         rgba(255, 255, 255, 0.75));
+                                         var(--permissions-content-bg-stop1),
+                                         var(--permissions-content-bg-stop2);
   border: 1px solid #C3CEDF;
   border-radius: 5px;
 }
@@ -41,7 +46,7 @@
 
 .site {
   padding: 4px;
-  border-bottom: 1px solid ThreeDLightShadow;
+  border-bottom: 1px solid var(--shadow-light-color);
 }
 
 .site-favicon {

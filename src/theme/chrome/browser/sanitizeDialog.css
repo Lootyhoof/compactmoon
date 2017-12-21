@@ -30,7 +30,7 @@
 /* Sanitize everything warning box */
 #sanitizeEverythingWarningBox {
   background-color: Window;
-  border: 1px solid ThreeDDarkShadow;
+  border: 1px solid var(--shadow-dark-color);
   border-radius: 5px;
   padding: 16px;
 }

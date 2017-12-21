@@ -50,13 +50,26 @@ tree,
   --field-text-color: white !important;
   --highlight-color: rgb(80, 80, 80) !important;
   --highlight-text-color: white !important;
+  --info-background-color: rgb(100, 100, 100) !important;
+  --info-text-color: white !important;
   --menu-color: var(--dialog-color) !important;
+  --newtab-scrollbox-background-color: rgb(23, 23, 23) !important;
+  --newtab-scrollbox-bg-stop1: transparent !important;
+  --newtab-scrollbox-bg-stop2: transparent !important;
+  --newtab-title-background-color: var(--dialog-color) !important;
+  --newtab-title-text-color: white !important;
+  --newtab-undo-text-color: white !important;
   --pane-selected-background: rgb(110, 110, 110) !important;
   --pane-hover-background: rgb(120, 120, 120) !important;
   --pane-text-color: white !important;
   --panel-arrowcontent-background: var(--field-color) !important;
   --panel-arrowcontent-color: var(--field-text-color) !important;
   --panel-arrowcontent-border: 1px solid var(--shadow-color) !important;
+  --permissions-content-background-color: var(--dialog-color) !important;
+  --permissions-content-bg-stop1: transparent !important;
+  --permissions-content-bg-stop2: transparent !important;
+  --permissions-page-bg-stop1: transparent !important;
+  --permissions-page-bg-stop2: transparent !important;
   --shadow-color: rgb(75, 75, 75) !important;
   --shadow-dark-color: rgb(25, 25, 25) !important;
   --shadow-light-color: rgb(130, 130, 130) !important;
@@ -167,10 +180,19 @@ button[disabled="true"] {
   filter: invert(1);
 }
 
+#feedBody h2,
+#feedBody a {
+  color: white !important;
+}
+
 @media (-moz-windows-default-theme) {
   #header-search {
     color: black !important;
   }
+}
+
+#newtab-scrollbox {
+  background-color: var(--newtab-scrollbox-background-color) !important;
 }
 
 menubar:not(#main-menubar) > menu:not(:-moz-lwtheme) {

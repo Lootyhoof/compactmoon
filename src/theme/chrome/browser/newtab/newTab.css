@@ -3,6 +3,12 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 :root {
+  --newtab-scrollbox-background-color: rgb(229,229,229);
+  --newtab-scrollbox-bg-stop1: rgba(255,255,255,.5);
+  --newtab-scrollbox-bg-stop2: rgba(255,255,255,.2);
+  --newtab-title-background-color: rgba(248,249,251,.95);
+  --newtab-title-text-color: #1f364c;
+  --newtab-undo-text-color: #525e69;
   -moz-appearance: none;
   font-size: 75%;
   background-color: transparent;
@@ -10,9 +16,9 @@
 
 /* SCROLLBOX */
 #newtab-scrollbox:not([page-disabled]) {
-  background-color: rgb(229,229,229);
+  background-color: var(--newtab-scrollbox-background-color);
   background-image: url(chrome://browser/skin/newtab/noise.png),
-                    linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.2));
+                    linear-gradient(var(--newtab-scrollbox-bg-stop1), var(--newtab-scrollbox-bg-stop2));
   background-attachment: fixed;
 }
 
@@ -22,7 +28,7 @@
   border: 1px solid;
   border-color: rgba(8,22,37,.12) rgba(8,22,37,.14) rgba(8,22,37,.16);
   background-color: rgba(255,255,255,.4);
-  color: #525e69;
+  color: var(--newtab-undo-text-color);
 }
 
 #newtab-undo-label {
@@ -142,8 +148,8 @@
 /* TITLES */
 .newtab-title {
   padding: 0 8px;
-  background-color: rgba(248,249,251,.95);
-  color: #1f364c;
+  background-color: var(--newtab-title-background-color);
+  color: var(--newtab-title-text-color);
   line-height: 24px;
 }
 

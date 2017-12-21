@@ -3,7 +3,7 @@ wizard {
   width: 55em;
   height: 42em;
   padding: 0;
-  background-color: Window;
+  background-color: var(--window-color);
 }
 
 .wizard-page-box {
@@ -18,7 +18,7 @@ wizardpage {
   -moz-box-align: center;
   margin: 0;
   padding: 0 4em;
-  background-color: Window;
+  background-color: var(--window-color);
 }
 
 .wizard-header {

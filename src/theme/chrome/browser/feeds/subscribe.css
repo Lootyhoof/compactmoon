@@ -5,6 +5,7 @@
 :root {
   --dialog-color: -moz-Dialog;
   --info-background-color: InfoBackground;
+  --info-text-color: InfoText;
   --shadow-color: ThreeDShadow;
   --shadow-dark-color: ThreeDDarkShadow;
   --shadow-light-color: ThreeDLightShadow;
@@ -20,7 +21,8 @@ html {
   padding: 3em;
   -moz-padding-start: 30px;
   margin: 2em auto;
-  background: -moz-Field;
+  background: var(--field-color);
+  color: var(--field-text-color);
 }
 
 #feedHeaderContainer {
@@ -37,7 +39,7 @@ html {
   -moz-margin-end: 1em;
   -moz-padding-start: 2.9em;
   font-size: 110%;
-  color: InfoText;
+  color: var(--info-text-color);
 }
 
 #feedIntroText {
