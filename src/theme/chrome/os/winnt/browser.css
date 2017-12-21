@@ -352,7 +352,11 @@
   #appmenu-button {
     margin-top: -1px;
     margin-bottom: 5px !important;
-  }    
+  }
+  
+  #main-window[tabsintitlebar] #TabsToolbar {
+    margin-top: -1px;
+  }
 }
 
 /* ==== Windows Vista/7/8 styling ==== */
