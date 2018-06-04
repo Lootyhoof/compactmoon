@@ -13,7 +13,10 @@
 
 panel[type="autocomplete"],
 panel[type="autocomplete-richlistbox"],
-.autocomplete-history-popup {
+.autocomplete-history-popup,
+panel[type="private-autocomplete"],
+panel[type="private-autocomplete-richlistbox"],
+.private-autocomplete-history-popup {
   -moz-appearance: none;
   border-width: 1px;
   -moz-border-top-colors: var(--shadow-dark-color);
@@ -26,23 +29,27 @@ panel[type="autocomplete-richlistbox"],
 
 /* ::::: richlistbox autocomplete ::::: */
 
-.autocomplete-richlistbox {
+.autocomplete-richlistbox,
+.private-autocomplete-richlistbox {
   -moz-appearance: none;
   margin: 0;
 }
 
-.autocomplete-richlistitem {
+.autocomplete-richlistitem,
+.private-autocomplete-richlistitem {
   padding: 1px;
 }
 
-.autocomplete-richlistitem[selected="true"] {
+.autocomplete-richlistitem[selected="true"],
+.private-autocomplete-richlistitem[selected="true"] {
   background-color: var(--highlight-color);
   color: var(--highlight-text-color);
 }
 
 @media (-moz-os-version: windows-vista) and (-moz-windows-default-theme),
        (-moz-os-version: windows-win7) and (-moz-windows-default-theme) {
-  .autocomplete-richlistitem[selected="true"] {
+  .autocomplete-richlistitem[selected="true"],
+  .private-autocomplete-richlistitem[selected="true"]{
     color: inherit;
     background-color: transparent;
     /* four gradients for the bevel highlights on each edge, one for blue background */
