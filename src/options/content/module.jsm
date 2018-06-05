@@ -269,10 +269,14 @@ var compactmoonoptions = {
 
   },
 
-  get allDocuments() {
+  getDocuments: function() {
     let enumerator = Services.wm.getEnumerator("navigator:browser");
     while (enumerator.hasMoreElements())
       yield enumerator.getNext().document;
+  },
+  
+  get allDocuments() {
+    return this.getDocuments();
   },
 
   init: function () {
@@ -342,7 +346,7 @@ var compactmoonoptions = {
 
     function testPref([pref, predicate]) this.test(this.prefs.get(pref), predicate);
 
-    function pairs(object) [pair for (pair in Iterator(object))];
+    function pairs(object) [for (pair of Iterator(object)) pair];
 
     let enabled = (!sheet.os || this.test(this.osString,sheet.os))
                && (!sheet.anyPrefs || pairs(sheet.anyPrefs).some(testPref, this))
