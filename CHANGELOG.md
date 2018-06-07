@@ -1,5 +1,8 @@
 # Changelog
 
+### 2.1.0 (options & theme)
+- add initial Pale Moon 28 support
+
 ### 2.0.1 (options)
 - fix maxVersion in install.rdf
 
