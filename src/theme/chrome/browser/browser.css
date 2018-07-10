@@ -23,6 +23,7 @@
   --back-button-active-box-shadow: 0 0 6.5px rgba(0,0,0,.4) inset, 0 0 2px rgba(0,0,0,.4) inset, 0 0 0 1px rgba(0,0,0,.65), 0 2px 0 rgba(255,255,255,.4);
 
   --dialog-color: -moz-dialog;
+  --dialog-text-color: -moz-DialogText;
 
   --forward-button-background-color: transparent;
   --forward-button-background-image: linear-gradient(rgba(251,252,253,.97), rgba(246,247,248,.5) 49%, rgba(231,232,233,.45) 51%, rgba(225,226,229,.2));
@@ -2007,6 +2008,12 @@ toolbar:not(#TabsToolbar):not(#nav-bar) #urlbar > toolbarbutton {
 
 #sidebar-title {
   -moz-padding-start: 0px;
+}
+
+.browserContainer > findbar {
+  background-color: var(--dialog-color);
+  color: var(--dialog-text-color);
+  text-shadow: none;
 }
 
 /* ::::: throbber ::::: */
