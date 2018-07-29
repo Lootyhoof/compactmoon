@@ -27,6 +27,7 @@
                                          var(--permissions-content-bg-stop2);
   border: 1px solid #C3CEDF;
   border-radius: 5px;
+  height: 100%;
 }
 
 /* header */
