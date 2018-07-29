@@ -1,5 +1,12 @@
 # Changelog
 
+### 2.2.0 (theme only)
+- add PM28 newtab styling
+- add tabbrowser findbar styling
+- improve about:permissions sizing
+- fix disappearing titlebar in private and lwtheme modes on macOS
+- fix favicon sizes in password manager
+
 ### 2.1.0 (options & theme)
 - add initial Pale Moon 28 support
 
