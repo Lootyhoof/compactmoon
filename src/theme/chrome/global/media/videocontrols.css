@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 @namespace html url("http://www.w3.org/1999/xhtml");
 
@@ -8,6 +12,7 @@
 
 .playButton,
 .muteButton,
+.closedCaptionButton,
 .fullscreenButton {
   background-color: transparent;
   background-repeat: no-repeat;
@@ -23,12 +28,14 @@
 
 .playButton:hover,
 .muteButton:hover,
+.closedCaptionButton:hover,
 .fullscreenButton:hover {
   opacity: 1;
 }
 
 .playButton:hover:active,
 .muteButton:hover:active,
+.closedCaptionButton:hover:active,
 .fullscreenButton:hover:active {
   opacity: 0.4;
 }
@@ -39,7 +46,7 @@
   position: relative; /* Trick to work around negative margin interfering with clicking on the button. */
 }
 
-.playButton[paused="true"] {
+.playButton[paused] {
   background-image: url(chrome://global/skin/media/playButton.png);
 }
 
@@ -47,15 +54,28 @@
   background-image: url(chrome://global/skin/media/muteButton.png);
   min-width: 33px;
 }
-.muteButton[muted="true"] {
-  background-image: url(chrome://global/skin/media/noAudio.png);
+.muteButton[muted] {
+  background-image: url(chrome://global/skin/media/unmuteButton.png);
 }
 
 .muteButton[noAudio] {
-  background: url(chrome://global/skin/media/noAudio.png) no-repeat center;
+  background-image: url(chrome://global/skin/media/noAudio.png);
 }
 
 .muteButton[noAudio] + .volumeStack {
+  display: none;
+}
+
+.closedCaptionButton {
+  background-image: url(chrome://global/skin/media/closeCaptionButton.png);
+  background-position: 4px;
+}
+
+.closedCaptionButton[enabled] {
+  opacity: 1;
+}
+
+.closedCaptionButton[hidden] {
   display: none;
 }
 
@@ -88,9 +108,44 @@
   background-clip: content-box;
 }
 
-.controlBar[audio-only] > .volumeStack {
+.textTrackList {
+  display: -moz-box;
+  -moz-appearance: none;
+  -moz-box-pack: end;
+  -moz-box-align: end;
+  padding: 0;
+}
+
+.textTrackList[hidden] {
+  display: none;
+}
+
+.textTrackList > html|*.textTrackItem {
+  -moz-appearance: none;
+  -moz-box-align: start;
+  text-align: start;
+  overflow: hidden;
+  margin: 0;
+  padding: 2px 10px;
+  -moz-margin-end: 10px;
+  border: none;
+  color: rgba(255,255,255,.5);
+  background-color: rgba(35,31,32,.74);
+  white-space: nowrap;
+}
+
+.textTrackList > html|*.textTrackItem[on] {
+  color: white;
+  background-color: black;
+}
+
+.textTrackList > html|*.textTrackItem:hover {
+  background-color: rgba(0,0,0,.55);
+}
+
+.controlBar[fullscreen-unavailable] {
   /* This value is duplicated in the videocontrols.xml adjustControlSize function. */
-  margin-inline-end: 8px;
+  padding-inline-end: 8px;
 }
 
 .volumeControl .scale-thumb {
@@ -105,10 +160,13 @@
 .durationLabel {
   margin-left: -22px; /* 1/2 of scrubber thumb width, for overhang. */
   padding-left: 8px; /* don't bump into the scrubber bar */
-  padding-top: 0; /* center vertically with scrubber bar */
   color: rgba(255,255,255,.75);
+  font: message-box;
   font-size: 11px;
-  font-family: Arial, sans-serif;
+}
+
+.durationLabel {
+  padding-top: 0; /* center vertically with scrubber bar */
 }
 
 .positionLabel {
@@ -167,7 +225,6 @@
   margin-top: -10px;
   margin-bottom: 10px;
 }
-
 /* .scale-thumb is an element inside the <scale> implementation. */
 .scrubber .scale-thumb,
 .volumeControl .scale-thumb {
@@ -190,10 +247,14 @@
 
 .timeLabel {
   color: rgba(255,255,255,.75);
+  font: message-box;
   font-size: 10px;
-  font-family: Arial, sans-serif;
   text-shadow: rgba(0,0,0,.3) 0 1px;
-  padding-top: 5px;
+  padding-top: 7px;
+}
+
+.timeLabel {
+  padding-top: 5px; /* center vertically with scrubber bar */
 }
 
 .statusOverlay {
@@ -265,36 +326,36 @@ html|table {
 
 /* CSS Transitions */
 .clickToPlay {
-  -moz-transition-property: opacity, background-size;
-  -moz-transition-duration: 400ms, 400ms;
+  transition-property: opacity, background-size;
+  transition-duration: 400ms, 400ms;
 }
 .clickToPlay[fadeout] {
   background-size: auto, 192px 192px;
   opacity: 0;
 }
 .clickToPlay[fadeout][immediate] {
-  -moz-transition-property: opacity, background-size;
-  -moz-transition-duration: 0s, 0s;
+  transition-property: opacity, background-size;
+  transition-duration: 0s, 0s;
 }
 .controlBar:not([immediate]) {
-  -moz-transition-property: opacity;
-  -moz-transition-duration: 200ms;
+  transition-property: opacity;
+  transition-duration: 200ms;
 }
 .controlBar[fadeout] {
   opacity: 0;
 }
 .volumeStack:not([immediate]) {
-  -moz-transition-property: opacity, margin-top;
-  -moz-transition-duration: 200ms, 200ms;
+  transition-property: opacity, margin-top;
+  transition-duration: 200ms, 200ms;
 }
 .volumeStack[fadeout] {
   opacity: 0;
   margin-top: 0;
 }
 .statusOverlay:not([immediate]) {
-  -moz-transition-property: opacity;
-  -moz-transition-duration: 300ms;
-  -moz-transition-delay: 750ms;
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-delay: 750ms;
 }
 .statusOverlay[fadeout] {
   opacity: 0;
@@ -312,4 +373,56 @@ html|table {
     1px 1px 0 #000;
   padding: 0 10px;
   text-align: center;
+}
+
+@media (min-resolution: 2dppx) {
+  .playButton {
+    background-image: url(chrome://global/skin/media/pauseButton@2x.png);
+    background-size: 28px 28px;
+  }
+  .playButton[paused] {
+    background-image: url(chrome://global/skin/media/playButton@2x.png);
+    background-size: 28px 28px;
+  }
+  .volumeBackground {
+    background-image: url(chrome://global/skin/media/volume-empty@2x.png);
+    background-size: 32px 16px;
+  }
+  .volumeForeground {
+    background-image: url(chrome://global/skin/media/volume-full@2x.png);
+    background-size: 32px 16px;
+  }
+  .muteButton {
+    background-image: url(chrome://global/skin/media/muteButton@2x.png);
+    background-size: 33px 28px;
+  }
+  .muteButton[muted] {
+    background-image: url(chrome://global/skin/media/unmuteButton@2x.png);
+    background-size: 33px 28px;
+  }
+  .muteButton[noAudio] {
+    background-image: url(chrome://global/skin/media/noAudio@2x.png);
+    background-size: 33px 28px;
+  }
+  .closedCaptionButton {
+    background-image: url(chrome://global/skin/media/closeCaptionButton@2x.png);
+    background-position: 4px;
+    background-size: 28px 28px;
+  }
+  .fullscreenButton {
+    background-image: -moz-image-rect(url("chrome://global/skin/media/fullscreenButton@2x.png"), 0, 32, 32, 0);
+    background-size: 16px 16px;
+  }
+  .fullscreenButton[fullscreened] {
+    background-image: -moz-image-rect(url("chrome://global/skin/media/fullscreenButton@2x.png"), 0, 64, 32, 32);
+    background-size: 16px 16px;
+  }
+  .timeThumb {
+    background-image: url(chrome://global/skin/media/scrubberThumb@2x.png);
+    background-size: 33px 28px;
+  }
+  .timeThumb[showhours="true"] {
+    background-image: url(chrome://global/skin/media/scrubberThumbWide@2x.png);
+    background-size: 45px 28px;
+  }
 }
