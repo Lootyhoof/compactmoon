@@ -38,8 +38,8 @@ button {
   border: 1px solid transparent;
   padding-top: 0px;
   padding-bottom: 1px;
-  -moz-padding-start: 3px;
-  -moz-padding-end: 3px;
+  padding-inline-start: 3px;
+  padding-inline-end: 3px;
   margin-bottom:1px;
   margin-right:1px;
 }
@@ -105,8 +105,8 @@ button[checked="true"]:not([disabled="true"]) {
 button:hover:active:not([disabled="true"]) > .button-box:-moz-system-metric(windows-classic),
 button[open="true"]:not([disabled="true"]) > .button-box:-moz-system-metric(windows-classic),
 button[checked="true"]:not([disabled="true"]) > .button-box:-moz-system-metric(windows-classic) {
-  -moz-padding-start: 4px;
-  -moz-padding-end: 3px;
+  padding-inline-start: 4px;
+  padding-inline-end: 3px;
 }
 
 /* .......... disabled state .......... */
@@ -147,8 +147,8 @@ button[type="menu-button"] {
 .button-menubutton-dropmarker[open="true"] {
   margin-top: 2px;
   margin-bottom: 0px;
-  -moz-margin-start: 2px;
-  -moz-margin-end: 0px;
+  margin-inline-start: 2px;
+  margin-inline-end: 0px;
 }
 
 /* ::::: plain buttons ::::: */

@@ -23,7 +23,7 @@ menulist > menupopup > menu > .menu-iconic-left {
 .menu-right,
 .menu-accel-container {
   -moz-appearance: none !important;
-  -moz-margin-start: 21px;
+  margin-inline-start: 21px;
   -moz-box-pack: end;
 }
 

@@ -48,13 +48,13 @@ radio .radio-check-box2 {
 }
 
 #navigator-toolbox[iconsize="large"][mode="icons"] > #nav-bar #forward-button {
-  -moz-margin-start: 0px !important;
+  margin-inline-start: 0px !important;
   padding-left: 3px !important;
 }
 
 #navigator-toolbox[iconsize="large"][mode="icons"] #forward-button {
   clip-path: none !important;
-  -moz-margin-start: 0px !important;
+  margin-inline-start: 0px !important;
   padding-left: 3px !important;
 }
   

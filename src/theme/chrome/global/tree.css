@@ -196,7 +196,7 @@ treechildren::-moz-tree-drop-feedback {
   background-color: var(--highlight-color);
   width: 50px;
   height: 2px;
-  -moz-margin-start: 5px;
+  margin-inline-start: 5px;
 }
 
 /* ::::: tree progress meter ::::: */
@@ -268,15 +268,15 @@ treecolpicker:hover:active {
   -moz-border-left-colors: var(--shadow-color) var(--dialog-color);
   padding-top: 1px;
   padding-bottom: 0px;
-  -moz-padding-start: 5px;
-  -moz-padding-end: 4px;
+  padding-inline-start: 5px;
+  padding-inline-end: 4px;
 }
 
 .treecol-image:hover:active {
   padding-top: 1px;
   padding-bottom: 0px;
-  -moz-padding-start: 2px;
-  -moz-padding-end: 1px;
+  padding-inline-start: 2px;
+  padding-inline-end: 1px;
 }
 
 /* ::::: column drag and drop styles ::::: */
@@ -301,11 +301,11 @@ treecol[insertbefore="true"]:-moz-locale-dir(ltr) {
 }
 
 treechildren::-moz-tree-column(insertbefore) {
-  -moz-border-start: 1px solid var(--shadow-color);
+  border-inline-start: 1px solid var(--shadow-color);
 }
 
 treechildren::-moz-tree-column(insertafter) {
-  -moz-border-end: 1px solid var(--shadow-color);
+  border-inline-end: 1px solid var(--shadow-color);
 }
 
 /* ::::: sort direction indicator :::::  */
@@ -339,7 +339,7 @@ treecol:not([hideheader="true"]) > .treecol-sortdirection[sortDirection="descend
 /* ::::: twisty :::::  */
 
 treechildren::-moz-tree-twisty {
-  -moz-padding-end: 4px;
+  padding-inline-end: 4px;
   padding-top: 1px;
   width: 9px; /* The image's width is 9 pixels */
   list-style-image: url("chrome://global/skin/tree/twisty-clsd.png");
@@ -384,6 +384,6 @@ treechildren::-moz-tree-cell-text(selected, editing) {
   -moz-border-left-colors: var(--highlight-color);
   -moz-border-right-colors: var(--highlight-color);
   margin: 0;
-  -moz-margin-start: -4px;
+  margin-inline-start: -4px;
   padding: 1px;
 }

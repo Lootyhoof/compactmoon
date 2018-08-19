@@ -11,7 +11,7 @@
 /* Toolbar */
 #placesToolbar {
   padding: 0px;  /* b/f buttons have a 1px image padding */
-  -moz-padding-end: 4px;
+  padding-inline-end: 4px;
 }
 
 /* back & forward buttons */
@@ -44,7 +44,7 @@
 #back-button,
 #forward-button:-moz-locale-dir(rtl) {
   -moz-image-region: rect(0, 18px, 18px, 0);
-  -moz-margin-end: 0 !important;
+  margin-inline-end: 0 !important;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -78,7 +78,7 @@
 #back-button:-moz-locale-dir(rtl) {
   -moz-image-region: rect(0, 36px, 18px, 18px);
   border-left-style: none;
-  -moz-margin-start: 0 !important;
+  margin-inline-start: 0 !important;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -110,15 +110,15 @@
 
 /* Menu */
 #placesMenu {
-  -moz-margin-start: 4px;
+  margin-inline-start: 4px;
   -moz-appearance: none;
   border: none;
   background-image:none;
 }
 
 #placesMenu > menu {
-  -moz-padding-start: 1px;
-  -moz-padding-end: 1px;
+  padding-inline-start: 1px;
+  padding-inline-end: 1px;
   padding-top: 0px;
   padding-bottom: 0px;
   -moz-appearance: none;
@@ -139,9 +139,9 @@
 }
 
 #placesMenu > menu > .menubar-text {
-  -moz-padding-end: 4px;
+  padding-inline-end: 4px;
   background: url(chrome://global/skin/arrow/arrow-dn.png) right center no-repeat;
-  -moz-padding-end: 10px;
+  padding-inline-end: 10px;
 }
 
 #placesMenu > menu > .menubar-text:-moz-locale-dir(rtl) {
@@ -236,18 +236,18 @@
 }
 
 #clearDownloadsButton {
-  -moz-padding-start: 9px;
-  -moz-padding-end: 9px;
+  padding-inline-start: 9px;
+  padding-inline-end: 9px;
 }
 
 #infoBoxExpanderLabel {
-  -moz-padding-start: 2px;
+  padding-inline-start: 2px;
 }
 
 #organizerScopeBar {
   -moz-appearance: none;
   padding: 2px 0;
-  -moz-padding-end: 3px;
+  padding-inline-end: 3px;
 }
 
 #organizerScopeBar > toolbarbutton {

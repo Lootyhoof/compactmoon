@@ -333,7 +333,7 @@ max-width: 16px !important;
 
   #navigator-toolbox[ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .searchbar-engine-button > .button-box,
   #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .searchbar-engine-button > .button-box{
-    -moz-margin-start:2px !important;
+    margin-inline-start:2px !important;
   }
 
   #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="2"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1,
@@ -417,27 +417,27 @@ max-width: 20px !important;
 
 #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  #back-button,
 #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  #back-button {
-  -moz-margin-end: 0 !important;
+  margin-inline-end: 0 !important;
 }
 
 #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  #Forward-button,
 #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)  #Forward-button {
-  -moz-margin-start: 1px !important;
+  margin-inline-start: 1px !important;
 }
 
 #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #zoom-out-button,
 #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #zoom-out-button {
-  -moz-margin-end: 0 !important;
+  margin-inline-end: 0 !important;
 }
 
 #navigator-toolbox[ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #zoom-in-button,
 #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #zoom-in-button {
-  -moz-margin-start: 1px !important;
+  margin-inline-start: 1px !important;
 }
 
 #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #forward-button,
 #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) #forward-button {
-  -moz-margin-start: -2px !important;
+  margin-inline-start: -2px !important;
 }
 
 #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="4"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar)[currentset*="unified-back-forward-button"],
@@ -483,7 +483,7 @@ max-width: 20px !important;
   }
 
   #navigator-toolbox[ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .searchbar-engine-button > .button-box{
-    -moz-margin-start:3px !important;
+    margin-inline-start:3px !important;
   }
 
   #navigator-toolbox[iconsize="large"][mode="icons"][ccHowCompactCustomToolbars="6"] > toolbar:not(#toolbar-menubar):not(#nav-bar):not(#PersonalToolbar):not(#TabsToolbar) .toolbarbutton-1{

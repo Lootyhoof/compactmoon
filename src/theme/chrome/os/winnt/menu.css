@@ -22,7 +22,7 @@ menulist > menupopup > menu > .menu-iconic-left {
 
 .menu-right {
   -moz-appearance: menuarrow;
-  -moz-margin-end: -2px;
+  margin-inline-end: -2px;
   list-style-image: none;
   min-width: 1.28em;
   padding-top: 1px;

@@ -30,7 +30,7 @@ toolbarbutton {
 }
 
 .toolbarbutton-icon[type="menu"] {
-  -moz-margin-end: 3px;
+  margin-inline-end: 3px;
 }
 
 .toolbarbutton-text {
@@ -59,8 +59,8 @@ toolbarbutton[open="true"] {
   border-color: var(--shadow-color) var(--shadow-highlight-color) var(--shadow-highlight-color) var(--shadow-color);
   padding-top: 0px;
   padding-bottom: 0px;
-  -moz-padding-start: 0px;
-  -moz-padding-end: 0px;
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
 }
 
 toolbarbutton[disabled="true"] {
@@ -79,8 +79,8 @@ toolbarbutton[checked="true"]:not([disabled="true"]) {
   border-color: var(--shadow-color) var(--shadow-highlight-color) var(--shadow-highlight-color) var(--shadow-color);
   padding-top: 0px;
   padding-bottom: 0px;
-  -moz-padding-start: 0px;
-  -moz-padding-end: 0px;
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
   background-image: url("chrome://global/skin/toolbar/Lighten.png");
   color: ButtonText;
 }

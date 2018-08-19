@@ -320,7 +320,7 @@ max-width: 18px !important;
 
   #nav-bar[ccHowCompact="2"] .searchbar-engine-button > .button-box,
   #nav-bar[ccHowCompact="4"] .searchbar-engine-button > .button-box{
-    -moz-margin-start:2px !important;
+    margin-inline-start:2px !important;
   }
 
   #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="2"] .toolbarbutton-1,
@@ -405,27 +405,27 @@ max-width: 22px !important;
 
 #nav-bar[ccHowCompact="4"]  #back-button,
 #nav-bar[ccHowCompact="6"]  #back-button {
-  -moz-margin-end: 0 !important;
+  margin-inline-end: 0 !important;
 }
 
 #nav-bar[ccHowCompact="4"]  #Forward-button,
 #nav-bar[ccHowCompact="6"]  #Forward-button {
-  -moz-margin-start: 1px !important;
+  margin-inline-start: 1px !important;
 }
 
 #nav-bar[ccHowCompact="4"] #zoom-out-button,
 #nav-bar[ccHowCompact="6"] #zoom-out-button {
-  -moz-margin-end: 0 !important;
+  margin-inline-end: 0 !important;
 }
 
 #nav-bar[ccHowCompact="4"] #zoom-in-button,
 #nav-bar[ccHowCompact="6"] #zoom-in-button {
-  -moz-margin-start: 1px !important;
+  margin-inline-start: 1px !important;
 }
 
 #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="4"] #forward-button,
 #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] #forward-button {
-  -moz-margin-start: -2px !important;
+  margin-inline-start: -2px !important;
 }
 
 #navigator-toolbox[iconsize="large"][mode="icons"] > #nav-bar[ccHowCompact="4"][currentset*="unified-back-forward-button"],
@@ -479,7 +479,7 @@ max-width: 22px !important;
   }
 
   #nav-bar[ccHowCompact="6"] .searchbar-engine-button > .button-box{
-    -moz-margin-start:3px !important;
+    margin-inline-start:3px !important;
   }
 
   #navigator-toolbox[iconsize="large"][mode="icons"] #nav-bar[ccHowCompact="6"] .toolbarbutton-1{
