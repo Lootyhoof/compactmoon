@@ -16,7 +16,8 @@
 /* ::::: menu/menuitem ::::: */
 
 menu,
-menuitem {
+menuitem,
+menucaption {
   -moz-box-align: center;
   color: MenuText;
   font: menu;
@@ -56,7 +57,8 @@ menuitem[disabled="true"],
 .splitmenu-menuitem[disabled="true"],
 menu[_moz-menuactive="true"][disabled="true"],
 menuitem[_moz-menuactive="true"][disabled="true"],
-.splitmenu-menuitem[_moz-menuactive="true"][disabled="true"] {
+.splitmenu-menuitem[_moz-menuactive="true"][disabled="true"],
+menucaption[disabled="true"] {
   color: GrayText;
   text-shadow: none;
 }
@@ -65,7 +67,8 @@ menuitem[_moz-menuactive="true"][disabled="true"],
   menu[disabled="true"],
   menubar > menu[disabled="true"][_moz-menuactive="true"],
   menuitem[disabled="true"],
-  .splitmenu-menuitem[disabled="true"] {
+  .splitmenu-menuitem[disabled="true"],
+  menucaption[disabled="true"] {
     color: ThreeDShadow;
     text-shadow: 1px 1px ThreeDHighlight;
   }
@@ -87,28 +90,34 @@ menuitem.spell-suggestion {
 }
 
 .menu-text {
-  -moz-padding-start: 1.45em !important;
+  padding-inline-start: 1.45em !important;
   -moz-appearance: menuitemtext;
 }
 
 .menu-text,
 .menu-iconic-text {
   font-weight: inherit;
-  -moz-margin-start: 2px !important;
-  -moz-padding-end: 2px;
+  margin-inline-start: 2px !important;
+  padding-inline-end: 2px;
+}
+
+menucaption > .menu-text,
+menucaption > .menu-iconic-text {
+  margin-inline-start: 0 !important;
+  font-weight: bold;
 }
 
 .menu-description {
   font-style: italic;
   color: GrayText;
-  -moz-margin-start: 1ex !important;
+  margin-inline-start: 1ex !important;
 }
 
 .menu-accel,
 .menu-iconic-accel {
   color: inherit;
-  -moz-margin-start: 0.74em !important;
-  -moz-margin-end: 1.35em !important;
+  margin-inline-start: 0.74em !important;
+  margin-inline-end: 1.35em !important;
 }
 
 .menu-iconic-left {
@@ -174,7 +183,8 @@ menubar > menu:-moz-window-inactive {
 /* ::::: menu/menuitems in popups ::::: */
 
 menupopup > menu,
-menupopup > menuitem {
+menupopup > menuitem,
+menupopup > menucaption {
   max-width: 42em;
   line-height:1em;
   min-height:18px;
@@ -190,9 +200,8 @@ menuitem[_moz-menuactive="true"],
 
 /* ::::: menu/menuitems in menulist popups ::::: */
 
-.menulist-menupopup > menuitem > label,
 menulist > menupopup > menuitem > label,
-.menulist-menupopup > menu > label,
+menulist > menupopup > menucaption > label,
 menulist > menupopup > menu > label {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -229,8 +238,7 @@ menuseparator {
   margin:2px 0;
 }
 
-menulist > menupopup > menuseparator,
-.menulist-menupopup > menuseparator {
+menulist > menupopup > menuseparator {
   padding: 5px 0 6px 0;
   border-top: 1px solid #000000;
   border-bottom: none;
@@ -241,12 +249,4 @@ menulist > menupopup > menuseparator,
 .autocomplete-history-popup > menuitem {
   max-width: none !important;
   font: message-box;
-}
-
-/* ::::: tree column picker ::::: */
-
-.treecell-popupcell-menu {
-  -moz-margin-start: -2px;
-  list-style-image: url("chrome://global/skin/columnselect.gif");
-  -moz-image-region: auto;
 }

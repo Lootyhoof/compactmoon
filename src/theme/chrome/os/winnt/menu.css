@@ -1,8 +1,7 @@
 /* ::::: menu/menuitems in menulist popups ::::: */
 
-.menulist-menupopup > menuitem,
 menulist > menupopup > menuitem,
-.menulist-menupopup > menu,
+menulist > menupopup > menucaption,
 menulist > menupopup > menu {
   -moz-appearance: none;
   border: 1px solid transparent;
@@ -12,9 +11,8 @@ menulist > menupopup > menu {
   color: var(--field-text-color);
 }
 
-.menulist-menupopup > menuitem > .menu-iconic-left,
 menulist > menupopup > menuitem > .menu-iconic-left,
-.menulist-menupopup > menu > .menu-iconic-left,
+menulist > menupopup > menucaption > .menu-iconic-left,
 menulist > menupopup > menu > .menu-iconic-left {
   display: none;
   padding-top: 0px;
@@ -32,17 +30,12 @@ menulist > menupopup > menu > .menu-iconic-left {
 
 /* ::::: checkbox and radio menuitems ::::: */
 
-menuitem[type="checkbox"],
-menuitem[checked="true"] {
-}
 menuitem[type="checkbox"] > .menu-iconic-left,
 menuitem[checked="true"] > .menu-iconic-left {
   -moz-appearance: menucheckbox !important;
   padding-top: 0px;
 }
 
-menuitem[type="radio"] {
-}
 menuitem[type="radio"] > .menu-iconic-left {
   -moz-appearance: menuradio;
   padding-top: 0px;

@@ -1,8 +1,7 @@
 /* ::::: menu/menuitems in menulist popups ::::: */
 
-.menulist-menupopup > menuitem,
 menulist > menupopup > menuitem,
-.menulist-menupopup > menu,
+menulist > menupopup > menucaption,
 menulist > menupopup > menu {
   -moz-appearance: none;
   border: 1px solid transparent;
@@ -83,7 +82,4 @@ menupopup > menuitem[type="radio"][selected="true"][_moz-menuactive="true"]:not(
 
 menuseparator {
   -moz-appearance: menuseparator !important;
-  margin: 2px 0;
-  border-top: 1px solid ThreeDShadow;
-  border-bottom: 1px solid ThreeDHighlight;
 }
