@@ -207,7 +207,8 @@ tab:first-of-type[selected="true"]:not(.tabbrowser-tab) {
   padding: 0px 3px 2px 3px !important;
 }
 
-.tabbrowser-tab[selected=true]:not(:-moz-lwtheme) > * > * > .tab-text {
+.tabbrowser-tab[selected=true]:not(:-moz-lwtheme) > * > * > .tab-text,
+.tabbrowser-tab[selected=true]:not(:-moz-lwtheme) > * > * > .tab-icon-sound {
   color: black !important;
 }
 
