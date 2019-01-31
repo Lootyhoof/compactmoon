@@ -24,7 +24,7 @@ panel[type="private-autocomplete-richlistbox"],
   -moz-border-bottom-colors: var(--shadow-dark-color);
   -moz-border-left-colors: var(--shadow-dark-color);
   padding: 0;
-  background-color: -moz-Field;
+  background-color: var(--field-color);
 }
 
 /* ::::: richlistbox autocomplete ::::: */

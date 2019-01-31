@@ -28,7 +28,7 @@ panel[type="private-autocomplete-richlistbox"],
 
 .autocomplete-tree,
 .private-autocomplete-tree {
-  color: MenuText;
+  color: var(--menu-text-color);
 }
 
 /* ::::: richlistbox autocomplete ::::: */
@@ -49,7 +49,7 @@ panel[type="private-autocomplete-richlistbox"],
 .autocomplete-richlistitem,
 .private-autocomplete-richlistitem {
   padding: 6px 2px;
-  color: MenuText;
+  color: var(--menu-text-color);
 }
 
 .ac-url-box {

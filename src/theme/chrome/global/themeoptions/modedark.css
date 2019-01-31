@@ -54,6 +54,7 @@ tree,
   --info-background-color: rgb(100, 100, 100) !important;
   --info-text-color: white !important;
   --menu-color: var(--dialog-color) !important;
+  --menu-text-color: var(--dialog-text-color) !important;
   --newtab-scrollbox-background-color: rgb(23, 23, 23) !important;
   --newtab-scrollbox-bg-stop1: transparent !important;
   --newtab-scrollbox-bg-stop2: transparent !important;
@@ -93,6 +94,7 @@ tree,
 tree {
   --cell-highlight-color: rgb(100, 100, 100) !important;
   --cell-highlight-text-color: white !important;
+  background-color: var(--field-color) !important;
 }
 
 /* Image tweaks */
@@ -145,7 +147,7 @@ treecol,
 treecolpicker,
 tabpanels caption,
 richlistbox,
-window:not(#main-window),
+window:not([windowtype="navigator:browser"]),
 page,
 dialog,
 wizard,
