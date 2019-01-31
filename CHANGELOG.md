@@ -1,5 +1,8 @@
 # Changelog
 
+### 2.4.1 (theme only)
+- make sure dark mode actually makes page info window (Linux) and search dropdown (all platforms) dark
+
 ### 2.4.0 (theme only)
 - add tab audio indicators for Pale Moon 28.3.0+
 - update in-browser developer tools
