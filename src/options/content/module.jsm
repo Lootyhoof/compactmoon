@@ -54,6 +54,7 @@ let stylesheets = {
   "buttonsmx4":                       {prefs:{toToolbarButtons:"mx4"}},
   "buttonsoperachromium":             {prefs:{toToolbarButtons:"operachromium"}},
   "buttonsoperapresto":               {prefs:{toToolbarButtons:"operapresto"}},
+  "buttonsphoenityaura":              {prefs:{toToolbarButtons:"phoenityaura"}},
   "buttonsqute":                      {prefs:{toToolbarButtons:"qute"}},
   "buttonswhitemoon":                 {prefs:{toToolbarButtons:"whitemoon"}},
 

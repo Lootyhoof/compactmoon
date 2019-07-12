@@ -71,6 +71,7 @@
                 <menuitem id="mx4" value="mx4" label="&classicbuttonsmx4.label;"/>
                 <menuitem id="operachromium" value="operachromium" label="&classicbuttonsoperachromium.label;"/>
                 <menuitem id="operapresto" value="operapresto" label="&classicbuttonsoperapresto.label;"/>
+                <menuitem id="phoenityaura" value="phoenityaura" label="&classicbuttonsphoenityaura.label;"/>
                 <menuitem id="qute" value="qute" label="&classicbuttonsqute.label;"/>
                 <menuitem id="whitemoon" value="whitemoon" label="&classicbuttonswhitemoon.label;"/>
               </menupopup>
