@@ -9,4 +9,4 @@ Simply download the contents of the "src" folder  and pack the contents of both 
 On Unix systems (or Windows 10, with [WSL](https://docs.microsoft.com/en-us/windows/wsl/about)) you can optionally run `build.sh` instead. Running this as-is will produce a .xpi file ending in `-dev`, and if run from the command line and appending a number (e.g. `./build.sh 2`) will append that number to the filename instead. To build only the theme or options components, append either `theme` or `options` after the number (e.g. `./build.sh 2 theme`). By default all components are built.
 
 ## Download
-You can grab the latest release either from the Releases section of this repository, or the [Pale Moon Add-Ons Site](https://addons.palemoon.org/themes/complete/compact-moon-theme/).
+You can grab the latest release either from the Releases section of this repository, or the [Pale Moon Add-Ons Site](https://addons.palemoon.org/addon/compact-moon-theme/).
