@@ -1,5 +1,9 @@
 # Changelog
 
+### 2.5.0 (options 2.2.0)
+- update Reader View styling to reflect changes in Pale Moon 28.6.0+
+- (options) add Phoenity Aura icons
+
 ### 2.4.1 (theme only)
 - make sure dark mode actually makes page info window (Linux) and search dropdown (all platforms) dark
 
