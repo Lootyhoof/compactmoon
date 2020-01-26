@@ -1,5 +1,8 @@
 # Changelog
 
+### 2.5.1 (options 2.2.1)
+- small version bump for Pale Moon 29.0 compatibility (no code changes)
+
 ### 2.5.0 (options 2.2.0)
 - update Reader View styling to reflect changes in Pale Moon 28.6.0+
 - (options) add Phoenity Aura icons

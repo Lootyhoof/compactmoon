@@ -5,7 +5,7 @@
 	<em:id>{ff497972-c067-44d8-b98e-98e62085837f}</em:id>
 	<em:name>Compact Moon Options</em:name>
 	<em:description>This adds the &#034;Compact Moon Options&#034; menu item to the &#034;tools&#034; menu, which allows one to change the appearance of the theme Compact Moon.</em:description>
-	<em:version>2.2.0</em:version>
+	<em:version>2.2.1</em:version>
 	<em:creator>Lootyhoof</em:creator>
 	<em:contributor>Ken Barbalace EnvironmentalChemistry.com</em:contributor>
 	<em:optionsURL>chrome://compactmoonoptions/content/options.xul</em:optionsURL>
@@ -14,151 +14,151 @@
 		<Description>
 		<em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id> <!-- Pale Moon -->
 		<em:minVersion>28.6.0</em:minVersion>
-		<em:maxVersion>28.*</em:maxVersion>
+		<em:maxVersion>29.*</em:maxVersion>
 		</Description>
 	</em:targetApplication>
 	
-    <em:localized>
-      <Description>
-        <em:locale>zh-CN</em:locale>
-        <em:name>Compact Moon 选项</em:name>
-        <em:description>本附加组件可以定制主题“Compact Moon”。选项包括：工具栏 10 按钮集；关闭渐进色背景；操作系统滚动条； 可调节的工具栏高度；合并菜单栏到按钮以及更多。需要同时安装 Compact Moon v1.0.0 或者更高版本。</em:description>
-        <em:translator>whknnn http://www.babelzilla.org/forum/index.php?showuser=13783</em:translator>
-      </Description>
-    </em:localized>
+  <em:localized>
+    <Description>
+      <em:locale>zh-CN</em:locale>
+      <em:name>Compact Moon 选项</em:name>
+      <em:description>本附加组件可以定制主题“Compact Moon”。选项包括：工具栏 10 按钮集；关闭渐进色背景；操作系统滚动条； 可调节的工具栏高度；合并菜单栏到按钮以及更多。需要同时安装 Compact Moon v1.0.0 或者更高版本。</em:description>
+      <em:translator>whknnn http://www.babelzilla.org/forum/index.php?showuser=13783</em:translator>
+    </Description>
+  </em:localized>
 
-    <em:localized>
-      <Description>
-        <em:locale>sq-AL</em:locale>
-        <em:name>Funksionet e Compact Moon</em:name>
-        <em:description>Ky modul modifikon temen "Kompakt Ay". Mundesite perfshijne: 10 komplete me butona shiriti; fikjen e sfondeve me ngjyre te shkallezuar; ashensore SO; lartesi te ndryshueshme te shiritit; bashkimin e shiritit te menuse ne nje buton; dhe shume me teper. Nevojitet qe tema Kompakt Ay v1.0.0 ose me lart te jete e instaluar.</em:description>
-        <em:translator>gereqi http://www.babelzilla.org/forum/index.php?showuser=17140</em:translator>
-      </Description>
-    </em:localized>
+  <em:localized>
+    <Description>
+      <em:locale>sq-AL</em:locale>
+      <em:name>Funksionet e Compact Moon</em:name>
+      <em:description>Ky modul modifikon temen "Kompakt Ay". Mundesite perfshijne: 10 komplete me butona shiriti; fikjen e sfondeve me ngjyre te shkallezuar; ashensore SO; lartesi te ndryshueshme te shiritit; bashkimin e shiritit te menuse ne nje buton; dhe shume me teper. Nevojitet qe tema Kompakt Ay v1.0.0 ose me lart te jete e instaluar.</em:description>
+      <em:translator>gereqi http://www.babelzilla.org/forum/index.php?showuser=17140</em:translator>
+    </Description>
+  </em:localized>
 
-    <em:localized>
-      <Description>
-        <em:locale>sv-SE</em:locale>
-        <em:name>Compact Moon Options</em:name>
-        <em:description>Detta tillägg tillåter en anpassning av temat "Compact Moon". Inställningar för: FF2-knappar, nyckelhålspilar, tonad bakgrund, modifiering av ramar, OS-rullningslister, mörka systemfärger, hopslagning av menyrad till en menyknapp mm.</em:description>
-        <em:translator>CeciliaB http://www.babelzilla.org/forum/index.php?showuser=13587</em:translator>
-      </Description>
-    </em:localized>
+  <em:localized>
+    <Description>
+      <em:locale>sv-SE</em:locale>
+      <em:name>Compact Moon Options</em:name>
+      <em:description>Detta tillägg tillåter en anpassning av temat "Compact Moon". Inställningar för: FF2-knappar, nyckelhålspilar, tonad bakgrund, modifiering av ramar, OS-rullningslister, mörka systemfärger, hopslagning av menyrad till en menyknapp mm.</em:description>
+      <em:translator>CeciliaB http://www.babelzilla.org/forum/index.php?showuser=13587</em:translator>
+    </Description>
+  </em:localized>
 
-    <em:localized>
-      <Description>
-        <em:locale>pt-BR</em:locale>
-        <em:name>Opções do Tema Compact Moon</em:name>
-        <em:description>Adiciona ao menu "Ferramentas" o item "Opções do Compact Moon", que permite alterar a aparência do tema Compact Moon. As opções incluem: usar a seta "voltar" maior; desativar gradientes; desativar bordas arredondadas; ativar divisores de barras de ferramentas. Requer o tema Compact Moon v1.0.0 ou maior instalado.</em:description>
-        <em:translator>Marcelo Ghelman http://ghelman.net</em:translator>
-      </Description>
-    </em:localized>
+  <em:localized>
+    <Description>
+      <em:locale>pt-BR</em:locale>
+      <em:name>Opções do Tema Compact Moon</em:name>
+      <em:description>Adiciona ao menu "Ferramentas" o item "Opções do Compact Moon", que permite alterar a aparência do tema Compact Moon. As opções incluem: usar a seta "voltar" maior; desativar gradientes; desativar bordas arredondadas; ativar divisores de barras de ferramentas. Requer o tema Compact Moon v1.0.0 ou maior instalado.</em:description>
+      <em:translator>Marcelo Ghelman http://ghelman.net</em:translator>
+    </Description>
+  </em:localized>
 
-    <em:localized>
-      <Description>
-        <em:locale>ro-RO</em:locale>
-        <em:name>Opţiuni Compact Moon</em:name>
-        <em:description>Acest supliment personalizează tema \"Compact Moon\". Opţiunile includ: 10 seturi de butoane pentru bare de unelte; oprirea fundalurilor degradé; bare de defilare ale sistemului de operare; înălţimi reglabile ale barelor de unelte; transformarea barei de meniu intr-un buton şi multe altele. Necesită sa fie instalată tema Compact Moon v1.0.0 sau mai nouă.</em:description>
-        <em:translator>bogdanmardare http://www.babelzilla.org/forum/index.php?showuser=1924</em:translator>
-      </Description>
-    </em:localized>
+  <em:localized>
+    <Description>
+      <em:locale>ro-RO</em:locale>
+      <em:name>Opţiuni Compact Moon</em:name>
+      <em:description>Acest supliment personalizează tema \"Compact Moon\". Opţiunile includ: 10 seturi de butoane pentru bare de unelte; oprirea fundalurilor degradé; bare de defilare ale sistemului de operare; înălţimi reglabile ale barelor de unelte; transformarea barei de meniu intr-un buton şi multe altele. Necesită sa fie instalată tema Compact Moon v1.0.0 sau mai nouă.</em:description>
+      <em:translator>bogdanmardare http://www.babelzilla.org/forum/index.php?showuser=1924</em:translator>
+    </Description>
+  </em:localized>
 
-    <em:localized>
-      <Description>
-        <em:locale>fr-FR</em:locale>
-        <em:name>Compact Moon Options</em:name>
-        <em:description>Ajoute l'élément « Options de Compact Moon » dans le menu « Outils », ce qui permet de modifier les apparences du thème Compact Moon. Cette extension gère : l'utilisation des flèches de navigation ; la désactivation des dégradés d'arrière-plan, de bords arrondis ; l'activation des séparateurs de la barre d'outils. Le thème Compact Moon (version 1.0.0 ou plus) doit déjà avoir été installé.</em:description>
-        <em:translator>Goofy http://www.babelzilla.org/forum/index.php?showuser=13, myahoo http://www.babelzilla.org/forum/index.php?showuser=352</em:translator>
-      </Description>
-    </em:localized>
+  <em:localized>
+    <Description>
+      <em:locale>fr-FR</em:locale>
+      <em:name>Compact Moon Options</em:name>
+      <em:description>Ajoute l'élément « Options de Compact Moon » dans le menu « Outils », ce qui permet de modifier les apparences du thème Compact Moon. Cette extension gère : l'utilisation des flèches de navigation ; la désactivation des dégradés d'arrière-plan, de bords arrondis ; l'activation des séparateurs de la barre d'outils. Le thème Compact Moon (version 1.0.0 ou plus) doit déjà avoir été installé.</em:description>
+      <em:translator>Goofy http://www.babelzilla.org/forum/index.php?showuser=13, myahoo http://www.babelzilla.org/forum/index.php?showuser=352</em:translator>
+    </Description>
+  </em:localized>
 
-    <em:localized>
-      <Description>
-        <em:locale>ja-JP</em:locale>
-        <em:name>Compact Moon Options</em:name>
-        <em:description>「Compact Moon Options」はCompact Moonテーマの見た目を変更するための「ツール」メニューを加えます。　（進む、戻るの）鍵穴矢印を使うかどうか、グラデーション背景を使うかどうか、縁取りを丸くするのを止めるかどうか、ツールバーの境界に掘り下げ線を入れるか、という変更機能があります。　Compact Moonテーマのv1.0.0かそれ以上が必要です。</em:description>
-        <em:translator>m6u http://www.babelzilla.org/forum/index.php?showuser=10112</em:translator>
-      </Description>
-    </em:localized>
+  <em:localized>
+    <Description>
+      <em:locale>ja-JP</em:locale>
+      <em:name>Compact Moon Options</em:name>
+      <em:description>「Compact Moon Options」はCompact Moonテーマの見た目を変更するための「ツール」メニューを加えます。　（進む、戻るの）鍵穴矢印を使うかどうか、グラデーション背景を使うかどうか、縁取りを丸くするのを止めるかどうか、ツールバーの境界に掘り下げ線を入れるか、という変更機能があります。　Compact Moonテーマのv1.0.0かそれ以上が必要です。</em:description>
+      <em:translator>m6u http://www.babelzilla.org/forum/index.php?showuser=10112</em:translator>
+    </Description>
+  </em:localized>
 
-    <em:localized>
-      <Description>
-        <em:locale>pl-PL</em:locale>
-        <em:name>Opcje Compact Moon</em:name>
-        <em:description>Dodaje pozycję "Opcje Compact Moon" do menu "Narzędzia", co pozwala zmienić wygląd motywu Compact Moon.  Opcje zawierają: użycie przycisk=w nawigacyjnych w kształcie dziurki od klucza (większy przycisk wstecz); wyłączenie gradientowego tła; wyłączenie zaokrąglonych obramowań; włączenie wgłębionych granic pomiędzy paskami narzędzi. Wymaga motywu Compact Moon v1.0.0 lub nowszeg.</em:description>
-        <em:translator>Aleksander Adamowski http://www.babelzilla.org/forum/index.php?showuser=8753</em:translator>
-      </Description>
-    </em:localized>
+  <em:localized>
+    <Description>
+      <em:locale>pl-PL</em:locale>
+      <em:name>Opcje Compact Moon</em:name>
+      <em:description>Dodaje pozycję "Opcje Compact Moon" do menu "Narzędzia", co pozwala zmienić wygląd motywu Compact Moon.  Opcje zawierają: użycie przycisk=w nawigacyjnych w kształcie dziurki od klucza (większy przycisk wstecz); wyłączenie gradientowego tła; wyłączenie zaokrąglonych obramowań; włączenie wgłębionych granic pomiędzy paskami narzędzi. Wymaga motywu Compact Moon v1.0.0 lub nowszeg.</em:description>
+      <em:translator>Aleksander Adamowski http://www.babelzilla.org/forum/index.php?showuser=8753</em:translator>
+    </Description>
+  </em:localized>
 
-    <em:localized>
-      <Description>
-        <em:locale>de-DE</em:locale>
-        <em:name>Compact Moon Options</em:name>
-        <em:description>Diese Erweiterung fügt den Menüeintrag "Compact Moon Options" zum "Extras" Menü hinzu, der ermöglicht, das Aussehen des Compact Moon Themes zu ändern. Enthaltene Optionen: benutze Schlüsselloch-Navigation; Gradient Hintergrund ausschalten; abgerundete Ecken ausschalten; Toolbar Separatoren einschalten. Das Theme Compact Moon v1.0.0 oder neuerer muss installiert sein.</em:description>
-        <em:translator>Gulp21 http://www.babelzilla.org/forum/index.php?showuser=9671</em:translator>
-      </Description>
-    </em:localized>
+  <em:localized>
+    <Description>
+      <em:locale>de-DE</em:locale>
+      <em:name>Compact Moon Options</em:name>
+      <em:description>Diese Erweiterung fügt den Menüeintrag "Compact Moon Options" zum "Extras" Menü hinzu, der ermöglicht, das Aussehen des Compact Moon Themes zu ändern. Enthaltene Optionen: benutze Schlüsselloch-Navigation; Gradient Hintergrund ausschalten; abgerundete Ecken ausschalten; Toolbar Separatoren einschalten. Das Theme Compact Moon v1.0.0 oder neuerer muss installiert sein.</em:description>
+      <em:translator>Gulp21 http://www.babelzilla.org/forum/index.php?showuser=9671</em:translator>
+    </Description>
+  </em:localized>
 
  	<em:localized>
 		<Description>
-		<em:locale>es</em:locale>
-		<em:translator>chuzo http://www.babelzilla.org/forum/index.php?showuser=105, urko http://www.babelzilla.org/forum/index.php?showuser=247</em:translator>
-		<em:name>Compact Moon</em:name>
-		<em:description>Esta extensión personaliza el tema 'Compact Moon'. Entre las opciones se incluyen: 10 paquetes de iconos; supresión de fondos con gradientes; barras de deslizamiento del SO; ajuste de altura de las barras; compactar la barra de menú en un solo botón, y muchas otras más. Es necesario que esté instalado el tema Compact Moon v1.0.0 o posterior.</em:description>
+	  	<em:locale>es</em:locale>
+  		<em:translator>chuzo http://www.babelzilla.org/forum/index.php?showuser=105, urko http://www.babelzilla.org/forum/index.php?showuser=247</em:translator>
+  		<em:name>Compact Moon</em:name>
+  		<em:description>Esta extensión personaliza el tema 'Compact Moon'. Entre las opciones se incluyen: 10 paquetes de iconos; supresión de fondos con gradientes; barras de deslizamiento del SO; ajuste de altura de las barras; compactar la barra de menú en un solo botón, y muchas otras más. Es necesario que esté instalado el tema Compact Moon v1.0.0 o posterior.</em:description>
 		</Description>
 	</em:localized>
 
 	<em:localized>
 		<Description>
-		<em:locale>nl</em:locale>
-		<em:translator>Alf http://www.babelzilla.org/forum/index.php?showuser=498</em:translator>
-		<em:name>Compact Moon opties</em:name>
-		<em:description>Met deze add-on kan het thema \"Compact Moon\" worden aangepast. Met de opties: 10 werkbalk pictogrammen sets;</em:description>
+	  	<em:locale>nl</em:locale>
+  		<em:translator>Alf http://www.babelzilla.org/forum/index.php?showuser=498</em:translator>
+  		<em:name>Compact Moon opties</em:name>
+  		<em:description>Met deze add-on kan het thema \"Compact Moon\" worden aangepast. Met de opties: 10 werkbalk pictogrammen sets;</em:description>
 		</Description>
 	</em:localized>
 
-    <em:localized>
-      <Description>
-        <em:locale>ru</em:locale>
-        <em:name>Настройки Компактный Луна темы</em:name>
-        <em:description>Это аддон позволяет настраивать тему \"Compact Moon\". Опции включают: 10 наборов кнопок для панелей; выключение градиентных фонов; скролы ОС; настройка высоты панелей инструментов; объединение строки меню в одну кнопку; и многое другое. Для работы необходима установленная тема Compact Moon v1.0.0 или выше.</em:description>
-        <em:translator>Antenka http://www.babelzilla.org/forum/index.php?showuser=17786</em:translator>
-      </Description>
-    </em:localized>
+  <em:localized>
+    <Description>
+      <em:locale>ru</em:locale>
+      <em:name>Настройки Компактный Луна темы</em:name>
+      <em:description>Это аддон позволяет настраивать тему \"Compact Moon\". Опции включают: 10 наборов кнопок для панелей; выключение градиентных фонов; скролы ОС; настройка высоты панелей инструментов; объединение строки меню в одну кнопку; и многое другое. Для работы необходима установленная тема Compact Moon v1.0.0 или выше.</em:description>
+      <em:translator>Antenka http://www.babelzilla.org/forum/index.php?showuser=17786</em:translator>
+    </Description>
+  </em:localized>
 
 	<em:localized>
 		<Description>
-		<em:locale>sr</em:locale>
-		<em:translator>DakSrbija http://www.babelzilla.org/forum/index.php?showuser=8719</em:translator>
-		<em:name>Compact Moon Options</em:name>
-		<em:description>Овај додатак прилагођава тему „Compact Moon”. Опције укључују: 10 комплета дугмади, искључивање прелива боја, траке та померање усклађене са ОС, пшодесива висина трака са алаткама, спајање менија у једно дугме н многе друге. Потребно је да буде инсталирана тема Compact Moon 1.0.0 или новија.</em:description>
+  		<em:locale>sr</em:locale>
+	  	<em:translator>DakSrbija http://www.babelzilla.org/forum/index.php?showuser=8719</em:translator>
+		  <em:name>Compact Moon Options</em:name>
+		  <em:description>Овај додатак прилагођава тему „Compact Moon”. Опције укључују: 10 комплета дугмади, искључивање прелива боја, траке та померање усклађене са ОС, пшодесива висина трака са алаткама, спајање менија у једно дугме н многе друге. Потребно је да буде инсталирана тема Compact Moon 1.0.0 или новија.</em:description>
 		</Description>
 	</em:localized>
 
  	<em:localized>
 		<Description>
-		<em:locale>tr</em:locale>
-		<em:translator>alfapegasi http://www.babelzilla.org/forum/index.php?showuser=17436</em:translator>
-		<em:name>Compact Moon Seçenekleri</em:name>
-		<em:description>Bu eklenti "Compact Moon" temasını özelleştirir. Seçenekleri: 10 araç-çubuğu düğme seti; dereceli zeminleri kapatma; OS kaydırma çubuğu; ayarlanabilien araç-çubuğu yüksekliği; menü çubuğunu tek düğmede toplama ve daha bir çoğu. Compact Moon temasının v1.0.0 ve daha yukarı sürümünü gerektirir.</em:description>
+  		<em:locale>tr</em:locale>
+  		<em:translator>alfapegasi http://www.babelzilla.org/forum/index.php?showuser=17436</em:translator>
+  		<em:name>Compact Moon Seçenekleri</em:name>
+  		<em:description>Bu eklenti "Compact Moon" temasını özelleştirir. Seçenekleri: 10 araç-çubuğu düğme seti; dereceli zeminleri kapatma; OS kaydırma çubuğu; ayarlanabilien araç-çubuğu yüksekliği; menü çubuğunu tek düğmede toplama ve daha bir çoğu. Compact Moon temasının v1.0.0 ve daha yukarı sürümünü gerektirir.</em:description>
 		</Description>
 	</em:localized>
 
  	<em:localized>
 		<Description>
-		<em:locale>uk-UA</em:locale>
-		<em:translator>Sappa http://www.babelzilla.org/forum/index.php?showuser=9330</em:translator>
-		<em:name>Параметри Compact Moon</em:name>
-		<em:description>Цей додаток дозволяє настроїти тему "Compact Moon". Опції включають: 10 настройок для кнопок панелі інструментів; відключення градієнта фону; регульована висота панелі інструментів; об'єднання меню в одну кнопку; і багато іншого. Потребує встановлення теми Compact Moon v1.0.0 або новішої версії.</em:description>
+  		<em:locale>uk-UA</em:locale>
+	  	<em:translator>Sappa http://www.babelzilla.org/forum/index.php?showuser=9330</em:translator>
+  		<em:name>Параметри Compact Moon</em:name>
+  		<em:description>Цей додаток дозволяє настроїти тему "Compact Moon". Опції включають: 10 настройок для кнопок панелі інструментів; відключення градієнта фону; регульована висота панелі інструментів; об'єднання меню в одну кнопку; і багато іншого. Потребує встановлення теми Compact Moon v1.0.0 або новішої версії.</em:description>
 		</Description>
 	</em:localized>
 
  	<em:localized>
 		<Description>
-		<em:locale>zh-CN</em:locale>
-		<em:translator>whknnn http://www.babelzilla.org/forum/index.php?showuser=13783</em:translator>
-		<em:name>Compact Moon 选项</em:name>
-		<em:description>本附加组件可以定制主题“Compact Moon”。选项包括：工具栏 10 按钮集；关闭渐进色背景；操作系统滚动条； 可调节的工具栏高度；合并菜单栏到按钮以及更多。需要同时安装 Compact Moon v1.0.0 或者更高版本。</em:description>
+	  	<em:locale>zh-CN</em:locale>
+	  	<em:translator>whknnn http://www.babelzilla.org/forum/index.php?showuser=13783</em:translator>
+  		<em:name>Compact Moon 选项</em:name>
+  		<em:description>本附加组件可以定制主题“Compact Moon”。选项包括：工具栏 10 按钮集；关闭渐进色背景；操作系统滚动条； 可调节的工具栏高度；合并菜单栏到按钮以及更多。需要同时安装 Compact Moon v1.0.0 或者更高版本。</em:description>
 		</Description>
 	</em:localized>
 </Description>

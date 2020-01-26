@@ -5,7 +5,7 @@
  
   <Description about="urn:mozilla:install-manifest">
     <em:id>{a0d70d73-3faf-46c3-b98e-98e62085837f}</em:id>
-    <em:version>2.5.0</em:version>
+    <em:version>2.5.1</em:version>
     <em:name>Compact Moon</em:name>
     <em:description>A very clean and compact theme with classic buttons that minimizes vertical space consumed by menus &amp; tool bars.</em:description>
     <em:type>32</em:type>
@@ -16,7 +16,7 @@
         <!-- Pale Moon -->
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
         <em:minVersion>28.6.0</em:minVersion>
-        <em:maxVersion>28.*</em:maxVersion>
+        <em:maxVersion>29.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 
