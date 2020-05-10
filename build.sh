@@ -1,24 +1,37 @@
-#!/bin/bash
+#!/usr/bin/env bash
 NAME=compactmoon
 VER=${1:-dev}
 DIR=$2
-rm $NAME-$VER-pm.xpi
-cd src/
 if [[ $DIR == "theme" ]]
 then
-  cd theme/
-  zip -qr9XD ../../$NAME-theme-$VER-pm.xpi *
+  FILE=$NAME-theme-$VER-pm.xpi
+  if test -f "$FILE"
+  then
+    rm $FILE
+  fi
+  cd src/theme/
+  zip -qr9XD ../../$FILE *
 elif [[ $DIR == "options" ]]
 then
-  cd options/
-  zip -qr9XD ../../$NAME-options-$VER-pm.xpi *
+  FILE=$NAME-options-$VER-pm.xpi
+  if test -f "$FILE"
+  then
+    rm $FILE
+  fi
+  cd src/options/
+  zip -qr9XD ../../$FILE *
 else
-  cd theme/
+  FILE=$NAME-$VER-pm.xpi
+  if test -f "$FILE"
+  then
+    rm $FILE
+  fi
+  cd src/theme/
   zip -qr9XD ../theme.xpi *
   cd ../options/
   zip -qr9XD ../options.xpi *
   cd ../
-  zip -qr9XD ../$NAME-$VER-pm.xpi install.rdf theme.xpi options.xpi
+  zip -qr9XD ../$FILE install.rdf theme.xpi options.xpi
   rm theme.xpi
   rm options.xpi
 fi
