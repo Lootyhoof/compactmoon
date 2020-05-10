@@ -32,7 +32,7 @@
 
 #compactmoonoptionsPreferences hbox menulist menuitem {
 	padding:0px;
-	-moz-padding-end: 15px;
+	padding-inline-end: 15px;
 	}
 
 #compactmoonoptionsPreferences #totabMaxWidth,
