@@ -1285,7 +1285,7 @@ toolbar[mode="full"] .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([cc
 
 #navigator-toolbox[iconsize="large"][mode="icons"] #forward-button {
   /*mask: url(keyhole-forward-mask.svg#mask); XXX: this regresses twinopen */
-  clip-path: url(chrome://browser/content/browser.xul#windows-keyhole-forward-clip-path);
+  clip-path: url(chrome://browser/skin/clip.svg#windows-keyhole-forward-clip-path);
   margin-inline-start: -2px;
   padding-left: 8px;
   padding-right: 1px;
