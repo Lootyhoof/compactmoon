@@ -3,7 +3,7 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 @import url("chrome://global/skin/");
-@import url("chrome://os/skin/browser.css");
+@import url("chrome://os/skin/browser/browser.css");
 @import url("chrome://browser/skin/devtools.css");
 @import url("chrome://browser/skin/padlock/padlock.css");
 
