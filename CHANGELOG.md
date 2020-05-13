@@ -1,5 +1,12 @@
 # Changelog
 
+### 2.6.0 (options 2.2.2)
+- support other GTK-based operating systems
+- provide platform-specific custom statusbar styling to ensure it works in all platforms
+- Windows/Linux: improve styling of fullscreen interface
+- Linux/Mac: fix forward button clip-path
+- (options/theme) style cleanup
+
 ### 2.5.2 (theme only)
 - Pale Moon 29: clarify the status of Firefox extensions in the Add-ons Manager
 
