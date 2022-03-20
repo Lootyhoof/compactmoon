@@ -1,5 +1,9 @@
 # Changelog
 
+### 2.7.0
+- add mixed-mode SSL styling
+- support Pale Moon 30
+
 ### 2.6.0 (options 2.2.2)
 - support other GTK-based operating systems
 - provide platform-specific custom statusbar styling to ensure it works in all platforms
