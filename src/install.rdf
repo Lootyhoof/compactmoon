@@ -10,7 +10,6 @@
     <em:description>A very clean and compact theme with classic buttons that minimizes vertical space consumed by menus &amp; tool bars.</em:description>
     <em:type>32</em:type>
     <em:internalName>compactmoon</em:internalName>
-    <em:updateURL>https://raw.githubusercontent.com/Lootyhoof/compactmoon/master/update.xml</em:updateURL>
 
     <em:targetApplication>
       <!-- Pale Moon -->
