@@ -5,7 +5,7 @@
 	<em:id>{ff497972-c067-44d8-b98e-98e62085837f}</em:id>
 	<em:name>Compact Moon Options</em:name>
 	<em:description>This adds the &#034;Compact Moon Options&#034; menu item to the &#034;tools&#034; menu, which allows one to change the appearance of the theme Compact Moon.</em:description>
-	<em:version>2.3.0</em:version>
+	<em:version>2.3.1</em:version>
 	<em:creator>Lootyhoof</em:creator>
 	<em:contributor>Ken Barbalace EnvironmentalChemistry.com</em:contributor>
 	<em:optionsURL>chrome://compactmoonoptions/content/options.xul</em:optionsURL>
