@@ -1,5 +1,8 @@
 # Changelog
 
+### 2.9.1
+- support Pale Moon 35
+
 ### 2.9.0
 - support new @media query for Windows 11
 - fix appmenu menupopup styling on Windows
